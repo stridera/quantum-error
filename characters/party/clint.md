@@ -35,6 +35,23 @@ Clint, a Utah native, possesses a sturdy and resolute demeanor. Standing tall wi
 - Mana: 12
 - Endurance: 9
 
+## Modified Stats (Pre-Transition)
+
+After boosting via the system console. Clint stopped boosting INT/WIS at 14 due to headaches, and forgot to boost his Luck entirely.
+
+| Stat | Value |
+|------|-------|
+| Strength | 20 |
+| Dexterity | 20 |
+| Wisdom | 14 |
+| Intelligence | 14 |
+| Constitution | 20 |
+| Charisma | 20 |
+| Luck | 4 |
+
+- Hit Points: 999
+- Mana: 999
+
 ## Equipment
 
 - [Aegis of Decoherent Deflection](../../items/armor/aegis-of-decoherent-deflection.md) — Legendary shield (lost at Transition, reclaimed)

@@ -34,3 +34,21 @@ After her Mana Shock, her eyes and veins glow softly with mana. The glow is most
 - Hit Points: 8
 - Mana: 17
 - Endurance: 8
+
+## Modified Stats (Pre-Transition)
+
+After boosting via the system console. Vanessa aimed for Intelligence 20.
+
+| Stat | Value |
+|------|-------|
+| Strength | 20 |
+| Dexterity | 20 |
+| Wisdom | 20 |
+| Intelligence | 20 |
+| Constitution | 20 |
+| Charisma | 20 |
+| Luck | 7 |
+
+- Luck: forgot to boost
+- Hit Points: 999
+- Mana: 9,999 (reduced from 99,999 after Mana Lucent incident)

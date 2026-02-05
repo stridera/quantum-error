@@ -17,6 +17,24 @@ last_reviewed: 2026-02-05
 
 Wade Henning is Clint's boss at iQuantum. A large man with a "dad-bod," sandy blond hair, and green eyes. He has drawings from his kids on his DM screen during D&D sessions.
 
+## Modified Stats (Pre-Transition)
+
+After boosting via the system console.
+
+| Stat | Value |
+|------|-------|
+| Strength | 20 |
+| Dexterity | 20 |
+| Wisdom | 20 |
+| Intelligence | 20 |
+| Constitution | 20 |
+| Charisma | 20 |
+| Luck | 6 |
+
+- Base Luck: 6 (not boosted)
+- Hit Points: 999
+- Mana: 999
+
 ## Family
 
 - Wife: [Amanda](../supporting/amanda.md)
