@@ -1,5 +1,7 @@
 # Quantum Error
 
+![Quantum Error Cover](images/covers/Quantum-error-cover.jpg)
+
 > **SPOILERS ABOUND!**
 >
 > This is the canonical mechanics bible for Quantum Error. It contains complete plot details, character arcs, abilities, and world-building notes. If you haven't read the story yet, **everything will be spoiled**.

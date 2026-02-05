@@ -6,6 +6,8 @@ last_reviewed: 2026-02-05
 
 # Rebekah
 
+![Rebekah](../../images/characters/rebekah.png)
+
 | | |
 |---|---|
 | **Role** | Main Party |

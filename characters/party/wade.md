@@ -6,6 +6,8 @@ last_reviewed: 2026-02-05
 
 # Wade
 
+![Wade](../../images/characters/wade.webp)
+
 | | |
 |---|---|
 | **Role** | Main Party |

@@ -6,6 +6,8 @@ last_reviewed: 2026-02-05
 
 # Vanessa
 
+![Vanessa](../../images/characters/vanessa.webp)
+
 | | |
 |---|---|
 | **Role** | Main Party |

@@ -6,6 +6,8 @@ last_reviewed: 2026-02-05
 
 # Selene
 
+![Selene](../../images/characters/selene.webp)
+
 | | |
 |---|---|
 | **Role** | Main Party |
@@ -19,6 +21,8 @@ Selene Quell, a young woman with a playful demeanor, is characterized by her fai
 Selene is a Lawyer who becomes the Rogue of the group.
 
 ## Pre-Transition: Dustin
+
+![Dustin](../../images/characters/dustin.webp)
 
 Before the transition, Selene was Dustin—a closeted trans woman who worked as iQuantum's Chief Legal Officer. Dustin stood just over 5 feet tall with stringy blond hair and blue eyes, and was described as "enthusiastically chipper."
 

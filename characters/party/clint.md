@@ -6,6 +6,8 @@ last_reviewed: 2026-02-05
 
 # Clint
 
+![Clint](../../images/characters/clint.webp)
+
 | | |
 |---|---|
 | **Role** | Protagonist |

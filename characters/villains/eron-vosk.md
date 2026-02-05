@@ -5,6 +5,8 @@ stability: evolving
 
 # Eron Vosk
 
+![Eron Vosk](../../images/characters/eron-vosk.webp)
+
 | | |
 |---|---|
 | **Role** | Primary Antagonist |
@@ -42,6 +44,8 @@ During the final moments before the Transition, Clint reached the quantum comput
 This was not random—it was deliberate punishment. Eron did not choose to become a Goblin; it was forced upon him by Clint as a final act before triggering the world template change.
 
 ## Post-Transition
+
+![Eron Vosk as Goblin Warlord](../../images/characters/eron-vosk-goblin.webp)
 
 Despite being forcibly transformed into a Goblin, Eron adapted quickly:
 - Became a **Level 25 Goblin Warlord**
