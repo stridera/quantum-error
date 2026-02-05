@@ -1,0 +1,133 @@
+pages:
+  # Main
+  - file: characters/roster.md
+    title: Quantum Error
+    categories: [Quantum Error]
+  - file: lore/overview.md
+    title: Quantum Error/Lore
+    categories: [Quantum Error]
+
+  # Characters - Party
+  - file: characters/party/clint.md
+    title: Clint
+    categories: [Quantum Error, Characters]
+  - file: characters/party/vanessa.md
+    title: Vanessa
+    categories: [Quantum Error, Characters]
+  - file: characters/party/rebekah.md
+    title: Rebekah
+    categories: [Quantum Error, Characters]
+  - file: characters/party/selene.md
+    title: Selene
+    categories: [Quantum Error, Characters]
+  - file: characters/party/wade.md
+    title: Wade
+    categories: [Quantum Error, Characters]
+
+  # Characters - Villains
+  - file: characters/villains/eron-vosk.md
+    title: Eron Vosk
+    categories: [Quantum Error, Characters]
+  - file: characters/villains/dan.md
+    title: Dan
+    categories: [Quantum Error, Characters]
+
+  # Characters - Supporting
+  - file: characters/supporting/the-twins.md
+    title: The Twins
+    categories: [Quantum Error, Characters]
+  - file: characters/supporting/amanda.md
+    title: Amanda
+    categories: [Quantum Error, Characters]
+
+  # Classes
+  - file: classes/paladin-of-the-system.md
+    title: Paladin
+    categories: [Quantum Error, Classes, Paladin]
+  - file: classes/quantum-sorceress.md
+    title: Sorceress
+    categories: [Quantum Error, Classes, Sorceress]
+  - file: classes/temporal-bard.md
+    title: Temporal Bard
+    categories: [Quantum Error, Classes, Temporal Bard]
+  - file: classes/veilstepper-rogue.md
+    title: Rogue
+    categories: [Quantum Error, Classes, Rogue]
+  - file: classes/cleric-of-healing.md
+    title: Cleric
+    categories: [Quantum Error, Classes, Cleric]
+  - file: classes/mind-mage.md
+    title: Mind Mage
+    categories: [Quantum Error, Classes, Mind Mage]
+  - file: classes/necromancer.md
+    title: Necromancer
+    categories: [Quantum Error, Classes, Necromancer]
+
+  # Races
+  - file: races/nekara.md
+    title: Nekara
+    categories: [Quantum Error, Races]
+  - file: races/goblin.md
+    title: Goblin
+    categories: [Quantum Error, Races, Monsters]
+  - file: races/troll.md
+    title: Troll
+    categories: [Quantum Error, Races, Monsters]
+
+  # System
+  - file: system/overview.md
+    title: Quantum Error/System
+    categories: [Quantum Error, System]
+  - file: system/stats.md
+    title: Quantum Error/Stats
+    categories: [Quantum Error, System, Stats]
+
+  # Magic
+  - file: magic/overview.md
+    title: Magic
+    categories: [Quantum Error, Magic]
+  - file: magic/schools/system-magic.md
+    title: System Magic
+    categories: [Quantum Error, Magic, System Magic]
+  - file: magic/spells/ignite.md
+    title: Ignite
+    categories: [Quantum Error, Magic, Spell, Generic Magic]
+  - file: magic/spells/create-light.md
+    title: Create Light
+    categories: [Quantum Error, Magic, Spell, Generic Magic]
+  - file: magic/spells/create-water.md
+    title: Create Water
+    categories: [Quantum Error, Magic, Spell, Generic Magic]
+  - file: magic/spells/system-dispel.md
+    title: System Dispel
+    categories: [Quantum Error, Magic, Spell, System Magic]
+  - file: magic/spells/chrono-resonance.md
+    title: Chrono Resonance
+    categories: [Quantum Error, Magic, Skills, Temporal Bard]
+
+  # Items
+  - file: items/weapons/katsuragi.md
+    title: Katsuragi, the Singularity Blade
+    categories: [Quantum Error, Items]
+  - file: items/weapons/singularity-fang.md
+    title: Singularity Fang
+    categories: [Quantum Error, Items]
+  - file: items/armor/aegis-of-decoherent-deflection.md
+    title: Aegis of Decoherent Deflection
+    categories: [Quantum Error, Items]
+  - file: items/accessories/fanny-pack-of-holding.md
+    title: Fanny Pack of Holding
+    categories: [Quantum Error, Items]
+
+  # Professions
+  - file: professions/enchanting.md
+    title: Enchanting
+    categories: [Quantum Error, Professions]
+
+  # Locations
+  - file: lore/locations/bay-area.md
+    title: Locations
+    categories: [Quantum Error, Locations]
+  - file: lore/organizations/iquantum.md
+    title: IQuantum
+    categories: [Quantum Error, Locations]
