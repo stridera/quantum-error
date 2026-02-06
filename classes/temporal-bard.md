@@ -61,3 +61,72 @@ Inspired by D&D Homebrew College of Time subclass.
 ## Notable Temporal Bards
 
 - [Rebekah](../characters/party/rebekah.md)
+
+## Progression (1–99)
+
+> **Migration Note:** This section is a scaffold. Replace the placeholders with the locked progression we designed in chat.
+
+### Table
+| Level | Unlocks |
+|---:|---|
+| 1 | *(TODO)* |
+| 2 | *(TODO)* |
+| 3 | *(TODO)* |
+| 4 | *(TODO)* |
+| 5 | *(TODO)* |
+| 6 | *(TODO)* |
+| 7 | *(TODO)* |
+| 8 | *(TODO)* |
+| 9 | *(TODO)* |
+| 10 | *(TODO)* |
+| 11 | *(TODO)* |
+| 12 | *(TODO)* |
+| 13 | *(TODO)* |
+| 14 | *(TODO)* |
+| 15 | *(TODO)* |
+| 16 | *(TODO)* |
+| 17 | *(TODO)* |
+| 18 | *(TODO)* |
+| 19 | *(TODO)* |
+| 20 | *(TODO)* |
+| 21–99 | *(TODO: expand or define scaling + "every N levels" unlock cadence)* |
+
+## Ability Stat Blocks
+
+> **Migration Note:** Convert every named spell/skill/song into a stat block with hard numbers.
+> Use the template from `canon/style-guide.md` and UI popup style from `system/ui-popups.md`.
+
+### Template
+#### <Ability Name>
+- **Type:** Spell | Skill | Song | Smite | Passive
+- **Level:** #
+- **Cost:** (mana/stamina/none)
+- **Cooldown:** (if any)
+- **Duration:** (if any)
+- **Targeting:** (self/ally/enemy/area)
+- **Rules:** (bullets w/ numbers)
+- **Scaling:** (levels or K-bands)
+
+## UI Popups
+
+> **Migration Note:** Add one "Help" popup per ability, matching the in-world system UI.
+
+### Template
+```text
+[SYSTEM HELP] <Ability Name>
+Type: <Spell/Skill/Song/Passive>
+Cost: <...>
+Cooldown: <...>
+Duration: <...>
+Targeting: <...>
+
+<1–3 line in-world description>
+
+Mechanics:
+- <bullet>
+- <bullet>
+```
+
+## Open Questions
+
+- *(TODO: add unresolved items for Temporal Bard, and mirror them into `canon/status.md`.)*

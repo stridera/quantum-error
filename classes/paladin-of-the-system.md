@@ -215,3 +215,43 @@ Smite is **privileged from Level 1**. Clint does not learn new smites—he is tr
 ## Notable Paladins
 
 - [Clint](../characters/party/clint.md)
+
+## Ability Stat Blocks
+
+> **Migration Note:** Convert every named spell/skill/song into a stat block with hard numbers.
+> Use the template from `canon/style-guide.md` and UI popup style from `system/ui-popups.md`.
+
+### Template
+#### <Ability Name>
+- **Type:** Spell | Skill | Song | Smite | Passive
+- **Level:** #
+- **Cost:** (mana/stamina/none)
+- **Cooldown:** (if any)
+- **Duration:** (if any)
+- **Targeting:** (self/ally/enemy/area)
+- **Rules:** (bullets w/ numbers)
+- **Scaling:** (levels or K-bands)
+
+## UI Popups
+
+> **Migration Note:** Add one "Help" popup per ability, matching the in-world system UI.
+
+### Template
+```text
+[SYSTEM HELP] <Ability Name>
+Type: <Spell/Skill/Song/Passive>
+Cost: <...>
+Cooldown: <...>
+Duration: <...>
+Targeting: <...>
+
+<1–3 line in-world description>
+
+Mechanics:
+- <bullet>
+- <bullet>
+```
+
+## Open Questions
+
+- *(TODO: add unresolved items for Paladin of the System, and mirror them into `canon/status.md`.)*

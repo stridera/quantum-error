@@ -72,3 +72,39 @@ Standard mana costs vary by spell tier and class. See individual class files for
 | Intermediate | 25-40 |
 | Advanced | 50-100 |
 | Ultimate | 100+ |
+
+## Spend Rules (Canonical)
+
+### Minimum Cost
+Every spell/ability that uses mana has a **minimum cost**. If a spell supports variable power, you may spend more than the minimum.
+
+- If you cannot pay the minimum cost, the spell fails (fizzle) unless explicitly defined as a backlash spell.
+
+### Variable Spend (Overchannel)
+Some spells allow additional mana spend to increase magnitude.
+
+If an ability supports variable spend, its definition must include:
+- Minimum cost
+- Maximum spend (or "up to current mana")
+- Scaling rule (e.g., +X damage per +Y mana)
+
+### Dumping the Pool (High-Risk Casting)
+Spending a very large fraction of your pool at once is allowed **only if** the ability explicitly supports it.
+When it happens, the system may apply consequences:
+
+Common consequences (choose per ability/class):
+- **Mana Burn**: temporary reduction to mana regen
+- **Mana Lock**: cannot cast above a tier for a duration
+- **Backlash Damage**: self-inflicted arcane damage
+- **Mana Lucent Flare**: visible signature; enemies can detect caster easier
+
+### Mana Lucent Interaction
+Mana Lucent amplifies spell output, but also increases the likelihood/severity of overchannel consequences.
+If an ability is cast while Mana Lucent, it should declare whether it:
+- increases effective tier, or
+- increases scaling coefficient, or
+- increases critical chance for arcane spells
+
+## Canon Note: Power Fantasy with Limits
+Party members may have unusually large pools (e.g., 999 baseline; Vanessa larger),
+but **resource risk** and **environmental constraints** (e.g., Null Magic Zones) preserve tension.

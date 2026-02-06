@@ -92,3 +92,56 @@ Fortune and circumstance.
 **Uses**: Affects how circumstances align for the character
 
 **Note**: Luck ranges from 0-20, unlike other stats which range from 1-20.
+
+---
+
+## Levels (1–99)
+
+Attributes describe *what you are*; **levels** describe *how far you've progressed* in the system.
+
+Canon intent:
+- Levels scale to **99**.
+- Attributes are still described on a **1–20** human-readable scale, but higher levels increase:
+  - derived pools (HP/Mana/Stamina)
+  - bonuses (accuracy/evasion, healing power, mitigation)
+  - access to class features and scaling multipliers
+
+### K-Bands (Current Canon)
+
+For tuning and content scaling, we use **3 K-bands** as anchors:
+
+- **K1 (1–33)**: early progression, fast learning, survivable mistakes
+- **K2 (34–66)**: mid progression, specialization, build identity emerges
+- **K3 (67–99)**: late progression, heroic scaling, boss mechanics matter
+
+This is a design anchor for damage/mitigation curves and encounter design.
+
+## Derived Pools
+
+### Health (HP)
+Represents survivability. HP scales primarily with:
+- Level
+- Constitution
+- Class base HP multiplier
+
+### Mana
+Represents magical capacity. Mana scales primarily with:
+- Level
+- Class base mana multiplier
+- Certain conditions (e.g., Mana Lucent) as exceptions
+
+### Stamina (Optional)
+If used, stamina fuels physical techniques and prolonged exertion.
+If a class does not use stamina, treat it as flavor-only or omit it.
+
+## Secondary Combat Stats (Conceptual)
+
+These are common secondary stats referenced by class mechanics:
+
+- **Accuracy**: chance to land attacks (see `combat.md`)
+- **Evasion**: chance to avoid attacks (see `combat.md`)
+- **Mitigation**: damage reduction via armor/resistance/soak
+- **Healing Power**: increases heals and shielding
+- **Threat**: influences enemy target selection
+
+> Exact formulas are implementation-defined, but all class pages should describe their abilities using these common terms.
