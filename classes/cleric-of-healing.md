@@ -50,6 +50,123 @@ Wade's class includes an emotional limiter mechanic:
 | 19 | Resurrection | Spell | Restore life to a recently fallen ally |
 | 20 | **Divine Intervention** | Capstone | Once per long interval, prevent a party wipe with overwhelming divine aid |
 
+## Healing Reference (Levels 1–20)
+
+### Design Assumptions (Locked)
+
+- Party HP ≈ 999
+- Combat heals never exceed ~40–45% max HP
+- "Empowered" = same spell, more mana, faster reconstruction
+- Emotional pressure scales with speed + intensity, not spell tier
+
+---
+
+### Single-Target Healing
+
+#### Cure Light Wounds
+
+| Mode | Heal Range | Time | Mana Cost | Notes |
+|------|-----------|------|-----------|-------|
+| Normal | 60–120 HP | Instant | Low | Safe, routine |
+| Empowered | 180–300 HP | Instant | High | Tissue rebuilt rapidly |
+| Overdrawn (rare) | 300–380 HP | Instant | Extreme | Causes visible backlash in Wade |
+
+**Empowered Effect**
+- Accelerates clotting, lung re-inflation, organ stabilization
+- Leaves patient weak, shaken, alive
+
+**Emotional Cost**
+- Normal: Minimal
+- Empowered: Noticeable
+- Overdrawn: Severe (hands shake, dissociation)
+
+> This is the spell you want for Clint's bear trap moment.
+
+---
+
+#### Spirit Mend
+
+| Mode | Heal Range | Time | Mana Cost | Notes |
+|------|-----------|------|-----------|-------|
+| Standard | 150–250 HP | 3–6 sec channel | Moderate | Slow reconstruction |
+| Sustained | +30–40 HP/sec | Channel | Sustained | Wade prefers this |
+
+**Empowered Effect**
+- Rarely empowered
+- Doing so shortens channel but spikes emotional load
+
+**Use Case**
+- "You're hurt, but not dying right now."
+
+---
+
+#### Revitalize
+
+| Mode | Heal Range | Time | Mana Cost | Notes |
+|------|-----------|------|-----------|-------|
+| Standard | 120–200 HP | Short cast + HoT | Moderate | Restores stamina |
+| Empowered | 200–260 HP | Faster cast | High | Clears shock/exhaustion |
+
+**Extra Effects**
+- Reduces exhaustion
+- Stabilizes breathing
+- Clears dizziness
+
+**Emotional Cost**
+- Low → Medium
+- This spell calms Wade. It fixes aftermath, not crisis.
+
+---
+
+### Group Healing
+
+#### Prayer of Healing
+
+| Mode | Heal Range | Time | Mana Cost | Notes |
+|------|-----------|------|-----------|-------|
+| Standard | 150–220 HP (AoE) | Long cast | Moderate | Out of combat |
+| Empowered | Not used | — | — | Wade refuses to rush this |
+
+**Emotional Cost**
+- Very low
+- Everyone's already stable.
+
+---
+
+#### Mass Heal
+
+| Mode | Heal Range | Time | Mana Cost | Notes |
+|------|-----------|------|-----------|-------|
+| Standard | 180–260 HP (AoE) | Instant | High | Emergency stabilization |
+| Empowered | 260–350 HP | Instant | Extreme | Multiple lives at once |
+
+**Emotional Cost**
+- High
+- Too many bodies, too much damage input.
+
+---
+
+### Emergency / Line-Crossing
+
+#### Restoration (Lesser / Greater)
+
+| Type | Effect | Time | Mana Cost | Notes |
+|------|--------|------|-----------|-------|
+| Lesser | Clears poison, paralysis, breathing issues | Short cast | Moderate | Surgical |
+| Greater | Clears severe trauma, organ failure | Long cast | High | Drains Wade |
+
+**Key Point:** Restoration does not heal HP — it makes healing possible.
+
+---
+
+#### Resurrection
+
+| Effect | Time | Mana Cost | Emotional Cost |
+|--------|------|-----------|---------------|
+| Restore life (recent death) | Instant | Extreme | Crushing |
+
+---
+
 ## Key Mechanics
 
 ### Anti-Undead Kit
