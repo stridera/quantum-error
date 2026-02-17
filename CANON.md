@@ -54,8 +54,8 @@ This file is the canonical index for Quantum Error.
 - `magic/spells/chrono-resonance.md`
 
 ### Items
+- `items/equipment-framework.md`
 - `items/weapons/katsuragi.md`
-- `items/weapons/singularity-fang.md`
 - `items/armor/aegis-of-decoherent-deflection.md`
 - `items/accessories/fanny-pack-of-holding.md`
 
@@ -76,6 +76,8 @@ This file is the canonical index for Quantum Error.
 - `system/effects.md`
 - `system/targeting.md`
 - `system/ui-popups.md`
+- `system/stat-progression.md`
+- `system/mob-framework.md`
 
 ### Story
 - `story/chapter-summaries.md`

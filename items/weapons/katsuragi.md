@@ -7,11 +7,15 @@ stability: evolving
 
 | | |
 |---|---|
-| **Type** | Legendary Katana |
+| **Type** | Katana |
+| **Quality** | Unique |
+| **Item Level** | 1 |
 | **Material** | Magisteel |
 | **Requires Attunement** | Yes |
 
 A legendary katana constantly flickering across reality variations. The blade hums audibly and bends light when activated.
+
+> **System Warning:** This item exists outside the [Equipment Framework](../equipment-framework.md). It was created by directly modifying reality's source code via the system console before the Transition. The system cannot classify, replicate, or constrain it. Its stats exceed the theoretical maximum for any framework-legal item.
 
 ## Origin
 
@@ -19,8 +23,8 @@ Originally a high-quality katana purchased by Clint for approximately $5,000 fro
 
 ## Stats
 
-- **Damage**: 10d10 slashing + 2d6 force
-- **Attack/Damage Bonus**: +10
+- **Damage**: 20d20 slashing + 5d10 force
+- **Attack/Damage Bonus**: +15
 
 ## Abilities
 

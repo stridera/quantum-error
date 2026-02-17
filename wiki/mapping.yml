@@ -81,6 +81,12 @@ pages:
   - file: system/stats.md
     title: Quantum Error/Stats
     categories: [Quantum Error, System, Stats]
+  - file: system/stat-progression.md
+    title: Quantum Error/Stat Progression
+    categories: [Quantum Error, System, Stats]
+  - file: system/mob-framework.md
+    title: Quantum Error/Mob Framework
+    categories: [Quantum Error, System, Combat]
 
   # Magic
   - file: magic/overview.md
@@ -106,11 +112,11 @@ pages:
     categories: [Quantum Error, Magic, Skills, Temporal Bard]
 
   # Items
+  - file: items/equipment-framework.md
+    title: Equipment Framework
+    categories: [Quantum Error, Items, System]
   - file: items/weapons/katsuragi.md
     title: Katsuragi, the Singularity Blade
-    categories: [Quantum Error, Items]
-  - file: items/weapons/singularity-fang.md
-    title: Singularity Fang
     categories: [Quantum Error, Items]
   - file: items/armor/aegis-of-decoherent-deflection.md
     title: Aegis of Decoherent Deflection
