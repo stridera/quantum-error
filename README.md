@@ -27,48 +27,32 @@ A group of programmers and scientists stumble upon an anomaly, granting them acc
 ## Table of Contents
 
 ### Characters
-- [Character Roster](characters/roster.md)
+- [Character Roster](characters/roster.md) -- Main party, villains, and supporting cast
 - **Party**: [Clint](characters/party/clint.md) | [Vanessa](characters/party/vanessa.md) | [Rebekah](characters/party/rebekah.md) | [Selene](characters/party/selene.md) | [Wade](characters/party/wade.md)
-- **Villains**: [Eron Vosk](characters/villains/eron-vosk.md) | [Dan](characters/villains/dan.md)
-- **Supporting**: [Amanda](characters/supporting/amanda.md) | [The Twins](characters/supporting/the-twins.md) | [Celeste](characters/supporting/celeste.md)
 
-### Classes
-- [Paladin of the System](classes/paladin-of-the-system.md) | [Quantum Sorceress](classes/quantum-sorceress.md) | [Temporal Bard](classes/temporal-bard.md) | [Veilstepper Rogue](classes/veilstepper-rogue.md) | [Cleric of Healing](classes/cleric-of-healing.md)
-- [Mind Mage](classes/mind-mage.md) | [Necromancer](classes/necromancer.md)
+### World
+- [Classes](classes/README.md) -- Playable and NPC classes
+- [Races](races/README.md) -- Playable and NPC races
+- [Items](items/README.md) -- Equipment, weapons, armor, and the budget framework
+- [Magic](magic/overview.md) -- Schools, spells, and mana system
+- [Lore](lore/overview.md) -- Timeline, locations, and organizations
 
-### Races
-- [Nekara](races/nekara.md) | [Goblin](races/goblin.md) | [Troll](races/troll.md)
-
-### Items
-- **Weapons**: [Katsuragi](items/weapons/katsuragi.md) | [Singularity Fang](items/weapons/singularity-fang.md)
-- **Armor**: [Aegis of Decoherent Deflection](items/armor/aegis-of-decoherent-deflection.md)
-- **Accessories**: [Fanny Pack of Holding](items/accessories/fanny-pack-of-holding.md)
-
-### Magic
-- [Magic Overview](magic/overview.md)
-- **Schools**: [System Magic](magic/schools/system-magic.md)
-- **Spells**: [Ignite](magic/spells/ignite.md) | [Create Light](magic/spells/create-light.md) | [Create Water](magic/spells/create-water.md) | [System Dispel](magic/spells/system-dispel.md) | [Chrono Resonance](magic/spells/chrono-resonance.md)
-
-### System
-- [System Overview](system/overview.md) | [Stats](system/stats.md) | [Mana](system/mana.md) | [Combat](system/combat.md)
-
-### Lore
-- [Lore Overview](lore/overview.md) | [Timeline](lore/timeline.md)
-- **Locations**: [Bay Area](lore/locations/bay-area.md)
-- **Organizations**: [iQuantum](lore/organizations/iquantum.md)
+### Mechanics
+- [System Overview](system/overview.md) -- Core rules and mechanics
+- [Professions](professions/enchanting.md) -- Crafting and trade skills
 
 ### Story
 - [Chapter Summaries](story/chapter-summaries.md)
 
 ### Reference
-- [Canon Index](CANON.md) | [Professions: Enchanting](professions/enchanting.md)
+- [Canon Index](CANON.md) -- Complete file tracking and canon status
 
 ## Workflow
 
 ```bash
 # Validate canon
-python tools/validate_canon.py
+python3 tools/validate_canon.py
 
 # Publish to wiki
-python tools/publish_wiki.py
+python3 tools/publish_wiki.py
 ```

@@ -12,7 +12,7 @@ last_reviewed: 2026-02-05
 |---|---|
 | **Role** | Main Party |
 | **Pre-Transition Job** | Recruiter |
-| **Class** | Temporal Bard |
+| **Class** | [Temporal Bard](../../classes/temporal-bard.md) |
 | **Age** | 26 |
 
 Rebekah Sullivan is a recruiter who joins the group at the beginning due to mutual friendships. Once the conversion happens, she becomes a Temporal Bard.

@@ -12,7 +12,7 @@ last_reviewed: 2026-02-05
 |---|---|
 | **Role** | Protagonist |
 | **Pre-Transition Job** | Software Engineer |
-| **Class** | Paladin of the System |
+| **Class** | [Paladin of the System](../../classes/paladin-of-the-system.md) |
 | **Age** | 32 |
 
 Clint is a Computer Programmer for a top Quantum Computer company in the world. He volunteers as an EMT and considers himself a protector. He becomes a Paladin after the change.

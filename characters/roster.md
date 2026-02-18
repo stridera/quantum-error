@@ -27,5 +27,6 @@ last_reviewed: 2026-02-05
 
 | Character | Notes |
 |-----------|-------|
+| [Amanda](supporting/amanda.md) | Wade's wife; captured and mind-controlled by Eron Vosk in Book I |
 | [The Twins](supporting/the-twins.md) | Wade's daughters; possess Perfect Telepathy |
 | [Celeste](supporting/celeste.md) | Blacksmith, owner of Clayandsteel |

@@ -39,6 +39,9 @@ pages:
   - file: characters/supporting/amanda.md
     title: Amanda
     categories: [Quantum Error, Characters]
+  - file: characters/supporting/celeste.md
+    title: Celeste
+    categories: [Quantum Error, Characters]
 
   # Classes
   - file: classes/paladin-of-the-system.md

@@ -40,6 +40,7 @@ This file is the canonical index for Quantum Error.
 - `classes/necromancer.md`
 
 ### Races
+- `races/README.md`
 - `races/nekara.md`
 - `races/goblin.md`
 - `races/troll.md`
@@ -54,6 +55,7 @@ This file is the canonical index for Quantum Error.
 - `magic/spells/chrono-resonance.md`
 
 ### Items
+- `items/README.md`
 - `items/equipment-framework.md`
 - `items/weapons/katsuragi.md`
 - `items/armor/aegis-of-decoherent-deflection.md`

@@ -12,7 +12,7 @@ last_reviewed: 2026-02-05
 |---|---|
 | **Role** | Main Party |
 | **Pre-Transition Job** | Software Manager |
-| **Class** | Cleric of Healing |
+| **Class** | [Cleric of Healing](../../classes/cleric-of-healing.md) |
 | **Age** | 41 |
 
 Wade Henning is Clint's boss at iQuantum. A large man with a "dad-bod," sandy blond hair, and green eyes. He has drawings from his kids on his DM screen during D&D sessions.

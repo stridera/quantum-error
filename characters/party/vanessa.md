@@ -12,7 +12,7 @@ last_reviewed: 2026-02-05
 |---|---|
 | **Role** | Main Party |
 | **Pre-Transition Job** | Quantum Physicist |
-| **Class** | Quantum Sorceress |
+| **Class** | [Quantum Sorceress](../../classes/quantum-sorceress.md) |
 | **Age** | 28 |
 
 Vanessa Wong, hailing from the vibrant city of Hong Kong, is an Asian woman with a graceful and composed presence. She stands at an average height, her demeanor reflecting a blend of intellectual curiosity and mystical energy. Vanessa's features are distinguished by her Asian heritage, with captivating eyes that hold both analytical depth and a hint of magical wonder. Her attire is a seamless fusion of modern urban style and a touch of the fantastical, mirroring the dynamic energy of her cosmopolitan background.
