@@ -11,7 +11,7 @@ stability: evolving
 | **Relation** | Daughters of Wade |
 | **Age** | 12 |
 
-The identical twin daughters of [Wade](../party/wade.md) and [Amanda](amanda.md). They were healed by Clint before the Transition, which granted them extraordinary attributes.
+The identical twin daughters of [Wade](../party/wade.md) and [Amanda](amanda.md). They were healed by [Clint](../party/clint.md) before the Transition, which granted them extraordinary attributes.
 
 ## Stats
 
@@ -20,7 +20,7 @@ The identical twin daughters of [Wade](../party/wade.md) and [Amanda](amanda.md)
 
 ## Post-Transition
 
-When Eron Vosk captured Wade's family, the twins' supernatural luck led to an unexpected outcome: they were taken in by wolves. Due to their Luck 20, what should have been a dangerous situation became an opportunity.
+When [Eron Vosk](../villains/eron-vosk.md) captured Wade's family, the twins' supernatural luck led to an unexpected outcome: they were taken in by wolves. Due to their Luck 20, what should have been a dangerous situation became an opportunity.
 
 The twins are developing **druid/hunter** abilities through their bond with the wolves. They are too young to have official classes, but the system allows skills and abilities to develop in the background. Clint can see this progression with his System Identify.
 

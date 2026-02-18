@@ -62,7 +62,7 @@ Stat points left over after the primary allocation (damage or AR) buy secondary 
 | +1 Accuracy | 1.0 | To-hit rating |
 | +1 Attack Power | 1.5 | Flat damage bonus, higher impact |
 | +10 HP | 1.0 | Standard health increment |
-| +12 Mana | 1.0 | Caster resource |
+| +12 [Mana](../system/mana.md) | 1.0 | Caster resource |
 | +15 Stamina | 1.0 | Physical resource |
 | +1 AR (on non-armor slot) | 0.5 | Defensive stat on offensive item |
 | -1 Saving Throw | 0.3 | Niche defensive stat |
@@ -167,10 +167,10 @@ weapon_damage = base_budget(L) * quality * tier_dmg% * damage_per_sp(L)
 
 | Tier | AR % | Stat % | Classes |
 |------|------|--------|---------|
-| **Heavy** | 85% | 15% | Paladin of the System |
-| **Medium** | 65% | 35% | Cleric of Healing, Temporal Bard, Necromancer |
-| **Light** | 45% | 55% | Veilstepper Rogue |
-| **Cloth** | 25% | 75% | Quantum Sorceress, Mind Mage |
+| **Heavy** | 85% | 15% | [Paladin of the System](../classes/paladin-of-the-system.md) |
+| **Medium** | 65% | 35% | [Cleric of Healing](../classes/cleric-of-healing.md), [Temporal Bard](../classes/temporal-bard.md), [Necromancer](../classes/necromancer.md) |
+| **Light** | 45% | 55% | [Veilstepper Rogue](../classes/veilstepper-rogue.md) |
+| **Cloth** | 25% | 75% | [Quantum Sorceress](../classes/quantum-sorceress.md), [Mind Mage](../classes/mind-mage.md) |
 
 ### Armor Slots and Weights
 

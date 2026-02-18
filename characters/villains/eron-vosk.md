@@ -30,14 +30,14 @@ Eron commanded significant resources including:
 **Key Actions**:
 - Received intelligence from Dan about the discovery
 - Deployed armed teams to capture the party at the safehouse
-- Captured and tortured Wade to extract information
+- Captured and tortured [Wade](../party/wade.md) to extract information
 - Confronted the party outside iQuantum HQ with armed forces and snipers
 
 His goal was to control access to the simulation's power for personal wealth and dominance.
 
 ## The Transition
 
-During the final moments before the Transition, Clint reached the quantum computer and made several changes. One was **specifically targeted at Eron**:
+During the final moments before the Transition, [Clint](../party/clint.md) reached the quantum computer and made several changes. One was **specifically targeted at Eron**:
 
 > Clint changed Eron's race to **Goblin**
 
@@ -66,6 +66,6 @@ As a [Mind Mage](../../classes/mind-mage.md), Eron specializes in:
 
 ## Relationships
 
-- Allied with [Dan](dan.md) (Necromancer Troll)
+- Allied with [Dan](dan.md) ([Necromancer](../../classes/necromancer.md) [Troll](../../races/troll.md))
 - Personal vendetta against Clint (who transformed him)
 - Enemy of the main party

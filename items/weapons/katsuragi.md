@@ -19,7 +19,7 @@ A legendary katana constantly flickering across reality variations. The blade hu
 
 ## Origin
 
-Originally a high-quality katana purchased by Clint for approximately $5,000 from a store pre-transition. Through Clint's [Enchanting](../../professions/enchanting.md) skill, he created magical pathways in the blade and then upgraded its stats via the system console, transforming it into a legendary weapon. The physical appearance changed dramatically during the upgrade process.
+Originally a high-quality katana purchased by [Clint](../../characters/party/clint.md) for approximately $5,000 from a store pre-transition. Through Clint's [Enchanting](../../professions/enchanting.md) skill, he created magical pathways in the blade and then upgraded its stats via the system console, transforming it into a legendary weapon. The physical appearance changed dramatically during the upgrade process.
 
 ## Stats
 

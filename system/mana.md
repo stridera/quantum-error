@@ -17,7 +17,7 @@ Before the Transition, Earth existed as a **Null Mana Zone**:
 
 ## Post-Transition
 
-When Clint changed the world template from Technology to RPG:
+When [Clint](../characters/party/clint.md) changed the world template from Technology to RPG:
 - Mana began regenerating naturally worldwide
 - Magic became fully functional
 - Safe Zones maintain stable mana levels
@@ -31,7 +31,7 @@ A permanent condition caused by severe mana overflow.
 
 **Cause**: Vanessa accidentally set her mana to 99,999 instead of 999, triggering **Severe Mana Lock**. Clint reduced it to 9,999 to stabilize her, but the damage was done.
 
-**Effects**:
+**[Effects](effects.md)**:
 - Eyes glow permanently with mana energy
 - Veins visibly glow, especially when casting
 - Glow color changes based on spell being cast

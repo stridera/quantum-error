@@ -15,4 +15,4 @@ System Magic allows direct manipulation of the underlying simulation/system that
 
 ## Practitioners
 
-- [Clint](../../characters/party/clint.md) — Paladin of the System
+- [Clint](../../characters/party/clint.md) — [Paladin of the System](../../classes/paladin-of-the-system.md)

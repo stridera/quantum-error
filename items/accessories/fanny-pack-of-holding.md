@@ -16,7 +16,7 @@ A legendary bag of holding that appears as an unassuming fanny pack.
 
 ## Origin
 
-Originally an ordinary fanny pack. Through Clint's [Enchanting](../../professions/enchanting.md) skill pre-transition, he created magical pathways in the item and then upgraded its stats via the system console, transforming it into a legendary artifact with extradimensional storage capacity.
+Originally an ordinary fanny pack. Through [Clint's](../../characters/party/clint.md) [Enchanting](../../professions/enchanting.md) skill pre-transition, he created magical pathways in the item and then upgraded its stats via the system console, transforming it into a legendary artifact with extradimensional storage capacity.
 
 ## Properties
 

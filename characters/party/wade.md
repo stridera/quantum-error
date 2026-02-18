@@ -15,7 +15,7 @@ last_reviewed: 2026-02-05
 | **Class** | [Cleric of Healing](../../classes/cleric-of-healing.md) |
 | **Age** | 41 |
 
-Wade Henning is Clint's boss at iQuantum. A large man with a "dad-bod," sandy blond hair, and green eyes. He has drawings from his kids on his DM screen during D&D sessions.
+Wade Henning is [Clint's](clint.md) boss at iQuantum. A large man with a "dad-bod," sandy blond hair, and green eyes. He has drawings from his kids on his DM screen during D&D sessions.
 
 ## Modified Stats (Pre-Transition)
 
@@ -40,7 +40,7 @@ After boosting via the system console.
 - Wife: [Amanda](../supporting/amanda.md)
 - Daughters: [The Twins](../supporting/the-twins.md)
 
-Wade's motivation throughout Book I is protecting his family. His daughter's terminal illness drove the party to experiment with the system, and the capture of his wife and children by Eron Vosk drives much of the plot.
+Wade's motivation throughout Book I is protecting his family. His daughter's terminal illness drove the party to experiment with the system, and the capture of his wife and children by [Eron Vosk](../villains/eron-vosk.md) drives much of the plot.
 
 ## Post-Book I
 

@@ -31,7 +31,7 @@ Summaries of Chapters 1-16 from the Campfire prose, with canon notes.
 
 ## Chapter 2: Aspirations
 
-**Summary**: The team reconvenes the next morning. They search the simulation data and find entries for iQuantum and each team member. Only one entry exists for each person. Wade reveals his daughter is terminally ill. They discuss possible applications—changing genetics, enhancing themselves. Wade's daughter is named, and they consider whether the data could save her.
+**Summary**: The team reconvenes the next morning. They search the simulation data and find entries for iQuantum and each team member. Only one entry exists for each person. [Wade](../characters/party/wade.md) reveals his daughter is terminally ill. They discuss possible applications—changing genetics, enhancing themselves. Wade's daughter is named, and they consider whether the data could save her.
 
 **Key Details**:
 - Single entries exist for each person in the simulation data
@@ -57,7 +57,7 @@ Summaries of Chapters 1-16 from the Campfire prose, with canon notes.
 
 ## Chapter 4: Rebirth
 
-**Summary**: Vanessa finds Clint badly burned in his shower. He refuses to call 911. She accesses his laptop (password: "M@gic4Vanessa!") and accidentally sets his template to "RPG" instead of Superhero. This triggers class selection. Clint chooses Paladin but can't heal himself initially. Vanessa sets his HP to maximum, healing him. She then converts herself to Sorceress and boosts her Intelligence—but overdoes it and passes out. Wade calls in panic—his daughter is in cardiac arrest. They find her profile, convert her to RPG, fix her HP, and remove her disease debuff. They do the same for her sister. Both twins are saved and their Luck is set to 20.
+**Summary**: [Vanessa](../characters/party/vanessa.md) finds [Clint](../characters/party/clint.md) badly burned in his shower. He refuses to call 911. She accesses his laptop (password: "M@gic4Vanessa!") and accidentally sets his template to "RPG" instead of Superhero. This triggers class selection. Clint chooses [Paladin](../classes/paladin-of-the-system.md) but can't heal himself initially. Vanessa sets his HP to maximum, healing him. She then converts herself to [Sorceress](../classes/quantum-sorceress.md) and boosts her Intelligence—but overdoes it and passes out. Wade calls in panic—his daughter is in cardiac arrest. They find her profile, convert her to RPG, fix her HP, and remove her disease debuff. They do the same for her sister. Both twins are saved and their Luck is set to 20.
 
 **Key Details**:
 - RPG template triggers class selection
@@ -85,10 +85,10 @@ Summaries of Chapters 1-16 from the Campfire prose, with canon notes.
 
 ## Chapter 6: Class Selection
 
-**Summary**: The team gathers at the office. Wade reports his daughter's miraculous recovery. Vanessa demonstrates magic (ball of light). Dan bursts in, demanding to know what's happening—he knows about Wade's daughter and has been talking to "powerful people" (Eron Vosk). He claims they could become rich and powerful. Dustin threatens legal action for NDA breach. Dan backs off but is clearly a threat. The team relocates to Dustin's friend's house (they're watching it while friends are away). Everyone converts to RPG and chooses classes.
+**Summary**: The team gathers at the office. Wade reports his daughter's miraculous recovery. Vanessa demonstrates magic (ball of light). Dan bursts in, demanding to know what's happening—he knows about Wade's daughter and has been talking to "powerful people" ([Eron Vosk](../characters/villains/eron-vosk.md)). He claims they could become rich and powerful. Dustin threatens legal action for NDA breach. Dan backs off but is clearly a threat. The team relocates to Dustin's friend's house (they're watching it while friends are away). Everyone converts to RPG and chooses classes.
 
 **Characters**:
-- Confirmed: Dustin chooses class (becomes Rogue/Veilstepper later)
+- Confirmed: Dustin chooses class (becomes [Rogue](../classes/veilstepper-rogue.md)/Veilstepper later)
 - Dan has contacted Eron Vosk
 
 **Locations**: iQuantum offices → Dustin's friend's house (new safehouse)
@@ -117,7 +117,7 @@ Summaries of Chapters 1-16 from the Campfire prose, with canon notes.
 
 ## Chapter 8: Armed and Ready
 
-**Summary**: The team continues stat boosting with various unpleasant side effects (Constitution causes "purging," Charisma feels like being molded, Intelligence causes headaches, Wisdom feels like being haunted). Clint focuses on Enchanting while keeping INT/WIS at 14 to maintain focus. He creates legendary items by enchanting basic items and then upgrading their stats via the console. His fanny pack becomes a bag of holding. The physical appearance of items changes as they're upgraded. Wade leaves to check on his family. His tablet triggers the failsafe code—something bad is happening.
+**Summary**: The team continues stat boosting with various unpleasant side effects (Constitution causes "purging," Charisma feels like being molded, Intelligence causes headaches, Wisdom feels like being haunted). Clint focuses on [Enchanting](../professions/enchanting.md) while keeping INT/WIS at 14 to maintain focus. He creates legendary items by enchanting basic items and then upgrading their stats via the console. His fanny pack becomes a bag of holding. The physical appearance of items changes as they're upgraded. Wade leaves to check on his family. His tablet triggers the failsafe code—something bad is happening.
 
 **Items Created**:
 - Legendary fanny pack (bag of holding, soulbound)
@@ -185,10 +185,10 @@ Summaries of Chapters 1-16 from the Campfire prose, with canon notes.
 
 ## Chapter 12: Rescue
 
-**Summary**: Combat breaks out. Selene stops the alarm. Wade breaks free—he was only staying because his family was threatened. He's been tortured (poison, disease, broken bones) but heals himself with his tablet. Dan reveals Eron Vosk is backing the operation and wants to use the power for wealth and control. Clint backhands Dan. They free Wade and escape using Rebekah's veil song. They head to iQuantum HQ to access the system and potentially stop their enemies.
+**Summary**: Combat breaks out. [Selene](../characters/party/selene.md) stops the alarm. Wade breaks free—he was only staying because his family was threatened. He's been tortured (poison, disease, broken bones) but heals himself with his tablet. Dan reveals Eron Vosk is backing the operation and wants to use the power for wealth and control. Clint backhands Dan. They free Wade and escape using [Rebekah's](../characters/party/rebekah.md) veil song. They head to iQuantum HQ to access the system and potentially stop their enemies.
 
 **Key Details**:
-- Wade: Level 3 Cleric, HP 810/999, affected by poison, disease, broken bones
+- Wade: Level 3 [Cleric](../classes/cleric-of-healing.md), HP 810/999, affected by poison, disease, broken bones
 - Wade heals himself
 - Dan is firmly allied with Eron Vosk
 - They need to reach the quantum computer

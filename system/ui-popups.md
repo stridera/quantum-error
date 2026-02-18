@@ -9,8 +9,8 @@ This document defines the canonical formatting for in-world **System UI** messag
 These conventions are used by:
 - Class pages (new abilities)
 - Spell/skill pages (help/inspect)
-- Effects (buff/debuff identify)
-- Combat logs (resolution snippets)
+- [Effects](effects.md) (buff/debuff identify)
+- [Combat](combat.md) logs (resolution snippets)
 
 ## Principles
 
@@ -108,7 +108,7 @@ Effects: <Applied effects or None>
 
 ## Worked Example
 
-Example of a debuff identify popup (matches the style requested for Clint's system identify):
+Example of a debuff identify popup (matches the style requested for [Clint's](../characters/party/clint.md) system identify):
 
 ```text
 ┌──────────────────────────────────────────────┐

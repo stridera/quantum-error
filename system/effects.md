@@ -90,7 +90,7 @@ Effects that conceal an entity.
 Examples:
 - Hide
 - Invisibility
-- Phase / Veil (special-case, may be unique to Selene's kit)
+- Phase / Veil (special-case, may be unique to [Selene's](../characters/party/selene.md) kit)
 
 Stealth effects should specify:
 - What they block (targeting, threat, auto-attacks)

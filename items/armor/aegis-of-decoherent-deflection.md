@@ -19,7 +19,7 @@ A shield crafted from translucent hexagonal Magisteel scales with binary runes t
 
 ## Origin
 
-Originally a replica Hylian Shield purchased by Clint from a store pre-transition. Through Clint's [Enchanting](../../professions/enchanting.md) skill, he created magical pathways in the item and then upgraded its stats via the system console, transforming it into a legendary artifact. The physical appearance changed dramatically during the upgrade process.
+Originally a replica Hylian Shield purchased by [Clint](../../characters/party/clint.md) from a store pre-transition. Through Clint's [Enchanting](../../professions/enchanting.md) skill, he created magical pathways in the item and then upgraded its stats via the system console, transforming it into a legendary artifact. The physical appearance changed dramatically during the upgrade process.
 
 ## Stats
 

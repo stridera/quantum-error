@@ -41,4 +41,4 @@ Goblin society is rigidly hierarchical, with strength determining rank.
 
 ## Notable Goblins
 
-- [Eron Vosk](../characters/villains/eron-vosk.md) — Level 25 Goblin Warlord, Mind Mage
+- [Eron Vosk](../characters/villains/eron-vosk.md) — Level 25 Goblin Warlord, [Mind Mage](../classes/mind-mage.md)

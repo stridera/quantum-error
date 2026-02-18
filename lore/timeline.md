@@ -10,21 +10,21 @@ Key events in chronological order.
 ## Part 1: Pre-Transition (Modern Day)
 
 ### The Discovery
-- **Chapter 1**: During a D&D session at IQuantum, Clint discovers an anomaly in the quantum computer tests—a bug that breaks the laws of physics. Investigation reveals they exist within a computer simulation, and the anomaly provides direct access to simulation data. Dan (VP of Technology) is briefed and leaves, disturbed.
+- **Chapter 1**: During a D&D session at [IQuantum](organizations/iquantum.md), [Clint](../characters/party/clint.md) discovers an anomaly in the quantum computer tests—a bug that breaks the laws of physics. Investigation reveals they exist within a computer simulation, and the anomaly provides direct access to simulation data. Dan (VP of Technology) is briefed and leaves, disturbed.
 
 ### Exploration & Experimentation
-- **Chapter 2**: The party (Clint, Wade, Rebekah, Dustin/Selene, Vanessa) begins analyzing the system. They discover it contains information about themselves and the world—genetic data for all entities. Wade reveals his daughter is terminally ill.
+- **Chapter 2**: The party (Clint, [Wade](../characters/party/wade.md), [Rebekah](../characters/party/rebekah.md), Dustin/[Selene](../characters/party/selene.md), [Vanessa](../characters/party/vanessa.md)) begins analyzing the system. They discover it contains information about themselves and the world—genetic data for all entities. Wade reveals his daughter is terminally ill.
 - **Chapter 3**: They locate Wade's daughter's genetic data but realize editing it is dangerous (risk of "segfaulting" the simulation). Wade is called to say goodbye to his daughter in ICU. Clint experiments on himself, setting his template to "superhero"—transforms briefly into human flame, gets severely burned.
-- **Chapter 4**: Vanessa arrives and sets Clint to "RPG" template instead, triggering class selection. Clint chooses Paladin. Vanessa boosts his HP to heal him, then converts herself (Sorceress). Wade's daughter goes into cardiac arrest; they convert her to RPG, fix her HP, remove disease debuff. Both twins saved. Luck set to 20.
-- **Chapter 5**: Party explores the new system. World is a Null Mana Zone—mana won't regenerate, but they can manually reset via system editor.
+- **Chapter 4**: Vanessa arrives and sets Clint to "RPG" template instead, triggering class selection. Clint chooses [Paladin](../classes/paladin-of-the-system.md). Vanessa boosts his HP to heal him, then converts herself ([Sorceress](../classes/quantum-sorceress.md)). Wade's daughter goes into cardiac arrest; they convert her to RPG, fix her HP, remove disease debuff. Both twins saved. Luck set to 20.
+- **Chapter 5**: Party explores the new system. World is a Null [Mana](../system/mana.md) Zone—mana won't regenerate, but they can manually reset via system editor.
 
 ### Escalation
-- **Chapter 6**: Dan returns demanding access, having contacted Eron Vosk. Dustin (CLO) threatens legal action for NDA breach. Party regroups at Dustin's friend's house.
+- **Chapter 6**: Dan returns demanding access, having contacted [Eron Vosk](../characters/villains/eron-vosk.md). Dustin (CLO) threatens legal action for NDA breach. Party regroups at Dustin's friend's house.
 - **Chapter 7**: Everyone converts to RPG and chooses classes. They begin stat boosting (slowly, to avoid side effects). Wade returns home.
 - **Chapter 8**: Clint crafts legendary equipment (sword, shield, fanny pack of holding). Wade triggers failsafe code—something bad is happening. Clint confronts armed men.
 
 ### First Combat
-- **Chapter 9**: Party's first real fight. Despite gunfire, their massive HP pools (999) let them survive. Dustin is identified as "Selene" (Nekara/catgirl race)—trans reveal. They flee using Rebekah's veil song.
+- **Chapter 9**: Party's first real fight. Despite gunfire, their massive HP pools (999) let them survive. Dustin is identified as "Selene" ([Nekara](../races/nekara.md)/catgirl race)—trans reveal. They flee using Rebekah's veil song.
 - **Chapter 10**: Clint uses shield's return-damage ability to defeat armed attackers. They commandeer a van. Vanessa enters Severe Mana Lock (set mana to 99,999 instead of 999)—gains Mana Lucent but now has glowing veins/eyes permanently.
 
 ### Rescue & Confrontation
@@ -34,7 +34,7 @@ Key events in chronological order.
 
 ### The Transition
 - **Chapter 13 (cont)**: Clint, at the quantum computer, makes final changes:
-  1. Changes Eron's race to Goblin
+  1. Changes Eron's race to [Goblin](../races/goblin.md)
   2. Checks "Exempt from normal restraints" for party members
   3. Changes world template from Technology → RPG
 

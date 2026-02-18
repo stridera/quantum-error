@@ -12,7 +12,7 @@ Quantum Error combat is **real-time tick-based** under the hood, but it reads li
 
 - Combat occurs in a **room**.
 - Entities act when their **action timer** is ready.
-- Actions resolve as: **Targeting → Hit Check → Damage → Effects → Death/Downed**.
+- Actions resolve as: **[Targeting](targeting.md) → Hit Check → Damage → [Effects](effects.md) → Death/Downed**.
 
 ## Time and Ticks
 

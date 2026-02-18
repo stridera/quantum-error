@@ -15,4 +15,4 @@ Big green guys with regeneration. Generally dumb.
 
 ## Notable Trolls
 
-- [Dan](../characters/villains/dan.md) — Necromancer
+- [Dan](../characters/villains/dan.md) — [Necromancer](../classes/necromancer.md)

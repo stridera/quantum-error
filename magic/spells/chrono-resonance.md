@@ -8,7 +8,7 @@ stability: evolving
 | | |
 |---|---|
 | **School** | Temporal |
-| **Class** | Temporal Bard (Level 3) |
+| **Class** | [Temporal Bard](../../classes/temporal-bard.md) (Level 3) |
 
 A Temporal Bard ability that allows usage of magical abilities requiring an instrument without one, and strengthens time-based powers.
 

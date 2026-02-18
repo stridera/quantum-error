@@ -86,7 +86,7 @@ Smite is **privileged from Level 1**. Clint does not learn new smites—he is tr
 
 | | |
 |---|---|
-| **Cost** | 15 Mana |
+| **Cost** | 15 [Mana](../system/mana.md) |
 | **Cooldown** | 4 sec |
 | **Authority Level** | 2 |
 

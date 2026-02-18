@@ -17,13 +17,13 @@ The world undergoes a fundamental change from mundane reality to a magic-infused
 
 ## Setting
 
-Primary location: San Francisco Bay Area, California
+Primary location: [San Francisco Bay Area](locations/bay-area.md), California
 
 ### Pre-Transition
 - [IQuantum](organizations/iquantum.md) headquarters in Saratoga
-- Clint's House in Sunnyvale
+- [Clint's](../characters/party/clint.md) House in Sunnyvale
 - Friend's House in Mountain View
-- Vanessa's House in San Francisco
+- [Vanessa's](../characters/party/vanessa.md) House in San Francisco
 
 ### Post-Transition
 Safe zones like San Francisco remain relatively stable, while outlying areas become dangerous wastelands filled with monsters.

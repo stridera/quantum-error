@@ -15,7 +15,7 @@ IQuantum is the location where the actual simulation is running in the "real wor
 
 ## Location
 
-Saratoga, California (San Francisco Bay Area)
+Saratoga, California ([San Francisco Bay Area](../locations/bay-area.md))
 
 ## Notable Employees
 

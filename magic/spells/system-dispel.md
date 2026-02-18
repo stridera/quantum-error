@@ -7,7 +7,7 @@ stability: evolving
 
 | | |
 |---|---|
-| **School** | System Magic |
+| **School** | [System Magic](../schools/system-magic.md) |
 | **Mana Cost** | Variable |
 
 Dispel a spell... or maybe even a person or thing at higher levels.

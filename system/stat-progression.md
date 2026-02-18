@@ -6,7 +6,7 @@ last_reviewed: 2026-02-18
 
 # Stat Progression
 
-Defines HP, Mana, and Stamina progression formulas for all characters. See `stats.md` for attribute definitions and K-band boundaries.
+Defines HP, [Mana](mana.md), and Stamina progression formulas for all characters. See `stats.md` for attribute definitions and K-band boundaries.
 
 Adapted from FieryMUD legacy source code (`class.cpp`, `constants.cpp`, `limits.cpp`).
 
@@ -88,9 +88,9 @@ During K1 (levels 1-33), characters roll dice each level. At K2+ (levels 34-99),
 
 | Mana Group | Classes | K1 Roll (avg) | K2+ Fixed |
 |------------|---------|---------------|-----------|
-| **High** | Sorcerer, Necromancer, Conjurer, Illusionist | 7-13 (10) | 10 |
-| **Medium** | Cleric, Bard, Shaman, Priest, Druid, Mystic | 4-10 (7) | 6 |
-| **Low** | Paladin, Ranger, Rogue, Assassin | 2-7 (4.5) | 3 |
+| **High** | Sorcerer, [Necromancer](../classes/necromancer.md), Conjurer, Illusionist | 7-13 (10) | 10 |
+| **Medium** | [Cleric](../classes/cleric-of-healing.md), Bard, Shaman, Priest, Druid, Mystic | 4-10 (7) | 6 |
+| **Low** | [Paladin](../classes/paladin-of-the-system.md), Ranger, [Rogue](../classes/veilstepper-rogue.md), Assassin | 2-7 (4.5) | 3 |
 | **Minimal** | Warrior, Berserker, Monk, Mercenary, Hunter, Thief | 1-4 (2.5) | 2 |
 
 ### Mana Table: Normal Characters
@@ -169,7 +169,7 @@ base_regen = (max_hp * 0.05) + regen_bonus + 2
 | 80% | All casters (Sorcerer, Cleric, Necromancer, etc.) |
 
 **Race modifiers:**
-- Troll: 2x HP regen
+- [Troll](../races/troll.md): 2x HP regen
 
 ---
 

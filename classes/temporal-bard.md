@@ -25,7 +25,7 @@ Charisma-based magic users who cast using their voices and instruments. This sub
 
 | Level | Ability | Type | Effect |
 |-------|---------|------|--------|
-| 1 | Chrono Resonance | Passive | Songs interact with temporal threads; songs function without instrument if needed |
+| 1 | [Chrono Resonance](../magic/spells/chrono-resonance.md) | Passive | Songs interact with temporal threads; songs function without instrument if needed |
 | 1 | Tempo Boost | Song | Allies act and move faster |
 | 2 | Rewind Note | Utility | Slightly rolls back a recent cooldown or timing mistake |
 | 3 | Dissonant Chord | Song | Enemies fall out of sync—minor slow and confusion |

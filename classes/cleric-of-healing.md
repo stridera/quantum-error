@@ -8,7 +8,7 @@ last_reviewed: 2026-02-05
 
 Healers that channel divine power to heal and combat the undead.
 
-A traditional cleric focused on restoration and support. Unlike the Paladin of the System, the Cleric of Healing has no special system ties—purely divine magic channeled through faith.
+A traditional cleric focused on restoration and support. Unlike the [Paladin of the System](paladin-of-the-system.md), the Cleric of Healing has no special system ties—purely divine magic channeled through faith.
 
 ## Design Philosophy
 
@@ -86,7 +86,7 @@ Wade's class includes an emotional limiter mechanic:
 
 #### Spirit Mend
 
-| Mode | Heal Range | Time | Mana Cost | Notes |
+| Mode | Heal Range | Time | [Mana](../system/mana.md) Cost | Notes |
 |------|-----------|------|-----------|-------|
 | Standard | 150–250 HP | 3–6 sec channel | Moderate | Slow reconstruction |
 | Sustained | +30–40 HP/sec | Channel | Sustained | Wade prefers this |

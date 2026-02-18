@@ -22,7 +22,7 @@ Rogues specialize in stealth, precision strikes, and exploiting enemy weaknesses
 |---------|-------------|
 | **Stealth** | Conventional hiding; broken by observation |
 | **Veil** | Phase state; you are not fully here |
-| **Illusion** | False images (Sorceress domain) |
+| **Illusion** | False images ([Sorceress](quantum-sorceress.md) domain) |
 | **Phase** | Existing across adjacent reality layers |
 
 ## Ability Progression (Levels 1-20)
@@ -31,7 +31,7 @@ Rogues specialize in stealth, precision strikes, and exploiting enemy weaknesses
 |-------|---------|------|--------|
 | 1 | Sneak | Toggle | Enter stealth when unobserved; quieter movement |
 | 1 | Backstab | Attack | Increased damage from behind or while Veiled |
-| 2 | Nekara Agility | Racial Passive | Increased evasion, balance, and movement speed |
+| 2 | [Nekara](../races/nekara.md) Agility | Racial Passive | Increased evasion, balance, and movement speed |
 | 3 | Veil Sense | Passive | Detect veiled, phased, or partially absent entities |
 | 4 | Shadowstep | Utility | Short-range reposition between nearby shadows |
 | 5 | Bleeding Strike | Attack | Apply bleeding wound (damage over time) |

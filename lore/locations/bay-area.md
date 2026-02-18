@@ -12,9 +12,9 @@ The primary setting for Quantum Error, both pre- and post-transition.
 | Location | City | Notes |
 |----------|------|-------|
 | [IQuantum](../organizations/iquantum.md) | Saratoga | Quantum computer company; where the simulation runs |
-| Clint's House | Sunnyvale | Protagonist's residence |
+| [Clint's](../../characters/party/clint.md) House | Sunnyvale | Protagonist's residence |
 | Friend's House | Mountain View | — |
-| Vanessa's House | San Francisco | — |
+| [Vanessa's](../../characters/party/vanessa.md) House | San Francisco | — |
 
 ## Post-Transition Zones
 

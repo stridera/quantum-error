@@ -34,5 +34,5 @@ See [Magic Overview](../magic/overview.md) for the eight schools of magic.
 ## Derived Stats
 
 - **Hit Points** — Health pool
-- **Mana** — Magic resource
+- **[Mana](mana.md)** — Magic resource
 - **Endurance** — Physical stamina

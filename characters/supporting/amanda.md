@@ -30,7 +30,7 @@ Eron Vosk, as a [Mind Mage](../../classes/mind-mage.md), placed Amanda under act
 
 ## Liberation
 
-The party discovers that the Null Magic Zone can break Eron's mind control. Once freed, Amanda joins the party temporarily, gaining protection from Clint's aura against further mental manipulation.
+The party discovers that the Null Magic Zone can break Eron's mind control. Once freed, Amanda joins the party temporarily, gaining protection from [Clint's](../party/clint.md) aura against further mental manipulation.
 
 ## Post-Book I
 

@@ -18,7 +18,7 @@ All abilities must declare a `Targeting` category.
 - **Room (AoE)**: affects multiple entities in the room.
 - **Corpse**: a corpse entity in the room.
 - **Item**: an item in inventory or on the ground (must declare which).
-- **Location (Special)**: modifies the room itself (rare; see `Room Effects` in `effects.md`).
+- **Location (Special)**: modifies the room itself (rare; see `Room Effects` in [Effects](effects.md)).
 
 ## Valid Selection Rules
 
