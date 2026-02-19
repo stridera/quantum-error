@@ -28,7 +28,7 @@ Questions that must be decided before implementation or before the relevant stor
 ## In Progress
 - Phase 1: System mechanics core pages (combat/effects/targeting/ui-popups/stats/mana)
 - Phase 2: Party classes expanded to full 1–99 with ability stat blocks + UI popups
-- Phase 3: Spirit Dungeon package (dungeon rules, enemies, traps, effects)
+- Phase 3: Spirit Dungeon package — COMPLETE (overview, rooms, mobs, boss)
 
 ## Migration Backlog
 See `canon/migration-backlog.md` (to be created in Phase 0/1 if desired).

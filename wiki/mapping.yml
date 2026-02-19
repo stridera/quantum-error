@@ -128,6 +128,20 @@ pages:
     title: Fanny Pack of Holding
     categories: [Quantum Error, Items]
 
+  # Dungeons
+  - file: lore/dungeons/spirit-dungeon.md
+    title: Spirit Dungeon
+    categories: [Quantum Error, Dungeons]
+  - file: lore/dungeons/spirit-dungeon/rooms.md
+    title: Spirit Dungeon/Rooms
+    categories: [Quantum Error, Dungeons, Spirit Dungeon]
+  - file: lore/dungeons/spirit-dungeon/mobs.md
+    title: Spirit Dungeon/Mobs
+    categories: [Quantum Error, Dungeons, Spirit Dungeon]
+  - file: lore/dungeons/spirit-dungeon/boss.md
+    title: Spirit Dungeon/Boss
+    categories: [Quantum Error, Dungeons, Spirit Dungeon]
+
   # Professions
   - file: professions/enchanting.md
     title: Enchanting

@@ -81,6 +81,12 @@ This file is the canonical index for Quantum Error.
 - `system/stat-progression.md`
 - `system/mob-framework.md`
 
+### Dungeons
+- `lore/dungeons/spirit-dungeon.md`
+- `lore/dungeons/spirit-dungeon/rooms.md`
+- `lore/dungeons/spirit-dungeon/mobs.md`
+- `lore/dungeons/spirit-dungeon/boss.md`
+
 ### Story
 - `story/chapter-summaries.md`
 
