@@ -27,6 +27,20 @@ Power derives from:
 ### Limitations
 Enchantments fail in Null Mana Zones.
 
+## Skill Translation
+
+The system recognized pre-Transition competence. Programmers — people who already understood logic, systems, and structured problem-solving — became Enchanters. Their skill level translated directly:
+
+| Pre-Transition Experience | Enchanting Rank |
+|---------------------------|-----------------|
+| Junior developer | Apprentice Enchanter |
+| Mid-level developer | Journeyman Enchanter |
+| Senior developer | Master Enchanter |
+| Staff / Principal | Master Enchanter (high) |
+
+**Grandmaster** rank is beyond what normal skill translation provides. It requires extensive quests, rare materials, and system-recognized mastery. [Clint](../characters/party/clint.md) bypassed this entirely by hacking the system — he has Grandmaster rank (and the ability to create legendary enchantments) without having done any of the work. He has the skill, if not the materials.
+
 ## Practitioners
 
-- [Clint](../characters/party/clint.md)
+- [Clint](../characters/party/clint.md) — Grandmaster (hacked)
+- [Celeste's](../characters/supporting/celeste.md) husband — Enchanter (rank TBD), works with Celeste to enchant her forged weapons

@@ -7,13 +7,11 @@ stability: evolving
 
 The world operates on RPG-style mechanics after the transition.
 
-## Classes
+## Classes & Professions
 
-Classes are developmental paths defined by a character's theme. Classes are first obtained at level 15. While you can gain skills, and even more rarely spells, before this time, it's not common.
+Classes are combat/adventuring identities chosen at age 16 (or at the Transition for adults). Professions are non-combat skills and trades that operate independently from class level. A character can have one class and any number of professions.
 
-Initial class selection reflects an amalgamation of the character's past actions, feelings, and obtained skills.
-
-See [Classes](../classes/README.md) for the full list.
+See [Classes & Professions](classes-and-professions.md) for the full system, and [Classes](../classes/README.md) for the class list.
 
 ## Stats
 

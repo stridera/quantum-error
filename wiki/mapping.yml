@@ -151,6 +151,53 @@ pages:
   - file: lore/locations/bay-area.md
     title: Locations
     categories: [Quantum Error, Locations]
+  - file: lore/locations/zones/san-francisco.md
+    title: San Francisco
+    categories: [Quantum Error, Locations, Zones]
+  - file: lore/locations/zones/the-ruins.md
+    title: The Ruins
+    categories: [Quantum Error, Locations, Zones]
+  - file: lore/locations/zones/the-foglands.md
+    title: The Foglands
+    categories: [Quantum Error, Locations, Zones]
+  - file: lore/locations/zones/the-creeklands.md
+    title: The Creeklands
+    categories: [Quantum Error, Locations, Zones]
+  - file: lore/locations/zones/the-deepwood.md
+    title: The Deepwood
+    categories: [Quantum Error, Locations, Zones]
+  - file: lore/locations/zones/the-mire.md
+    title: The Mire
+    categories: [Quantum Error, Locations, Zones]
+  - file: lore/locations/zones/san-jose.md
+    title: San Jose
+    categories: [Quantum Error, Locations, Zones]
   - file: lore/organizations/iquantum.md
     title: IQuantum
     categories: [Quantum Error, Locations]
+
+  # System Rules
+  - file: system/aggro.md
+    title: Aggro Detection
+    categories: [Quantum Error, System]
+  - file: system/death.md
+    title: Death & Respawn
+    categories: [Quantum Error, System]
+  - file: system/ui.md
+    title: System UI
+    categories: [Quantum Error, System]
+  - file: system/classes-and-professions.md
+    title: Classes & Professions
+    categories: [Quantum Error, System]
+  - file: system/xp.md
+    title: Experience & Leveling
+    categories: [Quantum Error, System]
+  - file: system/economy.md
+    title: Economy
+    categories: [Quantum Error, System]
+  - file: system/governance.md
+    title: Governance
+    categories: [Quantum Error, System]
+  - file: system/quests.md
+    title: Quests
+    categories: [Quantum Error, System]

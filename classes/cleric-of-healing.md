@@ -43,11 +43,11 @@ Wade's class includes an emotional limiter mechanic:
 | 12 | Remove Curse | Spell | Removes magical curses and afflictions |
 | 13 | Beacon of Hope | Spell | Increases effectiveness of healing effects |
 | 14 | Radiant Smite | Spell | Deal radiant damage to undead and dark entities |
-| 15 | Faithful Guardian | Passive | Automatically shield the most vulnerable ally |
+| 15 | Resurrection | Spell | Restore life to a recently fallen ally (long channel, low HP return, heavy [rez sickness](../system/death.md)) |
 | 16 | Spirit Mend | Spell | Heal an ally through obstacles or distance |
 | 17 | Sacred Barrier | Spell | Create powerful protective barrier for allies |
-| 18 | Life Overflow | Passive | Excess healing converts into temporary shields |
-| 19 | Resurrection | Spell | Restore life to a recently fallen ally |
+| 18 | Faithful Guardian | Passive | Automatically shield the most vulnerable ally |
+| 19 | Life Overflow | Passive | Excess healing converts into temporary shields |
 | 20 | **Divine Intervention** | Capstone | Once per long interval, prevent a party wipe with overwhelming divine aid |
 
 ## Healing Reference (Levels 1–20)
@@ -160,10 +160,22 @@ Wade's class includes an emotional limiter mechanic:
 ---
 
 #### Resurrection
-
-| Effect | Time | Mana Cost | Emotional Cost |
-|--------|------|-----------|---------------|
-| Restore life (recent death) | Instant | Extreme | Crushing |
+- **Type:** Spell
+- **Source:** [Cleric of Healing](../classes/cleric-of-healing.md)
+- **Level:** 15
+- **Cost:** High mana (scales with rez tier)
+- **Cooldown:** None (limited by mana and channel time)
+- **Duration:** Channel (30s+ at L15, scaling shorter with level)
+- **Targeting:** Ally (ghost at corpse — rezzer must be physically present)
+- **Tags:** Healing, Resurrection
+- **Rules:**
+  - Target must be in [ghost state](../system/death.md) (not yet released).
+  - Rezzer must be at the corpse location.
+  - Channeled cast — rezzer cannot take other actions during channel. Interrupted if the rezzer takes damage or moves.
+  - Target returns at low HP (10-25% at L15, scaling with level).
+  - Target suffers [rez sickness](../system/death.md) — reduced stats for a duration, severity scales inversely with rez quality.
+  - At L15, this is a post-combat tool. The 30s+ channel makes mid-fight use nearly impossible without dedicated protection.
+- **Scaling:** Channel time decreases, HP on return increases, rez sickness lessens. True Resurrection (~L90-95) is full HP restore with minimal sickness and ~5s channel.
 
 ---
 

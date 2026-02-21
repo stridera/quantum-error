@@ -71,7 +71,7 @@ Key events in chronological order.
 - Party discovers the Null Magic Zone can break Eron's hold on Amanda
 - Amanda is freed and joins the party temporarily for Clint's protective aura
 - Final battle against Level 25 Goblin Warlord Eron Vosk
-- Party reaches approximately Level 20 by end of Book I
+- Party reaches approximately Level 20 by end of Book I — still underleveled for the L25 dungeon. Their boosted stats (999 HP/mana, 20 attributes) are what make it possible.
 - Eron defeated; goblin camp falls into disarray
 
 ### Epilogue
@@ -99,10 +99,12 @@ Key events in chronological order.
 
 ## Series Structure
 
-| Book | Levels | Primary Antagonist |
-|------|--------|-------------------|
-| Book I | 1-20 | Eron Vosk (Level 25 Goblin Warlord) |
-| Book II | 21-40 | TBD |
-| Book III | 41-60 | TBD |
-| Book IV | 61-80 | TBD |
-| Book V | 81-99 | Ancient Red Dragon (World Boss) |
+Each book covers approximately **2 years** of in-world time. The World Quest's 10-year timer drives the pace across the series.
+
+| Book | Levels | Timeframe | Primary Antagonist |
+|------|--------|-----------|-------------------|
+| Book I | 1-25 | Years 1-2 | Eron Vosk (Level 25 Goblin Warlord) |
+| Book II | 26-45 | Years 3-4 | TBD |
+| Book III | 46-65 | Years 5-6 | TBD |
+| Book IV | 66-85 | Years 7-8 | TBD |
+| Book V | 86-99 | Years 9-10 | Ancient Red Dragon (World Boss) |

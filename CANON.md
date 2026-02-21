@@ -68,6 +68,13 @@ This file is the canonical index for Quantum Error.
 - `lore/overview.md`
 - `lore/timeline.md`
 - `lore/locations/bay-area.md`
+- `lore/locations/zones/san-francisco.md`
+- `lore/locations/zones/the-ruins.md`
+- `lore/locations/zones/the-foglands.md`
+- `lore/locations/zones/the-creeklands.md`
+- `lore/locations/zones/the-deepwood.md`
+- `lore/locations/zones/the-mire.md`
+- `lore/locations/zones/san-jose.md`
 - `lore/organizations/iquantum.md`
 
 ### System
@@ -80,6 +87,14 @@ This file is the canonical index for Quantum Error.
 - `system/ui-popups.md`
 - `system/stat-progression.md`
 - `system/mob-framework.md`
+- `system/aggro.md`
+- `system/death.md`
+- `system/ui.md`
+- `system/classes-and-professions.md`
+- `system/xp.md`
+- `system/economy.md`
+- `system/governance.md`
+- `system/quests.md`
 
 ### Dungeons
 - `lore/dungeons/spirit-dungeon.md`
@@ -94,3 +109,4 @@ This file is the canonical index for Quantum Error.
 - `canon/status.md`
 - `canon/glossary.md`
 - `canon/style-guide.md`
+- `meta/simulation-layer.md` *(spoiler — series-level author knowledge)*
