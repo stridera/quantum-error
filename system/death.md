@@ -52,6 +52,20 @@ If you die on your corpse run, you now have **two corpses** with gear on them, e
 - **Necromancer summoning:** Necromancers in safe zones can summon a corpse to their location as a professional service. Cost and availability vary. This is a major part of the necromancer service economy.
 - **Party assistance:** Other players can escort you on a corpse run, or a rezzer can travel to your corpse and resurrect you there.
 
+## Respawn Appearance
+
+On release, the system generates a basic outfit for the respawning character:
+
+- **White linen shirt** — simple, collarless, untucked
+- **White linen pants** — straight-cut, drawstring waist
+- **White leather boots** — soft-soled, ankle-height, functional
+
+The outfit is system-generated, identical for every respawn, and has no stats (Trash quality, 0 AR, 0 bonuses). It exists to keep you clothed, not protected. The white color marks you as freshly respawned — visible to other players and mobs alike.
+
+Soulbound items appear on the character normally, worn over or alongside the respawn outfit.
+
+---
+
 ## Resurrection
 
 Resurrection restores a ghost to life at their corpse, preserving all equipped gear. It requires the rezzer to be **physically at the corpse** and to channel the spell.

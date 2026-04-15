@@ -311,3 +311,64 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 - Grants one-time Complete Heal boon
 - Can communicate with Clint (others can't hear)
 - Has a sense of humor (turned Clint into a newt)
+
+---
+
+## Chapter 17: Bear Trap
+
+**Summary**: The party continues through the Spirit Dungeon's Flicker Hall. [Vanessa](../characters/party/vanessa.md) triggers the bear trap, dropping a [Falling Bear](../lore/dungeons/spirit-dungeon/mobs.md#falling-bear) onto [Clint](../characters/party/clint.md), who is crushed to 7/999 HP. [Wade](../characters/party/wade.md) saves him with Lesser Restoration (restoring breathing) and an Empowered Cure Light Wounds (+284 HP). Clint pulls aggro from the bear with Commanding Shout while Vanessa creates an illusory wall blocking the roaming pack (Sexy Nurse, Witch, and Pirate mannequins) summoned by the bear's Roar. After the bear falls, Clint engages the three mannequins, tanking through Injection (poison) and Hex (debuff) while the party provides DPS and healing. Post-combat, Clint comforts Vanessa, who blames herself for triggering the trap. The party loots and moves on.
+
+**Characters**:
+- Clint (POV), Vanessa, Wade, Selene, Rebekah — all present and fighting
+- Strider — speaks briefly at the end ("Now kiss.")
+
+**Enemies**:
+- Falling Bear (Elite Beast, L10) — ceiling drop, mauled Vanessa, then Clint tanked
+- Sexy Nurse Mannequin (Normal Skirmisher, L10) — Injection/Nausea debuff
+- Sexy Witch Mannequin (Normal Caster, L10) — Hex debuff
+- Sexy Pirate Mannequin (Normal Soldier, L10) — Cutlass Slash, aggro-wiped to target Wade
+
+**Abilities Used**:
+- **Lesser Restoration** (Wade, L4): Cleared breathing issues, stabilized lungs
+- **Cure Light Wounds — Empowered** (Wade): +284 HP, removed bleeding, stabilized chest trauma
+- **Cure Light Wounds — Normal** (Wade): Used for topping off during combat
+- **Commanding Shout** (Clint, L1): Forced bear to acknowledge him (prose calls it "challenging shout")
+- **Smite: Judgment** (Clint, L1): Enhanced melee attacks throughout
+- **Minor Illusion → Illusory Wall** (Vanessa, L3): Created false wall blocking the roaming pack
+- **Mana Shield** (Vanessa, L3): Shattered during bear attack
+- **Tempo Boost + Veil of Offbeats** (Rebekah): Dual-song providing haste and evasion
+- **Sneak Attack** (Selene): Mentioned as hitting hard
+
+**Items Looted**:
+- Bear Claw Necklace (Uncommon, +1 STR) → Clint
+- Sparkly Plastic Wand (Common, 2-5 arcane, 30' range) → Vanessa
+- Prop Cutlass (Common, 5-8 slashing) → Selene (keeps it)
+- Nurse's Cap (Uncommon, +5% healing) → Wade (wears it proudly)
+
+**Party Levels** (at dungeon entry):
+- Clint: L1 (couldn't gain XP until accepting Strider as god in Ch 15; now L3 by this fight)
+- Wade: L6
+- Selene: L5
+- Vanessa: L5
+- Rebekah: L4
+
+**Stat Mentions**:
+- Clint HP: 7/999 at lowest, then healed to functional
+- Clint L3 fighting L10 enemies — massive level gap, explains why the bear nearly killed him
+- Injection: 6 phys + 2 poison/2s for 8s, -2 accuracy — matches [mobs.md](../lore/dungeons/spirit-dungeon/mobs.md)
+- Hex: -3 accuracy, -2 damage, 6s — matches mobs.md
+
+**Key Plot Events**:
+- Vanessa triggered the trap (not Selene disarming it — Luck wasn't the trigger this time)
+- Clint/Vanessa romantic tension: hug, Strider's "Now kiss" comment
+- Vanessa learns "don't rush ahead" and "trust your party" — callback to Ch 1 D&D session
+- Clint's plastic machete glowing slightly — System Attunement visual from privileged smite
+
+**Canon Notes**:
+- ~~Prose uses "challenging shout"~~ — updated to "Commanding Shout" in prose
+- Wade's Lesser Restoration (L4) confirmed valid — Wade is L6
+- Rebekah's dual-song (Harmonic Memory, L4) confirmed valid — Rebekah is L4
+- Pirate aggro-wipe resolved — Healer Hunter passive added to stat block
+- Vanessa's illusory wall resolved — INT 20+ scales anchor illusion canvas size
+- Machete glow resolved — System Attunement (Visual) added to Paladin L1 Smite
+- Typos in prose system popups: "Strenght", "Arane", "damge", "chast"

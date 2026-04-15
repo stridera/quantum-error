@@ -130,45 +130,123 @@ Three mannequins in "sexy" costumes come running (as much as mannequins run) fro
 
 ## Room 2: Changing Rooms (Optional)
 
-*A side room accessible from the Flicker Hall. The party can skip this, but there's reason to go in.*
+*A side area accessible from the end of the Flicker Hall. The party can skip this, but there's reason to go in.*
 
 ### Description
 
-Three curtained fitting stalls along one wall, with full-length mirrors mounted on the opposite wall and between each stall. Costume racks fill the center — rows of packaged costumes on hangars, organized by theme (Superheroes, Classic Monsters, Occupations, "Sexy" Everything).
+A doorway to the right at the end of the Flicker Hall opens into a narrow corridor — a costume aisle. Packaged costumes hang on racks along both walls, organized by theme (Superheroes, Classic Monsters, Occupations, "Sexy" Everything). The lighting shifts from strobes to warm incandescent. The fog thins. It feels almost safe.
 
-The lighting is steadier here — warm incandescent bulbs instead of strobes. The fog is thinner. It feels almost safe.
+The aisle runs about twenty feet before opening into a larger chamber: a hexagonal room with polished floors and steady lighting. Five of the six walls are floor-to-ceiling mirrors, each mounted in a heavy frame. The sixth wall is the entrance from the costume aisle.
+
+The mirrors are clean. Too clean for a dungeon. They reflect everything perfectly — every detail, every scar, every piece of gear. The room is still. The only movement is yours.
 
 ### Environmental Effects
 
 #### Mirror Spawn
-Any character who stares into one of the full-length mirrors for more than 3 seconds triggers an [Echo Double](mobs.md#echo-double) — a mirror copy of themselves that steps out of the glass and attacks.
+Any character who locks eyes with their own reflection for more than 3 seconds triggers an [Echo Double](mobs.md#echo-double--base-mechanic) — a mirror-spawned copy that steps out of the glass and attacks.
 
-- One Echo per mirror, one mirror per character. Looking into a mirror a second time does nothing.
-- Echoes fade over 6s if their original leaves the room.
+- One Echo per mirror, one mirror per character. Five mirrors, five party members.
 - The mirrors crack when an Echo spawns but don't break entirely.
+- Each mirror has a faint glow at its base — a [Mirror Shard](mobs.md#mirror-shard-drops) is visible before the fight. The reward is known.
+
+#### Mirror Barrier
+When an Echo spawns, a translucent [barrier](mobs.md#mirror-barrier) seals the section between that mirror wall and the room center. The original is locked inside with their Echo. Allies watch through the barrier — they can see and hear everything but cannot enter, attack, or cast through it.
+
+One fight at a time. The barrier drops when the Echo is defeated (or when the fighter loses).
+
+**While watching someone else's fight:** The remaining party members stand in the center of a hexagonal room surrounded by mirrors. They're watching their friend fight, and actively avoiding looking at the other four walls. The tension of *don't look don't look don't look* while someone you care about is taking psychic damage three feet away.
 
 ### Encounters
 
-The room is quiet until someone looks into a mirror. How many fights happen depends on how many party members approach mirrors.
+The room is quiet until someone looks. All five party members fight their echoes. Four succeed. One doesn't.
 
-**Selene's Echo (key narrative beat):**
-Selene approaches a mirror and sees her true form for the first time — not the pre-Transition body, but her [Nekara](../../../races/nekara.md) self reflected back. The system gave her who she really is. It's an emotional moment.
+#### 1. Selene's Echo — Dustin
 
-Then the reflection smiles wrong, and steps out.
+[Rebekah](../../../characters/party/rebekah.md) encourages [Selene](../../../characters/party/selene.md) to approach a mirror. Selene glances and turns away by habit — Dustin avoided mirrors. Rebekah tells her to look closer.
 
-The fight with her own Echo is personal — it knows her moves, mirrors her stats. The +25% mutual damage bonus means both sides hit harder. The rest of the party may want to help, but this one feels like it's Selene's to finish.
+Selene sees her [Nekara](../../../races/nekara.md) form for the first time. Cat ears, fair complexion, the body the system gave her — the one that's actually hers. She stares.
 
-Other party members may trigger their own Echoes if they approach mirrors. These are mechanically identical but less narratively weighted.
+Then the reflection shifts. The ears recede. The frame broadens. Dustin stares back.
 
-**Possible:** Something hiding behind a fitting room curtain (a leftover mannequin, a stray mob from the corridor). Minor jump scare, not a significant encounter.
+The [Echo](mobs.md#selenes-echo-dustin) steps out. The barrier drops. The party didn't know this was coming.
+
+The taunts target her identity — her past, her transition, her dead name. Rebekah is at the barrier immediately. She can't get through. She shouts — not a song, not a buff, just her voice. It's enough to clear some of the weight.
+
+The fourth taunt — the dead name — turns Selene from hurt to furious. She stops fighting Dustin and starts fighting the echo. The kill is fast and vicious. She knows every move because they're her moves.
+
+**Shard of Self** drops. The party processes what just happened.
+
+#### 2. Clint's Echo — The Broken Shield
+
+[Clint](../../../characters/party/clint.md) steps up immediately after Selene. That's what a Paladin does.
+
+The [Echo](mobs.md#clints-echo-the-broken-shield) shows him standing over his fallen friends — faces cycling, hands passing through them. The cracked shield. The weight of everyone he couldn't save.
+
+The taunts land but don't paralyze him. Clint is an EMT. He's lived with the knowledge that he can't save everyone. The echo is a better [Paladin](../../../classes/paladin-of-the-system.md) than he is right now (L10 vs his L3) — it smites harder, blocks better. But it can't outlast him. Clint doesn't have a dramatic breakthrough. He just keeps hitting. The protector who knows shields break and shows up anyway.
+
+**Shard of Duty** drops. Clint's fight sets the baseline: the echoes are beatable. The reader relaxes.
+
+#### 3. Vanessa's Echo — The Mana Shock
+
+[Vanessa](../../../characters/party/vanessa.md) watched two fights. She's calculated her approach.
+
+The [Echo](mobs.md#vanessas-echo-the-mana-shock) is 99,999-mana Vanessa — unstable, blinding, a walking [Mana Lucent](../../../classes/quantum-sorceress.md) flare. The taunts aren't lies, which makes them worse. But Vanessa is a physicist. She doesn't panic at dangerous data — she solves it. She wins by being precise — controlled amplification over raw force. [Anchor](../../../classes/quantum-sorceress.md) spells over amplified chaos. The physicist harnesses the instability instead of fearing it.
+
+**Shard of Control** drops. Three for three. The pattern holds.
+
+#### 4. Rebekah's Echo — The Silent One
+
+[Rebekah](../../../characters/party/rebekah.md) encouraged Selene to look in the first mirror. Now it's her turn.
+
+The [Echo](mobs.md#rebekahs-echo-the-silent-one) is the version of herself that stopped trying — mouth moving, no sound. The emotional anchor who fears she's just background music. The echo counters her songs, silences her in melee, reverses her tempo. Rebekah doesn't get angry — she gets sad. Then she starts singing anyway. [Harmonic Memory](../../../classes/temporal-bard.md) lets her layer songs faster than the echo can suppress them. She wins by being the most Rebekah she can possibly be.
+
+[Selene](../../../characters/party/selene.md) is at the barrier for this one. Reciprocity.
+
+**Shard of Purpose** drops. Four for four. One mirror left. Everyone turns to [Wade](../../../characters/party/wade.md).
+
+#### 5. Wade's Echo — The Empty Hands (FAILURE)
+
+Wade is last. He watched everyone succeed. He's the highest-level party member (L6), the steadiest hand, the one who's been holding everyone together. The expectation is total.
+
+He walks to his mirror.
+
+The [Echo](mobs.md#wades-echo-the-empty-hands) shows him his [twins](../../../characters/supporting/the-twins.md) in his arms. Then they slip through. The reflection looks up with hollow eyes. It steps out slowly, hands open and useless.
+
+The taunts come:
+1. *"You left them."*
+2. *"She was dying. You were playing hero."*
+3. *"Every minute here is a minute they're alone."*
+4. *"You can heal everyone but them."*
+
+All four Shaken stacks land. Phase 2 begins. The echo starts using Wound and Self-Mend. Wade has 30 seconds to attack.
+
+He doesn't.
+
+Someone shouts through the barrier — Clint, probably. It clears 2 Shaken stacks. It's not enough. Wade is staring at his own empty hands. The hands that couldn't hold his daughters. The hands that heal everyone except the people who matter most. He's not afraid of the echo. He's afraid it's right.
+
+The 30 seconds expire. The echo turns, walks back into the mirror. The glass repairs. The shard at the base goes dark. The barrier drops. Wade is standing there with **Broken** (−3 all primary stats, −25% damage/healing/buff effectiveness, persists until rest) and no loot.
+
+The room goes quiet. Four shards, one dark mirror.
+
+Nobody says anything. What would you say?
+
+### Consequences
+
+Wade is the healer. **Broken** means −25% healing effectiveness going into the [boss fight](mobs.md#room-6-the-spotlight-room). The Spirit Dungeon didn't just hurt Wade — it hurt the whole party through him. The Store Manager encounter is harder because the party's sustain is compromised.
+
+Nobody blames him. That almost makes it worse.
+
+This is the first crack in Wade's foundation. It foreshadows his [Post-Book I decision](../../../characters/party/wade.md) to step away from adventuring entirely. The mirror room is where the reader first sees that the steadiest person in the party might not hold.
 
 ### Story Beat: Clint's Outfit
 
-The costume racks have actual inventory. Clint can finally ditch the Scream Robe and find something appropriate. The system converts costume quality to actual armor stats — nothing amazing (Common tier), but at least he's dressed.
+The costume aisle has actual inventory. [Clint](../../../characters/party/clint.md) can finally ditch the Scream Robe and find something appropriate — the system converts costume quality to actual armor stats (Common tier). [Selene](../../../characters/party/selene.md) may also find class-appropriate gear among the racks.
 
-Selene may also find something better suited to her class here than whatever Clint's been wearing.
+This happens on the way in, before the mirror room. The shopping is the bait. The mirrors are the trap.
 
-**Lesson:** Identity. The system reflects who you are. Also: don't look into creepy mirrors in dungeons.
+### Lesson
+
+Identity. The Spirit Dungeon tests who you are, not just what you can do. The Mirror Shards are earned through self-confrontation — but not every wound is ready to be faced. Level doesn't protect you from this. Being the strongest, the steadiest, the most needed — none of it matters if the mirror finds the thing you can't look at yet.
 
 ---
 

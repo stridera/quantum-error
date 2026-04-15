@@ -32,7 +32,7 @@ Sorceresses channel raw magical power through force of will. The Quantum Sorcere
 | 1 | Arcane Bolt | Spell | anchor | Launch a focused arcane projectile; reliable baseline damage |
 | 2 | Spell Focus | Passive | control | Increased spell precision and reduced cast disruption |
 | 3 | Mana Shield | Spell | anchor | Convert mana into a protective barrier |
-| 3 | Minor Illusion | Spell | anchor | Create a small visual or auditory illusion |
+| 3 | Minor Illusion | Spell | anchor | Create a small visual or auditory illusion. Scale increases with INT—at INT 20+, illusions can fill a corridor or replicate full environmental features (walls, terrain, signage). The illusion remains stable (anchor behavior): it's the canvas that grows, not the volatility. This is raw computational power expanding the spell's parameters, not emotional amplification. |
 | 4 | Elemental Affinity | Passive | amplified | Emotions bias how magic expresses (fear→cold, rage→fire, focus→lightning) |
 | 5 | Fireball | Spell | amplified | Explodes on impact, damaging enemies in an area |
 | 6 | Channel Mana | Utility | anchor | Recover mana more efficiently when not actively casting |
@@ -62,7 +62,7 @@ A concept specific to Vanessa: after her Mana Shock, her eyes and veins glow sof
 
 ## Progression (1–99)
 
-> **Migration Note:** This section is a scaffold. Replace the placeholders with the locked progression we designed in chat.
+> **Migration Note:** This section is a scaffold. Replace the placeholders with the locked progression once finalized.
 
 ### Table
 | Level | Unlocks |

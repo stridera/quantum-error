@@ -14,7 +14,7 @@ These are the most important decisions that should not drift without an explicit
 - Party baseline: characters are *powerful* (power fantasy) but still constrained by system rules.
 - Baseline pools: characters commonly sit at absurd caps (e.g., 999 health/mana), with exceptions (e.g., Vanessa's mana lucent effect pushing higher).
 
-> TODO (Migration): move locked rules from chat threads into bullet points here, with links to the definitive files.
+> TODO (Migration): move locked rules into bullet points here, with links to the definitive files.
 
 ## Open Questions
 Questions that must be decided before implementation or before the relevant story chapter is finalized.

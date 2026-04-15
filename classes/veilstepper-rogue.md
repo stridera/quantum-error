@@ -69,7 +69,7 @@ Rogues specialize in stealth, precision strikes, and exploiting enemy weaknesses
 
 ## Progression (1–99)
 
-> **Migration Note:** This section is a scaffold. Replace the placeholders with the locked progression we designed in chat.
+> **Migration Note:** This section is a scaffold. Replace the placeholders with the locked progression once finalized.
 
 ### Table
 | Level | Unlocks |

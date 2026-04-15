@@ -76,6 +76,8 @@ Smite is **privileged from Level 1**. Clint does not learn new smites—he is tr
 - No rules bypassed, no corrections applied
 - Logging: `ACTION_TYPE: ENFORCEMENT | AUTHORITY_LEVEL: 1 | CORRECTIVE_ACTION: NONE`
 
+**System Attunement (Visual)**: Any weapon used to deliver a privileged smite develops a faint glow—the visual residue of system-authorized force passing through a physical object. At Authority Level 1, the effect is subtle and cosmetic. It intensifies with authority level, foreshadowing the formal System Weapon buff at Level 8.
+
 **Design Notes**: Functionally similar to a normal paladin's early smite, but crucially different in execution path. Clint can (and will) use this on every landed hit early. No system instability yet—only observation. *This is `sudo ls`. Same result. Different context.*
 
 ---
