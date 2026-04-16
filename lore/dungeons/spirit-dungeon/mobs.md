@@ -361,10 +361,11 @@ A mirror-spawned reflection of a party member. The Spirit Dungeon's mirrors don'
 - **Tags:** Mental, Psychic, Identity
 - **Rules:**
   - The echo does not attack physically during Phase 1. It speaks.
-  - Each taunt deals 8% of target's current HP as psychic damage (ignores AR).
+  - Each taunt deals **20% of target's maximum HP** as psychic damage (ignores AR). Four taunts leave any target at 20% HP regardless of starting pool.
   - Each taunt applies one stack of **Shaken**.
   - Taunts fire every 6s. Maximum 4 taunts before Phase 2 auto-triggers.
   - **Phase 2 triggers when:** (a) the original attacks the echo, (b) 4 taunts have been delivered, or (c) 30s elapse without action.
+  - **Design intent:** 20%/taunt is lethal for a normal-HP character, so Phase 2 is where a typical player would already be in real trouble. The party's console-boosted 999-HP pool makes 200 HP (20%) a workable fighting floor — assuming they actually fight. Characters who refuse to engage during Phase 2 get finished by the echo's fifth and final taunt (see Mirror Barrier loss condition).
 
 ```text
 ┌──────────────────────────────────────────────┐
@@ -388,6 +389,45 @@ A mirror-spawned reflection of a party member. The Spirit Dungeon's mirrors don'
 └──────────────────────────────────────────────┘
 ```
 
+```text
+┌──────────────────────────────────────────────┐
+│ STATUS: Broken                               │
+├──────────────────────────────────────────────┤
+│ Type: Debuff (Psychic / Identity)            │
+│ Source: Echo Double (final taunt on failure) │
+│ Duration: Until the bearer leaves the        │
+│   Spirit Dungeon                             │
+│ Stacks: No (binary state)                    │
+│ Dispel: No (cannot be healed, cleansed, or   │
+│   dispelled by any means inside the dungeon) │
+├──────────────────────────────────────────────┤
+│ Summary: The mirror found the thing you      │
+│ couldn't look at yet.                        │
+├──────────────────────────────────────────────┤
+│ Numbers:                                     │
+│ - -3 to all primary attributes               │
+│   (STR/DEX/CON/INT/WIS/CHA)                  │
+│ - -25% damage dealt                          │
+│ - -25% healing effectiveness (incoming and   │
+│   outgoing — the healer heals less, AND is   │
+│   healed less)                               │
+│ - -25% buff effectiveness (songs, shouts,    │
+│   blessings all land at three-quarters       │
+│   strength)                                  │
+│ - Applied alongside HP reduction to 1 by     │
+│   the echo's fifth and final taunt           │
+│ - Clears automatically on exit from the      │
+│   Spirit Dungeon — no action needed          │
+├──────────────────────────────────────────────┤
+│ Design note: Broken is a dungeon-scope       │
+│ narrative debuff, not a persistent injury.   │
+│ The party must finish the dungeon with a     │
+│ compromised member; the dungeon leaving is   │
+│ what heals it. The wound stays. The status   │
+│ doesn't.                                     │
+└──────────────────────────────────────────────┘
+```
+
 #### Mirror Barrier
 - **Type:** Environmental (dungeon mechanic)
 - **Rules:**
@@ -395,20 +435,20 @@ A mirror-spawned reflection of a party member. The Spirit Dungeon's mirrors don'
   - The original is locked inside with their echo. No other entities may enter or attack through the barrier.
   - Allies can see and hear through the barrier. Spells and attacks do not penetrate.
   - **Verbal encouragement** penetrates the barrier. One ally per fight may shout encouragement (costs that ally's action), removing 2 Shaken stacks from the fighter.
-  - The barrier drops when the echo is defeated.
-  - **Loss condition:** If the original does not land a hit on the echo within 30s of Phase 2 starting, the echo wins. The mirror repairs, the shard goes dark, and the original is ejected with **Broken** (−3 all primary stats, −25% damage/healing/buff effectiveness, persists until rest).
+  - **Win condition:** When the echo is defeated, it shatters into glass. The glass flies back into the cracked mirror frame and restores the pane, leaving a pulsing crystal [Mirror Shard](#mirror-shard-drops) behind at the mirror's base. The barrier drops. The mirror is whole again.
+  - **Loss condition:** If the original does not land a hit on the echo within 30s of Phase 2 starting, the echo delivers one **final taunt** — the fifth — and the fight ends. The final taunt reduces the target to **1 HP** (regardless of current HP) and inflicts **[Broken](#identity-crisis-phase-1)** (−3 all primary stats, −25% damage/healing/buff effectiveness, persists until the bearer leaves the Spirit Dungeon — see the Broken stat block above for full rules). The echo then turns and walks back into the broken frame. The glass does *not* restore — the mirror stays cracked. The shard at the base goes dark. The original is ejected still standing, but barely.
   - One fight at a time. The next mirror activates only after the current barrier drops.
 
 #### Mirror Shard Drops
 
-Each echo drops a class-appropriate **Uncommon** accessory when defeated. The shard is faintly visible at the base of each mirror before the fight — the party can see the reward. They also know the cost.
+Each echo drops a class-appropriate **Rare** [Mirror Shard](../../../items/accessories/mirror-shards.md) accessory when defeated. The shard is faintly visible at the base of each mirror before the fight — the party can see the reward. They also know the cost. Mirror Shards are soulbound evolving items — the base effects listed below scale with small milestone bonuses every 10 levels. Full rules in [items/accessories/mirror-shards.md](../../../items/accessories/mirror-shards.md).
 
 | Character | Shard | Effect | Flavor |
 |---|---|---|---|
 | [Selene](../../../characters/party/selene.md) | Shard of Self | +1 Perception, +5% crit from stealth/Veil | *"It showed you who you were. Now it shows what's coming."* |
 | [Wade](../../../characters/party/wade.md) | Shard of Devotion | +10% healing on targets below 25% HP | *"Your hands are steadier now."* |
 | [Clint](../../../characters/party/clint.md) | Shard of Duty | +1 AR, +10% threat generation | *"The shield cracked. You didn't."* |
-| [Vanessa](../../../characters/party/vanessa.md) | Shard of Control | −5% mana cost, +5% spell accuracy | *"Power isn't the problem. Aim is."* |
+| [Vanessa](../../../characters/party/vanessa.md) | Shard of Control | −5% mana cost, +5% spell accuracy | *"You don't have to become anything else."* |
 | [Rebekah](../../../characters/party/rebekah.md) | Shard of Purpose | +10% song/buff duration | *"Your voice carries further than you know."* |
 
 ---
@@ -476,10 +516,18 @@ It steps out slowly, hands open and useless.
 - **Attacks:** 1
 
 #### Identity Crisis — Taunt Sequence
-1. "You left them."
-2. "She was dying. You were playing hero."
-3. "Every minute here is a minute they're alone."
-4. "You can heal everyone but them."
+1. "Your dreams — the ones you never remember — they were funerals."
+2. "You keep healing strangers because you couldn't heal them."
+3. "Two small coffins. You picked out the flowers. You just won't let yourself remember."
+4. "There's nothing waiting for you back home. Part of you already knows."
+
+**Final Taunt** *(only fires if Wade fails to attack during Phase 2 — delivered as the echo turns to leave)*:
+
+5. *"They're gone. You know. You've always known."*
+
+This taunt reduces Wade from 20% HP to 1 HP and inflicts Broken. The echo does not wait to see it land. It just walks back into the frame.
+
+*GM/author note: Wade's echo exploits leaked real-world memory — in the source reality the twins died of the genetic disease Wade couldn't treat. The block on real-world memories is imperfect. Wade's conscious mind doesn't know. His subconscious does, which is why all four Shaken stacks land where other party members shrugged off one or two, and why the fifth taunt lands with the full weight of a truth he has been carrying without permission to name. Do not surface this in character-facing prose until the reveal chapter.*
 
 #### Phase 2: Corrupted Cleric
 
@@ -532,12 +580,12 @@ It steps out with a fractured shield raised.
 - **Attacks:** 1
 
 #### Identity Crisis — Taunt Sequence
-1. "They follow you because they have no one else."
-2. "Every shield breaks."
-3. "You forgot your own Luck. What else did you forget?"
-4. "When one of them dies — and one of them will — it'll be because of you."
+1. "Respawn brings them back. It doesn't un-break them. Ask Wade in five minutes."
+2. "You picked Selene's body. Vanessa's power. Rebekah's voice. None of them got a vote."
+3. "The ones who respawn keep respawning. The ones who break, break forever."
+4. "You don't know how to get them home. You never did. You just knew how to get them here."
 
-The third taunt is a mechanical callback — [Clint's](../../../characters/party/clint.md) Luck is 4, the lowest in the party, because he forgot to boost it at the system console.
+These taunts bypass Clint's usual reflex ("they'll just respawn") by targeting the things respawn cannot fix: agency, consent, and psychological permanence. Taunt #1 is the cruelest — the echo knows what's coming to Wade because echoes know. Taunt #2 is the [system console](../../../characters/party/clint.md) angle: Clint shaped his friends' races, classes, and attributes before the Transition locked everything in, and none of them got to veto the choices. Taunt #4 names the real weight — he's the architect, not the leader.
 
 #### Phase 2: Mirrored Paladin
 
@@ -569,7 +617,7 @@ The third taunt is a mechanical callback — [Clint's](../../../characters/party
   - Forces Clint to focus attacks on the echo for 3s.
   - Mechanically redundant in a 1v1 — thematically significant. The leader being commanded.
 
-**Narrative:** The echo is a better Paladin than Clint is right now (L10 vs L3). It hits harder, blocks better. The breakthrough: "Every shield breaks. Yeah. They do. I keep showing up anyway." Clint wins not by out-Paladining himself but by refusing to stop.
+**Narrative:** The echo is a better Paladin than Clint is right now (L10 vs L3). It hits harder, blocks better. The taunts don't aim at death — they aim at the things respawn can't fix. Clint's breakthrough isn't a counter-argument. It's an acknowledgment. Yeah, he forgot his own Luck at the console (it's 4, the lowest in the party — he boosted theirs and forgot his own). Yeah, he doesn't know how to get them home. Yeah, Wade is about to break. None of that gets to stop him. *"Then I don't get to stop either."* He keeps hitting. The protector who knows shields break — and built the door they all walked through — shows up anyway.
 
 **Drops:** **Shard of Duty** — Mirror fragment in a cracked shield-shaped frame. +1 AR, +10% threat generation on taunt abilities. *"The shield cracked. You didn't."*
 
@@ -577,7 +625,7 @@ The third taunt is a mechanical callback — [Clint's](../../../characters/party
 
 ### Vanessa's Echo: The Mana Shock
 
-The mirror shows [Vanessa](../../../characters/party/vanessa.md) — but brighter. The [mana glow](../../../classes/quantum-sorceress.md) in her veins is blinding white, crackling, unstable. Her eyes are twin stars. This is 99,999-mana Vanessa. The version that almost lost control. It steps out trailing afterimages and ozone.
+The mirror shows [Vanessa](../../../characters/party/vanessa.md) — but brighter, and wrong. The [mana glow](../../../classes/quantum-sorceress.md) in her veins is blinding white, crackling, unstable. Her eyes are twin stars. The silhouette won't settle — sometimes slimmer, sometimes broader, always a half-second out of sync with itself, as if the echo can't decide which version of her body to commit to. This is 99,999-mana Vanessa. The version that almost lost control. It steps out trailing afterimages and ozone, outline drifting in the air behind it.
 
 - **Level:** 10
 - **Role:** Elite (Caster)
@@ -587,12 +635,12 @@ The mirror shows [Vanessa](../../../characters/party/vanessa.md) — but brighte
 - **Attacks:** 1
 
 #### Identity Crisis — Taunt Sequence
-1. "You're holding back. You know what happens when you don't."
-2. "99,999 mana. Remember what that felt like?"
-3. "They stand close to you because they don't understand the math."
-4. "You are the most dangerous thing in this room. You always have been."
+1. "A physicist would have modeled the risk first. You just pushed the button."
+2. "99,999 mana. You told yourself it was curiosity. It was panic — you needed to know if you could."
+3. "You stopped hating your body. That isn't the same as loving it. You've just been tired of the fight."
+4. "They think you're the smart one in the party. You're just the first to answer."
 
-These aren't lies. That's what makes them worse.
+These aren't lies. That's what makes them worse. The echo reframes the Mana Shock not as a power failure but as an *instability* failure — [Vanessa's](../../../characters/party/vanessa.md) hastiness, her intellectual bluffing, and the unresolved peace she's made with her own body are all lies balanced on top of the same unmetabolized impulse. The shifting silhouette is the echo showing her what she already knows.
 
 #### Phase 2: Uncontrolled Sorceress
 
@@ -624,9 +672,11 @@ These aren't lies. That's what makes them worse.
   - If Vanessa commits to aggression with controlled spells, the echo falls fast.
   - [Anchor](../../../classes/quantum-sorceress.md)-tagged spells (stable, controlled) are the counter to the echo's amplified chaos. Precision beats power.
 
-**Narrative:** The echo is everything Vanessa fears about herself — raw, uncontrolled power. The taunts try to make her afraid, pushing her toward safe, underpowered spells. The breakthrough: she doesn't suppress her power. She aims it. The physicist harnesses instability instead of fearing it.
+**Narrative:** The echo is everything Vanessa fears about herself — not the raw power, but the *instability* underneath. Her hastiness, her intellectual bluffs, even the comfort she tells herself she's made with her own body — all of them are lies balanced on top of an impulse she never fully resolved. The 99,999-mana incident wasn't calculation; it was impulse dressed as curiosity. The echo's silhouette never settles because Vanessa's self-acceptance never fully did.
 
-**Drops:** **Shard of Control** — Mirror fragment humming with contained energy. −5% mana cost, +5% spell accuracy. *"Power isn't the problem. Aim is."*
+Her breakthrough is slower than the others. She stops trying to be the first to answer and starts being the right one. She uses [Anchor](../../../classes/quantum-sorceress.md)-tagged spells. And somewhere in the middle of the fight, she looks at the echo's shifting outline and realizes she doesn't want *any* of those bodies — because none of them are hers. The one she's standing in is. The physicist stops treating instability as something to outrun and starts treating it as something to measure. She doesn't become anything. She just stops apologizing for what she already is.
+
+**Drops:** **Shard of Control** — Mirror fragment humming at one steady pitch — the note never wavers, even when the wearer does. −5% mana cost, +5% spell accuracy. *"You don't have to become anything else."*
 
 ---
 
@@ -644,10 +694,10 @@ It steps out of the mirror in silence.
 - **Attacks:** 1
 
 #### Identity Crisis — Taunt Sequence
-1. "Sing them a song. That'll fix everything."
-2. "You're not a fighter. You're not a healer. You're background music."
-3. "When someone dies, what will you sing at their funeral?"
-4. "Hope is what people cling to when they have nothing real."
+1. "They love what you do for them. That isn't the same thing."
+2. "You learned to sing because silence meant they weren't coming back."
+3. "Name one person in this party who would cry if you never came home."
+4. "The moment your voice goes, so does their interest. You've always known this."
 
 #### Phase 2: Counter-Bard
 
@@ -659,8 +709,8 @@ It steps out of the mirror in silence.
 - **Targeting:** Enemy (Rebekah)
 - **Rules:**
   - When Rebekah activates a song, the echo activates a counter-song that suppresses it for 6s.
-  - Only counters one song at a time.
-  - **Weakness:** [Harmonic Memory](../../../classes/temporal-bard.md) (L4) allows multiple concurrent songs. If Rebekah layers faster than the echo can counter, the suppression breaks.
+  - Only counters one song at a time — the echo does not have [Harmonic Memory](../../../classes/temporal-bard.md) and must commit each counter to a single suppression.
+  - **Weakness:** Rebekah *does* have Harmonic Memory (L4). If she layers faster than the echo can counter, the suppression breaks and the extra songs play through.
 
 ##### Temporal Snare
 - **Type:** Spell
@@ -675,13 +725,17 @@ It steps out of the mirror in silence.
 ##### Silence Aura
 - **Type:** Passive (proximity)
 - **Rules:**
-  - Within melee range of the echo, songs have a 50% chance to fail.
-  - Forces Rebekah to fight at range or accept unreliable songs in melee.
-  - The counter: stay at range and layer songs using [Harmonic Memory](../../../classes/temporal-bard.md).
+  - Within melee range of the echo, songs have a 50% chance to fail — including [Dust Note](../../../classes/temporal-bard.md).
+  - Forces Rebekah to fight at range.
+  - The counter: stay at range, layer songs, and keep plucking Dust Notes between them.
 
-**Narrative:** Rebekah's fight is tonally different from the others. She doesn't get angry — she gets sad. The echo is the version of herself that stopped trying. The breakthrough isn't fury — it's conviction. She starts singing. The echo counters one song. She starts another. And another. Harmonic Memory lets her hold more songs than the echo can suppress. The room fills with music. The echo can't silence all of it.
+**Narrative:** Rebekah's fight is tonally different from the others. She doesn't get angry — she gets sad. The echo is the version of herself that stopped trying. The breakthrough isn't fury — it's conviction.
 
-Rebekah is the last person you'd expect to win a 1v1. She wins by being the most Rebekah she can possibly be.
+She starts by plucking at the empty air. No instrument, no stage, no audience — just [Chrono Resonance](../../../classes/temporal-bard.md) letting her fingers find the strings only a Temporal Bard can feel. The first note is **Dust Note**, the smallest song in her arsenal — one plucked string, one stolen second, 1d4 decay damage to the echo. It's almost nothing. She plays it again. And again. In between, she sings.
+
+Tempo Boost on herself. Dissonant Chord on the echo. Veil of Offbeats so the echo's snares drift around her. The echo counters one song, Rebekah starts another, and another. Harmonic Memory lets her hold more songs than the echo can suppress. The room fills with music — her voice, the invisible strings, the small steady rain of Dust Notes chipping at the echo's HP. None of it is fast. None of it is flashy. But the echo is alone, without Harmonic Memory, and every counter it throws leaves another of her songs playing through.
+
+Rebekah is the last person you'd expect to win a 1v1. She wins by being the most Rebekah she can possibly be — refusing to stop singing, one tiny note at a time, until the echo runs out of silence.
 
 **Story beat:** Rebekah encouraged [Selene](../../../characters/party/selene.md) to look in the first mirror. Now Selene is at the barrier for Rebekah. Reciprocity.
 

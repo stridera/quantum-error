@@ -146,8 +146,9 @@ The mirrors are clean. Too clean for a dungeon. They reflect everything perfectl
 Any character who locks eyes with their own reflection for more than 3 seconds triggers an [Echo Double](mobs.md#echo-double--base-mechanic) — a mirror-spawned copy that steps out of the glass and attacks.
 
 - One Echo per mirror, one mirror per character. Five mirrors, five party members.
-- The mirrors crack when an Echo spawns but don't break entirely.
-- Each mirror has a faint glow at its base — a [Mirror Shard](mobs.md#mirror-shard-drops) is visible before the fight. The reward is known.
+- The mirror cracks when an Echo spawns but the frame holds.
+- On victory, the defeated echo shatters into glass. The shards fly back into the frame and restore the mirror — whole again, as if nothing had happened — leaving a single pulsing crystal [Mirror Shard](mobs.md#mirror-shard-drops) at the base. On failure, the echo walks back into the broken frame and the glass stays cracked.
+- Each mirror has a faint glow at its base — the shard is visible before the fight. The reward is known.
 
 #### Mirror Barrier
 When an Echo spawns, a translucent [barrier](mobs.md#mirror-barrier) seals the section between that mirror wall and the room center. The original is locked inside with their Echo. Allies watch through the barrier — they can see and hear everything but cannot enter, attack, or cast through it.
@@ -212,21 +213,28 @@ He walks to his mirror.
 
 The [Echo](mobs.md#wades-echo-the-empty-hands) shows him his [twins](../../../characters/supporting/the-twins.md) in his arms. Then they slip through. The reflection looks up with hollow eyes. It steps out slowly, hands open and useless.
 
-The taunts come:
-1. *"You left them."*
-2. *"She was dying. You were playing hero."*
-3. *"Every minute here is a minute they're alone."*
-4. *"You can heal everyone but them."*
+The taunts come every six seconds, and every one of them carves a piece out of him. Each taunt is 20% of his maximum HP — psychic damage that ignores AR, ignores Ward, ignores everything he's ever built to protect himself.
 
-All four Shaken stacks land. Phase 2 begins. The echo starts using Wound and Self-Mend. Wade has 30 seconds to attack.
+1. *"Your dreams — the ones you never remember — they were funerals."* — 80% HP.
+2. *"You keep healing strangers because you couldn't heal them."* — 60% HP.
+3. *"Two small coffins. You picked out the flowers. You just won't let yourself remember."* — 40% HP.
+4. *"There's nothing waiting for you back home. Part of you already knows."* — 20% HP.
+
+All four Shaken stacks land. They land because they're true, and because some buried part of Wade recognizes them before his conscious mind can push back. Phase 2 begins. The echo starts using Wound and Self-Mend. Wade has 30 seconds to attack.
 
 He doesn't.
 
-Someone shouts through the barrier — Clint, probably. It clears 2 Shaken stacks. It's not enough. Wade is staring at his own empty hands. The hands that couldn't hold his daughters. The hands that heal everyone except the people who matter most. He's not afraid of the echo. He's afraid it's right.
+Someone shouts through the barrier — Clint, probably. It clears 2 Shaken stacks. It's not enough. Wade is staring at his own empty hands. The hands that heal everyone except the people who matter most. He's not afraid of the echo. He's afraid it's right, and afraid of *why* it feels right.
 
-The 30 seconds expire. The echo turns, walks back into the mirror. The glass repairs. The shard at the base goes dark. The barrier drops. Wade is standing there with **Broken** (−3 all primary stats, −25% damage/healing/buff effectiveness, persists until rest) and no loot.
+The 30 seconds expire. The echo stops attacking. It looks at him almost gently — the only time any echo has looked at its original with anything other than contempt — and delivers the final taunt in Wade's own voice:
 
-The room goes quiet. Four shards, one dark mirror.
+> *"They're gone. You know. You've always known."*
+
+Wade's HP drops from 20% to 1. He does not fall. Some small cruel mechanic of the system keeps him standing.
+
+The echo turns and walks back into the broken frame. The glass does not restore — it stays cracked, the only mirror in the room still broken. The shard at the base goes dark. The barrier drops. Wade is on his feet at 1 HP with **[Broken](mobs.md#identity-crisis-phase-1)** (−3 all primary stats, −25% damage/healing/buff effectiveness, persists until the party leaves the Spirit Dungeon) and no loot.
+
+The room goes quiet. Four whole mirrors with pulsing crystal shards at their bases. One cracked mirror with a dark one.
 
 Nobody says anything. What would you say?
 
@@ -243,6 +251,18 @@ This is the first crack in Wade's foundation. It foreshadows his [Post-Book I de
 The costume aisle has actual inventory. [Clint](../../../characters/party/clint.md) can finally ditch the Scream Robe and find something appropriate — the system converts costume quality to actual armor stats (Common tier). [Selene](../../../characters/party/selene.md) may also find class-appropriate gear among the racks.
 
 This happens on the way in, before the mirror room. The shopping is the bait. The mirrors are the trap.
+
+### Story Beat: Looking Again
+
+After the echoes are gone and the room is quiet, the four who won can return to their mirrors. The glass is whole again — each defeated echo shattered and restored the frame it walked out of, leaving a pulsing crystal shard at the base. The reflections are clean. And what they show isn't the present. It's a glimpse of who the bearer is becoming. A future self further along the path. Higher level. Better gear. Unafraid.
+
+[Selene](../../../characters/party/selene.md) is the one who goes back first, and the one the party remembers. She walks to her mirror alone while the others look elsewhere. The glass shows her older, sharper, standing in a full set of Epic-quality armor — not leather scraps, not the starter kit the system handed her. A [Nekara](../../../races/nekara.md) [Veilstepper](../../../classes/veilstepper-rogue.md) who has been doing this for a long time and is very good at it. The reflection does not shift. It does not become Dustin. It is just her, further along.
+
+She stares. The reflection stares back. Then she says something under her breath — *try it again* — and turns away. The mirror stays lit.
+
+[Clint](../../../characters/party/clint.md), [Vanessa](../../../characters/party/vanessa.md), and [Rebekah](../../../characters/party/rebekah.md) each get their own quiet moment with their own mirrors. The details are private to each of them. [Wade](../../../characters/party/wade.md) does not look. No one asks him to.
+
+This is a purely narrative beat — no mechanical effect. The [Mirror Shards](../../../items/accessories/mirror-shards.md) do the mechanical work; the mirrors do the emotional work. Use this scene in prose when the story wants to remind the reader what the party is becoming rather than what the dungeon cost them.
 
 ### Lesson
 

@@ -11,7 +11,7 @@ Charisma-based magic users who cast using their voices and instruments. This sub
 ## Design Philosophy
 
 - **Role**: Support, buffs/debuffs, action economy manipulation
-- **Theme**: Time effects alter order, timing, and outcomes—not direct damage
+- **Theme**: Time effects primarily alter order, timing, and outcomes — direct damage is the exception, not the rule
 - **Unique Mechanic**: Song stacking—multiple songs active concurrently up to song limit
 
 ## Core Rules
@@ -19,7 +19,7 @@ Charisma-based magic users who cast using their voices and instruments. This sub
 - All songs affect listeners within audible range
 - Songs can stack; they do not replace each other
 - Duration: sustained while singing plus fade time
-- Time effects manipulate order and timing, never deal direct damage
+- Time effects primarily manipulate order and timing. Only one minimal direct-damage song exists (**Dust Note**, L1), reserved as a baseline self-defense option. Every class gets some way to protect itself; the Temporal Bard's version is the least lethal in the game.
 
 ## Ability Progression (Levels 1-20)
 
@@ -27,6 +27,7 @@ Charisma-based magic users who cast using their voices and instruments. This sub
 |-------|---------|------|--------|
 | 1 | [Chrono Resonance](../magic/spells/chrono-resonance.md) | Passive | Songs interact with temporal threads; songs function without instrument if needed |
 | 1 | Tempo Boost | Song | Allies act and move faster |
+| 1 | Dust Note | Song (damage) | Single plucked note inflicts a moment of accelerated decay on one target. Minimal damage — reserved as baseline self-defense. |
 | 2 | Rewind Note | Utility | Slightly rolls back a recent cooldown or timing mistake |
 | 3 | Dissonant Chord | Song | Enemies fall out of sync—minor slow and confusion |
 | 3 | Veil of Offbeats | Song | Allies blur across adjacent timelines, increasing evasion |
