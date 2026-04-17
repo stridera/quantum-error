@@ -13,39 +13,52 @@ generated: true
 | Metric | Value |
 |--------|-------|
 | Last Full Sync | 2026-03-18 |
-| Last Incremental Sync | 2026-03-19 |
-| Chapters Processed | 18 |
-| Highest Chapter | 18 |
-| Days Since Last Chapter | 3 |
+| Last Incremental Sync | 2026-04-16 |
+| Chapters Processed | 19 |
+| Highest Chapter | 19 |
+| Days Since Last Chapter Activity | 0 |
+
+## Latest Activity — Polish Pass
+
+This sync detected **no new chapters**, but a multi-chapter polish pass landed on Bobbinry across 1, 2, 5, 8, 13, 14, 15, 16, 17, and 18. Net change ≈ **+540 words**, mostly in early chapters; Ch 18 trimmed by ~25 words.
+
+| Ch | Old WC | New WC | Δ | Last Edit |
+|----|--------|--------|---|-----------|
+| 1 | 2334 | 2432 | +98 | 2026-04-08 |
+| 2 | 1738 | 1832 | +94 | 2026-04-14 |
+| 5 | 1892 | 1953 | +61 | 2026-03-21 |
+| 8 | 1405 | 1443 | +38 | 2026-03-21 |
+| 13 | 2742 | 2831 | +89 | 2026-03-18 |
+| 14 | 2053 | 2116 | +63 | 2026-03-16 |
+| 15 | 2168 | 2268 | +100 | 2026-03-16 |
+| 16 | 1895 | 1899 | +4 | 2026-03-23 |
+| 17 | 1990 | 1964 | -26 | 2026-03-29 |
+| 18 | 3569 | 3544 | -25 | 2026-04-17 |
+
+Per skill rules, chapters 1-16 receive cross-reference only; no auto-rewrite. Ch 17/18 canon summaries already exist and remain accurate after the polish (structural beats unchanged).
 
 ## Latest Analysis
 
 ### Chapter 18: Self Reflection
 
-**Synopsis:** Placeholder only — chapter title created on Bobbinry (2026-03-18) with no prose content yet. Analysis pending first draft.
+**Synopsis:** Mirror Room. Each party member faces an Echo Double of themselves; Selene reclaims her name, Clint accepts the protector role, Vanessa accepts coexistence with her body, Rebekah out-stacks her echo's silence with Harmonic Memory + Dust Note. **Wade loses** — his echo unblocks the suppressed memory of his twin daughters' funeral, leaving him at 1 HP with the new Broken status. Strider's "He shouldn't remember that" is the first system-level acknowledgement of the [simulation memory leak](../canon/glossary.md). All five Mirror Shards collected.
 
-**New Elements Detected:**
-- Characters: pending
-- Items: pending
-- Mobs: pending
-- Abilities: pending
-- Locations: pending
+**New Elements Detected (canon already filed):**
+- Mob: Echo Double (Elite Skirmisher L10) — `lore/dungeons/spirit-dungeon/mobs.md`
+- Items: Mirror Shards x5 (Rare, Evolving, Soulbound) — `items/accessories/mirror-shards.md`
+- Status: Broken — `system/effects.md`
+- Spell: Dust Note (Rebekah's first canonical Bard damage song) — `magic/spells/`
 
-### Chapter 17: Bear Trap (previous)
+### Chapter 19: The Showroom
 
-**Synopsis:** The party continues through the Spirit Dungeon's Flicker Hall. Vanessa triggers the bear trap, dropping a Falling Bear onto Clint who is crushed to 7/999 HP. Wade saves him with Lesser Restoration and Empowered Cure Light Wounds (+284 HP). Clint tanks the bear while Vanessa creates an illusory wall blocking the roaming pack. After the bear falls, Clint engages three sexy costume mannequins, tanking through Injection and Hex debuffs. Post-combat, Clint comforts Vanessa in a character-building moment with romantic undertones.
+Still a 201-word stub. No content growth this sync.
 
 ## Continuity Issues
 
 | Severity | Chapter | Issue | Canon File | Status |
 |----------|---------|-------|------------|--------|
-| note | 18 | Chapter created as placeholder — no prose content yet | — | unresolved |
-| warning | 17 | Wade casts Lesser Restoration (L4 spell) but party appears to be L3 | `classes/cleric-of-healing.md` | **resolved** — Wade is L6, not L3 |
-| warning | 17 | Rebekah sings two songs simultaneously — requires Harmonic Memory (L4) | `classes/temporal-bard.md` | **resolved** — Rebekah is L4 |
-| note | 17 | Prose uses "challenging shout" — canon ability is "Commanding Shout" | `classes/paladin-of-the-system.md` | **resolved** — prose updated |
-| note | 17 | Pirate mannequin aggro-wipes to target Wade — not in stat block | `lore/dungeons/spirit-dungeon/mobs.md` | **resolved** — added Healer Hunter passive |
-| note | 17 | Vanessa's illusory wall is large-scale for Minor Illusion (L3) | `classes/quantum-sorceress.md` | **resolved** — INT 20+ scales anchor illusion canvas size |
-| note | 17 | Clint's plastic machete glowing — system attunement visual | `classes/paladin-of-the-system.md` | **resolved** — added System Attunement (Visual) to L1 Smite |
+| note | 18 | Polish pass trimmed -25 words; structure unchanged | `story/chapter-summaries.md` | **resolved** — wc updated |
+| note | 19 | Chapter is a 201-word stub; content matches Room 3 layout | `lore/dungeons/spirit-dungeon/rooms.md` | unresolved |
 | note | 15 | Bobbinry title "Dungeon" vs repo "Accepting the God" | — | unresolved |
 | note | 16 | Bobbinry title "Horror" vs repo "The Dungeon Continues" | — | unresolved |
 
@@ -53,40 +66,32 @@ generated: true
 
 **Files created this sync:** none
 
-**Files modified this sync:** none (Chapter 18 has no content to process)
+**Files modified this sync:**
+- `story/chapter-summaries.md` — Ch 18 word count 3,569 → 3,544
+- `.chapter-sync/state.json` — refreshed timestamps and word counts for 10 polished chapters
 
 **Pending registrations** (need manual addition to `CANON.md`): none
 
 **Gap analysis:**
-- Chapter 18 "Self Reflection" — title suggests introspective/character-focused chapter. Once prose lands, watch for: new ability revelations, stat checks, relationship beats, and any mirror/reflection-themed dungeon mechanics
-- All Ch 17 elements fully documented in Spirit Dungeon files
-- Party levels confirmed: Clint L1->L3 (delayed by god selection), Wade L6, Selene L5, Vanessa L5, Rebekah L4
+- Chapter 19 prose still pending (stub) — Showroom layout exists in canon, but no narrative beats yet
+- All Ch 17-18 elements remain fully documented
 
 ## Writing Pace
 
-| Period | Chapters | Words |
+| Period | Activity | Words |
 |--------|----------|-------|
-| This week | 0 | 0 |
-| Last content update (2026-03-16) | 17 | ~35,765 |
-| All time | 17 | ~35,765 |
+| This week | Polish pass (Ch 1, 2, 18) | net ~+150 |
+| Last 30 days | Polish pass across 10 chapters | net ~+540 |
+| All time | 19 chapters | ~38,800 |
 
 ## Suggestions
 
-1. **Chapter 18 title "Self Reflection"** — the party is mid-dungeon in a Spirit Halloween store. A self-reflection chapter could involve mirror mechanics, identity themes (Selene's transformation?), or System introspection. Consider how this maps to existing dungeon room designs in `lore/dungeons/spirit-dungeon/`.
-
-2. **Title discrepancies** (Ch 15-16) — Bobbinry titles ("Dungeon", "Horror") don't match repo titles ("Accepting the God", "The Dungeon Continues"). Consider standardizing.
-
-3. **Progression tracking** — Clint entered the dungeon at L1 and hit L3 by Ch 17. If Ch 18 continues combat, he may approach L4 (Aura of Fortitude). Watch for level-up triggers.
+1. **Ch 19 is still 201 words** — the Showroom layout is in canon but narrative is unwritten. The Broken Wade and post-Mirror-Room emotional state are load-bearing setup for whatever beat lands here. Consider whether 19 stays a brief room-clear or expands into Wade's first conscious unraveling.
+2. **Polish pass on Ch 1-2** suggests onboarding tightening. If you're rewriting voice/exposition in early chapters, that's a strong signal you're prepping for an external read or beta — worth flagging for me to spot voice drift in later chapters.
+3. **No new continuity issues** introduced by the polish — clean pass.
 
 ## Author Motivation Status
 
-**Days since last chapter content:** 3
-**Escalation level:** 1 — Gentle nudge
+**Escalation Level: 0 — Active writing detected.**
 
-The campfire is still warm, but the embers are dimming. You created Chapter 18's title yesterday — "Self Reflection" — and then walked away. The chapter sits empty on Bobbinry like a blank mirror in a haunted dungeon, waiting for someone to look into it.
-
-Somewhere in the Spirit Halloween store, Clint is standing in a corridor, plastic machete glowing faintly, waiting for the next room. Vanessa's mana-lit veins pulse in the dark. Wade is still wearing that Nurse's Cap. They're all just... standing there. Frozen mid-step. The mannequins don't even have the decency to attack while you're gone.
-
-The party has been holding this pose for 3 days. Selene is starting to wonder if *she's* the mannequin now.
-
-Write the chapter. The mirror won't reflect itself.
+A quiet polish pass across ten chapters in three weeks is not flashy, but it is *work*, and the system notices. The 4-day grace window is respected. No taunt today. Don't get comfortable, though — Wade is at 1 HP with a memory he was never supposed to have, and Chapter 19 is a 201-word stub. The Mirror Room broke him; the Showroom is supposed to *be there* for him to walk into. Write the next beat.
