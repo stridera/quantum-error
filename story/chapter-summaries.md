@@ -372,3 +372,54 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 - Vanessa's illusory wall resolved — INT 20+ scales anchor illusion canvas size
 - Machete glow resolved — System Attunement (Visual) added to Paladin L1 Smite
 - Typos in prose system popups: "Strenght", "Arane", "damge", "chast"
+
+## Chapter 18: Self Reflection
+
+**Word count**: 3,569
+
+**Summary**: The party reaches the [Mirror Room](../lore/dungeons/spirit-dungeon/rooms.md) — a hexagonal chamber of floor-to-ceiling mirrors. As [Selene](../characters/party/selene.md) sees herself for the first time since the Transition, a translucent barrier traps her inside and her reflection cracks the mirror, stepping out as an [Echo Double](../lore/dungeons/spirit-dungeon/mobs.md#echo-double) — her old "Dustin" form, sneering. The Echo's Identity Crisis taunts deal raw HP damage and apply stacking Shaken; Selene wins by reclaiming her name. One by one, each party member chooses to face their mirror. [Clint](../characters/party/clint.md) confronts the architect's-guilt echo ("you didn't choose for them") and earns the Shard of Duty by accepting the protector role. [Vanessa](../characters/party/vanessa.md) faces a flickering, half-out-of-sync echo that needles her panic, body, and intellect; she earns the Shard of Control by accepting that not-loving-her-body and not-hating-it can coexist. [Rebekah](../characters/party/rebekah.md) faces a silent guitar-echo that suppresses her songs one at a time; she wins by **stacking songs faster than the echo can silence them**, using Harmonic Memory and a steady drip of Dust Note for damage. **[Wade](../characters/party/wade.md) loses.** His echo unblocks a memory he was never supposed to have — his twin daughters' funeral, two small coffins, flowers he picked out — and the echo never lands a killing blow because Wade is already broken. He survives at 1 HP with the new [Broken](../system/effects.md) status, locked until dungeon exit. Strider's voice breaks character mid-fight: *"He shouldn't remember that."* Post-combat, the mirrors briefly show the party in the gear they're meant to grow into.
+
+**Characters**:
+- Clint (POV), Selene, Vanessa, Rebekah, Wade — all present, all fight their echoes
+- Strider — first hands-off, then visibly alarmed when Wade's memory breaches the simulation veil
+
+**Enemies**:
+- [Echo Double](../lore/dungeons/spirit-dungeon/mobs.md#echo-double) (Elite Skirmisher, L10) ×5 — one per party member. Phase 1: Identity Crisis taunts only (no physical attacks; ~20% max HP per taunt + Shaken stacks). Phase 2: combat after target asserts identity. Wade reaches a 5th taunt and the loss condition.
+
+**Abilities Used**:
+- **Smite: Judgment** (Clint, L1): Empowered slashes through Phase 2
+- **Magic Missile** (Vanessa, L?): Opens her echo fight; empowered strikes finish it
+- **Mana Shield** (Vanessa, L3): Tanks the echo's spell returns
+- **Dust Note** (Rebekah, L1): Steady plucked-string DoT — first canonical Bard damage song
+- **Dissonant Cord** (Rebekah): Slows and confuses the silenced echo
+- **Veil of Offbeats** (Rebekah): Echo's snares drift around her
+- **Harmonic Memory** (Rebekah, L4): Lets her hold more songs than the echo can suppress
+- **Sneak Attack / backstab loop** (Selene): Anger-fueled, post-naming
+- **Healing** (Wade): Active in Phase 1 fights only; cannot self-heal in his own fight
+
+**Items Looted** (all Rare, Evolving, Soulbound — see [items/accessories/mirror-shards.md](../items/accessories/mirror-shards.md)):
+- **Shard of Self** → Selene: +1 Perception, +5% crit while in Veil/stealth
+- **Shard of Devotion** → Wade: +10% healing on targets below 25% HP. Shard *cracks* on collection — failed mirror, but the shard remained
+- **Shard of Duty** → Clint: +1 AR, +10% threat on taunt abilities
+- **Shard of Control** → Vanessa: -1% mana cost, +1% spell accuracy
+- **Shard of Purpose** → Rebekah: +10% song and buff duration
+
+**Status Effects Applied**:
+- **Shaken** (stacking, dispel-immune, duration: until echo defeated): -2 accuracy/-1 damage per stack. "Hidden under the surface" — also deals direct HP damage scaled to taunt severity
+- **Broken** (Wade): -3 all primary stats, -25% damage dealt, -25% healing in/out, -25% buff effectiveness. Cannot be removed; clears on Spirit Dungeon exit
+
+**Costume rack**: Clint pockets a pirate outfit (the rest go in his fanny-pack-of-holding) "for emergency use later"
+
+**Party Levels** (this chapter): Same as Ch 17 — Wade L6, Selene L5, Vanessa L5, Rebekah L4, Clint L3
+
+**Key Plot Events**:
+- Selene's first real look at her Nekara form — and her first time refusing the name "Dustin"
+- Each party member's deepest fear named out loud and answered
+- **Wade's twins are dead in the real world** — the simulation has been suppressing the memory, and the Mirror Room broke the seal. This is the [simulation memory leak](../canon/glossary.md) reveal landing for Wade specifically
+- Strider's "He shouldn't remember that" is the first system-level acknowledgement that something outside the dungeon's design just happened
+- All five Mirror Shards collected — first evolving accessory class introduced
+
+**Canon Notes**:
+- All canon for this chapter (Echo Double stat block, Mirror Shards, Broken status, Dust Note, Identity Crisis taunt mechanic) was added in commit `e337471` ahead of the chapter being synced
+- Bobbinry API quirk: `wordCount` field reported 992 for this 3,569-word chapter — sync now computes from body, not the field
+- Bobbinry API quirk: `updatedAt` did not bump when the body was edited — sync now uses content-length comparison, not timestamps
