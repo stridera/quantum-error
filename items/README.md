@@ -19,10 +19,10 @@ Equipment and notable items in Quantum Error.
 
 ## Clint's Unique Items
 
-Created via system console access before the Transition. These exist outside the equipment framework.
+Created via system console access before the Transition. Capstone-tier artifacts reclaimed at the series finale.
 
 | Item | Type | Status |
 |------|------|--------|
-| [Katsuragi, the Singularity Blade](weapons/katsuragi.md) | Katana | Lost at Transition, status unknown |
-| [Aegis of Decoherent Deflection](armor/aegis-of-decoherent-deflection.md) | Shield | Lost at Transition, reclaimed |
+| [Katsuragi, the Singularity Blade](weapons/katsuragi.md) | Katana | Held by the Ancient Red Dragon; reclaimed at series finale |
+| [Aegis of Decoherent Deflection](armor/aegis-of-decoherent-deflection.md) | Shield | Held by the Ancient Red Dragon; reclaimed at series finale |
 | [Fanny Pack of Holding](accessories/fanny-pack-of-holding.md) | Container | Soulbound, retained through death |

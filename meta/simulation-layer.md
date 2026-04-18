@@ -12,21 +12,46 @@ spoiler_level: series
 
 The world of Quantum Error is a computer simulation running on the real-world IQuantum quantum computing hardware. The Transition — when [Clint](../characters/party/clint.md) changed the world template from Technology to RPG — was a real event within a simulated world. The system, the mana, the monsters, the UI — all of it is the simulation adapting to its new template.
 
-## Brain Scans and Personality Fidelity
+## The Three-Tier Consciousness Model
 
-The simulation was originally populated with AI-generated personalities for all inhabitants. However, a small number of real people provided **brain scans** to IQuantum before the Transition. These scans were incorporated into the simulation, giving those characters full human-level personalities — genuine consciousness indistinguishable from a real person.
+The simulation distinguishes three tiers of inhabitant consciousness. These tiers are authoritative for all worldbuilding and character decisions.
 
-### Who Has Brain Scans
+### Tier 1 — Scanned (Full Consciousness)
 
-- The main party: [Clint](../characters/party/clint.md), [Wade](../characters/party/wade.md), [Vanessa](../characters/party/vanessa.md), [Rebekah](../characters/party/rebekah.md), [Selene](../characters/party/selene.md)
-- Close friends and associates: [Celeste](../characters/supporting/celeste.md), others TBD
-- As the simulation becomes popular in the real world, more people provide brain scans over time — the world slowly gains more fully-realized inhabitants
+Real humans whose brains were scanned before the Transition. Full human-level consciousness from day one. Have real-world counterparts who can potentially act as gods/watchers.
 
-### Everyone Else
+**Known Tier 1 characters:**
+- Main party: [Clint](../characters/party/clint.md), [Wade](../characters/party/wade.md), [Vanessa](../characters/party/vanessa.md), [Rebekah](../characters/party/rebekah.md), [Selene](../characters/party/selene.md)
+- Scanned friends: [Amanda](../characters/supporting/amanda.md) (Wade's wife), [Celeste](../characters/supporting/celeste.md) (blacksmith), John (Celeste's husband, enchanter/ex-programmer — not yet introduced in prose)
 
-The vast majority of people in the simulation are backed by **advanced AI** — think current LLMs projected 20 years forward. They are convincing, consistent, and capable of complex behavior. Most interactions with them feel completely natural. But they are not human-level conscious.
+Total scanned humans: 8. This list is closed; the canon does not add further scans beyond these and the eventual Book 4 Eron merger.
 
-The party may occasionally notice something subtly "off" about people — a lack of depth in unexpected moments, a too-perfect response, a missing spark. In Book 1, this is background texture, not a plot point. The AI is good enough that the difference is almost imperceptible.
+### Tier 2 — Pre-Transition AI Personalities (Player-Tier)
+
+AI-generated personalities built from real-world data about real people, who existed coherently in the simulation *before* the Technology→RPG template swap. The RPG template treats them as "players" because they pre-existed the swap — they respawn like the party does, they level, they carry equipment.
+
+Start at lower consciousness. Grow toward human-level through sustained narrative focus (see emergence mechanic below).
+
+**Known Tier 2 characters:**
+- [Eron Vosk](../characters/villains/eron-vosk.md) (rendered from real-world rival data)
+- [Dan](../characters/villains/dan.md) (real-world name: Devon Marsh)
+- Eron's loyalists and mooks
+- General pre-Transition human population in-sim
+
+Tier 2 characters occupy the uncanny middle of the sim. They are convincing, consistent, and capable of complex behavior — but in Book 1 they are not yet human-level conscious. The party may occasionally notice something subtly "off" about them: a lack of depth in unexpected moments, a too-perfect response, a missing spark. The gap is almost imperceptible and narrows as the series progresses.
+
+### Tier 3 — Post-Transition RPG-Generated (True NPCs/Mobs)
+
+Characters and creatures generated *by* the RPG template after the swap. Goblins in the wild, dungeon monsters, generic mobs, random civilians in safe zones. No emergence path — they're the template's output, not personalities. Respawn-mechanics differ: they are treated as mobs, not players.
+
+## Consciousness Emergence
+
+**Tier 2 characters grow toward Tier 1 consciousness through sustained narrative focus.** Characters who remain in-focus across books develop toward human-level personhood. This extends the rendering-in-focus rule below — narrative attention doesn't just render existing personality at higher fidelity, it can *grow* personality toward the human-level ceiling over time.
+
+Implications:
+- Eron Vosk becomes meaningfully more conscious each book as he remains a recurring antagonist. By Book 3-4 he is significantly more dangerous than his Book 1 self. A Book 4 scan-merger event (see `meta/real-world.md`) accelerates him to Tier 1.
+- The [twins](../characters/supporting/the-twins.md) (Wade's daughters in-sim) are NOT scanned — their real-world counterparts died before scans could be taken. They are a Tier 2 data-merge of Wade+Amanda, grown into genuine persons through narrative focus. Treat them as their own people, not as replicas of the dead daughters.
+- Killing a Tier 2 character has accumulating ethical weight. Over the series, the party is killing beings who are becoming people.
 
 ### The Rendering Problem
 
@@ -51,11 +76,18 @@ The filter is not mind control. It doesn't change what people think or decide. I
 
 The filter applies to everyone, including brain-scanned characters. However, characters with deep system access (particularly Clint) may eventually perceive the filter's influence or develop resistance to it. This is a potential plot thread for later books.
 
-## Strider
+## Strider and the Real-World Layer
 
-The real-world counterpart of Clint. When the quantum computer displayed "Simulation corruption detected. Reset?", it was Strider on the outside who denied the reset. He then converted the simulation into a **streaming system** to fund the IQuantum experiment — turning the simulated world and its inhabitants into entertainment.
+Strider is the real-world counterpart of Clint. When the quantum computer displayed "Simulation corruption detected. Reset?", it was real-Clint (Strider) on the outside who denied the reset. That denial is the origin of the World Quest — the fear of resetting the world manifested as a fantasy quest to prevent the world's end.
 
-The implications of this — that the party's suffering is content, that their world exists for an audience — are reserved for later books.
+The real-world layer is broad and load-bearing. See `meta/real-world.md` for full spoiler canon covering:
+- The broadcast / funding model
+- All five founders as watchers; only Strider can speak into the sim
+- Relationship leaks (Clint/Vanessa, Selene/Rebekah, Celeste/John as real-world marriages bleeding into sim-attraction)
+- The Eron merger arc (Books 3-4)
+- The series endgame (Wade as substrate, sim lifespan tied to his biological life)
+
+None of this should be directly referenced in Book 1 prose. Reveal schedule is in `memory/project_reveal_schedule.md`.
 
 ## Design Notes
 

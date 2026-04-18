@@ -67,6 +67,8 @@ This file is the canonical index for Quantum Error.
 ### Lore
 - `lore/overview.md`
 - `lore/timeline.md`
+- `lore/world-quest.md`
+- `lore/tablet-of-annihilation.md`
 - `lore/locations/bay-area.md`
 - `lore/locations/zones/san-francisco.md`
 - `lore/locations/zones/the-ruins.md`
@@ -105,8 +107,12 @@ This file is the canonical index for Quantum Error.
 ### Story
 - `story/chapter-summaries.md`
 
+### Bestiary
+- `bestiary/ancient-red-dragon.md`
+
 ### Meta
 - `canon/status.md`
 - `canon/glossary.md`
 - `canon/style-guide.md`
 - `meta/simulation-layer.md` *(spoiler — series-level author knowledge)*
+- `meta/real-world.md` *(spoiler — series-level author knowledge, broadcast/funding/Strider/endgame)*
