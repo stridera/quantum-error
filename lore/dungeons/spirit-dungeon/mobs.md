@@ -336,7 +336,7 @@ A mirror-spawned reflection of a party member. The Spirit Dungeon's mirrors don'
 - **Level:** 10
 - **Role:** Elite (mirrors original's archetype)
 - **HP:** 150 | **Damage:** 11 | **Accuracy:** 10 | **AR:** 6
-- **XP:** 1,800
+- **XP:** ~0 class XP — the echo is a **trial**, not a lethal threat: it cannot kill you, only reward or break you. The payoff is the [Mirror Shard](#mirror-shard-drops), not levels. See [xp.md § Trials](../../../system/xp.md#trials-will-not-survival).
 - **Attributes:** Copies the original's archetype profile at L10 values
 - **Attacks:** 1
 
@@ -745,44 +745,99 @@ Rebekah is the last person you'd expect to win a 1v1. She wins by being the most
 
 ## Room 3: Seasonal Showroom
 
-### Reaper Mannequin
+## Graveyard Set
 
-A tall mannequin in a hooded black robe, carrying a full-sized plastic scythe that's stopped being plastic. Moves with deliberate, sweeping motions.
+### Scarecrow of the Fallow Row (Graveyard Miniboss)
+
+A scarecrow lashed to a wooden cross-stake at the back of the graveyard, past the wrought-iron fence. Burlap sack head carved into a jack-o'-lantern grin, two embers for eyes. It doesn't move — at first. But the eyes track you, and every time a grave opens, they flare.
 
 - **Level:** 10
 - **Role:** Elite (Brute)
 - **HP:** 150 | **Damage:** 11 | **Accuracy:** 10 | **AR:** 6
 - **XP:** 1,800
-- **Attributes:** STR 10, CON 10, DEX 4, INT 4, WIS 7, CHA 4
-- **Attacks:** 1
+- **Attributes:** STR 10, CON 10, WIS 7, DEX 4, INT 4, CHA 4
+- **Attacks:** 1 (2 when freed)
 
-#### Reap
+Two-phase miniboss. **Bound** while its skeletons stand; **Freed** when the field is cleared.
+
+#### Grave Toll (Passive — Bound phase)
+- On the party entering the graveyard, the Scarecrow's eyes flare and **5 [Risen Skeletons](#risen-skeleton)** claw up from the graves.
+- Every 15s it can re-raise **one** fallen Risen Skeleton (telegraph: the pumpkin eyes pulse and a low bell tolls). **Maximum 3 re-raises** per fight — then the graves run dry.
+- The Scarecrow **frees itself the instant no Risen Skeleton stands and its re-raises are spent.**
+
+#### Staked (Passive — Bound phase)
+- While bound, the Scarecrow cannot move and is **out of melee reach behind the fence** — melee attacks can't connect.
+- Ranged attacks and spells hit, but the straw body takes only **25% damage** (it doesn't much care). Casters can chip it, not kill it.
+- The puzzle: cut down its congregation, don't waste time flailing at the post.
+
+#### Sickle Fling (Bound phase)
+- **Type:** Skill
+- **Cost:** None
+- **Cooldown:** 8s
+- **Duration:** Instant
+- **Targeting:** Enemy (Line)
+- **Rules:**
+  - Tears an arm free and hurls a rusted sickle down a lane: 12 physical, boomerangs back to its hand.
+  - Telegraphed by the arm winding back across its body (2s). Step out of the lane.
+
+#### Harvest (Freed phase)
 - **Type:** Skill
 - **Cost:** None
 - **Cooldown:** 10s
 - **Duration:** Instant
 - **Targeting:** Enemy (Cone — up to 2 targets in front)
 - **Rules:**
-  - Wide scythe arc: 16 physical damage to primary target, 11 to secondary.
-  - Telegraphed by a 2s wind-up (the reaper draws the scythe back behind its body).
-  - Players who recognize the tell can step out of the arc.
-  - **Lesson:** "Don't stand in front of this."
+  - On freeing itself, the Scarecrow **rips the cross-stake out of the ground and swings it like a greatsword.** Wide arc: 16 physical to primary, 11 to secondary.
+  - 2s wind-up tell (draws the stake back over its shoulder). The Reaper's old lesson — "don't stand in front of this."
 
-#### Slow Advance
-- **Type:** Passive
+#### Reap and Sow (Freed phase — signature, once per fight)
+- **Type:** Skill
 - **Cost:** None
+- **Cooldown:** Once per combat (fires on freeing)
+- **Duration:** Instant
+- **Targeting:** Enemy
 - **Rules:**
-  - Moves at 50% speed. Cannot be hastened.
-  - Immune to Fear (it is fear).
-  - This mob is about positioning — it's slow but devastating if it catches you.
+  - Its **first** swing on breaking free is an overhead smash that **knocks the struck target back 20 feet — over the fence, into the Carnival section.** 14 physical + 2s prone.
+  - The victim lands across a [Zone Line](rooms.md#zone-lines-section-barriers): **threat and taunt don't cross it,** so Clint cannot Commanding Shout the Scarecrow back to him. The party fights the freed miniboss without their tank until he clears the gnomes and returns on foot.
+  - **Narrative hook:** this is the beat that launches [Clint](../../../characters/party/clint.md) onto the [Whack-a-Gnome](#whack-a-gnome-game-mechanic--minion), forcing the graveyard and carnival to run at once — the "let's not find out" gun going off.
 
-**Drops:** Plastic Scythe (Uncommon weapon, 7-12 physical, two-handed, -2 accuracy due to weight)
+#### Immune to Fear (Passive)
+- It is the thing in the field the crows fear. Cannot be Feared or Charmed.
+
+**Drops:** Stitched Burlap Cowl (Uncommon armor, +4 AR, -1 CHA — smells of hay and grave dirt), Ember Eye (Uncommon accessory, +1 WIS, functions as a faint light source)
+
+---
+
+### Risen Skeleton
+
+A skeleton clawing up out of a foam grave, animated by the Scarecrow. Rusted garden tools for weapons. Falls apart when hit hard — but there are more where it came from, until the graves run dry.
+
+- **Level:** 10
+- **Role:** Minion
+- **HP:** 15 | **Damage:** 5 | **Accuracy:** 10 | **AR:** 3
+- **XP:** 150
+- **Attributes:** STR 7, DEX 7, CON 4, INT 4, WIS 4, CHA 4
+- **Attacks:** 1
+
+#### Grave-Bound (Passive)
+- Animated by the [Scarecrow](#scarecrow-of-the-fallow-row-graveyard-miniboss). Takes **+50% damage from Turn Undead and divine-source abilities**.
+- [Wade's](../../../characters/party/wade.md) kit shreds them even while **Broken** — this is the graveyard's gift to the compromised healer: he can't out-heal the room, but he can clear it. Gives Broken-Wade offense while his sustain is weak.
+- Summoned/animated, so once [Clint](../../../characters/party/clint.md) hits **L4** here his [Smite: Sanction](../../../classes/paladin-of-the-system.md) also lands **+30% vs summoned entities** on them — his upgraded smite comes online against the very thing that raised them. (See the graveyard [progression beat](rooms.md#encounter-graveyard-set).)
+
+#### Crawling Remains (Passive)
+- When a Risen Skeleton is downed, its severed arm often keeps moving — **~50% of the time** it flops into the grass and becomes a [Skeleton Arm Crawler](#skeleton-arm-crawler) after ~2s.
+- The arm is **trivial to kill** — a stomp, a stray hit, anything one-shots it — but ignored, it grabs an ankle (3s root) at the worst possible moment. The [Grave Mist](rooms.md#graveyard-grave-mist) hides it until it strikes.
+- **Vigilance tax:** clear the arms as you drop the skeletons, or the graveyard floor is a minefield of roots when the Scarecrow finally breaks free.
+
+Comes up in a pack of 5; the Scarecrow re-raises up to 3 more over the fight. The environmental **Skeleton Arm Grab** hazard (see [rooms.md](rooms.md#graveyard-skeleton-arm-grab)) fires independently of these minions.
+
+**Drops:** None (bone dust)
 
 ---
 
 ### Skeleton Arm Crawler
 
-A skeletal arm and hand that erupts from the graveyard display floor, grabbing at ankles.
+A skeletal arm and hand that erupts from the graveyard display floor, grabbing at ankles — or the still-twitching remains of a downed [Risen Skeleton](#risen-skeleton) (see Crawling Remains). Hidden in the [Grave Mist](rooms.md#graveyard-grave-mist) until it grabs.
 
 - **Level:** 10
 - **Role:** Minion
@@ -801,9 +856,256 @@ A skeletal arm and hand that erupts from the graveyard display floor, grabbing a
   - Melee attack (must be adjacent / stepped on): 5 physical damage.
   - On hit: target is rooted for 3s (can still attack but cannot move).
   - Destroyable in one hit from most weapons.
-  - Comes in groups of 4-6. Individually trivial; collectively they pin you in place for the Reaper.
+  - Comes in groups of 4-6. Individually trivial; collectively they pin you in place for the Scarecrow's Sickle Fling. (Distinct from the [Risen Skeletons](#risen-skeleton) the Scarecrow animates — these are the environmental grab hazard.)
 
 **Drops:** None
+
+---
+
+## Carnival Set
+
+### Whack-a-Gnome (Game Mechanic + Minion)
+
+A carnival arcade game the size of a dining table, riddled with holes. Little gnomes pop up and down at random. Two padded mallets sit in brackets on either side. A hand-painted sign: "WHACK-A-GNOME — 1 PLAY. WINNERS GET TICKETS!"
+
+**The only active enemy in the Carnival** — the Clown and Mimic stay passive (see below). The game activates when its **Start Game button is pressed** or a character steps up to play. (The Scarecrow's [Reap and Sow](#reap-and-sow-freed-phase--signature-once-per-fight) flings [Clint](../../../characters/party/clint.md) onto it — *landing* doesn't start it, but he sets it off leaning on the Start button while scrambling back from the asylum.) The instant it activates, the [Carousel](#carousel--the-motor) begins to turn and gnomes **erupt all at once:** a first wave leaps off the board into the party, and the machine keeps surfacing more **for as long as the carousel spins** — it does not run dry on its own.
+
+**The Gnome (Minion):**
+
+- **Level:** 10
+- **Role:** Minion (Swarm)
+- **HP:** 15 | **Damage:** 5 | **Accuracy:** 10 | **AR:** —
+- **Reward:** 1 Ticket · **no XP** (zero-danger kill — [danger factor](../../../system/xp.md#xp-award-formula) ≈ 0; this is what stops the endless fountain from being a power-leveling exploit)
+- **Attributes:** DEX 9, STR 4, CON 4, INT 4, WIS 4, CHA 4
+- **Attacks:** 1 (ankle bite — trivial)
+- **Defense:** **Invulnerable to all conventional damage.** The lone exception (see [Carnival Rules](#at-the-machine--burrowed)) is deliberately **not surfaced by [Identify](#what-system-identify-gives-clint)** — the party discovers it in-world.
+
+Gnomes have two states — **at the machine** and **loose.**
+
+#### At the Machine — Burrowed (Passive)
+- On the board, gnomes are **untargetable and immune while down,** surfacing only ~1.5s at a time.
+- **Carnival Rules:** at the machine, **only a Padded Mallet counts as a hit** — swords, spells, fists score "MISS." A mallet whack is an automatic one-shot **and dispenses 1 ticket** (flat, per gnome — win a lot by winning *often*, not big).
+- **The source.** Every ~3s the machine surfaces a fresh gnome. If it isn't whacked inside its window, it **leaps off the board and joins the swarm on the party.** Whacking at the machine is the *only* way to cut the flow — which is why whoever lands on the game (Clint) is stuck manning it.
+- **The machine never runs dry on its own.** Gnomes spawn endlessly *while the [Carousel](#carousel--the-motor) turns* — the carousel's motor drives the game. The **only** way to end the spawn is to **stop the carousel (kill all four mounts)**; whacking can't outpace it, only hold the loose swarm down. What Clint's console-boosted stamina buys this party is the ability to **man the source indefinitely** while the rest kill the carousel — not a way to make it stop on its own. (Smashing the machine itself, 60 HP, also halts it but **voids all tickets**; the System does not reward vandalism.)
+
+#### Loose — Skittering Swarm (Passive)
+- A gnome that escapes the board is a **mobile minion that is *still only killable by a mallet*** — swords, spells, and fire all score "MISS" on a gnome no matter where it is. Carnival rules don't stop at the machine's edge.
+- **Random target, taunt-proof:** each loose gnome **picks a party member at random and charges,** immune to Taunt and every form of threat redirection. It will **cross zone lines** to reach them (into the graveyard, wherever they scattered), and per [Zone Lines](rooms.md#zone-lines-section-barriers) it **can't be taunted back** — only killed.
+- **Non-mallet allies can't kill gnomes — but they can *control* them:** slow ([Dissonant Chord](../../../classes/temporal-bard.md)), shove, illusion-lure, or knock them into the [Cotton-Candy Webs](rooms.md#carnival-cotton-candy-web) to stick them in place for a mallet-bearer. (Burning the webs frees the trapped gnomes — a real tension with clearing them for movement.)
+- **Only two mallets exist,** both chained to the machine on short tethers. Clint works the source on one; to arm a second hunter he must **tear the other mallet free (STR check) and throw it.** The hand-off to [Selene](../../../characters/party/selene.md) is the intended beat — and two mallet-bearers is the hard cap on gnome-killers.
+
+#### Underfoot (Passive — stacking slow)
+- Every **loose gnome** in melee with a target clamps onto legs and gear and **drags: −20% movement speed per gnome, stacking.** The bite is nothing; the *pile* is the problem. The more of them on you, the less you can move — it only ever gets worse until they're cleared.
+- At **5 stacks the target is fully rooted** (−100%) — still able to act, but nailed in place for whatever else is inbound: the Scarecrow's [Sickle Fling](#scarecrow-of-the-fallow-row-graveyard-miniboss) lane, the Asylum's roving gurney, a carousel [Ground Slam](#carousel--the-motor). Accumulation is the kill vector; the gnomes just hold you still for the thing that actually hurts. (A rooted caster can still cast — [Vanessa](../../../characters/party/vanessa.md) keeps attacking while pinned — which is exactly why the Scarecrow targets her.)
+- **You can't shake them off yourself.** Since nothing you can swing damages a gnome ([Carnival Rules](#at-the-machine--burrowed)), a swarmed caster stays pinned until a mallet-bearer peels them — a slow you cannot break on your own. Stacks fall off only as gnomes die. This is what turns "trivial nuisance" into "why can't I *move* — get them **off** me."
+
+```text
+┌──────────────────────────────────────────────┐
+│ STATUS: Underfoot                            │
+├──────────────────────────────────────────────┤
+│ Type: Debuff (Snare)                         │
+│ Source: Whack-a-Gnome (loose)                │
+│ Duration: While gnomes remain in melee       │
+│ Stacks: Yes (1 per adjacent loose gnome)     │
+│ Dispel: No (kill the gnomes — Mallet only)   │
+├──────────────────────────────────────────────┤
+│ Summary: They're climbing your legs.         │
+├──────────────────────────────────────────────┤
+│ Numbers:                                     │
+│ - -20% move speed per stack                  │
+│ - 5 stacks = fully rooted (-100%)            │
+│ - Cannot be cleansed; ends only when the     │
+│   gnomes are cleared (Padded Mallet)         │
+└──────────────────────────────────────────────┘
+```
+
+#### "Gnomes Rule!" (Passive — Sonic Aura)
+- The gnomes never shut up. Every gnome — burrowed or loose — chants **"GNOMES RULE!"** on an endless squeaky loop, a wall of noise blanketing the whole carnival section. *(A deliberate easter-egg homage — see [author note](#gnomes-rule--author-note).)*
+- **Interrupts casting:** each **"GNOMES RULE!"** is a 1-second Sonic jolt that cuts off an in-progress cast or channel — [Vanessa's](../../../characters/party/vanessa.md) spells and [Rebekah's](../../../characters/party/rebekah.md) sung songs get chopped; instant abilities ([Clint's](../../../characters/party/clint.md) Smites, [Selene's](../../../characters/party/selene.md) strikes) shrug it off. The debuff is **dispellable**, but the chant never stops, so it just re-lands — the real cure is fewer gnomes.
+- **Coordination suffers:** stacked on the carnival's music and the zone's [acoustic seal](rooms.md#zone-lines-section-barriers), the din means only short, loud, shouted words carry — part of why [Vanessa's](../../../characters/party/vanessa.md) *"Use the mallet, you idiot!"* reaches [Clint](../../../characters/party/clint.md) only as a scream **relayed by [Strider](../../../characters/party/clint.md#patron-strider)** across the fence (see [the scan](#what-system-identify-gives-clint)).
+- **Silence it** the same way you end the swarm: clear the gnomes (mallet) or stop the [Carousel](#carousel--the-motor).
+
+```text
+┌──────────────────────────────────────────────┐
+│ STATUS: Gnomes Rule                          │
+├──────────────────────────────────────────────┤
+│ Type: Debuff (Sonic)                         │
+│ Source: Whack-a-Gnome (the chant)            │
+│ Duration: 1s (re-applied while they chant)   │
+│ Stacks: No (refreshes)                       │
+│ Dispel: Yes (but they just yell again)       │
+├──────────────────────────────────────────────┤
+│ Summary: "GNOMES RULE!" — you can't          │
+│ concentrate.                                 │
+├──────────────────────────────────────────────┤
+│ Numbers:                                     │
+│ - Interrupts any cast-time / channel ability │
+│ - Instant abilities unaffected               │
+│ - Ends when the gnomes are silenced (Mallet) │
+└──────────────────────────────────────────────┘
+```
+
+> <a id="gnomes-rule--author-note"></a>*Author note: the gnomes' **"GNOMES RULE!"** chant is an intentional easter egg. The phrase began as running-joke graffiti in classic MMORPGs (EverQuest, World of Warcraft) and was popularized in the LitRPG scene by Aleron Kong's **The Land** series. Keep the wording verbatim — it's a genre wink, not a continuity slip.*
+
+```text
+┌──────────────────────────────────────────────┐
+│ WHACK-A-GNOME                                │
+├──────────────────────────────────────────────┤
+│ Please use the provided MALLET.              │
+│ Winners get tickets. Cheaters get nothing.   │
+└──────────────────────────────────────────────┘
+```
+
+#### What System Identify Gives Clint
+
+Clint's [Innate System](../../../characters/party/clint.md) is interface-free — no [popup](../../../system/ui-popups.md#5-system-identify--entity), he just *knows.* What he knows:
+
+```text
+Gnome (Whack-a-Gnome) — Identified
+Level: 10 · Type: Construct (Animate Prop) · Threat: Trivial
+HP: 15 | Damage: 5 | Accuracy: 10
+Defense: INVULNERABLE
+Reward: 1 Ticket · grants no XP
+```
+
+And that read is wrong in the way that matters. *Invulnerable,* it says — flat, no asterisk, no footnote about foam. The System isn't lying (nothing he can swing hurts them); it just declines to name the one implement that counts. So Clint reads *can't be killed,* pockets it, and starts hunting for a trick — a phase, a switch, a weak point — anything but the padded mallets in the brackets in plain sight. That's the gap [Vanessa](../../../characters/party/vanessa.md) has to scream across the field: *"THE MALLET, CLINT — HIT IT WITH THE MALLET."*
+
+> *Strider, who reads the same data without any popup and is enjoying the silence, to Clint alone:* "Oh, this is going to be good."
+
+**Drops — Whack-a-Gnome Mallet** (Common weapon, 3-6 physical vs normal foes). *Identify the mallet* and the answer the gnome-scan withheld is right there:
+
+```text
+Whack-a-Gnome Regulation Mallet
+Banishes one gnome per strike; dispenses its ticket.
+Non-regulation implements are not recognized by the game.
+```
+
+The clue exists — it's just on the object nobody thinks to scan mid-swarm. Two mallets exist, chained to the game on short tethers; tear one free (STR) to carry it off. Squeaks on impact.
+
+---
+
+### Carousel — The Motor
+
+*(Mechanic + 4 Mount-Bosses.)* A spinning carousel of mutated animals, calliope music looping. **It drives the [Whack-a-Gnome](#whack-a-gnome-game-mechanic--minion):** gnomes surface and spawn only while the carousel turns. Stopping it is the one true off-switch for the flood — but four mounts guard it.
+
+**The loop:**
+- The motor sits at the central hub, with a **switch.** Flipping the switch stops the carousel — but any **living mount cranks it back on** as it swings past. The switch only sticks once **all four mounts are dead.** Killing the four *is* the off-switch.
+- The four mounts are **fixed to their poles and cannot leave the carousel,** so the whole fight is **spatially optional.** Stay off the platform and they can't reach you; step to the edge and you're in it. (A careful party can skip the carousel entirely — yours, forced onto the whack-a-gnome, has to deal with it.)
+- **From the edge:** the rotation delivers one mount into reach at a time — slow, methodical, safe.
+- **Jumping onto the platform** to burst them makes the carousel **spin double-time → double gnome spawn.** The fast way floods Clint at the source. A patience test.
+- **Reward:** stopping the carousel ends the gnome spawn. Mounts drop crafting material and tickets; the *real* payoff is the ticket total the long fight generates — a full clear can reach the **500** [Grand Prize](#ticket--prize-booth-mechanic) mimic (see [Prize Mimic](../../../items/accessories/mimic-pet.md)). [Rebekah](../../../characters/party/rebekah.md), a Temporal Bard, is the one who reads that the gnomes move to the carousel's beat.
+
+Four animals, four mechanics. Each is **Elite (L10) — HP 150 | Damage 11 | Accuracy 10 | XP 1,800**, bound to its pole.
+
+#### The Nightmare (Carousel Horse) — Charger
+A fire-maned carousel horse with too many teeth. **AR 6.** Attributes STR 10, DEX 10, CON 7, INT 4, WIS 4, CHA 4.
+- **Trample Charge** (Cooldown 8s): breaks from its pole to gallop a straight line — 14 damage + knockback + 1s prone to everything in the lane — then snaps back to its pole. Rears (2s tell) before charging. Punishes the backline.
+
+```text
+The Nightmare (Carousel Horse) — Identified
+Level: 10 · Type: Construct (Carousel Mount) · Role: Elite (Charger)
+HP: 150 | Damage: 11 | Accuracy: 10 | AR: 6
+Tell: Rears (2s), then Trample-Charges its lane. Get out of the line.
+```
+
+#### The Gilded Lion — Bruiser
+Brass lion, mane like blades. **AR 8.** Attributes STR 10, CON 10, CHA 7, DEX 4, INT 4, WIS 4.
+- **Brass Roar** (Cooldown 12s): pulls the nearest enemy toward it — a taunt you can't refuse (2s) — then **Pounce Cleave** (14 damage, frontal arc). Front-loaded burst; don't get dragged in undefended.
+
+```text
+The Gilded Lion — Identified
+Level: 10 · Type: Construct (Carousel Mount) · Role: Elite (Bruiser)
+HP: 150 | Damage: 11 | Accuracy: 10 | AR: 8
+Tell: Roars to drag the nearest fighter in, then Pounce-Cleaves. Don't get caught alone.
+```
+
+#### The Brass Swan — Flyer
+A long-necked brass swan that lifts off its pole. **AR 4.** Attributes DEX 10, WIS 7, CON 7, STR 4, INT 4, CHA 4.
+- **Take Wing** (Passive): leaves its pole to circle — evasion way up, hard to hit — pelting feathers (ranged chip).
+- **Dive-Bomb** (Cooldown 10s): a big telegraphed plunge (16 damage). It is **grounded and vulnerable for ~2s after each dive** — the only reliable window to burst it. A timing check.
+
+```text
+The Brass Swan — Identified
+Level: 10 · Type: Construct (Carousel Mount) · Role: Elite (Flyer)
+HP: 150 | Damage: 11 | Accuracy: 10 | AR: 4
+Tell: Airborne = hard to hit. Grounded ~2s after each Dive-Bomb — burst it then.
+```
+
+#### The Stone Elephant — Tank / Controller
+A ponderous stone elephant. **AR 10 (stone).** Attributes STR 10, CON 10, WIS 7, DEX 4, INT 4, CHA 4.
+- **Ground Slam** (Cooldown 10s): rears and stomps — shockwave AoE, 12 damage + knockdown to everyone nearby (2s tell). Area denial; don't cluster. Slow and high-AR — the anchor and the DPS check.
+
+```text
+The Stone Elephant — Identified
+Level: 10 · Type: Construct (Carousel Mount) · Role: Elite (Tank)
+HP: 150 | Damage: 11 | Accuracy: 10 | AR: 10
+Tell: Ground Slam is a telegraphed AoE (2s) — spread out. High AR: the DPS check.
+```
+
+**Drops (collective):** Carousel Brass (Uncommon crafting material) + a share of tickets. *No mount-summoning bridle* — the pet is this section's signature reward, deliberately kept singular.
+
+---
+
+### Ticket & Prize Booth (Mechanic)
+
+Tickets won at the Whack-a-Gnome are spent at the prize booth counter — the one the [Clown Mannequin](#clown-mannequin) guards. Tickets are shared party loot (they go in the fanny pack).
+
+- **Playing by the rules (redeem):** present tickets at the counter and the Clown honors the exchange — stays passive, hands over the prize, squeaks its horn approvingly. The System enforces arcade fair-play.
+- **Cheating (a booth violation — grabbing a prize or the chest without paying, or attacking the Clown or mimic):** everything triggers at once. The Clown [drops the act](#drops-the-act-champion-on-aggro) and fights at Champion strength, the [Obvious Mimic](#obvious-mimic-prize-chest) wakes, the unsold stock [animates and defends itself](#prize-rally-on-aggro) — and the [whole dungeon converges](#store-wide-alert-dungeon-response).
+
+**Why robbery doesn't pay.** The prizes are real — they have to be; the mimic [eats one off the counter](#the-100-ticket-set--the-temptation) and it resurfaces at the boss — but they are not *lootable*. The stock fights back, and an animated prize beaten in the rally is **destroyed**: a snapped saber, shattered shades. **Redemption is the only way a prize leaves the booth intact.** Stack the store-wide convergence on top and the math is closed — rob the booth and you fight a Champion clown, the mimic, the merchandise itself, and every remaining mob in the dungeon at once, and the shelf you did it for is wreckage by the end.
+
+| Tickets | Prize | Effect |
+|---------|-------|--------|
+| 5 | Bag of Kettle Corn | Consumable — restores 40 HP. Tastes real. |
+| 10 | **Carnival Shades** | Common accessory — **reduces strobe/flash accuracy penalties by 3.** (Save these for the Asylum.) |
+| 15 | Foam Finger of Provocation | Common accessory — once per fight, taunt a single target for 3s. "WE'RE #1." |
+| 25 | Plush Reaper | Uncommon accessory — +1 WIS. A stuffed toy of the thing you just killed. |
+| **100 (each)** | **The Big-Prize Shelf** | One genuinely great class item per member — see [The 100-Ticket Set](#the-100-ticket-set--the-temptation). Five of them = the full **500**. |
+| **250 (each)** | **The Center Rack** | A cut above — an Epic weapon, shield, or coat. A full clear affords **exactly two.** See [The 250-Ticket Rack](#the-250-ticket-rack--two-or-none). |
+| **500** | **GRAND PRIZE — the Mimic** | The gold-chained chest itself. **500 is only reachable by clearing the *entire* carnival — Whack-a-Gnome *and* [Carousel](#carousel--the-motor).** Redeem it and the [Clown](#clown-mannequin) hands it over tame: a soulbound [Prize Mimic pet](../../../items/accessories/mimic-pet.md). Try to *take* it without paying and it's the greed-trap ([Obvious Mimic](#obvious-mimic-prize-chest) + Clown). |
+
+**Tickets:** every gnome killed by a mallet — Clint at the source or Selene loose — yields **1 ticket** (flat; gnomes grant no XP, only tickets). At ~1 ticket a whack the counter climbs on *volume*, so the totals track fight length: a short carnival nets a handful (the 10-ticket Carnival Shades are a quick, easy grab), while reaching the 500 Grand Prize takes the **full, dragged-out Carousel clear** — hundreds of gnomes whacked over a long fight, topped up by the mounts' ticket drops. The grind *is* the price.
+
+**How the winnings pay out — five Gold Century-Tickets.** When the party cashes a full clear (~500), the [Clown](#clown-mannequin) counts it out as **five gold "100" tickets, one pressed into each member's hand** — their equal share of the take (plus any loose change from the grind). Each gold ticket is exactly one [100-set](#the-100-ticket-set--the-temptation) item; the booth makes change for the odd [250-rack](#the-250-ticket-rack--two-or-none) price. This is the prop that makes the sacrifice land: **nobody can buy the 500 chest alone** — it takes all five gold tickets, physically surrendered, to reach the mimic.
+
+**Design intent:** the **Carnival Shades** (10) are the baseline reward — engaging the whack-a-gnome pays off when the Asylum strobes hit -5 accuracy. The **Mimic** (500) is the reward for going the whole distance: same object, **two outcomes decided by virtue** — *buy* it and you tame it, *steal* it and it bites. A normal or impatient party never reaches 500 and only ever meets the mimic as a trap; a thorough party earns a pet.
+
+### The 100-Ticket Set — the Temptation
+
+A full carnival clear nets roughly **500 tickets** — enough for exactly one marquee splurge: **five 100-ticket prizes** (a great item for everyone), **two 250-ticket [rack](#the-250-ticket-rack--two-or-none) picks** (two of you, much stronger), or the **single 500-ticket Mimic.** The shelf is stocked to make the sacrifice hurt.
+
+Each 100-ticket prize is a real Rare-tier upgrade, carnival-skinned:
+
+| For | Prize | Effect |
+|---|---|---|
+| [Clint](../../../characters/party/clint.md) | **Strongman's Belt** (high-striker prize) | +2 STR, +5% threat. Ring the bell. |
+| [Vanessa](../../../characters/party/vanessa.md) | **Sharpshooter's Monocle** (shooting gallery) | +5% spell crit, and her targeted AoE spells can **exclude allies** — the fix to her friend-frying problem. |
+| [Rebekah](../../../characters/party/rebekah.md) | **Golden Calliope Reed** | +15% song and buff potency. |
+| [Wade](../../../characters/party/wade.md) | **First-Place Blue Ribbon** | +15% healing output — which, while he's **Broken**, is the thing he wants most in the world. |
+| [Selene](../../../characters/party/selene.md) | **Funhouse Shard** | +5% crit, +stealth. Her own tempting prize — the one she trades away for the puppy. |
+
+**The beat — five gold tickets, one puppy.** Each member is handed a Gold Century-Ticket ([payout format](#ticket--prize-booth-mechanic)) and drifts to the item it buys: [Clint](../../../characters/party/clint.md) to the [shield](#the-250-ticket-rack--two-or-none) he can finally use, [Vanessa](../../../characters/party/vanessa.md) to the Monocle that ends her friendly-fire, [Wade](../../../characters/party/wade.md) to the Blue Ribbon that claws back his lost healing, [Rebekah](../../../characters/party/rebekah.md) to the Reed, [Selene](../../../characters/party/selene.md) to her Shard. Everyone's drooling.
+
+Then Selene clocks the mimic — 500, out of reach alone — and does the one thing that keeps this from reading as manipulation: **she spends her own gold ticket on the chest first,** giving up her Funhouse Shard before she asks anyone for anything. *Then* the eyes. The campaign goes person to person, and the **order they cave is the characterization:**
+
+- **[Wade](../../../characters/party/wade.md) folds first.** The one who's **[Broken](#echo-double--base-mechanic)** and wants healing more than anyone hands over the **First-Place Blue Ribbon** — the item that would give it back — because after the mirror he needs the *joy* more than the stat. Quiet, and it guts you.
+- **[Rebekah](../../../characters/party/rebekah.md)** is an easy yes, delighted by the whole absurd thing.
+- **[Vanessa](../../../characters/party/vanessa.md) and [Clint](../../../characters/party/clint.md) are the holdouts** — the two whose items are most *needed* (the friendly-fire fix; the shield that would finally make Clint a tank). They resist on cold logic, and crumble last.
+
+**The button:** the instant the five-gold-ticket group gift crests into something genuinely moving, Selene ruins it — names the mimic something stupid on the spot, and it promptly **eats Wade's surrendered Blue Ribbon** right off the counter. Everyone stares. Warmth and gag, back to back. *(The ribbon is **not** destroyed — a [reluctant bag of holding](../../../items/accessories/mimic-pet.md) hoards what it swallows, it doesn't burn it. This plants the [boss-fight payoff](boss.md#phase-3-manager-exposed).)* Mechanically the whole thing is a terrible trade. That's what makes it land — and Clint walks out still swinging the plastic machete, shieldless, **by choice.**
+
+### The 250-Ticket Rack — Two, or None
+
+A tier above the [100-set](#the-100-ticket-set--the-temptation): fewer, better, and priced so a full clear (~500 tickets) buys **exactly two.** Epic-tier, and pointedly aimed at the party's real gaps.
+
+| Prize | Effect | The pull |
+|---|---|---|
+| **Carousel Saber** | Epic one-handed sword — 12–18 physical, +5% crit. A *real* weapon. | [Clint's](../../../characters/party/clint.md) plastic machete finally retired — **or** the first weapon [Wade](../../../characters/party/wade.md) has ever held (he's been fighting the Scarecrow with his fists). This is the sword Clint eyes on the counter in [Ch 20](../../../story/chapter-summaries.md) and nearly grabs. |
+| **High-Striker Bulwark** | Epic shield — +6 AR, enables shield abilities. | [Clint](../../../characters/party/clint.md) unlocked **Shield Mastery** and **Shield Bash** at L4 and has *no shield to use them* ([Ch 20](../../../story/chapter-summaries.md)). This is the item that turns him from a man with a machete into an actual tank. |
+| **Ringmaster's Coat** | Epic armor — +5 AR, +1 CHA, a small all-round bump. | Universal upgrade; whoever's squishiest wants it. |
+
+**The sharper knife:** the 250 rack is worse for the party's wallet and better for their power. Two picks could make [Clint](../../../characters/party/clint.md) a genuine sword-and-board tank in a single stop (**Saber + Bulwark**) — and that's the *entire* budget: no mimic, no five-item set. Three tiers, one pool of ~500 tickets, three different parties you could walk out as: **everyone a little better (5×100), two of you a lot better (2×250), or one ridiculous puppy (500).** They pick the puppy — and Clint keeps swinging the plastic machete, shieldless, by choice.
 
 ---
 
@@ -843,13 +1145,171 @@ A mannequin in a full clown costume — rainbow wig, red nose, oversized shoes. 
   - Telegraphed by the Clown lifting the mallet over its head (1.5s wind-up).
   - Dodge window exists if you recognize the tell.
 
+#### Booth Guardian (Passive)
+- The Clown does **not** aggro on sight. It patrols the prize booth, honors [ticket redemptions](#ticket--prize-booth-mechanic), and every so often **bonks the [Obvious Mimic](#obvious-mimic-prize-chest) on the lid** to make it hold still — the chest freezes and its eye-glow winks out for a beat. (This foreshadows the mimic while keeping it spottable.)
+- Turns hostile only if a character **attacks it, attacks the mimic, or takes a prize without paying.** Then it opens with Honk Horn as written.
+- **Threshold tell:** mere *contact* with the mimic (poking it, [petting it](#obvious-mimic-prize-chest)) is not theft — the Clown **visibly tenses** (grip whitening on its horn, a step forward it doesn't complete) but holds. It only snaps the instant someone tries to *take* or *strike*. The strain is the telegraph: the party can read exactly where the line is.
+
+#### Drops the Act (Champion on Aggro)
+- The patrolling vendor is the Elite block above. The instant the booth is violated, the Clown **drops the act** — the painted smile splits a little wider, the posture straightens *wrong* — and it fights as a **Champion: HP 360 | Damage 13 | Attacks 2 | XP 6,000** (framework 6x HP / 1.5x dmg / 10x XP; CHA 12 with the Champion +2). Honk Horn and Mallet Slam keep their listed cooldowns.
+- At Champion, **Mallet Slam becomes an area slam:** the overhead strike lands as a telegraphed shockwave (2m radius, same 14 damage + 2s stun to everything caught) — the framework's required area-denial mechanic. Same 1.5s wind-up tell; the answer is *spread out*.
+- It never fights alone: aggro simultaneously triggers the [Prize Rally](#prize-rally-on-aggro) and the [Store-Wide Alert](#store-wide-alert-dungeon-response). This is a floor-boss-scale fight the party *chose* to start.
+
+#### Prize Rally (On Aggro)
+- Every **unsold** prize in the booth animates and defends it. Sold and redeemed items are unaffected — they belong to their buyers.
+- The stock fights with what it is: the **Carousel Saber** slashes as a flying blade, the **High-Striker Bulwark** body-checks and walls off the counter, the **Carnival Shades** strafe with strobe-flashes (**-5 accuracy** on whoever they're facing — the Asylum's trick, turned on the party early), the **Foam Finger** taunts ("WE'RE #1"), the **Plush Reaper** goes for ankles, the **Strongman's Belt** constricts (root, STR check to break).
+- **Stat guidance:** shelf trinkets (5–25 ticket tier) fight as **Minions** (15 HP, 5 dmg); the [100-set](#the-100-ticket-set--the-temptation) as **Normals** (60 HP, 9 dmg); the two [250-rack](#the-250-ticket-rack--two-or-none) Epics as **Elites** (150 HP, 11 dmg). **No XP from any of them** — the System scores this as vandalism, not combat.
+- **Beaten prizes are destroyed.** A "killed" prize breaks — snapped saber, shattered monocle, a belt torn in half. Nothing that fought can be looted. **Redemption is the only way a prize leaves the booth intact.**
+
+#### Store-Wide Alert (Dungeon Response)
+- Any [booth violation](#ticket--prize-booth-mechanic) flips the **entire remaining dungeon** hostile at once. The PA crackles overhead — the [Store Manager's](boss.md) voice, pleasant and dead: *"Security to the showroom, please. All associates."* — and every living mob abandons its set and converges on the party.
+- **Zone lines stop holding.** Set-by-set containment ([rooms.md](rooms.md#zone-lines-section-barriers)) is store policy, and the store just revoked it: mobs cross the fences freely for the duration. (The threat/taunt rules across lines still apply as written — bodies cross, taunts don't.)
+- Only the boss stays put — the Manager doesn't leave the office. It watches the cameras and takes notes for your review.
+- The alert ends when the party wipes, flees the dungeon, or kills everything that answered the call. Survivable in principle — that's the point.
+
+**Design intent — why the booth can't be robbed:** the Clown is beatable on purpose; the deterrent is the *bill*. Violence buys a Champion clown plus the animated merchandise plus every remaining mob in the dungeon, simultaneously, with no rest between waves — and the prizes it was all for **break when beaten.** Honest play buys the same items for tickets, one attraction at a time. There is no build, level, or party size for which robbing the booth beats playing the game.
+
 **Drops:** Oversized Mallet (Uncommon weapon, 8-13 physical, two-handed. Slow but hits hard. Has a rubber squeak on impact.)
+
+---
+
+## Asylum Set
+
+The deepest, darkest stripe. A shock-therapy tableau powered by a wheeled ECT cart, a hall of hard strobes (-5 accuracy, persistent — see [rooms.md](rooms.md#asylum-concentrated-strobe)), and a locked "AUTHORIZED PERSONNEL ONLY" door held by two guards. This is where the party's frayed sustain — [Wade](../../../characters/party/wade.md) is still **Broken** — finally bites.
+
+### Shock Cart (Destructible Object / Hazard)
+
+The wheeled ECT cart wired to the Patient's **treatment gurney** — where the Patient is strapped down, stationary. (Not to be confused with the *loose* wheeled gurney that careens the room as a [strobe hazard](rooms.md#asylum-concentrated-strobe) — two different gurneys.)
+
+- **HP:** 30 | **AR:** 0
+- **Treatment Pulse:** while an [Asylum Orderly](#asylum-orderly) is channeling, the cart discharges **every 5s.** Each discharge **flares the Asylum strobes to a 1s blackout** (everything in the section drops to **-8 accuracy** for that second) and advances the Treatment by one pulse.
+- **The clock — 4 pulses ≈ 20 seconds** to a completed Treatment (see [Lobotomized Patient](#lobotomized-patient-conditional-add)). The party has that window to **smash the cart (30 HP)** or **kill/interrupt the channeling Orderly** — either stops the strobe flares and freezes the Treatment. Interrupting doesn't rewind progress; it just stops the clock.
+
+---
+
+### Asylum Orderly
+
+A mannequin in a stained white coat, calm and unhurried, pressing shock paddles to the Patient's temples. Comes as a pair with the Head Surgeon.
+
+- **Level:** 10
+- **Role:** Normal (Controller)
+- **HP:** 60 | **Damage:** 9 | **Accuracy:** 10 | **AR:** 6
+- **XP:** 600
+- **Attributes:** WIS 9, INT 7, CHA 7, STR 4, DEX 4, CON 4
+- **Attacks:** 1
+
+#### Administer Treatment (Channel)
+- **Type:** Skill (Channel)
+- **Targeting:** The Patient (gurney)
+- **Rules:**
+  - Stands at the treatment gurney channeling. Each [Shock Cart](#shock-cart-destructible-object--hazard) Treatment Pulse (every 5s) advances a hidden timer; **4 pulses (~20s) complete the Treatment** and the [Lobotomized Patient](#lobotomized-patient-conditional-add) rises.
+  - Interrupted by stun/knockback, the Orderly's death, or the cart's destruction. Interrupting does **not** reset progress — it just stops the clock.
+
+#### Paddle Shock
+- **Type:** Skill
+- **Cooldown:** 8s
+- **Targeting:** Enemy (adjacent)
+- **Rules:**
+  - If pulled off the gurney, zaps an adjacent enemy: 9 damage + 1s stun (Will DC 10 negates the stun).
+
+**Drops:** Rubber Gloves (Common, crafting), ECT Paddles (Common weapon, 4-7 lightning, 10% chance 1s stun)
+
+---
+
+### Head Surgeon (holds the key)
+
+A taller mannequin in a blood-flecked surgical gown, a bone saw in one hand and an oversized syringe in the other. A red keycard badge — "AUTHORIZED PERSONNEL" — clipped to its breast pocket.
+
+- **Level:** 10
+- **Role:** Elite (Skirmisher)
+- **HP:** 150 | **Damage:** 11 | **Accuracy:** 10 | **AR:** 6
+- **XP:** 1,800
+- **Attributes:** DEX 10, STR 7, WIS 7, INT 4, CON 4, CHA 4
+- **Attacks:** 1-2
+
+#### Bone Saw
+- **Type:** Skill
+- **Cooldown:** None
+- **Targeting:** Enemy (melee)
+- **Rules:**
+  - 13 physical + **Bleed** (2 damage per 2s for 8s).
+
+#### Sedative Syringe
+- **Type:** Skill
+- **Cooldown:** 12s
+- **Targeting:** Enemy (ranged jab)
+- **Rules:**
+  - 8 damage + **Drowsy** — target's actions slowed 25% for 6s (Will DC 12 halves).
+  - On a target already below 25% HP, applies 2s **Sleep** instead (broken by any damage).
+
+#### Authorized Personnel (On Death)
+- Drops the **AUTHORIZED PERSONNEL badge** — the keycard that unlocks the exit door. **The party cannot leave the showroom without it.** You must engage the tableau; there is no skipping to the boss.
+
+**Drops:** Authorized Personnel Badge (key item — opens [Room 4](rooms.md#room-4-back-storage-maze)), Bone Saw (Uncommon weapon, 6-11 physical, applies Bleed), Sedative Syringe (Uncommon consumable, single-use Drowsy dart)
+
+---
+
+### Lobotomized Patient (Conditional Add)
+
+Only rises if the **Treatment completes** (4 [Shock Cart](#shock-cart-destructible-object--hazard) pulses land uninterrupted). The mannequin on the gurney sits up, restraints snapping, eyes blank and mismatched. A fresh, mindless berserker — the cost of ignoring the doctors.
+
+- **Level:** 10
+- **Role:** Elite (Brute)
+- **HP:** 150 | **Damage:** 11 | **Accuracy:** 10 | **AR:** 6
+- **XP:** 1,800
+- **Attributes:** STR 10, CON 10, DEX 7, INT 4, WIS 4, CHA 4
+- **Attacks:** 1-2
+
+#### Mindless (Passive)
+- Immune to Fear, Charm, and Taunt. Attacks the nearest living thing — friend or foe. Cannot be reasoned with or controlled.
+
+#### Flailing Strikes
+- **Type:** Skill
+- **Targeting:** Enemy (nearest)
+- **Rules:**
+  - Two wild melee swings, 11 each, at -2 of its own accuracy (it isn't aiming).
+
+**This add is entirely preventable.** Its presence is the punishment for tunnel-visioning the Straitjacket or the Guards while the Treatment ran.
+
+**Drops:** Hospital Gown Scraps (Common, crafting)
+
+---
+
+### Asylum Guard (Door Sentinel) ×2
+
+Mannequins in rent-a-cop uniforms flanking the "AUTHORIZED PERSONNEL ONLY" door. They do not roam. They do not chase. They guard.
+
+- **Level:** 10
+- **Role:** Elite (Soldier)
+- **HP:** 150 | **Damage:** 11 | **Accuracy:** 10 | **AR:** 8 (riot gear)
+- **XP:** 1,800
+- **Attributes:** STR 10, CON 10, DEX 7, WIS 7, INT 4, CHA 4
+- **Attacks:** 1
+
+#### Post Discipline (Passive)
+- A Guard will not leave its post. It ignores the party until (a) someone comes within reach of the door, or (b) it is attacked. Then it fights to the death in place.
+
+#### Interpose
+- **Type:** Skill (Reaction)
+- **Rules:**
+  - If a character tries to open or force the door while a Guard lives, the nearest Guard intercepts with a shove: 11 damage + knockback.
+  - **The door cannot be opened past a living Guard — even with the badge.**
+
+#### Baton Bash
+- **Type:** Skill
+- **Targeting:** Enemy (melee)
+- **Rules:**
+  - 11 physical + 1s stagger.
+
+**The gate:** to leave the showroom, the party needs the Head Surgeon's badge **and** both Guards down. Beyond the door: [Room 4](rooms.md#room-4-back-storage-maze) ("EMPLOYEES ONLY").
+
+**Drops:** Riot Baton (Common weapon, 5-8 physical, 1s stagger), Guard Cap (Common cosmetic)
 
 ---
 
 ### Straitjacket Mannequin
 
-A mannequin in a torn straitjacket, arms wrapped tight. Thrashes against its restraints. When it breaks free, things get worse.
+A mannequin in a torn straitjacket, arms wrapped tight. Thrashes against its restraints. When it breaks free, things get worse. A yellowed hospital discharge tag is safety-pinned to the canvas — **"TREATMENT: COMPLETE"** — the tell that this was a Patient once. It graduated. It's what the [strapped-down Patient](#lobotomized-patient-conditional-add) across the room becomes if the [Treatment](#asylum-orderly) runs.
 
 - **Level:** 10
 - **Role:** Elite (Brute)
@@ -857,6 +1317,11 @@ A mannequin in a torn straitjacket, arms wrapped tight. Thrashes against its res
 - **XP:** 1,800
 - **Attributes:** STR 10, CON 10, DEX 7, INT 4, WIS 4, CHA 4
 - **Attacks:** 1 (2 when Berserked)
+
+#### Can't Be Held (Passive)
+- A straitjacket will not be restrained. Slows, roots, stuns, and confusion land at **half duration**, and each second it's under any control effect there's a **50% chance it thrashes free early.**
+- The party's instinct — *"it's already wrapped up, just park it"* — fails here. Soft CC (Rebekah's [Dissonant Chord](../../../classes/temporal-bard.md) slow, Vanessa's [Minor Illusion](../../../classes/quantum-sorceress.md) lure) barely sticks; it rips loose and **charges whoever tried to control it.** This is the beat that forces the tank to abandon his target and peel.
+- Escalates to **full immunity** once it Berserks (below 50% HP). Before Berserk, control *slips*; after, it doesn't land at all.
 
 #### Berserk
 - **Type:** Skill (Self-buff)
@@ -917,7 +1382,32 @@ A treasure chest sitting in a carnival prize booth. It has teeth-shaped edges, w
   - After initial snap: standard melee attacks (9 damage).
   - If the party spots it before interacting, it's just a normal fight with no surprise round.
 
-**Narrative:** This is the one [Selene](../../../characters/party/selene.md) spots immediately. "I'd never get fooled by a stupid mimic." (Setup for Room 5.)
+**Narrative:** Displayed on the counter as the **"GRAND PRIZE — 500 TICKETS,"** draped in plastic gold chains. The [Clown](#clown-mannequin) keeps bonking it still; when the Clown looks away, the lid twitches and a wet eye-shine shows between the teeth. [Selene](../../../characters/party/selene.md) clocks it in a heartbeat: "I'd never get fooled by a stupid mimic." (Remember that — setup for Room 5.)
+
+**Clint's [System Identify](#what-system-identify-gives-clint) plays along with the disguise.** The read opens benign — *a treasure chest* — and won't quite hold still:
+
+```text
+Object — Identified
+"A treasure chest."
+Level: 10 · Type: Container · Threat: None
+HP: 60 | AR: 8
+Note: Gold-chained "GRAND PRIZE." Contents: 500 tickets.
+      The teeth along the lid are decorative.
+      The teeth along the lid are decorat—
+      The teeth are not decorative.
+```
+
+The scan never says *mimic* — it snags on the teeth and leaves Clint to finish the sentence, the same way the System [withheld the gnomes' weakness](../../../system/ui-popups.md#5-system-identify--entity). [Selene](../../../characters/party/selene.md) doesn't need it; she made the call in a heartbeat with her own eyes. *(Design note: the read surfaces **nothing of what it can hold** — the [bag-of-holding](../../../items/accessories/mimic-pet.md) is the pet's secret, never shown by Identify, then or later.)*
+
+> *Strider, to Clint alone:* "It's a mimic. Obviously. Even you spotted that one."
+
+**The close call:** to prove the point, Selene **pets it like a housecat** — a couple of easy strokes along the lid while it strains not to bite. The [Clown](#clown-mannequin) tenses hard (see Booth Guardian threshold tell) but doesn't attack, because petting isn't theft. It only animates on an actual take/strike, at which point the Clown joins the fight.
+
+**Two outcomes:**
+- **Bought (500 tickets):** the Clown honors it, the mimic goes tame, and it binds to the buyer — [Selene's](../../../characters/party/selene.md) [Prize Mimic pet](../../../items/accessories/mimic-pet.md). Playing by the rules tames it.
+- **Stolen (no tickets):** it wakes hostile and the [Clown](#clown-mannequin) piles in. Standard fight, nothing surprising — the party saw it coming.
+
+If Selene ends the carnival with a tame mimic in tow, her **Room 5 couch dive lands harder:** her mimic-guard is now completely down ("we have one as a *pet*"), so the one she doesn't check is the one that gets her. Frame the [Mimic Couch](rooms.md#the-mimic-couch) to resemble the pet.
 
 **Drops:** Handful of plastic gold coins (worthless, cosmetic)
 

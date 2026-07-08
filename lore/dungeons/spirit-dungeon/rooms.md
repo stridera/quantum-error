@@ -278,11 +278,11 @@ Identity. The Spirit Dungeon tests who you are, not just what you can do. The Mi
 
 The corridor opens into a cavernous space — the main retail floor. The ceiling is higher here (or appears to be; the dark fog still obscures it). The room is divided into three themed display sections arranged left to right:
 
-**Left: The Graveyard.** Foam tombstones, plastic skeletons half-buried in fake grass, a wrought-iron fence prop, dead trees with hanging moss. A fog machine pumps ground-level mist. A tall hooded figure stands motionless among the graves.
+**Left: The Graveyard.** Foam tombstones, plastic skeletons half-buried in fake grass, dead trees with hanging moss. A fog machine pumps ground-level mist. A wrought-iron fence prop closes off the back, and lashed to a cross-stake beyond it stands a **scarecrow** — burlap sack head carved into a grin, two embers for eyes that track the party and flare each time a grave opens.
 
-**Center: The Carnival.** A prize booth with stuffed animals and a suspicious-looking chest. Cotton candy machines trailing sticky web-like strands. Spinning carousel props. A mannequin in a clown costume stands behind the prize booth counter, holding a mallet.
+**Center: The Carnival.** Packed dirt underfoot. A wall of popcorn and cotton-candy machines trailing sticky web-like strands; a spinning carousel of mutated animals. In the middle, a **whack-a-gnome** arcade game — mallets racked on either side, little gnomes popping up and down. Across from it, a prize booth stuffed with plush animals and a suspicious gold-chained chest labeled "GRAND PRIZE," with a mannequin in a clown costume behind the counter holding a mallet.
 
-**Right: The Asylum.** Padded walls (foam panels), a metal gurney on wheels, harsh overhead strobes. A mannequin in a torn straitjacket thrashes silently against its bindings, head jerking. Medical equipment props litter the area.
+**Right: The Asylum.** Foam padded rooms, harsh strobes over grimy linoleum. On the left, a mannequin in a torn straitjacket thrashes silently against its bindings. On the right, a shock-therapy tableau: a mannequin patient on a wheeled gurney, one lab-coated mannequin pressing shock paddles to its temples and another looming with a syringe and a bone saw. At the back, a locked "AUTHORIZED PERSONNEL ONLY" door flanked by two guard mannequins.
 
 ### Environmental Effects
 
@@ -291,76 +291,123 @@ The sets activate left to right as the party moves through them. Entering the Gr
 
 This rewards pushing forward as a group. Hesitating or splitting up means dealing with compounding hazards. The party can't clear one set and rest — the dungeon keeps pressure on.
 
+#### Zone Lines (Section Barriers)
+The three sets are divided by hard scene borders — the wrought-iron fence, and the change in flooring (grass → packed dirt → linoleum). Mechanically these act as **threat boundaries:**
+- **Threat, taunt, and forced-focus effects do not cross a zone line.** Clint's [Commanding Shout](../../../classes/paladin-of-the-system.md) can pull a mob within his current section, but **cannot reach across the fence.** If he's knocked into the Carnival, he cannot yank the freed Scarecrow to him — and vice versa.
+- Most mobs hold their own set. **Exceptions chase:** loose [Gnomes](mobs.md#whack-a-gnome-game-mechanic--minion) will cross a zone line to reach their random target, and a **knockback** (the Scarecrow's Reap and Sow) or an illusion can *force* any body across — which is how the sections bleed together. Either way threat still can't follow: **you cannot taunt a crosser back to you.**
+- **Damage still crosses.** Ranged attacks and spells work across the line (Vanessa can bolt the Scarecrow from the carnival). It's *threat/taunt* that's blocked, not harm.
+- **Each zone is its own sealed world — sight crosses, sound doesn't.** Stepping over a line drops you bodily into that set's ambiance: the **graveyard** becomes muted night — a moon behind moving cloud, cold soil and the sour tang of death, swaying trees, an owl somewhere, knee-deep mist — while the **carnival** is bright and *loud*, calliope music, popcorn, and the gnomes' chant piled on top of one another. You can still **see** into the neighboring zones (and the showroom ceiling overhead), but you **can't hear across a line** and your own voice doesn't carry out. A character launched into the carnival watches his party shout from the graveyard with no sound reaching him — and his [Commanding Shout](../../../classes/paladin-of-the-system.md) dies unheard at the fence (threat *and* sound both stop at the border).
+- **The relay — Clint's one loophole.** [Strider](../../../characters/party/clint.md#patron-strider) hears everything and pipes it straight into Clint's head, so a cut-off Clint still gets his teammates' shouts — *relayed,* filtered through a god who editorializes (*"Vanessa is screaming at you. Understandable."*) and quotes at his leisure (*"She said, and I quote, 'Use the mallet, you idiot.'"*). It's the party's only cross-zone comms, routed through the one member who can't mute it.
+
+This is what makes the launch bite: Clint is stuck whacking gnomes, and the party fights the freed Scarecrow a fence away — without their tank's taunt to bail them out, and without a word passing between them except whatever Strider feels like relaying.
+
 #### Graveyard: Skeleton Arm Grab
 Skeletal arms erupt from the fake grass at random intervals.
 - 5 physical damage + 3s root on contact.
 - Affects any entity walking through the graveyard section (including mobs if repositioned there).
-- The arms retract after grabbing — they're environmental, not mobs. But [Skeleton Arm Crawlers](mobs.md#skeleton-arm-crawler) are also present as actual minion-tier enemies.
+- The arms retract after grabbing — they're environmental, not mobs. But [Skeleton Arm Crawlers](mobs.md#skeleton-arm-crawler) are also present as actual minion-tier enemies — and **every downed [Risen Skeleton](mobs.md#risen-skeleton) can leave one behind** (see Crawling Remains). Stomp the arms as you go or get pinned when the Scarecrow breaks free.
+
+#### Graveyard: Grave Mist
+The fog machine keeps a knee-deep layer of mist across the graveyard.
+- **Low concealment:** anything at ground level — arm grabs, [Arm Crawlers](mobs.md#skeleton-arm-crawler), a downed skeleton's twitching arm — is **hidden in the mist until it strikes.** No pre-spot, no telegraph. This is what turns the arms into a real vigilance tax.
+- **Perception/Veil Sense sees through it:** [Selene](../../../characters/party/selene.md) can pick the low threats out of the mist — the Rogue's job, and why she opened the scene stealthed here.
+- **Veil-friendly:** anyone crouched in the mist gets a small bonus to stealth/Veil re-entry.
+- **Fire burns it off:** a Fireball or Flame Wave clears the mist in its radius for ~10s, exposing everything low — a real reason for Vanessa to torch the graves despite the friendly-fire risk.
+- Standing figures aren't obscured — the Scarecrow's embers still glow through it.
 
 #### Carnival: Cotton Candy Web
 Sticky strands of cotton candy-like substance coat surfaces in the carnival section.
 - Characters who move through webbed areas suffer -50% movement speed.
 - Destroyable by fire (burns away instantly — Vanessa's element).
 - Reforms over 30s if not fully cleared.
+- **Traps gnomes:** a loose [Gnome](mobs.md#whack-a-gnome-game-mechanic--minion) knocked or lured into the webs is stuck in place — the way non-mallet allies pin one for a mallet-bearer. Note the tension: burning the webs for mobility also *frees* any trapped gnomes.
+
+#### Carnival: Carousel (The Motor)
+A spinning carousel of mutated animals, calliope music looping. **It drives the whole gnome problem** — full rules and the four mount-bosses in [Carousel — The Motor](mobs.md#carousel--the-motor).
+- Gnomes spawn *only while the carousel turns.* Its motor is the **one true off-switch** — but the central switch only sticks once all **four mounts are dead** (a living mount cranks it back on).
+- The four mounts are **bound to the platform and can't leave it,** so the carousel is **spatially optional** — a careful party stays off it; yours gets forced onto the whack-a-gnome and has to deal with it. Fighting from the edge feeds one mount at a time; **jumping on to rush the motor spins it double-time → double gnome spawn.**
+- Killing the four ends the gnome flood. [Rebekah](../../../characters/party/rebekah.md), a Temporal Bard, is the one who reads that the gnomes move to the carousel's beat.
+
+#### Carnival: Popcorn (Flavor)
+The popcorn machines along the wall still work — the smell of butter cutting through the fog.
+- Mostly atmosphere. The "real" carnival snack is the [Bag of Kettle Corn](mobs.md#ticket--prize-booth-mechanic) ticket prize; loose popcorn on the floor is just popcorn (a trivial nibble, no buff).
+- **One light touch:** kernels are **loud underfoot** — crunching through a drift is a soft stealth tell, one more thing [Selene](../../../characters/party/selene.md) has to mind when she's picking her footing. Easily ignored or cut; upgrade to a greasy slip-hazard if you want a second movement wrinkle.
 
 #### Asylum: Concentrated Strobe
 The overhead lights in the asylum section are more intense and irregular than the Flicker Hall's.
 - **-5 accuracy** for all entities in the asylum section (persistent, not intermittent).
 - Stacks with the Flicker Hall's strobe if somehow both apply.
-- The gurney rolls toward the loudest sound every ~20s (10 physical damage on collision, knockback).
+- A **loose wheeled gurney** (empty — *not* the Patient's strapped-down treatment table) rolls toward the loudest sound every ~20s: 10 physical damage + knockback on collision. It hunts casters and singers — [Rebekah's](../../../characters/party/rebekah.md) songs and [Vanessa's](../../../characters/party/vanessa.md) casting draw it.
+- **It's a trap on wheels.** On collision, its restraint straps snap out and **buckle the caught character down**, then it careens back toward the treatment tableau to make them the **next Patient.** A restrained victim is dragged to the Orderly, who begins a fresh [Treatment](mobs.md#asylum-orderly) on a *party member* — the same ~20s clock, this time ending in one of their own on the gurney. Rescue is rip-the-straps (STR check) or ally intervention (10+ damage to the gurney / a hard pull) before the clock lands. The [Head Surgeon's](mobs.md#head-surgeon-holds-the-key) Sedative (**Sleep** on a target already below 25% HP) is what makes the grab stick — a downed caster can't thrash free on their own.
 
 ### Encounter: Graveyard Set
 
 **Activated by:** Entering the graveyard section.
 
-The tall hooded figure is a [Reaper Mannequin](mobs.md#reaper-mannequin) (Elite). It begins a slow advance toward the party. 4-6 [Skeleton Arm Crawlers](mobs.md#skeleton-arm-crawler) (Minion) erupt from the ground around the tombstones.
+The [Scarecrow of the Fallow Row](mobs.md#scarecrow-of-the-fallow-row-graveyard-miniboss) (Elite miniboss) is lashed to its cross-stake behind the fence. As the party enters, its eyes flare and **5 [Risen Skeletons](mobs.md#risen-skeleton)** (Minion) claw up from the graves. The Scarecrow itself is **bound** — it cannot move or be reached in melee, and only takes 25% damage from ranged/spells while staked.
 
-**Behavior:**
-- Skeleton Arms root targets in place. The Reaper advances slowly but hits devastatingly with Reap (16 damage cone, 2s telegraph).
-- The combination is dangerous: get rooted in front of the Reaper and eat a full Reap.
-- **Counter:** Don't stand in front of it. Watch the wind-up. Kill the Crawlers to keep mobile.
+**Behavior — Bound phase:**
+- The Scarecrow harasses at range with **Sickle Fling** (12 damage, telegraphed line) while re-raising fallen skeletons (max 3 re-raises, telegraphed by pulsing eyes and a tolling bell).
+- Killing skeletons is the whole job. When none stand and its re-raises are spent, the Scarecrow **rips the stake from the ground and breaks free.**
+- **[Wade](../../../characters/party/wade.md)'s Turn Undead / divine damage does +50% to the skeletons** — his one strong lever while **Broken**. Let the compromised healer clear the graveyard.
+
+**Behavior — Freed phase:**
+- The Scarecrow becomes a fully attackable Elite (150 HP) wielding the stake as a greatsword: **Harvest** (16/11 cone, 2s tell).
+- Its **first** swing on freeing is **Reap and Sow** — an overhead smash that knocks the struck target 20 feet back, over the fence and onto the [Whack-a-Gnome](mobs.md#whack-a-gnome-game-mechanic--minion) in the carnival. This is the intended beat that forces the graveyard and carnival to run simultaneously (see below).
+- **Counter:** don't stand in the cone. Burn it while the rest of the party keeps the launched member alive across the fence.
+
+**Progression beat — Clint dings L4.** He's tanked L10 content as an L3 since Ch 15 (Flicker Hall, the bear at 7 HP, his own echo); the five-plus summoned L10 skeletons here finally tip the backlog over. He hits **L4 mid-clear**, and the timing lands: **Smite: Sanction** comes online with **+30% vs summoned entities**, so his upgraded smite immediately bonus-chews the [Risen Skeletons](mobs.md#risen-skeleton) and the scarecrow's re-raises — the anti-summon smite arriving against an actual summoner. He also unlocks **Shield Bash** (stun + threat). Cruel timing: seconds later Reap and Sow flings him onto the whack-a-gnome, where his whole kit is offline — he carries the new tools to the Asylum instead, and is on track for **L5 by the end of the showroom** (carousel Elites + asylum).
 
 ### Encounter: Carnival Set
 
-**Activated by:** Entering the carnival section (or as the party pushes past the Graveyard).
+**Activated by:** Pressing the game's **Start Game** button, or stepping up to play. The Scarecrow's Reap and Sow launches [Clint](../../../characters/party/clint.md) onto the machine — *landing* on it doesn't trigger it (his Luck holds), but **leaning on the Start button** as he scrambles back from the asylum guards does. (Entering the carnival on foot also activates the set.)
 
-The [Clown Mannequin](mobs.md#clown-mannequin) (Elite) steps out from behind the prize booth counter. It squeezes its horn.
+**The Whack-a-Gnome & the Carousel (one fight, one motor):** these read as two attractions but they're a single machine — the [carousel](#carnival-carousel-the-motor) *is* the whack-a-gnome's motor, and the swarm only ends when the carousel stops. Clint is flung over the fence by Reap and Sow, lands on the game (Luck spares him from triggering it on impact), and then — backing away from the asylum guards he's nearly stumbled into — leans on the **Start Game** button and sets the whole thing running. The carousel lurches to life with its own blaring song, and gnomes erupt from the holes: a first wave onto Clint, then an endless stream. Each loose [Gnome](mobs.md#whack-a-gnome-game-mechanic--minion) **picks a random party member and charges, taunt-proof,** crossing the fence to reach them. Three things land on Clint at once: his [System Identify](mobs.md#what-system-identify-gives-clint) reads the gnomes **INVULNERABLE** (and his machete skidded into off-limits asylum territory anyway), the [Underfoot](mobs.md#underfoot-passive--stacking-slow) slow stacks toward a root, and the [Gnomes Rule!](mobs.md#gnomes-rule-passive--sonic-aura) chant chops any cast. He can see Vanessa screaming across the graveyard line but **can't hear a word** — until [Strider relays it](#zone-lines-section-barriers): *"She said, and I quote, 'Use the mallet, you idiot.'"* The racked **Padded Mallets** are the only thing that touches a gnome anywhere, so he grabs one and plays; gnomes he can't reach get **kicked into the [cotton-candy webs](#carnival-cotton-candy-web)** to hang helpless — the party's stopgap while nobody else has a mallet. He snaps the second (chained) mallet free — promising the [Clown](mobs.md#clown-mannequin) he'll "fix it after," which settles it — and tosses it to **Selene,** the mobile gnome-hunter. Two mallet-bearers is the hard cap.
 
-**Behavior:**
-- Opens with Honk Horn — taunting one party member (forces them to attack the Clown for 3s).
-- If it taunts a healer or caster, the party loses support at a critical moment.
-- Follows up with Mallet Slam (14 damage + 2s stun) on the taunted target.
-- The cotton candy webs slow movement, making it harder to reposition away from the Clown.
+**The source never runs dry until the carousel does.** Whacking gnomes does **not** thin the flow — the motor spawns them forever and keeps spinning no matter how many fall. The *only* off-switch is killing all **four [mount-bosses](mobs.md#carousel--the-motor)** bound to the platform; a living mount cranks the motor back on, so the central switch only sticks when the last one dies. That makes the whole thing one long hold: mallets + webs to contain the swarm while the party burns down first the freed **Scarecrow**, then the **four carousel mounts** — and only on the fourth mount's death do the gnomes finally go quiet. For *this* party there's no urgency at the source — Clint's hacked stamina lets him whack indefinitely (his arms give out long before he's in any danger). The mounts are **spatially optional and bound to the platform:** fight them **from the edge** and the rotation feeds one at a time; **jump aboard** to rush the motor and it spins **double-time → double gnome spawn** (the impatient route just floods Clint harder). The upside of the grind: every mallet-kill drops **1 ticket**, and a full clear stacks toward the **500** Grand Prize — the [Prize Mimic](../../../items/accessories/mimic-pet.md), redeemed honest and tame. A careful party could skip the carousel entirely; yours is forced onto the game and walks out with a companion for the trouble.
 
-**The Obvious Mimic:**
-The prize booth has a treasure chest sitting on the counter. It has teeth-shaped edges. It wiggles. There's a "WINNER!" sign above it.
+**Tickets → Prizes:** tickets redeem at the booth counter for tiered prizes (see [Ticket & Prize Booth](mobs.md#ticket--prize-booth-mechanic)). The one that matters: **Carnival Shades** (10 tickets) cut the Asylum's strobe accuracy penalty by 3 — the reward for engaging instead of rushing past. Redeeming honestly keeps the Clown passive; **stealing** flips it hostile and wakes the mimic.
 
-If anyone interacts with it, it's an [Obvious Mimic](mobs.md#obvious-mimic-prize-chest) — standard fight, nothing surprising. The party spots this one a mile away.
+**The Clown:** the [Clown Mannequin](mobs.md#clown-mannequin) (Elite) is a **passive booth guardian** — it patrols, honors ticket redemptions, and periodically bonks the mimic still. It only turns hostile if someone attacks it, attacks the mimic, or grabs a prize/the chest without paying. Then it opens with **Honk Horn** (taunt, 3s) → **Mallet Slam** (14 + 2s stun). If it taunts a healer or caster, the party loses support at a bad moment. Cotton-candy webs (-50% move, burn with fire) make repositioning away from it hard. **Robbing the booth is a mug's game:** aggro the Clown and it [drops the act as a Champion](mobs.md#drops-the-act-champion-on-aggro), the unsold prizes [animate and fight for it](mobs.md#prize-rally-on-aggro) (and **break when beaten** — nothing that fought can be looted), and the [Store-Wide Alert](mobs.md#store-wide-alert-dungeon-response) sounds: the Manager's voice on the PA, and **every remaining mob in the dungeon converges at once,** zone lines no longer holding them to their sets. You *can* kill the Clown — it just costs the whole dungeon simultaneously, and the shelf is wreckage by the end.
 
-**Selene's line:** "I'd never get fooled by a stupid mimic."
+**The Obvious Mimic:** the gold-chained chest displayed as "GRAND PRIZE — 500 TICKETS." Teeth-shaped edges; wiggles; a wet eye-shine flashes when the Clown looks away. Priced so nobody can buy it — the only way to "claim" it is to **steal** it, which triggers both the [mimic](mobs.md#obvious-mimic-prize-chest) and the Clown. The party spots it a mile away.
 
-(Remember this.)
+**Selene's line + the close call:** "I'd never get fooled by a stupid mimic." To prove it, she **pets the chest like a housecat** — a couple of unhurried strokes along the lid. The Clown tenses hard (grip whitening on its horn, a half-step it doesn't finish) but doesn't attack: petting isn't theft, and it can read exactly where the line is. Nobody triggers anything. It's the loaded gun that never fires — and it's what makes the [Room 5](#the-mimic-couch) couch dive land as the universe finally collecting.
+
+**Compounding-hazard beat:** because the launch happens *before* the graveyard is finished, the party is now split — one member soloing the gnome puzzle while the rest fight the freed Scarecrow one fence over, both sections' hazards live at once. And per [Zone Lines](#zone-lines-section-barriers), **Clint can't Commanding Shout the Scarecrow across the fence** — no taunting it off his friends from the gnome pit. This is the dungeon punishing their "one section at a time" theory — the realized version of "what happens if we step into the next section? Let's not find out."
+
+**The cost — and the beat:** the win pays out as **five Gold Century-Tickets, one per member** ([format](mobs.md#ticket--prize-booth-mechanic)), and each drifts to the item it buys — Clint to the shield, Vanessa to the friendly-fire Monocle, Wade to the Blue Ribbon, and so on. Then Selene, eyeing the 500 mimic, **spends her own ticket on it first** and turns the big-cat eyes on the rest. The **cave order is the characterization:** [Wade](../../../characters/party/wade.md) folds first — the Broken one giving up the healing item he wants most, because he needs the *joy* more — then Rebekah, with Vanessa and Clint (whose items are most *needed*) holding out longest before they crumble. **The button:** as the group-gift moment crests, the newly-tamed mimic **eats Wade's surrendered Blue Ribbon** off the counter — warmth then gag, back to back. *(The ribbon is **stored,** not lost — [it resurfaces at the boss](boss.md#phase-3-manager-exposed).)* A terrible trade, and Clint walks out still swinging the plastic machete by choice — which is exactly why it lands. (Full scene: [The 100-Ticket Set](mobs.md#the-100-ticket-set--the-temptation); the middle option is two Epic [250-rack](mobs.md#the-250-ticket-rack--two-or-none) picks.)
 
 ### Encounter: Asylum Set
 
-**Activated by:** Entering the asylum section.
+**Activated by:** Entering the asylum section. The climax of the showroom and the **gate out of it** — the locked door leads into the back half of the dungeon ([Room 4](#room-4-back-storage-maze) onward), not straight to the boss.
 
-The [Straitjacket Mannequin](mobs.md#straitjacket-mannequin) (Elite) is thrashing against its bindings. It's not hostile yet — it activates when a character enters the asylum section or when it takes damage.
+This is one machine with four moving parts, all live at once:
 
-**Behavior:**
-- Initially restrained — can only use basic melee (11 damage) while in the jacket.
-- At 50% HP (75), it triggers **Berserk** — tears free, breaks all CC, gains +3 damage and a second attack.
-- Berserk cannot be controlled, stunned, or charmed. You can only burn it down fast.
-- The -5 accuracy from the asylum strobes makes this harder.
+**1. The Treatment (soft timer).** Two mannequin doctors work the strapped-down Patient: an [Asylum Orderly](mobs.md#asylum-orderly) channeling shock paddles and a [Head Surgeon](mobs.md#head-surgeon-holds-the-key) with a bone saw and syringe. The wired [Shock Cart](mobs.md#shock-cart-destructible-object--hazard) discharges **every 5s**, and each discharge **flares the strobes to a 1s blackout** (-8 acc that second) *and* advances the Treatment. **4 pulses ≈ a 20-second clock**, and the [Lobotomized Patient](mobs.md#lobotomized-patient-conditional-add) rises as a bonus Elite. Kill the Orderly or smash the cart (30 HP) to stop it. This add is entirely preventable — it's the punishment for tunnel-vision.
 
-**Story beat:** The party has been learning CC all dungeon. Now they face something CC doesn't work on. Adaptation.
+**2. The Straitjacket (anti-CC).** The [Straitjacket Mannequin](mobs.md#straitjacket-mannequin) (Elite) *looks* like a free park — it's already wrapped up — so the instinct is to leave a caster babysitting it on soft CC and focus elsewhere. That's the trap. **Can't Be Held** means slows and lures barely stick (half duration, 50%/s to break early); it rips loose and **charges whoever tried to control it,** forcing the tank to peel off his own target to body-block. Below 50% HP it **Berserks** — full CC-immunity, +3 damage, a second attack. There was never a way to lock it; the only answer is to burn it, and to have the tank ready the instant it slips. Its discharge tag reads **"TREATMENT: COMPLETE"** — it's a former Patient, a preview of what the strapped one becomes.
+
+**3. The strobes (accuracy denial).** Persistent **-5 accuracy** across the asylum, spiking to blackout on every Treatment Pulse. The **Carnival Shades** from the whack-a-gnome (-3 to this penalty) are the reward for having engaged the carnival properly. Stacked with **Wade's Broken -25% healing**, this is where sloppy play finally can't be papered over.
+
+**4. The gate.** The locked "AUTHORIZED PERSONNEL ONLY" door sits at the **back-center**, with two [Asylum Guards](mobs.md#asylum-guard-door-sentinel-2) flanking it — squarely **between** the treatment tableau on one side and the straitjacket cell on the other. They don't roam. They ignore the party until someone **steps into that middle hall** (or reaches for the door), then defend it to the death and **Interpose** anyone who grabs at it. The geometry is the trap: the fastest path from the Surgeon to the straitjacket cuts straight through the Guards' post, so the tank's peel — sprinting across to save the caster — is what wakes them. To leave, the party needs both Guards down **and** the badge the Head Surgeon drops on death. The door opens into [Room 4](#room-4-back-storage-maze) ("EMPLOYEES ONLY").
+
+**Hazard — the roving gurney.** Every ~20s the empty gurney rolls at the loudest thing in the room (10 damage + knockback), homing on [Rebekah's](../../../characters/party/rebekah.md) songs and [Vanessa's](../../../characters/party/vanessa.md) casting. On a hit its straps snap shut and **haul the victim onto it,** wheeling them back to the doctors to start a fresh Treatment on a party member — rescue-or-else (see [Concentrated Strobe](#asylum-concentrated-strobe)). The backline can't just out-cast the room; being *loud* is what gets you strapped down.
+
+**The plan — and how it comes apart.** [Clint's](../../../characters/party/clint.md) [Identify](../../../characters/party/clint.md) reads the Patient on the gurney: *Treatment completing — hostile Elite in ~20s.* So the party plans around the clock. **Selene** is sent to burst the channeling [Orderly](mobs.md#asylum-orderly) — kill the clock, deny the elite. **Rebekah and Vanessa** are to park the [Straitjacket](mobs.md#straitjacket-mannequin) with soft CC (Dissonant Chord slow + a Minor Illusion lure). **Clint** takes the [Head Surgeon](mobs.md#head-surgeon-holds-the-key) for the badge.
+
+It goes sideways in order: the Straitjacket **shrugs the soft CC almost instantly** ([Can't Be Held](mobs.md#straitjacket-mannequin)) and charges the caster who touched it — so Clint has to **abandon the Surgeon mid-fight and sprint across to body-block it,** which cuts through the middle hall and **wakes the door Guards** he was trying to save for later. Meanwhile the **roving gurney** homes on the casters, snatches one, and drags them toward the doctors to become the next Patient — a second rescue clock on top of the first. And **Vanessa can't clean any of it up the easy way:** without the [Sharpshooter's Monocle](mobs.md#the-100-ticket-set--the-temptation) — the ally-excluding prize she traded away for Selene's mimic — a Fireball into that scrum torches her own team, so she's stuck plinking single targets with Arcane Bolt. [Strider](../../../characters/party/clint.md#patron-strider) needles Clint about the upgrade she traded away — a voice only Clint hears — and Clint has to relay it mid-block, catching a glare for the messenger's trouble. Somewhere in the chaos the party clocks it: *oh — that's what those prizes were for.* Not a mechanic they get to fix; just the cost of the puppy, landing quietly mid-fight.
+
+**Story beat:** the darkest stripe (shock therapy, bone saw, the implied lobotomy) sets the tone for the corporate-horror boss still to come — the "treatment / make you compliant" motif rhymes with the Store Manager's *"Let's discuss your performance."* The party clears the gate and pushes into the back half already worn thin, sustain compromised — the reason the whole run-up to the boss stays hard.
 
 ### Lesson
 
-Positioning matters. Environment awareness matters. Three different Elite archetypes teach three different lessons:
-- **Reaper:** Don't stand in front of the big hit (telegraphed avoidance).
-- **Clown:** CC can target *you* — protect your backline (forced engagement).
-- **Straitjacket:** Some things can't be controlled — recognize when to just burn (anti-CC).
+Positioning, environment awareness, and resource management under pressure. Each stripe teaches something distinct:
+- **Graveyard (Scarecrow):** clear the adds to reach the real threat; don't stand in the big cone; a divine-damage healer has offense even when he can't heal.
+- **Carnival (Whack-a-Gnome / Clown):** the world has *rules* — the right tool matters, greed is punished, and forced overlap breaks a tidy plan. CC can target *you*.
+- **Asylum (tableau):** triage under a soft timer with accuracy denial, some threats can't be controlled (just burn), and progress is gated behind fully engaging the fight — no skipping to the boss. The reward from an earlier section (Carnival Shades) pays off here.
+
+The showroom is also the first sustained test of the party **with a compromised healer** — Wade is still Broken out of the Mirror Room, and the strobes + compounding hazards mean his -25% output finally bites. They should reach the boss threshold worn down.
 
 ---
 
@@ -544,6 +591,8 @@ The rest of the party rushes to help — but [Rebekah](../../../characters/party
 Selene's not in real danger. Her 999 HP pool means the mimic's chip damage (3 per 2s) is doing effectively nothing. Rebekah wants to savor this. She may actually sit on the floor and watch.
 
 Callback: *"I'd never get fooled by a stupid mimic."*
+
+**Pet payoff:** if Selene bought the carnival's [Prize Mimic](../../../items/accessories/mimic-pet.md), she's had a tame one riding along all dungeon — which is *exactly* why her guard is down here. She dives on the couch because she "has one at home." The couch should visually echo the pet: the mimic she owns is the reason the mimic she doesn't check finally gets her.
 
 Eventually someone (probably [Wade](../../../characters/party/wade.md), too nice to leave her) pulls Selene free. The couch snaps at them and becomes a normal (easy) fight.
 
