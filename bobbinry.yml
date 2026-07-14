@@ -115,7 +115,7 @@ entities:
   - file: items/accessories/mimic-pet.md
     collection: items
     id: c513261a-a0ea-4e63-bf89-a1722010d9d8
-    name: Prize Mimic  # canon renamed him Qubit (fb9f44b) — entity rename pending
+    name: Qubit  # the Prize Mimic — renamed per fb9f44b, entity synced 2026-07-14
 
   # Items — accessories (one file, five shard entities)
   - file: items/accessories/mirror-shards.md
