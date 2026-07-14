@@ -106,6 +106,34 @@ Damage: <amount> <type>  (Mitigation: <amount/percent>)
 Effects: <Applied effects or None>
 ```
 
+### 5) System Identify — Entity
+
+Use when a character with a **standard System interface** identifies a creature/object (as opposed to a status effect, which uses format #3). Reveals nameplate stats plus the **Assessment** line — a short, dry, System-generated read on the target. The Assessment is where the System's snark lives; keep it one to three lines and in-character for the System's flat, faintly condescending voice.
+
+```text
+┌──────────────────────────────────────────────┐
+│ SYSTEM IDENTIFY                              │
+├──────────────────────────────────────────────┤
+│ Entity:  <Name>                              │
+│ Level:   <N>       Role: <Minion/…/Boss>     │
+│ Type:    <Construct/Undead/Beast/…>          │
+│ HP:      <cur/max> AR:   <n / — >            │
+│ Threat:  <Trivial/Moderate/Deadly/…>         │
+├──────────────────────────────────────────────┤
+│ Notable:                                     │
+│ - <key mechanic / immunity / weakness>       │
+│ - <reward note, if unusual>                  │
+├──────────────────────────────────────────────┤
+│ Assessment:                                  │
+│ <1–3 dry, snarky System lines>               │
+└──────────────────────────────────────────────┘
+```
+
+- **Threat** is the [danger-factor](xp.md#xp-award-formula) read, *not* the nameplate Level — a L10 gnome reads **Trivial** to a 999-HP party. This is the field that tells the player "the level number is lying to you."
+- **The System may withhold.** Identify reports what the System chooses to surface, not the ground truth — it can read **invulnerable** on a target with a hidden weakness (e.g. the [Whack-a-Gnome](../lore/dungeons/spirit-dungeon/mobs.md#what-system-identify-gives-clint) gnomes, immune to everything *except* an implement the scan never names). Use this to gate discoveries: the box tells the party what to fear, not always how to win.
+- **Clint is interface-free.** His [Innate System](../characters/party/clint.md) delivers Identify as **direct knowledge, not a rendered popup** — reserve the bordered box above for standard-UI POVs. For Clint (or any natural-knowledge read), set the system info apart with a **plain, borderless fenced code block** — the facts he just *knows*, distinguished from narration without implying a UI he doesn't see. Example: the [Whack-a-Gnome scan](../lore/dungeons/spirit-dungeon/mobs.md#what-system-identify-gives-clint). The information is the same; only the chrome differs.
+- **Strider aside (optional):** [Strider doesn't see popups](../characters/party/clint.md#patron-strider) — he reads the same underlying data directly and **just knows.** A patron quip may follow as an italic line only Clint hears, distinct from the System's own Assessment. Use sparingly.
+
 ## Worked Example
 
 Example of a debuff identify popup (matches the style requested for [Clint's](../characters/party/clint.md) system identify):

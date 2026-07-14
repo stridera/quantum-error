@@ -208,6 +208,8 @@ The Manager loses his immunity. His expression changes — the corporate veneer 
 - Vanessa and Selene burn the Manager down. 900 HP with full party DPS goes quickly.
 - The fight is a victory lap if the Puppets went smoothly. If the party is battered from Phases 1-2, it's a survival check.
 
+**The clutch — Blue Ribbon returns** *(planted in the [carnival](rooms.md#encounter-carnival-set)):* Crunch Mode is where [Wade](../../../characters/party/wade.md) cracks — still **Broken** (−25% healing) with the Manager's **Performance Review** stacking *another* −25% on him, his output craters exactly when the party can least afford it. This is the beat the [Prize Mimic](../../../items/accessories/mimic-pet.md) pays off: [Selene's](../../../characters/party/selene.md) pet hacks up the **[First-Place Blue Ribbon](rooms.md#encounter-carnival-set)** (+15% healing) it swallowed as a gag back in the carnival — the item Wade *surrendered* for the puppy — handing him the exact margin to hold the line. Joy-over-optimization, repaid: the thing they gave up power for gives the power back when it counts. *(Author note: keep it the difference-maker, not a full fix — Wade still nets −10% even with the ribbon on. It's the winning margin, not a reset. And the mimic should surface it inconveniently — sulking, or spitting it at the wrong person first — never heroically.)*
+
 ---
 
 ## Defeat

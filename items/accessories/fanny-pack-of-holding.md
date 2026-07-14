@@ -14,6 +14,13 @@ last_reviewed: 2026-02-05
 
 A legendary bag of holding that appears as an unassuming fanny pack.
 
+## Ownership & Status
+
+Soulbound to Clint since its creation (Ch 8); the only item to persist through his death at
+the Transition (Ch 14) · status: intact. Current notable contents: the damaged
+[Robe of the Silent Scream](../armor/robe-of-the-silent-scream.md) pending repair, plus the
+costume-rack outfits (Ch 19).
+
 ## Origin
 
 Originally an ordinary fanny pack. Through [Clint's](../../characters/party/clint.md) [Enchanting](../../professions/enchanting.md) skill pre-transition, he created magical pathways in the item and then upgraded its stats via the system console, transforming it into a legendary artifact with extradimensional storage capacity.

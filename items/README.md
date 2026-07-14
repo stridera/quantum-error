@@ -10,6 +10,7 @@ Equipment and notable items in Quantum Error.
 ## Framework
 
 - [Equipment Framework](equipment-framework.md) -- Budget system, quality tiers, and progression targets
+- [Inventory Ledger](../story/inventory-ledger.md) -- Who has what, where they got it, and where it went (temporal source of truth)
 
 ## Shared Party Items
 

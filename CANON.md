@@ -60,6 +60,7 @@ This file is the canonical index for Quantum Error.
 - `items/weapons/katsuragi.md`
 - `items/armor/aegis-of-decoherent-deflection.md`
 - `items/accessories/fanny-pack-of-holding.md`
+- `items/accessories/mimic-pet.md`
 
 ### Professions
 - `professions/enchanting.md`
@@ -94,6 +95,7 @@ This file is the canonical index for Quantum Error.
 - `system/ui.md`
 - `system/classes-and-professions.md`
 - `system/xp.md`
+- `system/proficiencies.md`
 - `system/economy.md`
 - `system/governance.md`
 - `system/quests.md`
@@ -106,6 +108,8 @@ This file is the canonical index for Quantum Error.
 
 ### Story
 - `story/chapter-summaries.md`
+- `story/inventory-ledger.md`
+- `story/pitch.md`
 
 ### Bestiary
 - `bestiary/ancient-red-dragon.md`

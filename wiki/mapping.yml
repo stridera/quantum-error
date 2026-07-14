@@ -90,6 +90,9 @@ pages:
   - file: system/mob-framework.md
     title: Quantum Error/Mob Framework
     categories: [Quantum Error, System, Combat]
+  - file: system/proficiencies.md
+    title: Quantum Error/Proficiencies
+    categories: [Quantum Error, System, Stats]
 
   # Magic
   - file: magic/overview.md
@@ -126,6 +129,9 @@ pages:
     categories: [Quantum Error, Items]
   - file: items/accessories/fanny-pack-of-holding.md
     title: Fanny Pack of Holding
+    categories: [Quantum Error, Items]
+  - file: items/accessories/mimic-pet.md
+    title: Prize Mimic (Selene's Pet)
     categories: [Quantum Error, Items]
 
   # Dungeons

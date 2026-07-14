@@ -179,6 +179,8 @@ The main party members had their stats boosted via the system console before the
 
 > **System Note:** These characters' starting pools were set by directly modifying source code. The system tracks them as valid but cannot explain or replicate them. They are the stat equivalent of [Unique items](../items/equipment-framework.md).
 
+**What they did *not* hack: [proficiencies](proficiencies.md).** The console boost bought them attributes, HP, mana, and even a profession rank ([Clint's](../characters/party/clint.md) Grandmaster Enchanting) — but combat and magic *technique* was never touched, a rushed oversight of the same kind that left Clint's own Luck at 4. The result is the party's defining asymmetry: **god-tier stats, Novice proficiencies** — power without control, until they earn the technique the hard way. See [The Gap](proficiencies.md#the-gap-hacked-stats-novice-hands).
+
 ### Party Class Mapping
 
 | Character | Class | HP Group | Mana Group | CON | CON Bonus |

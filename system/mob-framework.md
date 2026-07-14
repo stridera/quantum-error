@@ -340,4 +340,4 @@ weak_stat(level)      = 4 + level / 25     # cap 8
 - **Aggro radius:** How does mob detection range scale with level and Perception stat?
 - **Respawn timers:** How quickly should mobs respawn? Should Bosses have longer lockouts?
 - **Level scaling:** Should any mobs scale to the player's level, or is all content fixed-level?
-- **XP-to-level curve:** The XP rewards are defined here, but the XP required per level needs its own document.
+- ~~**XP-to-level curve:** The XP rewards are defined here, but the XP required per level needs its own document.~~ **Resolved** — see [xp.md § Leveling Curve](xp.md#leveling-curve-k1k3) (`xp_to_next(L) = 50·L·(L+1)`, ~20 levels/book) and the [XP Award Formula](xp.md#xp-award-formula).

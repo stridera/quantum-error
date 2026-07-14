@@ -39,10 +39,18 @@ The shards do not rise in quality tier. They remain Rare forever — the growth 
 - **Per milestone:** +1 Perception, +1% stealth crit
 - *"It showed you who you were. Now it shows what's coming."*
 
-### Shard of Devotion — [Wade](../../characters/party/wade.md)
+### Shard of Devotion — ~~[Wade](../../characters/party/wade.md)~~ **not earned**
 - **Base:** +10% healing effectiveness on targets below 25% HP
 - **Per milestone:** +2% low-HP healing effectiveness
 - *"Your hands are steadier now."*
+- **Status (Ch 18):** Wade failed his echo fight — the mirror stayed broken and the shard at
+  its base **cracked**, unearned. Stats above are from the pre-fight inspection; per the
+  failure rule this shard was never obtained.
+- **Re-attempt (resolved — recoverable):** He *can* still earn it, but **not in this dungeon.**
+  A given Spirit Dungeon allows only one attempt at an echo, and Spirit Dungeons appear only
+  at random. The Shard of Devotion is recoverable when the party later stumbles across
+  *another* Spirit Dungeon. **Planned beat:** by then Wade is vastly over-leveled — he asks the
+  party for a few minutes, tears the new dungeon apart, and finally walks out with his shard.
 
 ### Shard of Duty — [Clint](../../characters/party/clint.md)
 - **Base:** +1 AR, +10% threat generation on taunt abilities
@@ -65,10 +73,11 @@ The shards do not rise in quality tier. They remain Rare forever — the growth 
 - **Persistence through death:** The shards behave like the [Fanny Pack of Holding](fanny-pack-of-holding.md) — they do not drop on death and return with the bearer on respawn.
 - **Loss on repudiation:** If the bearer actively denies the identity truth their echo fight surfaced (GM call, not mechanical), the shard dims and the milestone bonuses pause until they face the lesson again. The base effect remains.
 - **Inspection:** Holding a shard up and focusing shows the bearer a brief replay of the moment they landed the killing blow on their echo. This is a quiet mechanic, not an on-demand ability.
+- **One attempt per dungeon:** A failed echo cannot be re-fought within the same Spirit Dungeon — the mirror stays broken. Spirit Dungeons recur at random, and a later one offers a fresh echo and a fresh shot at the shard. See Wade's [Shard of Devotion](#shard-of-devotion--wade-not-earned).
 
 ## Notes
 
-- Wade's shard is only earned if he completes his echo fight. See the [echo encounter](../../lore/dungeons/spirit-dungeon/mobs.md) for failure behavior.
+- Wade's shard is only earned if he completes his echo fight. See the [echo encounter](../../lore/dungeons/spirit-dungeon/mobs.md) for failure behavior. He gets another chance at a future, randomly-appearing Spirit Dungeon (see the Shard of Devotion re-attempt note).
 - Each shard is a narrative anchor — they should be referenced periodically in later chapters as a reminder of what the Spirit Dungeon cost.
 - Milestone bumps are small on purpose. These are not BiS items; they are keepsakes that happen to have stats.
 - After the echo fights, victors can return to their mirror for a private, narrative-only moment where the glass shows a glimpse of their future self. No mechanical effect — see [Story Beat: Looking Again](../../lore/dungeons/spirit-dungeon/rooms.md#story-beat-looking-again).

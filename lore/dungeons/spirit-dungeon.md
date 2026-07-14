@@ -56,7 +56,7 @@ The party's first Spirit Dungeon is a post-Transition Spirit Halloween store in 
 | [Vestibule](spirit-dungeon/rooms.md#vestibule-safe-zone) | Safe zone | None | Respawn point, safe rest |
 | [1: Flicker Hall](spirit-dungeon/rooms.md#room-1-the-flicker-hall) | Strobe corridor | Jason/Freddy, Pinhead/Scream, Bear Trap, Sexy Pack | Basic combat → CC → multi-threat |
 | [2: Changing Rooms](spirit-dungeon/rooms.md#room-2-changing-rooms-optional) | Mirrors | Echo Doubles | Identity, Selene's reflection |
-| [3: Showroom](spirit-dungeon/rooms.md#room-3-seasonal-showroom) | Horror displays | Reaper, Clown, Straitjacket + Obvious Mimic | Positioning, environment, three Elite types |
+| [3: Showroom](spirit-dungeon/rooms.md#room-3-seasonal-showroom) | Graveyard / Carnival / Asylum | Scarecrow + Skeletons, Whack-a-Gnome + Clown + Mimic, Shock-Therapy doctors + Straitjacket + Guards | Positioning, world-rules & greed, triage at the gate |
 | [4: Storage Maze](spirit-dungeon/rooms.md#room-4-back-storage-maze) | Industrial horror | Animatronics, Spider, Hands, Hidden Mimics | Scouting, claustrophobia, don't loot blindly |
 | [4a: Supply Closet](spirit-dungeon/rooms.md#room-4a-supply-closet-optional--hidden) | Hidden room | None | Rogue reward, Dan foreshadow |
 | [5: Employee Hallway](spirit-dungeon/rooms.md#room-5-employee-hallway) | Corporate dread | Mimic Couch | Comedy relief, Selene payoff |

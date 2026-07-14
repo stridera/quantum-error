@@ -17,6 +17,14 @@ A shield crafted from translucent hexagonal Magisteel scales with binary runes t
 
 > **Capstone Artifact:** Console-crafted before the Transition, lost to the Ancient Red Dragon during the Transition itself, and reclaimed only at the series finale when Clint has earned the level to wield it honestly. See the [Equipment Framework](../equipment-framework.md) for the Unique tier definition.
 
+## Ownership & Status
+
+Crafted by Clint (Ch 8, from a replica Hylian Shield) → **lost at the Transition (Ch 13–14)**
+alongside the katana — placed unheld on the lab table, never soulbound, gone on respawn ·
+status: lost (reclaim scheduled at the series finale). Notable uses before loss: Superposition
+Guard (Ch 9), Quantum Tunnel (Ch 10, Ch 11), Quantum Tunnel vs Eron under Vanessa's illusion
+cover (Ch 13).
+
 ## Origin
 
 Originally a replica Hylian Shield purchased by [Clint](../../characters/party/clint.md) from a store pre-transition. Through Clint's [Enchanting](../../professions/enchanting.md) skill, he created magical pathways in the item and then upgraded its stats via the system console, transforming it into a legendary artifact. The physical appearance changed dramatically during the upgrade process.

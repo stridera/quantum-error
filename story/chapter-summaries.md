@@ -25,7 +25,9 @@ Summaries of Chapters 1-16 from the Campfire prose, with canon notes.
 
 **Canon Notes**:
 - Dan's title is "VP of Engineering" not "VP of Technology"
-- Typo in prose: "Dystub" should be "Dustin"
+- Typo in prose: "Dystub" should be "Dustin" — **fixed** in the 2026-06-19 revision
+- **Continuity error (2026-06-19 revision)**: the departing exec is named "Dan" when he leaves but "Tom" twice in Wade's following lines ("Tom's departure", "talk to the board about Tom"). Locked name is Dan; "Tom" is a stale rename artifact to correct
+- POV: two third-person dialogue tags ("continued Clint", "asked Clint") slip out of the first-person narration
 
 ---
 
@@ -254,12 +256,14 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 
 ## Chapter 16: The Dungeon Continues
 
-**Summary**: The party prepares to fight the respawned mannequins. Wade casts Bless (improves accuracy, resolve, mental resistances). Rebekah plays her haste song (Temporal Boost). Clint's System Identify shows the spell effects in detail. They work together as a team, learning combat coordination. Selene is scared of the horror dungeon despite loving horror films—Rebekah comforts her, revealing a close relationship between them.
+**Summary**: The party fights the respawned mannequins. Wade casts Bless; Rebekah plays Temporal Boost; Clint's System Identify shows the spell effects in detail. Clint tanks a Scream-mask dagger mannequin and a Pinhead-mask spellcaster whose **Fascination** pins his attention until Wade shoves it off him. Clint burns both down with a mana-fueled Smite: Judgement, reaches **Level 3**, and unlocks **System Aura**. Looting yields two named robes: Vanessa hands Clint the **Robe of the Silent Scream** (a better eventual fit for Selene, but it stops him "flashing everyone") and wears the caster-oriented **Black Robe of Silent Judgement** herself. Pushing deeper, Selene spots a giant bear trap in the hall ahead. Throughout, Selene's fear of the dungeon and Rebekah's comfort reveal a close relationship between them.
 
 **Key Events**:
-- Team combat coordination
-- Selene/Rebekah relationship hinted
-- Detailed ability descriptions via System Identify
+- Team combat coordination; Clint hits Level 3, unlocks System Aura
+- Fascination (Pinhead Mask) charms Clint; Wade shoves it off
+- Robe of the Silent Scream → Clint; Black Robe of Silent Judgement → Vanessa
+- Selene/Rebekah relationship deepened
+- Bear trap spotted in the hall (leads into Ch 17)
 
 **Abilities Detailed**:
 - **Bless** (Wade): +2 Accuracy, +2 Willpower, -25% Fear/Charm Pressure, 60s duration
@@ -375,7 +379,7 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 
 ## Chapter 18: Self Reflection
 
-**Word count**: 3,544
+**Word count**: 3,568
 
 **Summary**: The party reaches the [Mirror Room](../lore/dungeons/spirit-dungeon/rooms.md) — a hexagonal chamber of floor-to-ceiling mirrors. As [Selene](../characters/party/selene.md) sees herself for the first time since the Transition, a translucent barrier traps her inside and her reflection cracks the mirror, stepping out as an [Echo Double](../lore/dungeons/spirit-dungeon/mobs.md#echo-double) — her old "Dustin" form, sneering. The Echo's Identity Crisis taunts deal raw HP damage and apply stacking Shaken; Selene wins by reclaiming her name. One by one, each party member chooses to face their mirror. [Clint](../characters/party/clint.md) confronts the architect's-guilt echo ("you didn't choose for them") and earns the Shard of Duty by accepting the protector role. [Vanessa](../characters/party/vanessa.md) faces a flickering, half-out-of-sync echo that needles her panic, body, and intellect; she earns the Shard of Control by accepting that not-loving-her-body and not-hating-it can coexist. [Rebekah](../characters/party/rebekah.md) faces a silent guitar-echo that suppresses her songs one at a time; she wins by **stacking songs faster than the echo can silence them**, using Harmonic Memory and a steady drip of Dust Note for damage. **[Wade](../characters/party/wade.md) loses.** His echo unblocks a memory he was never supposed to have — his twin daughters' funeral, two small coffins, flowers he picked out — and the echo never lands a killing blow because Wade is already broken. He survives at 1 HP with the new [Broken](../system/effects.md) status, locked until dungeon exit. Strider's voice breaks character mid-fight: *"He shouldn't remember that."* Post-combat, the mirrors briefly show the party in the gear they're meant to grow into.
 
@@ -421,5 +425,72 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 
 **Canon Notes**:
 - All canon for this chapter (Echo Double stat block, Mirror Shards, Broken status, Dust Note, Identity Crisis taunt mechanic) was added in commit `e337471` ahead of the chapter being synced
-- Bobbinry API quirk: `wordCount` field reported 992 for this 3,569-word chapter — sync now computes from body, not the field
-- Bobbinry API quirk: `updatedAt` did not bump when the body was edited — sync now uses content-length comparison, not timestamps
+- Bobbinry API quirk: `wordCount` field reported 992 for this 3,569-word chapter in earlier syncs — server-side count is now authoritative and agrees with local HTML-stripped recount (3,569)
+- Bobbinry API quirk: `updatedAt` occasionally bumps without body changes (observed 2026-04-17T05:17 touch with identical body_length); sync logs but does not re-analyze
+
+---
+
+## Chapter 19: A pause
+
+**Word count**: 948
+
+**Summary**: A grief-and-recovery interlude after the Mirror Room. [Wade](../characters/party/wade.md) finally names the truth he carries: his twin daughters had **Sanfilippo syndrome**, which erased their memories and bodies by age eight. The System healing that briefly restored them is now tangled with nightmare-memories — burying the girls, [Amanda](../characters/supporting/amanda.md) leaving him — that he can't tell apart from reality. [Clint](../characters/party/clint.md) promises twice that they'll get the twins back; Wade accepts they need levels, gear, and a plan first, even as he fears the girls need him now. The party decompresses: [Rebekah](../characters/party/rebekah.md) strums a song out of strings of light, everyone sings, and they spend a sleepless but boosted-stat night trying on costumes. Clint ends in a pirate outfit and stashes the rest in his fanny pack; [Selene](../characters/party/selene.md) lingers in the mirror room. By interface-morning they move on.
+
+**Characters**: Clint (POV), Wade, Vanessa, Rebekah, Selene
+
+**Key Plot Events**:
+- Wade speaks his daughters' illness aloud for the first time — the [simulation memory leak](../canon/glossary.md) reveal from Ch 18 paying off as character disclosure
+- The party agrees to play by the new world's rules (levels, gear) before chasing Wade's family
+- Wade still carries the **Broken** status out of the Mirror Room into this breather
+
+**Canon Notes**:
+- Sanfilippo syndrome (MPS III-A) is named in prose for the first time; matches Wade/twins backstory canon
+- Inline author draft marker left in the body ("// Need to decide, does this chapter fit?…") — strip before publish
+- Costume-rack / pirate-outfit beat overlaps with the Ch 18 summary note; confirm it is staged once (likely belongs here)
+- Status: stub flag is purely the <1000-word threshold; reads as a complete quiet interlude
+
+---
+
+## Chapter 20: The Showroom
+
+**Word count**: 2384
+
+**Summary**: The party surveys the Showroom's three striped sets — Graveyard, Carnival, Asylum — and theorizes it's a section-by-section gauntlet. [Clint](../characters/party/clint.md) steps into the graveyard and the zone illusion snaps on (night sky, grave-soil, an owl). The **Scarecrow of the Fallow Row** animates **Risen Skeletons** that root him while it flings its sickle from the stake; [Wade](../characters/party/wade.md)'s Turn Undead shreds the field and Clint dings **Level 4** mid-clear (Shield Mastery + Shield Bash revealed — no shield to use them). The freed Scarecrow's first swing launches Clint over the fence onto the **Whack-a-Gnome**; his machete skids into asylum territory, and scrambling back he leans on the Start button. The carousel spins up and endless invulnerable gnomes flood the party (Underfoot stacks, "Gnomes Rule!" interrupts). With the fence sealing sound, [Strider](../characters/party/clint.md#patron-strider) relays [Vanessa](../characters/party/vanessa.md)'s *"Use the mallet, you idiot!"* — Clint plays the game, kicks strays into the cotton-candy webs, snaps the second mallet free for [Selene](../characters/party/selene.md), and the split party burns down the freed Scarecrow without their tank.
+
+**Characters**: Clint (POV), Wade, Vanessa, Rebekah, Selene, Strider (voice)
+
+**Key Plot Events**:
+- **Clint reaches Level 4** — Smite: Sanction (used next chapter) and Shield Bash/Mastery unlocked, shieldless
+- The Plastic Bloody Machete is abandoned in asylum territory
+- Zone-line rules realized in prose: sight crosses, sound doesn't; taunts die at the fence; Strider is the only comms
+
+**Canon Notes**:
+- Scarecrow / Risen Skeleton / Gnome stat blocks and statuses match `mobs.md` exactly; re-raise count within cap
+- ⚠ "Challenging Shout" used for the canonical **Commanding Shout** (also in Ch 21)
+- ⚠ Prize-booth sword priced 200 tickets; canon Carousel Saber is 250 (`mobs.md`)
+- Freed Scarecrow lands a "sickle" hit on Wade; canon freed-phase weapon is the stake-greatsword (Harvest)
+
+---
+
+## Chapter 21: Carnival Mimicry
+
+**Word count**: 2238
+
+**Summary**: [Rebekah](../characters/party/rebekah.md) hears that the gnomes spawn to the carousel's beat; [Selene](../characters/party/selene.md)'s two stealth runs at the off-switch fail, proving all four mounts must die. Clint tanks with a kitchen knife after the padded mallet refuses non-gnome targets, debuting his Level-4 **Smite: Sanction**; Vanessa's fireball — called onto Clint himself — burns him out of the cotton-candy webs along with his pirate outfit. The carousel falls, the game pays out **five gold 100-tickets**, and the loot pass yields the **Stitched Burlap Cowl** (to Clint) and the **Ember Eye** ring. At the prize booth Selene identifies the gold-chained Grand Prize chest as a mimic, pets it under the Clown's straining glare, and campaigns the party out of their tickets one by one — [Wade](../characters/party/wade.md) folds first ("I think we could use some joy"), Vanessa last. The bought mimic eats the **First-Place Blue Ribbon** off the counter; Selene walks away with a pet, and Clint reattaches the mallet and turns to study the asylum side.
+
+**Characters**: Clint (POV), Wade, Vanessa, Rebekah, Selene, Strider (voice), the Clown, the Prize Mimic
+
+**Key Plot Events**:
+- **Smite: Sanction** first shown in use — block matches `classes/paladin-of-the-system.md` verbatim
+- Carousel cleared; five Gold Century-Tickets distributed, then all five surrendered for the **Prize Mimic** — Selene's soulbound pet acquired on-page (`items/accessories/mimic-pet.md`)
+- Mimic eats the Blue Ribbon post-sale — boss-fight healing payoff planted
+- New items: **Stitched Burlap Cowl** (+4 AR, −1 CHA, Clint) and **Ember Eye** (+1 WIS ring, holder TBD)
+- Vanessa passes on the Sharpshooter's Monocle, wondering if she can learn ally-exclusion herself
+
+**Canon Notes**:
+- Mimic identify block matches `mobs.md` verbatim (including the "decorat—" glitch); petting/Clown-threshold and surrender-order beats match the temptation script
+- ⚠ Selene never spends her own gold ticket first — canon's load-bearing sacrifice beat is missing
+- ⚠ "challenging shout" again — canonical **Commanding Shout**
+- ⚠ Payout drift: the game dispenses the gold tickets; canon has the Clown count them out at the booth; loose gnome-ticket change unaccounted
+- ⚠ 250-rack drift: prose shield + mace vs canon High-Striker Bulwark + Carousel Saber
+- Machete still unrecovered; the "walks out swinging it by choice" exit beat needs staging
