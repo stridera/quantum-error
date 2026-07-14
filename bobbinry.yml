@@ -145,6 +145,39 @@ entities:
     id: f2e648ad-de01-4e87-a2df-60bf0fc39361
     name: Tablet of Annihilation
 
+  # Classes — party
+  - file: classes/paladin-of-the-system.md
+    collection: classes
+    id: 608f9f32-c38b-4793-8246-a09f2cbde7d9
+    name: Paladin of the System
+  - file: classes/quantum-sorceress.md
+    collection: classes
+    id: f6b0639c-1d16-4f87-9fa5-719c76860902
+    name: Quantum Sorceress
+  - file: classes/temporal-bard.md
+    collection: classes
+    id: b211ff60-1a72-44f6-b543-db4eff076838
+    name: Temporal Bard
+  - file: classes/veilstepper-rogue.md
+    collection: classes
+    id: 1f080b89-d2d9-4c16-b3cb-ad1c2ec2905e
+    name: Veilstepper Rogue
+  - file: classes/cleric-of-healing.md
+    collection: classes
+    id: 65b67bb9-5776-4a39-b318-554e8995d673
+    name: Cleric of Healing
+
+  # Classes — villains (platform entities stay stubs behind tier 1 until the
+  # villains' new forms appear in published prose)
+  - file: classes/mind-mage.md
+    collection: classes
+    id: 007529f0-bc6d-4e52-b018-db11f25d1cdc
+    name: Mind Mage
+  - file: classes/necromancer.md
+    collection: classes
+    id: d64b36e9-4ab3-4778-8db8-05a4fe0a76d0
+    name: Necromancer
+
 # Entities that intentionally have no canon file (drift report won't flag them)
 unmapped_entities:
   - collection: items
@@ -157,3 +190,5 @@ ignore_files:
   - characters/roster.md
   - items/README.md
   - items/equipment-framework.md
+  - classes/README.md
+  - classes/_ability-block-template.md
