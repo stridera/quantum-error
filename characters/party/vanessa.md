@@ -1,7 +1,7 @@
 ---
 canon: true
 stability: locked
-last_reviewed: 2026-02-05
+last_reviewed: 2026-07-13
 ---
 
 # Vanessa
@@ -11,13 +11,30 @@ last_reviewed: 2026-02-05
 | | |
 |---|---|
 | **Role** | Main Party |
-| **Pre-Transition Job** | Quantum Physicist |
-| **Class** | [Quantum Sorceress](../../classes/quantum-sorceress.md) |
+| **Full Name** | Vanessa Wong |
+| **Race** | Human |
 | **Age** | 28 |
+| **Pre-Transition Job** | Quantum Physicist (iQuantum) |
+| **Class** | [Quantum Sorceress](../../classes/quantum-sorceress.md) |
 
-Vanessa Wong, hailing from the vibrant city of Hong Kong, is an Asian woman with a graceful and composed presence. She stands at an average height, her demeanor reflecting a blend of intellectual curiosity and mystical energy. Vanessa's features are distinguished by her Asian heritage, with captivating eyes that hold both analytical depth and a hint of magical wonder. Her attire is a seamless fusion of modern urban style and a touch of the fantastical, mirroring the dynamic energy of her cosmopolitan background.
+Vanessa Wong is a quantum physicist from Hong Kong working at the cutting edge of iQuantum's research. Her theoretical grounding is why the Quantum Sorceress class fit like a glove — she already thought in probability, superposition, and observation effects.
 
-After her [Mana](../../system/mana.md) Shock, her eyes and veins glow softly with mana. The glow is mostly white, but will change toward the elemental color of the spell she is casting.
+## Appearance
+
+- **Height / build:** 5'5", slim; a graceful, composed presence.
+- **Skin:** East Asian heritage (Hong Kong); the heritage is barely audible in her voice.
+- **Hair:** Short black hair — a sleek, chin-length bob.
+- **Eyes:** Dark brown, with analytical depth.
+- **Mana Lucent (post-Mana-Shock, permanent):** her eyes and veins glow softly with mana — a faint white luminous tracery along her temples, throat, and forearms, irises softly backlit. Dim at rest; flares when casting and **shifts toward the elemental color of the spell** mid-cast. See [Mana](../../system/mana.md).
+- **Attire:** modern urban style fused with a touch of the fantastical; currently the Robe of the Silent Judgement over her street clothes.
+
+### Epic Reflection (Mirror Room, Ch 18)
+
+Her future self wore **robes that shifted colors, sigils appearing and disappearing as she moved** — the robe cycling through her elemental palette in step with her Mana Lucent glow, veins, irises, and cloth pulsing on the same rhythm, so she reads as one continuous casting instrument. Everything in the glass had a deep power pulsing through it.
+
+## Personality & Party Role
+
+Composed, analytical, intellectually curious — the party's primary damage caster and its vocabulary for the impossible: her field gives her words for things the others can only feel their way through. Her hastiness under pressure is her flaw of record (the 99,999-mana incident was impulse dressed as curiosity — see her [echo fight](../../lore/dungeons/spirit-dungeon/mobs.md#vanessas-echo)).
 
 ## Starting Stats
 
@@ -52,3 +69,24 @@ After boosting via the system console. Vanessa aimed for Intelligence 20.
 - Luck: forgot to boost
 - Hit Points: 999
 - Mana: 9,999 (reduced from 99,999 after Mana Lucent incident)
+
+## Level & Progression
+
+**Current (Ch 20):** **Level 6** [Quantum Sorceress](../../classes/quantum-sorceress.md) · 9,999 mana with permanent **Mana Lucent** (spells act two levels higher; counter-chance on observed casts; absorbs mana when struck by magic).
+
+| Ch | Event |
+|----|-------|
+| pre-4 | Class self-set: Sorceress (off-page; sheet shown Ch 4) |
+| 7 | Shield spell console-raised to level 10, "Mastered" |
+| 10–11 | 99,999-mana **Mana Lock** incident → pool set 9,999 → permanent **Mana Lucent** gained; Mana Burned removed via console pointer-copy |
+| 13 | Death #1 (sniper, at the Transition) |
+| 14 | **Level 6** ("Just hit level 6"), new spells incl. fan-of-flames |
+| 15 | Full Fireball shown (distinct from fan-of-flames) |
+
+## Equipment & Inventory
+
+Full acquisition history in the [Inventory Ledger](../../story/inventory-ledger.md). Current loadout (Spirit Dungeon, Ch 18):
+
+- **Weapon:** none carried — Vanessa fights through spells.
+- **Worn:** Robe of the Silent Judgement — her caster robe, looted Ch 16 (paired with Clint's Robe of the Silent Scream). ⚠️ *The name isn't in the chapter summaries yet — see the ledger's [Open Threads](../../story/inventory-ledger.md#open-threads--needs-staging).*
+- **Pendant:** [Mirror Shard](../../items/accessories/mirror-shards.md) — soulbound, earned facing her out-of-sync echo.

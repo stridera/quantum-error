@@ -260,7 +260,14 @@ After the echoes are gone and the room is quiet, the four who won can return to 
 
 She stares. The reflection stares back. Then she says something under her breath — *try it again* — and turns away. The mirror stays lit.
 
-[Clint](../../../characters/party/clint.md), [Vanessa](../../../characters/party/vanessa.md), and [Rebekah](../../../characters/party/rebekah.md) each get their own quiet moment with their own mirrors. The details are private to each of them. [Wade](../../../characters/party/wade.md) does not look. No one asks him to.
+The glimpse is a **shared scene**: the four who won stand among the restored mirrors and see *each other* in the glass, transformed — narrated through [Clint's](../../../characters/party/clint.md) POV (the only POV we ever get). Everything in the glass carries a deep power pulsing through it:
+
+- **Clint** — black plate mail with glowing purple sigils (System script, brightening across pauldrons and gauntlets as he moves), his sword and shield glowing softly. The sword flickers faintly at the edges, as if it can't settle on a single reality; the shield carries a hexagonal scale motif. *(Subtle nod to [Katsuragi](../../../items/weapons/katsuragi.md) and the [Aegis](../../../items/armor/aegis-of-decoherent-deflection.md) — never named in prose.)*
+- **Vanessa** — robes that shift colors, sigils appearing and disappearing as she moves, the cloth cycling in step with her Mana Lucent glow.
+- **Selene** (the group glimpse, distinct from her private return below) — clad in shadows, hard to look at; a wicked dagger in each hand, pulsing with red energy.
+- **Rebekah** — a beautiful dress, and a guitar half-medieval, half-futuristic: carved lute-like body on one half, luminous fretwork and strings of hard light on the other.
+
+[Wade](../../../characters/party/wade.md) gets none of it. He failed the challenge, so the glass offers him no idealized self — while the other four stand reflected in their epic gear, Wade is on the floor, crying. The contrast is the point: the room shows the party what they're becoming, and shows Wade only what he couldn't face. *(Author canon, unrevealed in prose: his mirror **does** hold a future self — the most radiant kit in the room, white-and-gold vestment-plate that gives light rather than reflecting it, a staff crowned by a slow-turning halo of System script, healing light pooling at his feet. Everyone else's reflection is armed; Wade's is what keeps them standing. It stays in the glass for a future Spirit Dungeon.)*
 
 This is a purely narrative beat — no mechanical effect. The [Mirror Shards](../../../items/accessories/mirror-shards.md) do the mechanical work; the mirrors do the emotional work. Use this scene in prose when the story wants to remind the reader what the party is becoming rather than what the dungeon cost them.
 
