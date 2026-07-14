@@ -1,0 +1,159 @@
+# Bobbinry entity mapping — replaced wiki/mapping.yml when the MediaWiki was
+# dropped (2026-07-14). Canon Git Markdown is the source of truth; Bobbinry
+# entities are the curated, reader-facing view.
+#
+# Pushes are DELIBERATE and per-entity — there is no auto-publish. Entities
+# are structured data (fields, tags, era variants), not rendered pages, and
+# published entityData is reader-visible: content must stay behind the
+# published-chapter spoiler line. Use tools/check_bobbinry_drift.py to see
+# what has drifted; apply updates by hand or via the bobbinry CLI.
+
+project_id: e6177c5f-117e-4fa5-9400-12bdb8d16c21
+project_name: Quantum Error
+api_url: https://api.bobbinry.com
+
+entities:
+  # Characters — party
+  - file: characters/party/clint.md
+    collection: characters
+    id: c9334cef-cad5-4fd9-9219-70f4915b6ecc
+    name: Clint
+  - file: characters/party/vanessa.md
+    collection: characters
+    id: 7d73a61d-afa2-450e-b5f3-256a87eb9873
+    name: Vanessa
+  - file: characters/party/rebekah.md
+    collection: characters
+    id: 5153e82e-8735-4928-8622-399e28b08f0a
+    name: Rebekah
+  - file: characters/party/selene.md
+    collection: characters
+    id: 56484d26-5267-4d75-bde3-59a96a14865e
+    name: Selene
+  - file: characters/party/wade.md
+    collection: characters
+    id: bcd5ee0b-5a17-4922-9b21-4fd9f9d5a008
+    name: Wade
+
+  # Characters — villains
+  - file: characters/villains/eron-vosk.md
+    collection: characters
+    id: 98022d2e-cab3-4463-9c3d-a60ef4b47181
+    name: Eron Vosk
+  - file: characters/villains/dan.md
+    collection: characters
+    id: b189a4bd-0641-4b4b-a469-925d612a6299
+    name: Dan
+
+  # Characters — supporting
+  - file: characters/supporting/the-twins.md
+    collection: characters
+    id: 3816097b-8cba-4aa2-b25f-74f6177631d8
+    name: The Twins
+  - file: characters/supporting/amanda.md
+    collection: characters
+    id: d905d154-4f8a-4927-99b2-4eafd1931a69
+    name: Amanda
+  - file: characters/supporting/celeste.md
+    collection: characters
+    id: 12520022-0afd-40dc-b185-04862a6b75b7
+    name: Celeste
+
+  # Items — weapons
+  - file: items/weapons/katsuragi.md
+    collection: items
+    id: a7f3d882-239a-428f-94e9-03c759969df1
+    name: Katsuragi, the Singularity Blade
+  - file: items/weapons/plastic-bloody-machete.md
+    collection: items
+    id: d9dd6076-8685-4256-b163-6cfcc5dcd87a
+    name: Plastic Bloody Machete
+  - file: items/weapons/prop-cutlass.md
+    collection: items
+    id: c0fafb25-10c6-47ba-b406-89da8dfa7b46
+    name: Prop Cutlass
+  - file: items/weapons/sparkly-plastic-wand.md
+    collection: items
+    id: 92f6b653-74f0-41ad-a9bc-4512121f895f
+    name: Sparkly Plastic Wand
+
+  # Items — armor
+  - file: items/armor/aegis-of-decoherent-deflection.md
+    collection: items
+    id: 04d80bed-ad62-4664-b900-c171e7bdbcfd
+    name: Aegis of Decoherent Deflection
+  - file: items/armor/black-robe-of-silent-judgement.md
+    collection: items
+    id: 0305b958-75f6-452d-8e7a-095b9ac6b5d9
+    name: Black Robe of Silent Judgement
+  - file: items/armor/robe-of-the-silent-scream.md
+    collection: items
+    id: 36d76e4a-9772-4555-88af-1f90a9b8c5a9
+    name: Robe of the Silent Scream
+  - file: items/armor/singed-fedora.md
+    collection: items
+    id: f85ea3a5-762b-486d-9e05-311899949a70
+    name: Singed Fedora
+  - file: items/armor/stitched-burlap-cowl.md
+    collection: items
+    id: 5df71eb4-5630-42d5-970e-16d38487b66c
+    name: Stitched Burlap Cowl
+
+  # Items — accessories
+  - file: items/accessories/bear-claw-necklace.md
+    collection: items
+    id: ca8867dd-11ab-4370-b671-42240d07615d
+    name: Bear Claw Necklace
+  - file: items/accessories/ember-eye.md
+    collection: items
+    id: 7e3ddbd0-14e1-45b1-9376-cebe60743233
+    name: Ember Eye
+  - file: items/accessories/fanny-pack-of-holding.md
+    collection: items
+    id: bfa90a3a-350c-4959-8fb2-889bb292981e
+    name: Fanny Pack of Holding
+  - file: items/accessories/mimic-pet.md
+    collection: items
+    id: c513261a-a0ea-4e63-bf89-a1722010d9d8
+    name: Prize Mimic  # canon renamed him Qubit (fb9f44b) — entity rename pending
+
+  # Items — accessories (one file, five shard entities)
+  - file: items/accessories/mirror-shards.md
+    collection: items
+    id: 75ce8941-605d-426d-9f4f-75e593012187
+    name: Shard of Devotion
+  - file: items/accessories/mirror-shards.md
+    collection: items
+    id: 63df357c-9424-4bc2-b98d-fc5f5a66bd0b
+    name: Shard of Purpose
+  - file: items/accessories/mirror-shards.md
+    collection: items
+    id: 6a325d38-85c5-4cba-9275-0006308612c2
+    name: Shard of Control
+  - file: items/accessories/mirror-shards.md
+    collection: items
+    id: c20bbc96-42fa-492c-a9f3-e4ec88468ad0
+    name: Shard of Duty
+  - file: items/accessories/mirror-shards.md
+    collection: items
+    id: b836b2ba-6268-48b0-ab76-a8dbea85f06f
+    name: Shard of Self
+
+  # Items — artifacts
+  - file: items/artifacts/tablet-of-annihilation.md
+    collection: items
+    id: f2e648ad-de01-4e87-a2df-60bf0fc39361
+    name: Tablet of Annihilation
+
+# Entities that intentionally have no canon file (drift report won't flag them)
+unmapped_entities:
+  - collection: items
+    id: bb9ef76d-9b86-4a28-96d2-cfec2c92a8e2
+    name: Nurse's Cap
+    note: Carnival costume piece — documented in Spirit Dungeon lore files, no item sheet yet
+
+# Canon files under mapped directories that intentionally have no entity
+ignore_files:
+  - characters/roster.md
+  - items/README.md
+  - items/equipment-framework.md

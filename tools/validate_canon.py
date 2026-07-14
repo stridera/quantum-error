@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Minimal canon validation: required files + mapping check."""
+"""Minimal canon validation: required files + Bobbinry mapping check."""
 from __future__ import annotations
 
 import os
@@ -9,7 +9,7 @@ import yaml
 REQUIRED = [
     "CANON.md",
     "characters/roster.md",
-    "wiki/mapping.yml",
+    "bobbinry.yml",
 ]
 
 
@@ -21,15 +21,23 @@ def main() -> int:
             print(f"- {p}")
         return 1
 
-    with open("wiki/mapping.yml", "r", encoding="utf-8") as f:
+    with open("bobbinry.yml", "r", encoding="utf-8") as f:
         mapping = yaml.safe_load(f)
 
-    pages = mapping.get("pages", [])
-    bad = [p["file"] for p in pages if not os.path.exists(p["file"])]
+    entries = mapping.get("entities", [])
+    bad = [e["file"] for e in entries if not os.path.exists(e["file"])]
     if bad:
         print("Mapping references missing files:")
         for p in bad:
             print(f"- {p}")
+        return 1
+
+    ids = [e["id"] for e in entries]
+    dupes = {i for i in ids if ids.count(i) > 1}
+    if dupes:
+        print("Duplicate entity ids in mapping:")
+        for i in sorted(dupes):
+            print(f"- {i}")
         return 1
 
     print("Canon validation passed.")

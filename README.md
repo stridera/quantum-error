@@ -6,7 +6,7 @@
 >
 > This is the canonical mechanics bible for Quantum Error. It contains complete plot details, character arcs, abilities, and world-building notes. If you haven't read the story yet, **everything will be spoiled**.
 
-Canon lives in Git Markdown; the wiki is a rendered view.
+Canon lives in Git Markdown; the [Bobbinry](https://bobbinry.com) project's worldbuilding entities are the curated, reader-facing view (mapped in `bobbinry.yml`).
 
 ## Premise
 
@@ -53,6 +53,6 @@ A group of programmers and scientists stumble upon an anomaly, granting them acc
 # Validate canon
 python3 tools/validate_canon.py
 
-# Publish to wiki
-python3 tools/publish_wiki.py
+# Report drift between canon files and Bobbinry entities
+python3 tools/check_bobbinry_drift.py
 ```

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check for unlinked cross-references in canon Markdown files.
 
-Builds a term dictionary from wiki/mapping.yml titles and CANON.md file
+Builds a term dictionary from bobbinry.yml entity names and CANON.md file
 headings, then scans all Markdown files for mentions that aren't wrapped
 in a Markdown link.  Reports the first unlinked mention per term per file.
 
@@ -73,15 +73,15 @@ def load_terms() -> dict[str, str]:
 
     terms: dict[str, str] = {}
 
-    # 1) wiki/mapping.yml titles
-    if os.path.exists("wiki/mapping.yml"):
-        with open("wiki/mapping.yml", "r", encoding="utf-8") as f:
+    # 1) bobbinry.yml entity names
+    if os.path.exists("bobbinry.yml"):
+        with open("bobbinry.yml", "r", encoding="utf-8") as f:
             mapping = yaml.safe_load(f)
-        for page in mapping.get("pages", []):
-            title = page.get("title", "")
-            fpath = page.get("file", "")
-            if title and fpath and title not in SKIP_TERMS and len(title) >= MIN_TERM_LENGTH:
-                terms[title] = fpath
+        for entry in mapping.get("entities", []):
+            name = entry.get("name", "")
+            fpath = entry.get("file", "")
+            if name and fpath and name not in SKIP_TERMS and len(name) >= MIN_TERM_LENGTH:
+                terms[name] = fpath
 
     # 2) H1 headings from every file listed in CANON.md
     canon_files: list[str] = []
@@ -201,7 +201,7 @@ def find_unlinked(
 def main() -> int:
     terms = load_terms()
     if not terms:
-        print("No terms found. Ensure CANON.md and wiki/mapping.yml exist.")
+        print("No terms found. Ensure CANON.md and bobbinry.yml exist.")
         return 1
 
     # Sort longest-first so "Paladin of the System" matches before "Paladin".
