@@ -26,7 +26,7 @@ Selene Quell is the party's rogue — playful, carefree, and lethal from the sha
 - **Nekara features (mostly-human end of the [spectrum](../../races/nekara.md#appearance)):** tawny-blond cat ears emerging from her hair; a long, expressive tail; vertical slit pupils in her blue eyes; small fangs when she grins. No body fur beyond the ears and tail.
 - **Hair:** Blond, soft and full, falling around her shoulders. *("Stringy" was Dustin's word — the Transition gave her hair that matches the rest of her true self.)*
 - **Eyes:** Blue, slit-pupiled, with an easygoing charm.
-- **Attire:** casual, carefree style over her starting rogue clothes; [Mirror Shard](../../items/accessories/mirror-shards.md) pendant; the [Prize Mimic](../../items/accessories/mimic-pet.md) usually trotting at her heel.
+- **Attire:** casual, carefree style over her starting rogue clothes; [Mirror Shard](../../items/accessories/mirror-shards.md) pendant; [Qubit](../../items/accessories/mimic-pet.md), her pet mimic, usually trotting at her heel.
 
 ### Epic Reflection (Mirror Room, Ch 18)
 
@@ -85,4 +85,4 @@ Full acquisition history in the [Inventory Ledger](../../story/inventory-ledger.
 - **Weapon:** Prop Cutlass — Common (5–8 slashing), "surprisingly sharp for plastic." Looted from the Sexy Pirate Mannequin.
 - **Worn:** starting rogue clothes. Clint offered her his Robe of the Silent Scream once he had the pirate outfit, but she politely declined — the chest slash (from his bear-trap fall) leaves it too revealing. He stashed it instead, promising to get it repaired for her (a callback still to pay off). She may also pick up class-appropriate gear in the costume aisle.
 - **Pendant:** [Mirror Shard](../../items/accessories/mirror-shards.md) — soulbound, earned facing her Dustin-echo.
-- **Companion:** [Prize Mimic](../../items/accessories/mimic-pet.md) — won honestly at the Carnival. A pet, not a container.
+- **Companion:** [Qubit](../../items/accessories/mimic-pet.md), the Prize Mimic — won honestly at the Carnival. A pet first, a container begrudgingly — and a kleptomaniac if unwatched.
