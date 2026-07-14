@@ -36,6 +36,7 @@ Sorceresses channel raw magical power through force of will. The Quantum Sorcere
 | 4 | Elemental Affinity | Passive | amplified | Emotions bias how magic expresses (fear→cold, rage→fire, focus→lightning) |
 | 5 | Fireball | Spell | amplified | Explodes on impact, damaging enemies in an area |
 | 6 | Channel Mana | Utility | anchor | Recover mana more efficiently when not actively casting |
+| 6 | Fan of Flames | Spell | amplified | Short close-range cone of flame — the smaller, cheaper cousin of Flame Wave (L13). Shown Ch 14. |
 | 7 | Frost Bind | Spell | anchor | Deal cold damage and apply slow or brief root |
 | 7 | Veil Image | Spell | amplified | Project moving illusory doubles that confuse targeting |
 | 10 | Lightning Lance | Spell | amplified | Piercing bolt that excels against armored targets |
@@ -91,19 +92,47 @@ A concept specific to Vanessa: after her Mana Shock, her eyes and veins glow sof
 
 ## Ability Stat Blocks
 
-> **Migration Note:** Convert every named spell/skill/song into a stat block with hard numbers.
-> Use the template from `canon/style-guide.md` and UI popup style from `system/ui-popups.md`.
+> Blocks below cover the kit shown in prose through Ch 21; remaining abilities gain blocks as they enter the story. Costs assume the **High mana group** (L1 ≈ 20, L10 ≈ 110 — see [stat progression](../system/stat-progression.md)); Vanessa's 9,999 pool + Mana Lucent (spells act two levels higher) makes her wildly over-spec.
 
-### Template
-#### <Ability Name>
-- **Type:** Spell | Skill | Song | Smite | Passive
-- **Level:** #
-- **Cost:** (mana/stamina/none)
-- **Cooldown:** (if any)
-- **Duration:** (if any)
-- **Targeting:** (self/ally/enemy/area)
-- **Rules:** (bullets w/ numbers)
-- **Scaling:** (levels or K-bands)
+#### Mana Shield
+- **Type:** Spell (anchor) · **Level:** 3 · **Cost:** 20 mana · **Cooldown:** 10s after break · **Duration:** Until broken or dismissed · **Targeting:** Self
+
+**Rules**
+- Converts mana into a barrier absorbing **60 damage** at base.
+- While the shield holds, no HP damage is taken; overflow damage passes through on break.
+- Console-raised to spell level 10 ("Mastered") for Vanessa in Ch 7 — her version absorbs ~240.
+
+**Scaling:** +20 absorption per spell level.
+
+#### Minor Illusion
+- **Type:** Spell (anchor) · **Level:** 3 · **Cost:** 10–30 mana by scale · **Duration:** Sustained (light concentration) · **Targeting:** Area
+
+**Rules**
+- Creates a stable visual or auditory illusion. Base canvas: object or sound up to person-size.
+- Scale grows with INT — at INT 20+, illusions can fill a corridor or replicate full environmental features (fake detour signs, fallen trees, a driver's face — Ch 11).
+- Anchor behavior: the canvas grows, not the volatility. Computational power, not emotional amplification.
+
+**Scaling:** canvas size with INT; fidelity with spell level.
+
+#### Fireball
+- **Type:** Spell (amplified) · **Level:** 5 · **Cost:** 30 mana · **Cooldown:** 6s · **Duration:** Instant · **Targeting:** Area (20 ft blast, thrown)
+
+**Rules**
+- 30–50 fire damage in the blast, 25% chance to ignite (1d4 burn, 2 rounds).
+- **Amplified:** under high emotional load, damage rises up to +50% and the blast radius grows — with matching loss of placement control. Vanessa has dropped one on her own tank (Ch 20, deliberately).
+- Full version distinct from Fan of Flames (Ch 15).
+
+**Scaling:** +10 damage per 5 levels; Mana Lucent casts act two levels higher.
+
+#### Fan of Flames
+- **Type:** Spell (amplified) · **Level:** 6 · **Cost:** 20 mana · **Cooldown:** 4s · **Duration:** Instant · **Targeting:** Area (15 ft cone)
+
+**Rules**
+- 18–30 fire damage in a close cone — the smaller, cheaper cousin of Flame Wave (L13).
+- Amplified: emotional load widens the cone before it deepens the damage.
+- Shown Ch 14 (post-Transition coyote fights).
+
+**Scaling:** +6 damage per 5 levels.
 
 ## UI Popups
 

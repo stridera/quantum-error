@@ -17,6 +17,7 @@ A class is a character's combat and adventuring identity. It determines what abi
 - During the Transition, all adults (16+) were treated as if they hit this threshold instantly and were prompted to choose.
 - Class selection is a **choice**. The system presents options based on an amalgamation of the character's past actions, feelings, and obtained skills — but the character decides.
 - **You can decline.** People who don't choose a class remain classless. They can still work professions, gain profession skills, and live productive lives. They just don't have a combat class, don't gain class abilities, and don't level through the class system.
+- Classless (and off-class) learning is still open to everyone: basic magic and basic skills can be trained by anyone with effort — see [Universal Access](../magic/overview.md#universal-access-magic--skills). Classes grant, accelerate, and **break the limits** of what training alone can reach.
 
 ### Pre-Selection Training
 
@@ -92,6 +93,10 @@ If another practitioner reaches the threshold, they must defeat the current titl
 The title is narrative — the system names you something meaningful. Not "Grandmaster Blacksmith" but something personal, like a name the system chooses based on who you are and what you've created.
 
 [Clint](../characters/party/clint.md) hacked his way to Grandmaster Enchanter — whether he technically holds a system-granted title or bypassed the system's recognition is an open question.
+
+### Proficiencies (The Third Axis)
+
+Class level and profession rank are two of three progression axes. The third is **[Proficiency](proficiencies.md)** — use-based combat and magic mastery (Sword, Fire, Stealth, and so on), which runs on the **same 1-99 tier scale** as profession rank. Where class defines *what* you can do and profession *what you can make*, proficiency defines *how well you do it*. Crucially, it is the axis the [main party](../characters/roster.md) never hacked: god-tier stats, Novice hands. See [proficiencies.md](proficiencies.md) for the full framework and the gap it creates.
 
 ## Party Professions
 

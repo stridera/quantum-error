@@ -26,8 +26,9 @@ Charisma-based magic users who cast using their voices and instruments. This sub
 | Level | Ability | Type | Effect |
 |-------|---------|------|--------|
 | 1 | [Chrono Resonance](../magic/spells/chrono-resonance.md) | Passive | Songs interact with temporal threads; songs function without instrument if needed |
-| 1 | Tempo Boost | Song | Allies act and move faster |
+| 1 | Temporal Boost | Song | Allies act and move faster. The party calls it "the haste song"; System-identified as Temporal Boost (Ch 16) — advanced temporal reference frame; stacks "by increasing certainty, not speed." |
 | 1 | Dust Note | Song (damage) | Single plucked note inflicts a moment of accelerated decay on one target. Minimal damage — reserved as baseline self-defense. |
+| 2 | Veiled | Passive | Ambient music makes the party unremarkable — observers overlook them unless actively searching (social stealth, not invisibility). Shown Ch 9, after Rebekah hit L2 in the first guard fight. |
 | 2 | Rewind Note | Utility | Slightly rolls back a recent cooldown or timing mistake |
 | 3 | Dissonant Chord | Song | Enemies fall out of sync—minor slow and confusion |
 | 3 | Veil of Offbeats | Song | Allies blur across adjacent timelines, increasing evasion |
@@ -94,19 +95,71 @@ Inspired by D&D Homebrew College of Time subclass.
 
 ## Ability Stat Blocks
 
-> **Migration Note:** Convert every named spell/skill/song into a stat block with hard numbers.
-> Use the template from `canon/style-guide.md` and UI popup style from `system/ui-popups.md`.
+> Blocks below cover the kit shown in prose through Ch 21; remaining abilities gain blocks as they enter the story. Costs assume the **Medium mana group** (L1 ≈ 17, L10 ≈ 80 — see [stat progression](../system/stat-progression.md)). Songs cost upkeep, not casts — a Bard's mana drains while the music plays.
 
-### Template
-#### <Ability Name>
-- **Type:** Spell | Skill | Song | Smite | Passive
-- **Level:** #
-- **Cost:** (mana/stamina/none)
-- **Cooldown:** (if any)
-- **Duration:** (if any)
-- **Targeting:** (self/ally/enemy/area)
-- **Rules:** (bullets w/ numbers)
-- **Scaling:** (levels or K-bands)
+#### Chrono Resonance
+- **Type:** Passive · **Level:** 1 · **Targeting:** Self
+
+**Rules**
+- Songs interact with temporal threads directly; all songs **function without an instrument**.
+- Visual: the bard plays an invisible harp, threads of golden-silver light materializing per note ([spell page](../magic/spells/chrono-resonance.md)).
+- Rebekah's core identity ability since her guitar died at the Transition (Ch 13).
+
+**Scaling:** temporal song potency rises with temporal spell skill (proficiency-style scaler, Ch 13).
+
+#### Temporal Boost
+- **Type:** Song · **Level:** 1 · **Cost:** 3 mana per 6s upkeep · **Duration:** Sustained + ~6s fade · **Targeting:** Listeners (allies)
+
+**Rules**
+- Allies act and move **+10% faster** — an advanced temporal reference frame that stacks "by increasing certainty, not speed" (Ch 16).
+- The party calls it "the haste song" (Ch 13, her first instrument-less cast).
+
+**Scaling:** +2% per temporal-skill tier; stacking depth grows with skill.
+
+#### Dust Note
+- **Type:** Song (damage) · **Level:** 1 · **Cost:** 5 mana per note · **Cooldown:** none · **Duration:** Instant · **Targeting:** Enemy
+
+**Rules**
+- A single plucked note inflicts a moment of accelerated decay: **4–8 damage**.
+- Deliberately minimal — the least lethal self-defense option in the game. Named on-page Ch 18, used as a steady damage drip in her echo fight.
+
+**Scaling:** +2 damage per 5 levels. It never becomes a nuke; that's the point.
+
+#### Veiled
+- **Type:** Passive · **Level:** 2 · **Cost:** none · **Targeting:** Party (while performing casually)
+
+**Rules**
+- Ambient music makes the party unremarkable: uninterested observers overlook them (−20% to notice checks) unless actively searching.
+- Social stealth, not invisibility — broken by hostile intent, combat, or drawing direct attention. Shown Ch 9 (the party walks out of a gunfight).
+
+**Scaling:** notice penalty deepens with charisma and skill.
+
+#### Dissonant Chord
+- **Type:** Song · **Level:** 3 · **Cost:** 10 mana + 2 per 6s upkeep · **Duration:** Sustained · **Targeting:** Area (enemies in audible range)
+
+**Rules**
+- Enemies fall out of sync: **−10% attack and move speed**, minor confusion (skipped beats, stumbled openings).
+- The "discordant trip-song" of Ch 14; named on-page Ch 18.
+
+**Scaling:** slow deepens +2% per 5 levels.
+
+#### Veil of Offbeats
+- **Type:** Song · **Level:** 3 · **Cost:** 3 mana per 6s upkeep · **Duration:** Sustained + fade · **Targeting:** Listeners (allies)
+
+**Rules**
+- Allies blur across adjacent timelines: **+10% evasion**.
+- Named on-page Ch 18; her half of the Ch 17 dual-song weave.
+
+**Scaling:** +2% evasion per 5 levels.
+
+#### Harmonic Memory
+- **Type:** Passive · **Level:** 4 · **Targeting:** Self
+
+**Rules**
+- Maintain **one additional concurrent song** (base 1 → 2). This is the dual-song weaving shown Ch 17 (haste + evasion together), named on-page Ch 18.
+- Song limit rises again with Polyphonic Casting (L11).
+
+**Scaling:** upkeep efficiency of concurrent songs improves with skill.
 
 ## UI Popups
 

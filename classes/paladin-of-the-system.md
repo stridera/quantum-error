@@ -24,8 +24,9 @@ The Paladin of the System is a unique variant with access to [System Magic](../m
 |-------|---------|------|--------|
 | 1 | Commanding Shout | Command | Forces nearby hostiles to focus on you; overrides threat priority |
 | 1 | Cure Light Wounds | Spell | Restore health to a living target |
+| 1 | Holy Light | Spell | Conjure steadfast divine light; undead and corrupted entities flinch from its radius. Granted to all holy classes. |
 | 1 | Smite: Judgment | Attack Modifier | See Smite Progression below |
-| 2 | Shield Discipline | Passive | Improved block efficiency and damage smoothing |
+| 2 | Shield Mastery | Passive | Improved block efficiency and damage smoothing |
 | 3 | System Aura | Aura | Hostile mental influence becomes detectable and interruptible |
 | 4 | Shield Bash | Attack | Strike with shield, stunning target and increasing threat |
 | 4 | Smite: Sanction | Upgrade | Smite: Judgment upgrades automatically |
@@ -54,6 +55,8 @@ The Paladin of the System is a unique variant with access to [System Magic](../m
 ## Smite Progression (Canonical)
 
 Smite is **privileged from Level 1**. Clint does not learn new smites—he is trusted with more consequences. The same smite call grows more dangerous over time.
+
+> **Naming note:** early prose (Ch 5, console era) calls this ability **"Divine Strike"** — same smite, pre-activation name. Prose revision may align the name later; treat Divine Strike ≡ Smite: Judgment.
 
 > "I didn't change what I was doing. The system changed what it allowed me to do."
 
@@ -220,19 +223,66 @@ Smite is **privileged from Level 1**. Clint does not learn new smites—he is tr
 
 ## Ability Stat Blocks
 
-> **Migration Note:** Convert every named spell/skill/song into a stat block with hard numbers.
-> Use the template from `canon/style-guide.md` and UI popup style from `system/ui-popups.md`.
+> Blocks below cover the kit shown in prose through Ch 21 (smites live in [Smite Progression](#smite-progression-canonical)). Remaining abilities gain blocks as they enter the story. Costs assume the **Low mana group** (L1 ≈ 15, L10 ≈ 55 — see [stat progression](../system/stat-progression.md)); Clint's hacked 999 pool makes them trivial for him, which is the point.
 
-### Template
-#### <Ability Name>
-- **Type:** Spell | Skill | Song | Smite | Passive
-- **Level:** #
-- **Cost:** (mana/stamina/none)
-- **Cooldown:** (if any)
-- **Duration:** (if any)
-- **Targeting:** (self/ally/enemy/area)
-- **Rules:** (bullets w/ numbers)
-- **Scaling:** (levels or K-bands)
+#### Commanding Shout
+- **Type:** Command · **Level:** 1 · **Cost:** 10 stamina · **Cooldown:** 8s · **Duration:** 6s · **Targeting:** Area (15 ft)
+
+**Rules**
+- All hostiles within 15 ft are forced to target the Paladin for 6s (threat set to top-of-table +20%).
+- Does **not** cross [Zone Lines](../lore/dungeons/spirit-dungeon/rooms.md#zone-lines-section-barriers) — threat and taunt don't propagate through them (Ch 20, the Scarecrow pull).
+- Bosses: threat bump only, no hard target lock.
+
+**Scaling:** +5 ft radius per 5 levels; threat bonus grows with authority level.
+
+#### Cure Light Wounds (Paladin)
+- **Type:** Spell · **Level:** 1 · **Cost:** 15 mana · **Cooldown:** none · **Duration:** Instant (1s cast) · **Targeting:** Touch (ally or self)
+
+**Rules**
+- Restores 40–80 HP — deliberately weaker than the [Cleric version](cleric-of-healing.md#cure-light-wounds) (60–120). A Paladin patches; a Cleric heals.
+
+**Scaling:** +10 HP to both ends per 5 levels.
+
+#### Holy Light
+- **Type:** Spell · **Level:** 1 · **Cost:** 5 mana + 1 mana/min upkeep · **Cooldown:** none · **Duration:** Sustained (up to ~10 min) · **Targeting:** Self (30 ft radius)
+
+**Rules**
+- Steady divine light, 30 ft radius. No damage.
+- Undead and corrupted entities inside suffer −5% accuracy and will not willingly cross the lit edge unless commanded or already aggroed.
+- Granted to **all holy classes** (Paladin, [Cleric](cleric-of-healing.md)).
+
+**Scaling:** +5 ft radius and −1% additional accuracy per 5 levels; at high level begins to reveal hidden corruption (Divine Sense synergy).
+
+#### Shield Mastery
+- **Type:** Passive · **Level:** 2 · **Targeting:** Self (requires equipped shield)
+
+**Rules**
+- +15% block efficiency.
+- Damage smoothing: any single blocked hit above 20% max HP is reduced by 10%.
+- **Currently idle** — Clint has no shield equipped (Ch 20).
+
+**Scaling:** +5% block efficiency per 5 levels.
+
+#### System Aura
+- **Type:** Aura · **Level:** 3 · **Cost:** toggle, 2 mana/min upkeep · **Duration:** Sustained · **Targeting:** Allies within 20 ft
+
+**Rules**
+- Hostile mental influence (charm, domination, coercion) on allies in radius is **flagged** — a System notification visible to the Paladin.
+- The flagged victim immediately receives a fresh resistance check; the Paladin can force one re-check by touch.
+- Stacks with other System auras (class mechanic). This is the aura protecting [Amanda](../characters/supporting/amanda.md) from re-domination.
+- Logging: `ACTION_TYPE: INTEGRITY_MONITOR | SCOPE: PARTY`
+
+**Scaling:** +5 ft radius per 5 levels; Oath Mastery I (L15) amplifies range and effect.
+
+#### Shield Bash
+- **Type:** Attack · **Level:** 4 · **Cost:** 10 stamina · **Cooldown:** 12s · **Targeting:** Enemy (melee, requires equipped shield)
+
+**Rules**
+- 8–14 physical damage + 1s stun + heavy threat (top-of-table +15%).
+- Stun halves against Elites; bosses are immune (threat only).
+- **Currently idle** alongside Shield Mastery — no shield equipped.
+
+**Scaling:** damage +4 per 5 levels; stun +0.5s at L10 and L20.
 
 ## UI Popups
 
@@ -256,4 +306,5 @@ Mechanics:
 
 ## Open Questions
 
-- *(TODO: add unresolved items for Paladin of the System, and mirror them into `canon/status.md`.)*
+- **"Divine Touch" (Ch 5, console era):** tentatively maps to Cure Light Wounds — mapping unconfirmed by author.
+- **Meta Magic (Ch 5, console era, "Legendary — Mastered"):** post-respawn status unresolved. Is it a school (see [Metamagic](../magic/overview.md)), a console-only grant, or lost at the Transition?

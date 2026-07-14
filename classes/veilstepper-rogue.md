@@ -32,7 +32,7 @@ Rogues specialize in stealth, precision strikes, and exploiting enemy weaknesses
 | 1 | Sneak | Toggle | Enter stealth when unobserved; quieter movement |
 | 1 | Backstab | Attack | Increased damage from behind or while Veiled |
 | 2 | [Nekara](../races/nekara.md) Agility | Racial Passive | Increased evasion, balance, and movement speed |
-| 3 | Veil Sense | Passive | Detect veiled, phased, or partially absent entities |
+| 3 | Veil Sense | Passive | Detect things partially absent from the present layer — veiled or phased entities, concealed hazards, and dormant mechanisms (traps read as "waiting" objects). How Selene spotted the L10 Bear Trap (Ch 16). |
 | 4 | Shadowstep | Utility | Short-range reposition between nearby shadows |
 | 5 | Bleeding Strike | Attack | Apply bleeding wound (damage over time) |
 | 6 | Sidestep Between Selves | Passive | Flicker between possible states, causing attacks to miss |
@@ -98,19 +98,44 @@ Rogues specialize in stealth, precision strikes, and exploiting enemy weaknesses
 
 ## Ability Stat Blocks
 
-> **Migration Note:** Convert every named spell/skill/song into a stat block with hard numbers.
-> Use the template from `canon/style-guide.md` and UI popup style from `system/ui-popups.md`.
+> Blocks below cover the kit shown in prose through Ch 21; remaining abilities gain blocks as they enter the story. The Rogue kit runs on stamina, not mana (Low mana group — see [stat progression](../system/stat-progression.md)).
 
-### Template
-#### <Ability Name>
-- **Type:** Spell | Skill | Song | Smite | Passive
-- **Level:** #
-- **Cost:** (mana/stamina/none)
-- **Cooldown:** (if any)
-- **Duration:** (if any)
-- **Targeting:** (self/ally/enemy/area)
-- **Rules:** (bullets w/ numbers)
-- **Scaling:** (levels or K-bands)
+#### Sneak
+- **Type:** Toggle · **Level:** 1 · **Cost:** 1 stamina/s while moving stealthed · **Duration:** Until broken · **Targeting:** Self
+
+**Rules**
+- Enter stealth when unobserved; movement is quieter and slower.
+- Broken by direct observation, attacking (see Backstab), or loud interaction.
+- Pierced for the first time in Ch 20 — the Scarecrow of the Fallow Row sees through it.
+
+**Scaling:** stealth strength rises with skill and DEX; Veil (L7+) supersedes it situationally.
+
+#### Backstab
+- **Type:** Attack · **Level:** 1 · **Cost:** 15 stamina · **Cooldown:** 6s · **Targeting:** Enemy (melee)
+
+**Rules**
+- Melee strike for **×2 weapon damage** when delivered from behind or while Veiled; +10% crit chance.
+- Breaks stealth on use. First shown Ch 7 ("Backstabbed!").
+
+**Scaling:** multiplier ×2.5 at L10, ×3 at L20; synergizes with Weak Point Analysis (L9).
+
+#### Nekara Agility
+- **Type:** Racial Passive · **Level:** — (race, [Nekara](../../races/nekara.md)) · **Targeting:** Self
+
+**Rules**
+- **+10% evasion, +10% movement speed**, and near-perfect balance (falls, ledges, landings).
+- Racial, not class — stacks with all class abilities.
+
+**Scaling:** fixed; racial traits don't scale with class level.
+
+#### Veil Sense
+- **Type:** Passive · **Level:** 3 · **Targeting:** Self (30 ft)
+
+**Rules**
+- Passive detection of things **partially absent from the present layer**: veiled or phased entities, concealed hazards, and dormant mechanisms — traps read as "waiting" objects.
+- How Selene spotted the L10 Bear Trap (Ch 16) as the only party member to notice it.
+
+**Scaling:** range +10 ft per 5 levels; at high skill, gives a beat of warning before an ambush triggers.
 
 ## UI Popups
 

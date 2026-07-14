@@ -29,8 +29,10 @@ Wade's class includes an emotional limiter mechanic:
 | Level | Ability | Type | Effect |
 |-------|---------|------|--------|
 | 1 | Cure Light Wounds | Spell | Restore modest health to a living target |
+| 1 | Holy Light | Spell | Conjure steadfast divine light; undead and corrupted entities flinch from its radius. Granted to all holy classes. |
 | 1 | Turn Undead | Spell | Repels, weakens, or damages undead creatures |
-| 2 | Bless | Spell | Allies gain improved accuracy, resolve, and fear resistance |
+| 2 | Bless | Spell | Allies gain improved accuracy, resolve, and fear resistance (applies the **Blessed** status) |
+| 3 | Cleric Aura | Aura | Passive calm radius — nearby allies gain minor fear resistance and +5% healing received |
 | 3 | Cure Poison | Spell | Removes poison effects from a target |
 | 4 | Lesser Restoration | Spell | Removes minor debuffs and afflictions |
 | 5 | Prayer of Healing | Spell | Gradually restores health to multiple allies (HoT) |
@@ -227,19 +229,53 @@ Wade's class includes an emotional limiter mechanic:
 
 ## Ability Stat Blocks
 
-> **Migration Note:** Convert every named spell/skill/song into a stat block with hard numbers.
-> Use the template from `canon/style-guide.md` and UI popup style from `system/ui-popups.md`.
+> Healing spells have full numbers in the [Healing Reference](#healing-reference-levels-120) above. Blocks below cover the rest of the kit shown in prose through Ch 21; remaining abilities gain blocks as they enter the story. Costs assume the **Medium mana group** (L1 ≈ 17, L10 ≈ 80 — see [stat progression](../system/stat-progression.md)).
 
-### Template
-#### <Ability Name>
-- **Type:** Spell | Skill | Song | Smite | Passive
-- **Level:** #
-- **Cost:** (mana/stamina/none)
-- **Cooldown:** (if any)
-- **Duration:** (if any)
-- **Targeting:** (self/ally/enemy/area)
-- **Rules:** (bullets w/ numbers)
-- **Scaling:** (levels or K-bands)
+#### Holy Light
+- **Type:** Spell · **Level:** 1 · **Cost:** 5 mana + 1 mana/min upkeep · **Duration:** Sustained (up to ~10 min) · **Targeting:** Self (30 ft radius)
+
+**Rules**
+- Identical to the [Paladin block](paladin-of-the-system.md#holy-light) — granted to all holy classes. Steady divine light; no damage; undead/corrupted suffer −5% accuracy inside and won't willingly cross the lit edge unless commanded or aggroed.
+
+**Scaling:** +5 ft radius and −1% additional accuracy per 5 levels.
+
+#### Turn Undead
+- **Type:** Spell · **Level:** 1 · **Cost:** 15 mana · **Cooldown:** 20s · **Duration:** Instant (effects 6s) · **Targeting:** Area (20 ft, undead only)
+
+**Rules**
+- Undead at or below the Cleric's level **flee** for 6s or take 10–20 radiant damage if they cannot path away.
+- Elites and bosses: no flee — instead −10% damage dealt for 6s.
+- First shown Ch 20 (Risen Skeletons).
+
+**Scaling:** damage +5 per 5 levels; the flee threshold tracks Cleric level (level-delta rules apply).
+
+#### Bless
+- **Type:** Spell · **Level:** 2 · **Cost:** 20 mana · **Cooldown:** none · **Duration:** 60s · **Targeting:** Group
+
+**Rules**
+- Allies gain the **Blessed** status: +5% accuracy, +2 to resistance checks against fear.
+- One Blessed instance per caster; recasting refreshes duration.
+- Prose note: Ch 16's "Blessed" is this status — *Bless* is the spell, *Blessed* is what it applies.
+
+**Scaling:** +1% accuracy per 5 levels; duration +30s at L10 and L20.
+
+#### Cleric Aura
+- **Type:** Aura · **Level:** 3 · **Cost:** none (always on) · **Duration:** Permanent · **Targeting:** Allies within 15 ft
+
+**Rules**
+- Passive calm radius: allies gain minor fear resistance (+1 to fear resistance checks) and **+5% healing received**.
+- Stacks with Blessed. Shown on Wade's sheet Ch 12.
+
+**Scaling:** +5 ft radius per 5 levels; healing bonus +1% per 10 levels.
+
+#### Lesser Restoration
+- **Type:** Spell · **Level:** 4 · **Cost:** 25 mana · **Cooldown:** none · **Duration:** Instant (short cast, ~2s) · **Targeting:** Touch (ally)
+
+**Rules**
+- Clears poison, paralysis, and breathing obstruction. Surgical — one affliction category per cast.
+- Restoration does not heal HP; it makes healing possible (see the [Restoration table](#restoration-lesser--greater)).
+
+**Scaling:** cast time shortens; Greater Restoration (higher tier) clears severe trauma and organ failure.
 
 ## UI Popups
 
