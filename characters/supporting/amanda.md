@@ -13,6 +13,12 @@ stability: evolving
 
 Amanda is Wade's wife and the mother of their twin daughters. She becomes a major figure in the Book I plot when Eron Vosk captures and mind-controls her.
 
+## Appearance
+
+Late 30s, human. Warm and capable, worn thin in the way of a mother who has spent too many months in hospital corridors — but a spine that snaps straight the instant her children are threatened. Unremarkable in the way ordinary people are, right up until the world stops being ordinary.
+
+**Under mind control (captive):** Physically unchanged but wrong in the details — a flatness behind the eyes, movements a half-beat off her own, warmth swapped for vacant compliance. She looks like herself and reads like a stranger wearing her.
+
 ## Pre-Transition
 
 Amanda was at the hospital with her daughters when one of them went into cardiac arrest. The party saved both twins by converting them to the RPG template and healing them via the system console.

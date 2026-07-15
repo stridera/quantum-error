@@ -14,6 +14,12 @@ stability: evolving
 
 Dan was the VP of Engineering at iQuantum and the official team leader before the Transition. He became one of the primary antagonists after betraying the party.
 
+## Appearance
+
+**Pre-Transition (human):** Late 40s. The corporate polish of a VP of Engineering — well-cut business-casual, controlled and unhurried, used to being the most senior person in the room. A little soft from years spent managing rather than building. Reads as perfectly reasonable, right up until he decides you're in his way.
+
+**Post-Transition ([Troll](../../races/troll.md) [Necromancer](../../classes/necromancer.md)):** A Troll now — hulking and green-skinned, head and shoulders above any human, heavy through the frame with the slow-healing bulk of his kind. The corporate reasonableness is gone, replaced by a Necromancer's grave-dust and the cold light of raised dead. The same appetite for control, finally wearing a body that can enforce it.
+
 ## Pre-Transition
 
 Dan was present at the initial D&D session when [Clint](../party/clint.md) discovered the anomaly. After the team confirmed they existed within a simulation with editable parameters, Dan was deeply disturbed by the implications.
