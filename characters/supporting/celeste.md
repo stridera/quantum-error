@@ -23,3 +23,8 @@ In her early 30s, with warm olive skin and long, thick near-black hair worn loos
 Celeste came to the forge through fine art. A sculptor by training, she spent over a decade learning smithing under the head of a Bay Area forge's blacksmithing program before building Clayandsteel into a thriving shop. She treats blacksmithing as a contemporary art form rather than historical recreation, and takes on commissioned, site-specific work: ornamental and architectural metalwork, decorative railings, copper and bronze pieces, and knives and blades. As she puts it, she loves matching her vision as an artist to the home and to the person she's making for.
 
 Post-Transition, that lifelong craft is what her new magic latched onto — the System rewarding mastery she'd already spent years earning.
+
+## Relationships
+
+- **[Clint](../party/clint.md)** — friend. He took a run of her knifemaking and general forging classes before the Transition; never enough for real proficiency, but enough to swing a hammer, and enough for the two of them to become friends.
+- **Husband** — programmer turned [Enchanter](../../professions/enchanting.md); he inscribes the magic she smiths.

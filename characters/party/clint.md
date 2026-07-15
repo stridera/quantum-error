@@ -121,3 +121,7 @@ Created before the Transition via [Enchanting](../../professions/enchanting.md) 
 ## Professions
 
 - [Enchanting](../../professions/enchanting.md)
+
+## Connections
+
+- **[Celeste](../supporting/celeste.md)** — San Francisco blacksmith, owner of Clayandsteel. Before the Transition, Clint took a run of her knifemaking and general forging classes. It never amounted to real proficiency — just enough to swing a hammer without embarrassing himself — but it's how the two of them became friends. Post-Transition, hers is one of the shops the party turns to for forged and enchanted gear.
