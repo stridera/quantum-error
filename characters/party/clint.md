@@ -1,7 +1,7 @@
 ---
 canon: true
 stability: locked
-last_reviewed: 2026-07-13
+last_reviewed: 2026-07-15
 ---
 
 # Clint
