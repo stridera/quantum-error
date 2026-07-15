@@ -10,12 +10,13 @@ stability: evolving
 | **Role** | Supporting Character |
 | **Occupation** | Blacksmith |
 | **Location** | San Francisco |
+| **Age** | 32 |
 
 Owner of Clayandsteel, a blacksmith shop. Post-Transition, Celeste gained magic tied to her craft — the ability to keep metal hot and workable, manipulate heat, and shape materials with magical precision. Her husband is a programmer who became an [Enchanter](../../professions/enchanting.md), and together they forge and enchant weapons. She makes the steel; he inscribes the magic.
 
 ## Appearance
 
-Late 30s to 40s, with warm olive skin and long, thick near-black hair worn loose past her shoulders. Lean and wiry, carrying the forearm and shoulder definition of someone who swings a hammer every day. At the forge she works in a heavy full-grain leather apron over a simple tank top, a buckled belt, safety glasses, and a turquoise ring — composed and focused, equal parts artist and tradeswoman. She is most herself at the anvil or the power hammer, tongs in one hand and hammer in the other.
+In her early 30s, with warm olive skin and long, thick near-black hair worn loose past her shoulders. Lean and wiry, carrying the forearm and shoulder definition of someone who swings a hammer every day. At the forge she works in a heavy full-grain leather apron over a simple tank top, a buckled belt, safety glasses, and a turquoise ring — composed and focused, equal parts artist and tradeswoman. She is most herself at the anvil or the power hammer, tongs in one hand and hammer in the other.
 
 ## Background & Craft
 
