@@ -38,6 +38,14 @@ When she went back alone afterward ([Looking Again](../../lore/dungeons/spirit-d
 
 Playful demeanor, easygoing charm, and the party's sharpest situational awareness — sole member to detect the L10 Bear Trap, first to spot the prize-booth mimic. Scout, lockpick, and burst damage. Her pre-Transition legal mind still surfaces: she reads rules, contracts, and carnival economies the way she once read NDAs.
 
+## Rebekah
+
+Selene and [Rebekah](rebekah.md) are not dating. Nothing has been said, no one has asked, and both would describe it as friendship if pressed. They are also unmistakably heading somewhere, and every other member of the party can see it.
+
+The tell is that Selene's guard is simply *not up* around her. She performs for everyone — playful, carefree, deflecting with charm — and Rebekah is the one person she doesn't bother doing it for. Neither of them has examined why it feels this settled this fast; there is no reason in their shared history for it to.
+
+> **Author-only:** the cause is the [relationship leak](../../meta/real-world.md) — real-Selene and real-Rebekah married years before real-current, bleeding into the sim as inevitability-feeling attraction. **Never on-page in Book 1.** The characters do not notice, name, or wonder about it; the reader assembles it from behavior alone. Payoff staged at the [Mimic Couch](../../lore/dungeons/spirit-dungeon/rooms.md#the-mimic-couch).
+
 ## Pre-Transition: Dustin
 
 ![Dustin](../../images/characters/dustin.webp)
@@ -63,6 +71,14 @@ After boosting via the system console.
 - Base Luck: 9 (boosted to 15, highest in party—stopped due to "weird things" happening)
 - Hit Points: 999
 - Mana: 999
+
+### Luck 15 — the running-gag rule
+
+Selene's Luck is the highest in the party by a wide margin; [Clint's](clint.md) is **4** (he forgot to boost it entirely). That gap is the mechanical spine of the party's fireball gag, and it should stay consistent.
+
+**Clint takes a fireball and ends up naked. Selene takes the same fireball and walks out smoking.** Combined with [Nekara Agility](../../classes/veilstepper-rogue.md) (+10% evasion, +10% movement, near-perfect balance), she reads as riding a blast rather than eating one — clothes singed, ears smoking, tail smoldering and refusing to come down, otherwise fine. The universe is measurably kinder to her, and the disparity is funnier than either outcome alone.
+
+Corollary: **don't run the clothes-burned-off gag on Selene.** It's Clint's — it works because he's the POV telling on himself, and it means something different on her. Staged use: the Asylum tableau ([Ch 22](../../lore/dungeons/spirit-dungeon/rooms.md#encounter-asylum-set)), where Vanessa's un-excluded Fireball frees her from the roving gurney.
 
 ## Level & Progression
 

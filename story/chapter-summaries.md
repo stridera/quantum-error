@@ -379,7 +379,7 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 
 ## Chapter 18: Self Reflection
 
-**Word count**: 3,568
+**Word count**: 3,527
 
 **Summary**: The party reaches the [Mirror Room](../lore/dungeons/spirit-dungeon/rooms.md) — a hexagonal chamber of floor-to-ceiling mirrors. As [Selene](../characters/party/selene.md) sees herself for the first time since the Transition, a translucent barrier traps her inside and her reflection cracks the mirror, stepping out as an [Echo Double](../lore/dungeons/spirit-dungeon/mobs.md#echo-double) — her old "Dustin" form, sneering. The Echo's Identity Crisis taunts deal raw HP damage and apply stacking Shaken; Selene wins by reclaiming her name. One by one, each party member chooses to face their mirror. [Clint](../characters/party/clint.md) confronts the architect's-guilt echo ("you didn't choose for them") and earns the Shard of Duty by accepting the protector role. [Vanessa](../characters/party/vanessa.md) faces a flickering, half-out-of-sync echo that needles her panic, body, and intellect; she earns the Shard of Control by accepting that not-loving-her-body and not-hating-it can coexist. [Rebekah](../characters/party/rebekah.md) faces a silent guitar-echo that suppresses her songs one at a time; she wins by **stacking songs faster than the echo can silence them**, using Harmonic Memory and a steady drip of Dust Note for damage. **[Wade](../characters/party/wade.md) loses.** His echo unblocks a memory he was never supposed to have — his twin daughters' funeral, two small coffins, flowers he picked out — and the echo never lands a killing blow because Wade is already broken. He survives at 1 HP with the new [Broken](../system/effects.md) status, locked until dungeon exit. Strider's voice breaks character mid-fight: *"He shouldn't remember that."* Post-combat, the mirrors briefly show the party in the gear they're meant to grow into.
 
@@ -395,7 +395,7 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 - **Magic Missile** (Vanessa, L?): Opens her echo fight; empowered strikes finish it
 - **Mana Shield** (Vanessa, L3): Tanks the echo's spell returns
 - **Dust Note** (Rebekah, L1): Steady plucked-string DoT — first canonical Bard damage song
-- **Dissonant Cord** (Rebekah): Slows and confuses the silenced echo
+- **Dissonant Chord** (Rebekah): Slows and confuses the silenced echo
 - **Veil of Offbeats** (Rebekah): Echo's snares drift around her
 - **Harmonic Memory** (Rebekah, L4): Lets her hold more songs than the echo can suppress
 - **Sneak Attack / backstab loop** (Selene): Anger-fueled, post-naming
@@ -453,7 +453,7 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 
 ## Chapter 20: The Showroom
 
-**Word count**: 2384
+**Word count**: 2383
 
 **Summary**: The party surveys the Showroom's three striped sets — Graveyard, Carnival, Asylum — and theorizes it's a section-by-section gauntlet. [Clint](../characters/party/clint.md) steps into the graveyard and the zone illusion snaps on (night sky, grave-soil, an owl). The **Scarecrow of the Fallow Row** animates **Risen Skeletons** that root him while it flings its sickle from the stake; [Wade](../characters/party/wade.md)'s Turn Undead shreds the field and Clint dings **Level 4** mid-clear (Shield Mastery + Shield Bash revealed — no shield to use them). The freed Scarecrow's first swing launches Clint over the fence onto the **Whack-a-Gnome**; his machete skids into asylum territory, and scrambling back he leans on the Start button. The carousel spins up and endless invulnerable gnomes flood the party (Underfoot stacks, "Gnomes Rule!" interrupts). With the fence sealing sound, [Strider](../characters/party/clint.md#patron-strider) relays [Vanessa](../characters/party/vanessa.md)'s *"Use the mallet, you idiot!"* — Clint plays the game, kicks strays into the cotton-candy webs, snaps the second mallet free for [Selene](../characters/party/selene.md), and the split party burns down the freed Scarecrow without their tank.
 
@@ -466,7 +466,7 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 
 **Canon Notes**:
 - Scarecrow / Risen Skeleton / Gnome stat blocks and statuses match `mobs.md` exactly; re-raise count within cap
-- ⚠ "Challenging Shout" used for the canonical **Commanding Shout** (also in Ch 21)
+- ~~⚠ "Challenging Shout"~~ — both instances corrected to **Commanding Shout** in prose (2026-07-28)
 - ⚠ Prize-booth sword priced 200 tickets; canon Carousel Saber is 250 (`mobs.md`)
 - Freed Scarecrow lands a "sickle" hit on Wade; canon freed-phase weapon is the stake-greatsword (Harvest)
 
@@ -474,15 +474,16 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 
 ## Chapter 21: Carnival Mimicry
 
-**Word count**: 2238
+**Word count**: 2304
 
-**Summary**: [Rebekah](../characters/party/rebekah.md) hears that the gnomes spawn to the carousel's beat; [Selene](../characters/party/selene.md)'s two stealth runs at the off-switch fail, proving all four mounts must die. Clint tanks with a kitchen knife after the padded mallet refuses non-gnome targets, debuting his Level-4 **Smite: Sanction**; Vanessa's fireball — called onto Clint himself — burns him out of the cotton-candy webs along with his pirate outfit. The carousel falls, the game pays out **five gold 100-tickets**, and the loot pass yields the **Stitched Burlap Cowl** (to Clint) and the **Ember Eye** ring. At the prize booth Selene identifies the gold-chained Grand Prize chest as a mimic, pets it under the Clown's straining glare, and campaigns the party out of their tickets one by one — [Wade](../characters/party/wade.md) folds first ("I think we could use some joy"), Vanessa last. The bought mimic eats the **First-Place Blue Ribbon** off the counter; Selene walks away with a pet, and Clint reattaches the mallet and turns to study the asylum side.
+**Summary**: [Rebekah](../characters/party/rebekah.md) hears that the gnomes spawn to the carousel's beat; [Selene](../characters/party/selene.md)'s two stealth runs at the off-switch fail, proving all four mounts must die. Clint tanks with a kitchen knife after the padded mallet refuses non-gnome targets, debuting his Level-4 **Smite: Sanction**; Vanessa's fireball — called onto Clint himself — burns him out of the cotton-candy webs along with his pirate outfit. The carousel falls, the game pays out **five gold 100-tickets**, and the loot pass yields the **Stitched Burlap Cowl** (to Clint) and the **Ember Eye** ring. At the prize booth Selene identifies the gold-chained Grand Prize chest as a mimic, pets it under the Clown's straining glare, and campaigns the party out of their tickets one by one — [Wade](../characters/party/wade.md) folds first ("I think we could use some joy"), Vanessa last. After paying the Clown, Selene consults the System and **names the mimic Qubit**; the newly-named pet promptly sprouts feet, eats the **First-Place Blue Ribbon** Wade had left on the counter, and tries for the kettle corn before Selene scoops him up. Clint reattaches the mallet, studies the asylum side, and — famous last words — decides the next fight "shouldn't be difficult at all."
 
 **Characters**: Clint (POV), Wade, Vanessa, Rebekah, Selene, Strider (voice), the Clown, the Prize Mimic
 
 **Key Plot Events**:
 - **Smite: Sanction** first shown in use — block matches `classes/paladin-of-the-system.md` verbatim
 - Carousel cleared; five Gold Century-Tickets distributed, then all five surrendered for the **Prize Mimic** — Selene's soulbound pet acquired on-page (`items/accessories/mimic-pet.md`)
+- Selene **names the mimic Qubit** at the counter (via System interaction) — naming beat now on-page, before the ribbon-eating, per canon staging
 - Mimic eats the Blue Ribbon post-sale — boss-fight healing payoff planted
 - New items: **Stitched Burlap Cowl** (+4 AR, −1 CHA, Clint) and **Ember Eye** (+1 WIS ring, holder TBD)
 - Vanessa passes on the Sharpshooter's Monocle, wondering if she can learn ally-exclusion herself
@@ -494,3 +495,57 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 - ⚠ Payout drift: the game dispenses the gold tickets; canon has the Clown count them out at the booth; loose gnome-ticket change unaccounted
 - ⚠ 250-rack drift: prose shield + mace vs canon High-Striker Bulwark + Carousel Saber
 - Machete still unrecovered; the "walks out swinging it by choice" exit beat needs staging
+
+---
+
+## Chapter 22: Asylum *(in progress — draft, 1,733 words; closing scene unwritten)*
+
+**Word count**: 1,733
+
+**Summary**: Qubit — now formally counted as a party member — bolts toward the straitjacketed mannequin, kicking off the asylum encounter: the Head Surgeon and the Asylum Orderly begin "treatment" on their gurney-bound patient while a loose gurney charges Clint. He bashes it aside and crosses onto the linoleum to recover his lost **Plastic Bloody Machete**, taking the **Strobe Lights** debuff and regretting the un-bought Carnival Shades. His Identify reads the **Lobotomized Patient** at *Treatment Progress: 6%*, jumping to 38%. Clint assigns Rebekah a slow and Vanessa an illusion on the straitjacket, calls Selene over, and tackles the Head Surgeon — then spends the rest of the fight pinned on top of it, counting smite cooldowns through four blackout pulses while the room comes apart behind him. The straitjacket rips free and charges **Rebekah**, the caster who landed the real debuff; **Wade** steps in front of her with no taunt in his kit. **Selene** finishes the channeling Orderly (freezing the Treatment at 78%), breaks for Rebekah, and is snatched mid-run by the roving gurney, which starts a **Cardiac Cycle** on her. **Vanessa** fireballs the gurney with Selene still strapped to it; Selene rips free at the fourth Fibrillation stack and rides the blast out — ears smoking, tail smoldering — then plants her **Prop Cutlass** in the straitjacket's back. Clint kills the Surgeon with a final punch, cuts the corner past the guard post and takes a hit for it, heals his bleed with **Cure Light Wounds**, and loots the **AUTHORIZED PERSONNEL badge** off the Surgeon's chest. The chapter breaks off before the recovery scene and the exit.
+
+**Key Plot Events**:
+- Qubit's first act as a party member triggers the asylum encounter
+- **Plastic Bloody Machete recovered** — the thread left open since the Ch 20 launch closes
+- Skipped Carnival Shades purchase bites on-page, per dungeon design intent
+- Treatment clock runs on-page across four blackout pulses: 6% → 38% → 56% → 78%, **frozen** when the Orderly dies. The Lobotomized Patient never rises — the preventable add stays prevented
+- **Head Surgeon killed** by Clint after a full-length grapple; **Asylum Orderly killed** by Selene; **Straitjacket Mannequin killed** by Selene's cutlass with Wade holding it off Rebekah
+- **Rebekah mauled** by the straitjacket after her Dissonant Chord lands — competence is what gets punished
+- **Wade tanks with no taunt**, by body and voice only, while still Broken
+- **Selene strapped to the roving gurney**; **Cardiac Cycle** stat block on page (8 dmg / 3s, Fibrillation → Unresponsive at 5). She reaches 4 stacks
+- **Vanessa fireballs a teammate** to free her — the Sharpshooter's Monocle payoff. Selene rips the straps in the same second and rides the blast (Luck 15 + Nekara Agility)
+- **Asylum Guards wake** when Clint cuts the corner on the door, land one hit, and disengage
+- **AUTHORIZED PERSONNEL badge obtained** — the gate key
+- Clint confirmed at **Level 4** ("the mob six levels higher than me"); STR 20 confirmed
+
+### Revision plan (approved 2026-08-06)
+
+The draft's **damage math is correct and should not change** — Smite: Sanction is +30 flat, AR 6 is 11% DR, so ~30/punch and six punches on a 150 HP Elite is exact. The problem is that six smites on a **4s cooldown = ~20 seconds**, which is also the **Treatment clock** (4 pulses × 5s). Run them as a single clock. Full staging in `lore/dungeons/spirit-dungeon/rooms.md#encounter-asylum-set`.
+
+- **The grapple is a trap, not a win.** The pin commits Clint's hands *and his position*; Commanding Shout is a **15 ft** area, so he has put himself out of range of every problem he's about to have. He never turns his head — the ~6s **haste fade** and the per-pulse blackout flares tell him the room is collapsing.
+- **The Straitjacket takes Rebekah**, because her Dissonant Chord is a real debuff and Vanessa's illusion is a lure that generates no threat — her *failure* is what keeps her safe. **Wade has no taunt at any level he has**, and is still Broken: body and voice only.
+- **Selene finishes the Orderly first** (freezes the Treatment, denies the second Elite, defangs the gurney's worst branch), then breaks for Rebekah — and the gurney takes her **mid-run, one second after the choice**.
+- **Vanessa frees her with an un-excluded Fireball** — the [Sharpshooter's Monocle](../lore/dungeons/spirit-dungeon/mobs.md#the-100-ticket-set--the-temptation) payoff. Selene **rips the straps herself** in the same second and rides the blast: singed, ears smoking, tail smoldering, still moving (Luck 15 + Nekara Agility — see `characters/party/selene.md`). Do **not** run the clothes-burned-off gag on her; it's Clint's, and his Luck 4 is why.
+- **Relationship plants (never named on-page):** Selene doesn't hesitate for a second before going to Rebekah; Clint backs Vanessa's call to fireball a teammate instantly, when everyone else flinches. Clint notices both and understands neither. Pays off at the [Mimic Couch](../lore/dungeons/spirit-dungeon/rooms.md#the-mimic-couch).
+- **Guards:** proximity-triggered, not hall-triggered — they watch Clint cross and don't engage. *(Exit handling pending — see open question below.)*
+
+**Canon Notes**:
+- ✅ ~~Clint kills the Head Surgeon in ~6 smite-punches~~ — **resolved, the math checks out.** Smite: Sanction (+30 flat) × 11% DR ≈ 30/hit vs 150 HP. Keep as written; the issue was pacing, not damage.
+- ✅ ~~Asylum Guards don't wake~~ — **resolved in the prose's favor.** `rooms.md` corrected to match `mobs.md`: Guards trigger on **door proximity**, not on crossing the hall. They track him without engaging.
+- ✅ ~~Straitjacket read as flatly immune~~ — **resolved.** Dialogue still calls it immune, but it rips free and charges **Rebekah**, the caster who landed the real debuff. Reads as in-character misinference.
+- ✅ ~~Vanessa is the gurney's victim~~ — **resolved.** The revision puts **Selene** on the gurney and gives Vanessa the fireball.
+- ✅ ~~Treatment clock drops off-page~~ — **resolved.** Blackout pulses land on-page and the clock explicitly freezes at 78%.
+- ✅ ~~Badge doesn't drop~~ — **resolved.** Looted off the Head Surgeon's chest.
+- ✅ ~~Gurney has no cart of its own~~ — **resolved.** `rooms.md` gives it a bolted-on crash cart; the prose stat block matches (8 dmg / 3s / 5 stacks).
+- ❌ **The planned ending bypasses the gate.** The closing placeholder has the party flash the badge and walk through with **both Asylum Guards alive**. Canon: *the door cannot be opened past a living Guard, even with the badge.* Either the Guards get fought or the gate rule changes.
+- ❌ **Guards advance, then return to post.** Canon `Post Discipline` has them never leave the post and fight to the death in place once provoked. The draft's "advance, hit once, disengage" is a third behavior.
+- ⚠ Strobe debuff still shown as *−5% Accuracy, +5% Spell Fizzle*; canon asylum strobes are a flat **−5 accuracy** with no fizzle component
+- ⚠ Treatment still presented as a **percentage** (6/38/56/78%) rather than the canon 4-pulse clock; the numbers don't map to quarters
+- ⚠ Loot naming drift: "Electric Shock Therapy Paddle… ranged" vs canon **ECT Paddles** (melee, 4–7 lightning, 10% 1s stun); "ID Card" vs **AUTHORIZED PERSONNEL badge**; "scraps" vs **Torn Straitjacket Scraps**. Rubber Gloves and the Sedative Syringe don't drop
+- ⚠ **Cardiac Cycle** block says "Convultion"/"unconcious"; canon terms are **Convulsing** and **Unresponsive**. Numbers are exact
+- Selene's fire survival written as "using some ability"; canon attributes it to **Nekara Agility + Luck 15**, no ability spend
+- Vanessa asks permission ("I'm going to fireball it" / "Do it"); canon stages both women acting alone, neither knowing the other was
+- **"Bekkah"** — Selene's nickname for Rebekah debuts here and isn't in either character file
+- Prose still spells it "straightjacket" three times; canon files use **straitjacket**
+- **Wade is still Broken (−25% healing)** and it never bites — the asylum set is designed as where compromised sustain shows
+- Unspent: **Strider's needle** about the traded Monocle, and the **XP event** (Elite 1,800 + Normal 600 + Elite 1,800 = 4,200 — `rooms.md` has Clint on track for L5 by end of showroom)

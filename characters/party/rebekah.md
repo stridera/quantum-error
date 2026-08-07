@@ -37,6 +37,14 @@ Her future self wore **a beautiful dress** — deep green shot through with ligh
 
 The social fabric of the group — warm, loud, hopeful; the friend who pulls everyone to the table. In combat she's the force multiplier: her songs keep the party moving forward and grant significant buffs. When things look darkest, Rebekah is the reason they keep walking.
 
+## Selene
+
+Rebekah and [Selene](selene.md) are not dating, and neither has said a word about it. They are also visibly on their way, and the rest of the party has quietly stopped commenting on it.
+
+Where Selene's tell is that her guard drops, Rebekah's is that **she's the one who teases.** She is secure enough in it to enjoy herself — to make Selene wait, to let a moment run long because it's funny and because she can. That confidence is the thing to write; it reads as warmth rather than nerves, and it's the mechanism of the [Mimic Couch](../../lore/dungeons/spirit-dungeon/rooms.md#the-mimic-couch) payoff, where she stops the rescue to savor it.
+
+> **Author-only:** the cause is the [relationship leak](../../meta/real-world.md) — real-Rebekah and real-Selene married years before real-current, bleeding into the sim as inevitability-feeling attraction. **Never on-page in Book 1.** Neither character examines it.
+
 ## Playing Style
 
 Rebekah does not carry an instrument. [Chrono Resonance](../../classes/temporal-bard.md) lets her play *the temporal strings themselves* — she plucks at invisible threads of time while she sings, fingers moving as if on a harp no one else can see. The music comes from both her voice and the strings she's playing; the strings vibrate at frequencies most people can't hear but everyone can feel. When she's deep in a song, onlookers describe it as watching a harpist play an instrument made of the moment itself.

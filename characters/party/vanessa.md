@@ -36,6 +36,14 @@ Her future self wore **robes that shifted colors, sigils appearing and disappear
 
 Composed, analytical, intellectually curious — the party's primary damage caster and its vocabulary for the impossible: her field gives her words for things the others can only feel their way through. Her hastiness under pressure is her flaw of record (the 99,999-mana incident was impulse dressed as curiosity — see her [echo fight](../../lore/dungeons/spirit-dungeon/mobs.md#vanessas-echo)).
 
+## Clint
+
+Vanessa and [Clint](clint.md) are not together and neither has moved. What they have instead is an ease that outruns the time they've actually spent — she takes his side reflexively, he checks for her first, and both treat this as unremarkable.
+
+Her tell is that **she lets her composure slip only around him.** The analytical register drops; she gets blunt, exasperated, funny — the *"Use the mallet, you idiot"* voice. Nobody else gets that version of her. Write it as unexamined; she has never once asked herself why it's him.
+
+> **Author-only:** the cause is the [relationship leak](../../meta/real-world.md). Real-Clint and real-Vanessa married years before real-current — but crucially, their *real-world* counterparts did not start dating until years after the sim's start point, so this closeness is running well ahead of anything their own timeline justifies. That dissonance is deliberate and is a Books 2-3 reveal vector. **Never on-page in Book 1.**
+
 ## Starting Stats
 
 | Stat | Value |

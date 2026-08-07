@@ -1287,13 +1287,19 @@ Mannequins in rent-a-cop uniforms flanking the "AUTHORIZED PERSONNEL ONLY" door.
 - **Attacks:** 1
 
 #### Post Discipline (Passive)
-- A Guard will not leave its post. It ignores the party until (a) someone comes within reach of the door, or (b) it is attacked. Then it fights to the death in place.
+- A Guard will not leave its post. It ignores the party until (a) someone comes **within reach of the door** without the badge, or (b) it is attacked. Then it fights to the death in place.
+- **They guard the door, not the room.** Crossing the middle hall at a distance provokes nothing — the Guards *track* whoever passes, heads turning to follow, and do not engage. See [Room 3 — the gate](rooms.md#encounter-asylum-set).
+
+#### Authorized Personnel (Passive)
+- **A Guard honors the badge.** Present the [AUTHORIZED PERSONNEL badge](#head-surgeon-holds-the-key) and both Guards straighten, step aside, and let the party through the door unharmed. They do not check the photo. They do not ask where it came from. They do not care that the man it belonged to is dead on the linoleum behind you.
+- They are **not defeated** by this — they return to post and remain live Elites at the party's back.
+- **Design note:** the Guards are policy, not monsters. Killing them is possible but pointless, and a static two-Elite cleanup after the tableau collapse is the flattest available ending to the room — so the badge is the intended solution. The horror is that murdering a man and taking his ID card makes it *fine*; the beat rhymes forward into the Store Manager's *"Let's discuss your performance."* The gate still can't be skipped, because the badge only drops from the [Head Surgeon](#head-surgeon-holds-the-key). Leaving them alive also keeps [Clint's XP curve on plan](../../../system/xp.md#worked-example-clint-dings-l4) — the tableau alone lands him at **~L5** as designed, while the two Guards' 3,600 would overshoot him into L6 before the boss.
 
 #### Interpose
 - **Type:** Skill (Reaction)
 - **Rules:**
-  - If a character tries to open or force the door while a Guard lives, the nearest Guard intercepts with a shove: 11 damage + knockback.
-  - **The door cannot be opened past a living Guard — even with the badge.**
+  - If a character tries to open or force the door **without the badge** while a Guard lives, the nearest Guard intercepts with a shove: 11 damage + knockback.
+  - **The door cannot be opened past a living Guard empty-handed.** The badge is the only thing that satisfies them — and it is the only thing that has to.
 
 #### Baton Bash
 - **Type:** Skill
@@ -1301,7 +1307,7 @@ Mannequins in rent-a-cop uniforms flanking the "AUTHORIZED PERSONNEL ONLY" door.
 - **Rules:**
   - 11 physical + 1s stagger.
 
-**The gate:** to leave the showroom, the party needs the Head Surgeon's badge **and** both Guards down. Beyond the door: [Room 4](rooms.md#room-4-back-storage-maze) ("EMPLOYEES ONLY").
+**The gate:** to leave the showroom, the party needs the Head Surgeon's badge — **that's all.** Present it and the Guards stand aside; they stay alive, at post, behind the party. Beyond the door: [Room 4](rooms.md#room-4-back-storage-maze) ("EMPLOYEES ONLY").
 
 **Drops:** Riot Baton (Common weapon, 5-8 physical, 1s stagger), Guard Cap (Common cosmetic)
 

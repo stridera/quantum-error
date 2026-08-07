@@ -36,6 +36,14 @@ The restored mirrors showed each of them the self they're growing into. Clint's 
 
 A Utah native with a sturdy, resolute demeanor — the friend who quietly takes responsibility when things go sideways. Party leader and tank. His protector instinct predates his class: the EMT volunteering, the D&D DMing, the reflex to put himself between the party and the problem. The System noticed.
 
+## Vanessa
+
+Clint and [Vanessa](vanessa.md) are not together, and Clint — who notices everything about everyone else's safety — has not noticed this. The protector reflex is party-wide, but it fires for her a half-beat sooner and he does not register the difference.
+
+Because he is the POV, **the reader has to see this before he does.** He reports her reactions in more detail than anyone else's, quotes her more often, and reaches for her name first when the room goes bad. He never comments on it. Strider does — *"Now kiss."* (Ch 17) — and Clint deflects.
+
+> **Author-only:** the cause is the [relationship leak](../../meta/real-world.md); see [Vanessa's entry](vanessa.md#clint) for the timeline dissonance. **Never on-page in Book 1** — and never in Clint's interiority, since his obliviousness is what keeps it deniable.
+
 ## Starting Stats
 
 | Stat | Value |

@@ -19,9 +19,11 @@ somehow, it still causes your victim to bleed.
 
 ## Ownership & Status
 
-Held by Clint since Ch 15 ("I call dibs on these") · status: intact but **abandoned in asylum territory since the Ch 20 launch** (unrecovered as of Ch 21; recovery needed before the prize-booth "by choice" beat) · his primary weapon
+Held by Clint since Ch 15 ("I call dibs on these") · status: intact — **recovered in Ch 22** (Clint crosses onto the asylum linoleum to grab it at the encounter's open, after abandoning it there at the Ch 20 launch) · his primary weapon
 through the Spirit Dungeon arc (Smite delivery in Ch 16 and the echo fight in Ch 18).
-**Open thread:** it "was glowing slightly" before the Ch 17 mannequin fight — unexplained.
+Carries a faint white glow from **System Attunement (Visual)** — residue of the privileged
+smites Clint delivered through it in Ch 16; first noted in prose Ch 17. See
+[Paladin of the System](../../classes/paladin-of-the-system.md).
 
 ## Origin
 
@@ -33,4 +35,5 @@ Clint on the spot.
 - **Damage:** 2d4 bludgeoning
 - **Additional Effect:** Dealing damage causes 1d4 bleeding damage for 2 rounds
 
-> **Prose Source:** Chapter 15 — Halloween Mannequin loot; glow noted Chapter 17.
+> **Prose Source:** Chapter 15 — Halloween Mannequin loot; glow noted Chapter 17 (System
+> Attunement, not item-intrinsic).
