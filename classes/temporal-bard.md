@@ -21,6 +21,24 @@ Charisma-based magic users who cast using their voices and instruments. This sub
 - Duration: sustained while singing plus fade time
 - Time effects primarily manipulate order and timing. Only one minimal direct-damage song exists (**Dust Note**, L1), reserved as a baseline self-defense option. Every class gets some way to protect itself; the Temporal Bard's version is the least lethal in the game.
 
+### Songs vs. Refrains
+
+The Bard has **two** ability types, and the distinction is the class's whole economy.
+
+| | **Song** | **Refrain** |
+|---|---|---|
+| Duration | Sustained while singing, plus fade | Played once; persists for hours |
+| Slot cost | **Occupies a concurrent-song slot** | **None** |
+| Mana | Upkeep, drains while playing | One-time cost at performance |
+| Where | In combat | Out of combat only — cannot be started while in combat |
+| Interrupt | Drops when she's hit or silenced | Already set; damage doesn't touch it |
+
+A **Song** is a thing she is *doing.* A **Refrain** is a thing she has *done* — a settled pattern laid into the local timeline that keeps running without her. She hums it at camp and then goes to sleep.
+
+**Why this matters mechanically:** [Harmonic Memory](#harmonic-memory) caps her at **2 concurrent songs**, and Temporal Boost + Veil of Offbeats already fill both in a real fight. If restorative music competed for those slots, every quality-of-life effect would cost the party its buffs. Refrains sit outside that economy entirely — the Bard's utility kit grows without ever taxing her combat kit.
+
+> **Design note:** Refrains are the designated home for future non-combat temporal magic. Anything that should feel like *maintenance of the world* rather than *action in a fight* belongs here.
+
 ## Ability Progression (Levels 1-20)
 
 | Level | Ability | Type | Effect |
@@ -29,6 +47,7 @@ Charisma-based magic users who cast using their voices and instruments. This sub
 | 1 | Temporal Boost | Song | Allies act and move faster. The party calls it "the haste song"; System-identified as Temporal Boost (Ch 16) — advanced temporal reference frame; stacks "by increasing certainty, not speed." |
 | 1 | Dust Note | Song (damage) | Single plucked note inflicts a moment of accelerated decay on one target. Minimal damage — reserved as baseline self-defense. |
 | 2 | Veiled | Passive | Ambient music makes the party unremarkable — observers overlook them unless actively searching (social stealth, not invisibility). Shown Ch 9, after Rebekah hit L2 in the first guard fight. |
+| 2 | [Rejuvenation](#rejuvenation) | **Refrain** | Suspends the body's maintenance overhead for everyone who heard it. The reason nobody in this story ever has to stop and deal with being a body. |
 | 2 | Rewind Note | Utility | Slightly rolls back a recent cooldown or timing mistake |
 | 3 | Dissonant Chord | Song | Enemies fall out of sync—minor slow and confusion |
 | 3 | Veil of Offbeats | Song | Allies blur across adjacent timelines, increasing evasion |
@@ -115,6 +134,26 @@ Inspired by D&D Homebrew College of Time subclass.
 - The party calls it "the haste song" (Ch 13, her first instrument-less cast).
 
 **Scaling:** +2% per temporal-skill tier; stacking depth grows with skill.
+
+#### Rejuvenation
+- **Type:** **Refrain** · **Level:** 2 · **Cost:** 20 mana (one-time) · **Duration:** 12 hours · **Targeting:** Listeners (everyone in audible range at performance)
+
+**Rules**
+- **Suspends the body's maintenance overhead.** Hunger, thirst, waste, fatigue-poisons, cycles — the whole biological billing department stops sending invoices. The body keeps running; it just stops *needing things* for the duration.
+- Does **not** heal, restore HP or mana, cure status effects, or replace sleep. It removes the *chores* of having a body, not the body's actual condition. A starving person is still starving underneath — Rejuvenation only means they aren't spending the day thinking about it.
+- Cannot be started in combat. Rebekah sings it at camp, usually while doing something else, usually badly.
+
+**Scaling:** duration +6h per 5 levels; radius grows with charisma and skill.
+
+> **Author-facing — this is a handwave, and it should stay invisible.**
+>
+> The effect is written deliberately broad and **must never be enumerated on-page.** Nobody says "and menstruation." The phrasing is *"the body stops billing you,"* and it covers everything — including everything not thought of yet. A spell with a specific list is a spell that keeps drawing attention to the list; the entire purpose here is that these problems leave the narrative and don't come back.
+>
+> Two consequences worth holding onto:
+> - It means the story never has to stage a bathroom break, a ration count, or a period, in a genre that otherwise has to keep pretending those don't exist.
+> - It never raises a question about [Selene's](../characters/party/selene.md) body, because it never distinguishes between bodies. The broad phrasing isn't squeamishness — it's the version that requires the narrative to have no position at all.
+>
+> Pair with **[Cleanse](../magic/spells/cleanse.md)** and the [holy auras](cleric-of-healing.md#cleric-aura), which handle the external half. Between them, hygiene and biology are closed subjects.
 
 #### Dust Note
 - **Type:** Song (damage) · **Level:** 1 · **Cost:** 5 mana per note · **Cooldown:** none · **Duration:** Instant · **Targeting:** Enemy

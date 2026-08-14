@@ -264,9 +264,16 @@ Wade's class includes an emotional limiter mechanic:
 
 **Rules**
 - Passive calm radius: allies gain minor fear resistance (+1 to fear resistance checks) and **+5% healing received**.
+- **Ambient [Cleanse](../magic/spells/cleanse.md).** The aura continuously runs the beginner cleaning cantrip on everyone inside it. Not instant — it works the way sunlight dries something. Walk near Wade for a while and the blood comes off your gear, the smell goes, and you arrive somewhere looking like a person. Nobody casts anything. Nobody asks.
 - Stacks with Blessed. Shown on Wade's sheet Ch 12.
 
 **Scaling:** +5 ft radius per 5 levels; healing bonus +1% per 10 levels.
+
+> **The Wade of it.** This is the ability that characterizes him best and he has never once mentioned it. His magic tidies people up as a side effect of him standing near them, without being asked, without being noticed, and without him getting any credit. It is the passive, unglamorous, permanently-on version of care — which is Wade entire.
+>
+> **The Book 2 consequence:** Wade [leaves the party after Book 1](../system/xp.md). The party does not lose the *capability* — [Cleanse](../magic/spells/cleanse.md) is a beginner spell anyone can learn, and they all know it. What they lose is **never having to think about it.** They go back to casting it on themselves, manually, every day, forever, and the first time somebody notices that they have to, it should land harder than any line about missing him. Pick this up in Book 2 before anyone says his name.
+>
+> **The wish (Book 1, throwaway).** Wade should mention — once, at camp, as a joke, and never again — that he wishes he could get [Rebekah's](../characters/party/rebekah.md) [Rejuvenation](temporal-bard.md#rejuvenation) to work like his aura does: always on, covering everyone near him, nobody having to ask. He is describing a thing he wants to be. *(See `characters/party/wade.md` — this is a deliberate long-range foreshadow. Do not underline it.)*
 
 #### Lesser Restoration
 - **Type:** Spell · **Level:** 4 · **Cost:** 25 mana · **Cooldown:** none · **Duration:** Instant (short cast, ~2s) · **Targeting:** Touch (ally)

@@ -498,11 +498,13 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 
 ---
 
-## Chapter 22: Asylum *(in progress — draft, 1,733 words; closing scene unwritten)*
+## Chapter 22: Asylum
 
-**Word count**: 1,733
+**Word count**: 2,615
 
-**Summary**: Qubit — now formally counted as a party member — bolts toward the straitjacketed mannequin, kicking off the asylum encounter: the Head Surgeon and the Asylum Orderly begin "treatment" on their gurney-bound patient while a loose gurney charges Clint. He bashes it aside and crosses onto the linoleum to recover his lost **Plastic Bloody Machete**, taking the **Strobe Lights** debuff and regretting the un-bought Carnival Shades. His Identify reads the **Lobotomized Patient** at *Treatment Progress: 6%*, jumping to 38%. Clint assigns Rebekah a slow and Vanessa an illusion on the straitjacket, calls Selene over, and tackles the Head Surgeon — then spends the rest of the fight pinned on top of it, counting smite cooldowns through four blackout pulses while the room comes apart behind him. The straitjacket rips free and charges **Rebekah**, the caster who landed the real debuff; **Wade** steps in front of her with no taunt in his kit. **Selene** finishes the channeling Orderly (freezing the Treatment at 78%), breaks for Rebekah, and is snatched mid-run by the roving gurney, which starts a **Cardiac Cycle** on her. **Vanessa** fireballs the gurney with Selene still strapped to it; Selene rips free at the fourth Fibrillation stack and rides the blast out — ears smoking, tail smoldering — then plants her **Prop Cutlass** in the straitjacket's back. Clint kills the Surgeon with a final punch, cuts the corner past the guard post and takes a hit for it, heals his bleed with **Cure Light Wounds**, and loots the **AUTHORIZED PERSONNEL badge** off the Surgeon's chest. The chapter breaks off before the recovery scene and the exit.
+**Summary**: Qubit — now formally counted as a party member — bolts toward the straitjacketed mannequin, kicking off the asylum encounter: the Head Surgeon and the Asylum Orderly begin "treatment" on their gurney-bound patient while a loose gurney charges Clint. He bashes it aside and crosses onto the linoleum to recover his lost **Plastic Bloody Machete**, taking the **Strobe Lights** debuff and regretting the un-bought Carnival Shades. His Identify reads the **Lobotomized Patient** at *Treatment Progress: 6%*, jumping to 38%. Clint assigns Rebekah a slow and Vanessa an illusion on the straitjacket, calls Selene over, and tackles the Head Surgeon — then spends the rest of the fight pinned on top of it, counting smite cooldowns through four blackout pulses while the room comes apart behind him. The straitjacket rips free and charges **Rebekah**, the caster who landed the real debuff; **Wade** steps in front of her with no taunt in his kit. **Selene** finishes the channeling Orderly (freezing the Treatment at 78%), breaks for Rebekah, and is snatched mid-run by the roving gurney, which starts a **Cardiac Cycle** on her. **Vanessa** fireballs the gurney with Selene still strapped to it; Selene rips free at the fourth Fibrillation stack and rides the blast out — ears smoking, tail smoldering — then plants her **Prop Cutlass** in the straitjacket's back. Clint kills the Surgeon with a final punch, cuts the corner past the guard post and takes a hit for it, heals his bleed with **Cure Light Wounds**, and loots the **AUTHORIZED PERSONNEL badge** off the Surgeon's chest.
+
+The party then sits on the carousel edge to regenerate mana and catch their breath. Selene feeds Qubit popcorn while he does dog tricks; prompted by Clint's "Is it a dog or luggage?", the mimic grows two extra feet and then shifts into his **blue dog with googly eyes** form before reverting to a chest. Vanessa realizes she hasn't been hungry or thirsty since the Transition, and Rebekah explains it's her **Rejuvenation** — the body's maintenance overhead suspended. Wade wonders aloud whether he could fold the same effect into his **Cleric Aura**, which already runs an ambient cleaning effect. Vanessa reveals she has been deliberately experimenting to reproduce the **Sharpshooter's Monocle's** ally-exclusion and has opened the **Metamagic** proficiency at **Novice 3** — and Clint, running Identify on his own sheet, finds he holds the same school at **Mastered**, written in by pre-Transition console access, with no idea how to use it. **Strider** tells him the System will honor the rank but the technique has to be learned. Selene asks Clint to store the popcorn machine in his **Fanny Pack of Holding**; it refuses, returning that it cannot store items bound to another person or location. The party lines up at the exit, Clint shows the badge, the **Asylum Guards step aside**, and they push through the sensor door into mundane halls beyond — the doors slamming shut behind them.
 
 **Key Plot Events**:
 - Qubit's first act as a party member triggers the asylum encounter
@@ -514,38 +516,46 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 - **Wade tanks with no taunt**, by body and voice only, while still Broken
 - **Selene strapped to the roving gurney**; **Cardiac Cycle** stat block on page (8 dmg / 3s, Fibrillation → Unresponsive at 5). She reaches 4 stacks
 - **Vanessa fireballs a teammate** to free her — the Sharpshooter's Monocle payoff. Selene rips the straps in the same second and rides the blast (Luck 15 + Nekara Agility)
-- **Asylum Guards wake** when Clint cuts the corner on the door, land one hit, and disengage
 - **AUTHORIZED PERSONNEL badge obtained** — the gate key
+- **Qubit's shapeshifting demonstrated on-page** — extra feet on request, then the blue-dog-with-googly-eyes form, then back to a chest
+- **Rejuvenation named and explained** — Rebekah's refrain is why nobody has needed to eat, drink, or deal with a body since the Transition
+- **Wade's wish lands** — he wonders whether Rejuvenation's effect could be folded into his always-on Cleric Aura (the Book 2 foreshadow)
+- **Vanessa opens the Metamagic proficiency at Novice 3** — the first legitimately earned rank in the school, chased to reproduce the traded-away Sharpshooter's Monocle
+- **Clint's Metamagic revealed as Mastered** — a pre-Transition console grant with no proficiency behind it. Resolves the Ch 5 open flag; Strider confirms the System honors the rank but not the hands
+- **New storage rule:** the Fanny Pack of Holding cannot store items bound to another person or location
+- **Party exits the showroom** — badge shown, Guards stand aside, sensor door opens into "very mundane halls" and seals behind them (leads into Ch 23, *The Backrooms*)
 - Clint confirmed at **Level 4** ("the mob six levels higher than me"); STR 20 confirmed
-
-### Revision plan (approved 2026-08-06)
-
-The draft's **damage math is correct and should not change** — Smite: Sanction is +30 flat, AR 6 is 11% DR, so ~30/punch and six punches on a 150 HP Elite is exact. The problem is that six smites on a **4s cooldown = ~20 seconds**, which is also the **Treatment clock** (4 pulses × 5s). Run them as a single clock. Full staging in `lore/dungeons/spirit-dungeon/rooms.md#encounter-asylum-set`.
-
-- **The grapple is a trap, not a win.** The pin commits Clint's hands *and his position*; Commanding Shout is a **15 ft** area, so he has put himself out of range of every problem he's about to have. He never turns his head — the ~6s **haste fade** and the per-pulse blackout flares tell him the room is collapsing.
-- **The Straitjacket takes Rebekah**, because her Dissonant Chord is a real debuff and Vanessa's illusion is a lure that generates no threat — her *failure* is what keeps her safe. **Wade has no taunt at any level he has**, and is still Broken: body and voice only.
-- **Selene finishes the Orderly first** (freezes the Treatment, denies the second Elite, defangs the gurney's worst branch), then breaks for Rebekah — and the gurney takes her **mid-run, one second after the choice**.
-- **Vanessa frees her with an un-excluded Fireball** — the [Sharpshooter's Monocle](../lore/dungeons/spirit-dungeon/mobs.md#the-100-ticket-set--the-temptation) payoff. Selene **rips the straps herself** in the same second and rides the blast: singed, ears smoking, tail smoldering, still moving (Luck 15 + Nekara Agility — see `characters/party/selene.md`). Do **not** run the clothes-burned-off gag on her; it's Clint's, and his Luck 4 is why.
-- **Relationship plants (never named on-page):** Selene doesn't hesitate for a second before going to Rebekah; Clint backs Vanessa's call to fireball a teammate instantly, when everyone else flinches. Clint notices both and understands neither. Pays off at the [Mimic Couch](../lore/dungeons/spirit-dungeon/rooms.md#the-mimic-couch).
-- **Guards:** proximity-triggered, not hall-triggered — they watch Clint cross and don't engage. *(Exit handling pending — see open question below.)*
 
 **Canon Notes**:
 - ✅ ~~Clint kills the Head Surgeon in ~6 smite-punches~~ — **resolved, the math checks out.** Smite: Sanction (+30 flat) × 11% DR ≈ 30/hit vs 150 HP. Keep as written; the issue was pacing, not damage.
-- ✅ ~~Asylum Guards don't wake~~ — **resolved in the prose's favor.** `rooms.md` corrected to match `mobs.md`: Guards trigger on **door proximity**, not on crossing the hall. They track him without engaging.
-- ✅ ~~Straitjacket read as flatly immune~~ — **resolved.** Dialogue still calls it immune, but it rips free and charges **Rebekah**, the caster who landed the real debuff. Reads as in-character misinference.
-- ✅ ~~Vanessa is the gurney's victim~~ — **resolved.** The revision puts **Selene** on the gurney and gives Vanessa the fireball.
-- ✅ ~~Treatment clock drops off-page~~ — **resolved.** Blackout pulses land on-page and the clock explicitly freezes at 78%.
+- ✅ ~~Asylum Guards don't wake~~ — **resolved in the prose's favor.** Guards trigger on **door proximity**, not on crossing the hall.
+- ✅ ~~Straitjacket read as flatly immune~~ — **resolved.** Reads as in-character misinference.
+- ✅ ~~Vanessa is the gurney's victim~~ — **resolved.** Selene on the gurney, Vanessa on the fireball.
+- ✅ ~~Treatment clock drops off-page~~ — **resolved.** Explicitly freezes at 78%.
 - ✅ ~~Badge doesn't drop~~ — **resolved.** Looted off the Head Surgeon's chest.
-- ✅ ~~Gurney has no cart of its own~~ — **resolved.** `rooms.md` gives it a bolted-on crash cart; the prose stat block matches (8 dmg / 3s / 5 stacks).
-- ❌ **The planned ending bypasses the gate.** The closing placeholder has the party flash the badge and walk through with **both Asylum Guards alive**. Canon: *the door cannot be opened past a living Guard, even with the badge.* Either the Guards get fought or the gate rule changes.
-- ❌ **Guards advance, then return to post.** Canon `Post Discipline` has them never leave the post and fight to the death in place once provoked. The draft's "advance, hit once, disengage" is a third behavior.
+- ✅ ~~Gurney has no cart of its own~~ — **resolved.** `rooms.md` gives it a bolted-on crash cart.
+- ✅ ~~The planned ending bypasses the gate~~ — **resolved.** The written ending matches `mobs.md#authorized-personnel` exactly: the Guards step forward, Clint shows the badge, they stand aside, the sensor unlocks the door. The badge is the intended solution and the Guards are left alive at the party's back.
+- ❌ **Strider's dialogue is heard by the whole party.** *"You have the skill," came Strider's voice* is delivered inline in a group conversation and Clint answers aloud twice. Locked canon (`characters/party/clint.md#patron-strider`): Strider is audible to Clint alone, and anything the party learns from him, they learn because Clint relays it.
+- ❌ **Rejuvenation written as a sustained song.** *"as long as you keep playing that"* / *"my rejuvination song that I play."* Canon (`classes/temporal-bard.md`, locked): a **Refrain** — 20 mana one-time, 12-hour duration, cannot be started in combat.
+- ❌ **Rejuvenation's effect enumerated on-page.** *"Hunger, thirst, waste, fatigue-poisons, cycles."* The canon file's author-facing directive is explicit that the effect must never be enumerated; the intended phrasing is the follow-up line, *"all the little taxes for being alive."*
+- ❌ **Guards advance, then return to post.** Canon `Post Discipline` has them never leave the post and fight to the death in place once provoked. Now sits in the same scene as a textbook-correct badge exchange.
+- ⚠ **Wade names his aura's cleaning effect and Clint notices it.** Locked canon: Wade has never once mentioned it and nobody notices — the Book 2 payoff is the party noticing its *absence*.
+- ⚠ **Metamagic readout drift.** Prose shows `Rank: Mastered`; canon is **Legendary — Mastered**, plus `Proficiency: —` and the ⚠ MASTERY RECORD panel ending *"Recommended action: none available."*
+- ⚠ **Clint tells Vanessa immediately.** Canon staging has him keep it to himself at first, so her Novice 3 gets one clean beat before the reveal takes it.
+- ⚠ **"that sharpshooter amulet"** — the item is the **Sharpshooter's Monocle**; first on-page reference since the trade.
 - ⚠ Strobe debuff still shown as *−5% Accuracy, +5% Spell Fizzle*; canon asylum strobes are a flat **−5 accuracy** with no fizzle component
-- ⚠ Treatment still presented as a **percentage** (6/38/56/78%) rather than the canon 4-pulse clock; the numbers don't map to quarters
-- ⚠ Loot naming drift: "Electric Shock Therapy Paddle… ranged" vs canon **ECT Paddles** (melee, 4–7 lightning, 10% 1s stun); "ID Card" vs **AUTHORIZED PERSONNEL badge**; "scraps" vs **Torn Straitjacket Scraps**. Rubber Gloves and the Sedative Syringe don't drop
+- ⚠ Treatment still presented as a **percentage** (6/38/56/78%) rather than the canon 4-pulse clock
+- ⚠ Loot naming drift: "Electric Shock Therapy Paddle… ranged" vs canon **ECT Paddles** (melee); "ID card" vs **AUTHORIZED PERSONNEL badge**; "scraps" vs **Torn Straitjacket Scraps**. Rubber Gloves and the Sedative Syringe don't drop
 - ⚠ **Cardiac Cycle** block says "Convultion"/"unconcious"; canon terms are **Convulsing** and **Unresponsive**. Numbers are exact
+- Vanessa's "I haven't needed to use the restroom" stages the subject Rejuvenation exists to remove from the narrative
+- Qubit's leg count doesn't close: six feet, plus two, then "back into its chest form, with only six legs"
 - Selene's fire survival written as "using some ability"; canon attributes it to **Nekara Agility + Luck 15**, no ability spend
 - Vanessa asks permission ("I'm going to fireball it" / "Do it"); canon stages both women acting alone, neither knowing the other was
 - **"Bekkah"** — Selene's nickname for Rebekah debuts here and isn't in either character file
-- Prose still spells it "straightjacket" three times; canon files use **straitjacket**
+- Prose still spells it "straightjacket" five times against one correct use; canon files use **straitjacket**
+- **New mechanic pending canon:** the Fanny Pack of Holding refusing items "bound to another person or location" is not in the (locked) item file
 - **Wade is still Broken (−25% healing)** and it never bites — the asylum set is designed as where compromised sustain shows
-- Unspent: **Strider's needle** about the traded Monocle, and the **XP event** (Elite 1,800 + Normal 600 + Elite 1,800 = 4,200 — `rooms.md` has Clint on track for L5 by end of showroom)
+- Wade's wish lands but the canon-planted crack about him "wanting to be a walking utility bill" is missing, and the wish is framed as an acquisition plan rather than a throwaway
+- Whitespace is now inconsistent chapter-wide: the revision normalized the fight's paragraphs to single-space-after-period while the new ~40 paragraphs use double
+- Typos: "rejuvination", "shenanery", two unclosed quotation marks
+- Unspent: **Strider's needle** about the traded Monocle, and the **XP event** (Elite 1,800 + Normal 600 + Elite 1,800 = 4,200 — `mobs.md` has Clint on track for L5 out of this tableau)

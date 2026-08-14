@@ -84,7 +84,7 @@ After boosting via the system console. Clint stopped boosting INT/WIS at 14 due 
 | Ch | Event |
 |----|-------|
 | 4 | Class selected: Paladin (age-triggered; "Welcome, Holy Paladin") |
-| 5 | Console-era spells: **Holy Light** · "Divine Strike" (early prose name for **Smite: Judgment**) · "Divine Touch" (tentatively = Cure Light Wounds — ⚠ unconfirmed) · Meta Magic (Legendary, "Mastered" — ⚠ status unresolved) · Enchanting (Epic, "Mastered"). *Prose revision TODO: align Ch 5 spell names with class canon.* |
+| 5 | Console-era spells: **Holy Light** · "Divine Strike" (early prose name for **Smite: Judgment**) · "Divine Touch" (tentatively = Cure Light Wounds — ⚠ unconfirmed) · **[Metamagic](../../magic/schools/metamagic.md)** (Legendary, "Mastered" — ✅ resolved: it's a school, he still holds the rank, and he has **zero** proficiency behind it, so he cannot use it at all) · Enchanting (Epic, "Mastered"). *Prose revision TODO: align Ch 5 spell names with class canon, incl. "Meta Magic" → **Metamagic**.* |
 | 7 | **Identify** learned organically (by use, not console) |
 | 8 | Console boosts: stats → 20s (INT/WIS 14); Perception "to master levels", Identification, Enchanting maxed; explicitly still Level 1 |
 | 13–14 | XP-block revealed: *"You must align yourself with a God to activate your class"* — every kill since the start earned nothing; Strider's one-day blessing explained; newt curse; **Innate System** granted (interface-free) |

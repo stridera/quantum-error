@@ -36,6 +36,16 @@ Her future self wore **robes that shifted colors, sigils appearing and disappear
 
 Composed, analytical, intellectually curious — the party's primary damage caster and its vocabulary for the impossible: her field gives her words for things the others can only feel their way through. Her hastiness under pressure is her flaw of record (the 99,999-mana incident was impulse dressed as curiosity — see her [echo fight](../../lore/dungeons/spirit-dungeon/mobs.md#vanessas-echo)).
 
+## Metamagic (earned, not granted)
+
+After trading the [Sharpshooter's Monocle](../../lore/dungeons/spirit-dungeon/mobs.md#the-100-ticket-set--the-temptation) away for Selene's mimic — and then watching an un-excluded Fireball nearly kill a teammate in the [Asylum](../../lore/dungeons/spirit-dungeon/rooms.md#encounter-asylum-set) — Vanessa sets herself the problem of reproducing the item's ally-exclusion **herself.** She'd already wondered aloud whether she could (Ch 21).
+
+That focused effort opens the **[Metamagic](../../magic/schools/metamagic.md) proficiency at Novice.** She cannot do it yet — Novice is *"fumbling the basics; power without control,"* and Exclusion is a long way off. What the proficiency opening tells her is that **it is possible**, which is the whole point. She has been handed a direction, not a capability.
+
+This is the first legitimately earned Metamagic rank in the story, and Vanessa should be openly delighted about a rank of 3.
+
+> **The beat it sets up:** Clint quietly Identifies his own sheet afterward and finds **Legendary — Mastered** in the school she just fought her way into the bottom of — a console artifact he never earned and cannot use. *"Wait — I have that."* Full staging and the Identify readout: [`magic/schools/metamagic.md`](../../magic/schools/metamagic.md).
+
 ## Clint
 
 Vanessa and [Clint](clint.md) are not together and neither has moved. What they have instead is an ease that outruns the time they've actually spent — she takes his side reflexively, he checks for her first, and both treat this as unremarkable.

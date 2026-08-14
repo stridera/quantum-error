@@ -48,9 +48,11 @@ This file is the canonical index for Quantum Error.
 ### Magic
 - `magic/overview.md`
 - `magic/schools/system-magic.md`
+- `magic/schools/metamagic.md`
 - `magic/spells/ignite.md`
 - `magic/spells/create-light.md`
 - `magic/spells/create-water.md`
+- `magic/spells/cleanse.md`
 - `magic/spells/system-dispel.md`
 - `magic/spells/chrono-resonance.md`
 

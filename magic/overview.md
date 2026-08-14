@@ -18,7 +18,7 @@ There are eight major magic categories:
 5. **Mind** — Charm, control, telepathy
 6. **Force** — Kinetic and physical manipulation
 7. **Gravity** — Weight and attraction manipulation
-8. **Metamagic** — Magic that modifies other magic
+8. **[Metamagic](schools/metamagic.md)** — Magic that modifies other magic
 
 ## Universal Access (Magic & Skills)
 
@@ -39,3 +39,4 @@ These spells are accessible to most magic users:
 - [Ignite](spells/ignite.md) — Create a small flame
 - [Create Light](spells/create-light.md) — Generate a light source
 - [Create Water](spells/create-water.md) — Conjure a small amount of water
+- [Cleanse](spells/cleanse.md) — Remove dirt, blood, and odor from a person or object. The most-cast spell in the world, and the reason the post-Transition setting isn't squalid.

@@ -56,6 +56,18 @@ After boosting via the system console.
 - Hit Points: 999
 - Mana: 999
 
+## The Aura Wish
+
+Wade's [Cleric Aura](../../classes/cleric-of-healing.md#cleric-aura) passively cleans everyone standing near him. He has never mentioned it, never taken credit for it, and probably doesn't think of it as an ability — his magic looks after people as a side effect of him being in the room.
+
+**The line to plant (Book 1, once, as a joke):** he says he wishes he could get [Rebekah's](rebekah.md) [Rejuvenation](../../classes/temporal-bard.md#rejuvenation) to work the way his aura does — always on, covering everyone in range, nobody having to ask for it. Somebody makes a crack about him wanting to be a walking utility bill. It never comes up again.
+
+> **Author-only — this is the ending, said out loud in Book 1.**
+>
+> Wade is describing the thing he becomes. In the [series endgame](../../meta/real-world.md) he scans in permanently and his brain becomes the **substrate the simulation runs on** — continuous, ambient, sustaining everyone inside it, forever, without any of them having to ask. He wishes for it at a campfire around Level 6 and gets it in Book 5.
+>
+> **Do not underline it.** No lingering, no meaningful pause, no one else reacting. It should read as a healer complaining about his kit, and only become unbearable on a reread. See [[project_series_endgame]] and `meta/real-world.md`.
+
 ## Level & Progression
 
 **Current (Ch 20):** **Level 6** [Cleric of Healing](../../classes/cleric-of-healing.md) · currently **Broken** (−3 all primary stats, −25% damage/healing/buffs; clears on Spirit Dungeon exit).

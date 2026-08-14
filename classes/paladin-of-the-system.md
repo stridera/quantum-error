@@ -270,9 +270,14 @@ Smite is **privileged from Level 1**. Clint does not learn new smites—he is tr
 - Hostile mental influence (charm, domination, coercion) on allies in radius is **flagged** — a System notification visible to the Paladin.
 - The flagged victim immediately receives a fresh resistance check; the Paladin can force one re-check by touch.
 - Stacks with other System auras (class mechanic). This is the aura protecting [Amanda](../characters/supporting/amanda.md) from re-domination.
-- Logging: `ACTION_TYPE: INTEGRITY_MONITOR | SCOPE: PARTY`
+- **Ambient [Cleanse](../magic/spells/cleanse.md) — as *correction*, not care.** The aura's integrity monitor doesn't only watch for hostile influence; it watches for **deviation from filed state**, and dirt qualifies. Blood on a tabard is unlogged material. Mud is an unauthorized modification. The aura quietly reverts it, the same way it would revert anything else that isn't supposed to be there.
+- Logging: `ACTION_TYPE: INTEGRITY_MONITOR | SCOPE: PARTY` · `CORRECTIVE_ACTION: STATE_RECONCILE | DEVIATION: SURFACE_MATTER`
 
 **Scaling:** +5 ft radius per 5 levels; Oath Mastery I (L15) amplifies range and effect.
+
+> **Same outcome, opposite meaning.** [Wade's Cleric Aura](cleric-of-healing.md#cleric-aura) does this too, and the contrast is the joke and the characterization in one. Wade's aura cleans you because restoration is what it does and you were in range — it's care, given without being asked. Clint's cleans you because **you were out of compliance.** One of them is looking after you. The other is filing a correction.
+>
+> Clint does not discover this in Book 1. **Staged for Book 2**, after [Wade leaves](../system/xp.md) and the party has been manually casting Cleanse for weeks: someone notices they've stopped having to, works out that it's Clint, and he gets to read the log line. *"Surface matter. Deviation."* He is not sure how to feel about being told his friends were out of spec.
 
 #### Shield Bash
 - **Type:** Attack · **Level:** 4 · **Cost:** 10 stamina · **Cooldown:** 12s · **Targeting:** Enemy (melee, requires equipped shield)
@@ -307,4 +312,4 @@ Mechanics:
 ## Open Questions
 
 - **"Divine Touch" (Ch 5, console era):** tentatively maps to Cure Light Wounds — mapping unconfirmed by author.
-- **Meta Magic (Ch 5, console era, "Legendary — Mastered"):** post-respawn status unresolved. Is it a school (see [Metamagic](../magic/overview.md)), a console-only grant, or lost at the Transition?
+- ~~**Meta Magic (Ch 5, console era, "Legendary — Mastered"):** post-respawn status unresolved.~~ **RESOLVED 2026-08-09** — it is a **school** ([Metamagic](../magic/schools/metamagic.md)), Clint still holds the rank, and he cannot use it. The rank survived the Transition the way his stat pool did; the [proficiency](../system/proficiencies.md) behind it never existed, because it was written to his record by console rather than earned. The purest instance of his hacked-stats / Novice-hands gap — and the only ability where the gap is *total*. Prose spelling "Meta Magic" should align to **Metamagic** in the Ch 5 revision pass. Staging, the Identify block, and the *"Wait — I have that"* beat all live in [`magic/schools/metamagic.md`](../magic/schools/metamagic.md).
