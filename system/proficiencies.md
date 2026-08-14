@@ -15,7 +15,9 @@ Broad, use-based masteries — defined as the story needs them rather than exhau
 
 - **Weapon proficiencies** — Sword, Dagger, Shield, Polearm, Bow, Unarmed, and so on.
 - **Magic proficiencies** — by school: Fire, Frost, Illusion, System, Temporal, Healing, etc.
-- **Utility proficiencies** — Stealth, Perception, Persuasion, Riding, and the like.
+- **Utility proficiencies** — Stealth, Perception, Persuasion, Riding, Lockpicking, and the like.
+
+> Utility proficiencies are the axis where **pre-Transition life still counts.** They're the only place a character's old career, training, or hobby carries forward intact — [Selene's Lockpicking](../characters/party/selene.md#lockpicking-pre-transition) is Dustin's, earned under a desk on Zoom calls, and the System recognized it without being asked. Worth mining: everyone in the party was somebody for thirty years before they had a class.
 
 A character accrues proficiencies naturally through use. There is no cap on how many you hold, but — as with professions — advancing one takes focused effort, so people specialize.
 

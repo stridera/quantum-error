@@ -38,6 +38,18 @@ When she went back alone afterward ([Looking Again](../../lore/dungeons/spirit-d
 
 Playful demeanor, easygoing charm, and the party's sharpest situational awareness — sole member to detect the L10 Bear Trap, first to spot the prize-booth mimic. Scout, lockpick, and burst damage. Her pre-Transition legal mind still surfaces: she reads rules, contracts, and carnival economies the way she once read NDAs.
 
+## Lockpicking (pre-Transition)
+
+Selene holds a **Lockpicking** [utility proficiency](../../system/proficiencies.md) earned entirely **before the Transition**, as Dustin. It is not a class grant and it did not come with a kit — she has **no lockpicks** and never has. She improvises, usually with **hairpins**, which she has because she has hair now.
+
+**Where it came from:** a hobby. A real one, with a community, mostly physics and patience. Dustin worked a practice lock **under the desk during Zoom calls** — hands out of frame, eyes on the meeting, three VPs arguing about roadmap — for years. *All feel, no sight.*
+
+**Why that detail is load-bearing:** she learned to do this **without looking.** It's why she can open a padlock in a smoke-filled corridor at 5-foot visibility ([Room 4a](../../lore/dungeons/spirit-dungeon/rooms.md#story-beat-how-did-you-learn-to-do-that)) — the constraint she learned under is the condition that makes the skill useful. Write the origin and the advantage as one thing.
+
+It also unifies a trait already on this sheet: she reads *"rules, contracts, and carnival economies the way she once read NDAs."* **A lock is a rule with a flaw in it.** Mimic-spotting, ticket economics, and picking a padlock are one skill in three costumes, not three skills.
+
+> **Author-only — the second answer.** She gives the hobby explanation instantly and cheerfully, and it's true. The part she leaves out is that she spent those years being someone who needed **privacy**: things that locked, and a life kept inside them. The hobby stuck for a reason. She never says so, nobody asks, and the only tell is that she answers **too fast** — the same performance she drops for [[Rebekah]] and nobody else. Do not have anyone notice in Book 1.
+
 ## Rebekah
 
 Selene and [Rebekah](rebekah.md) are not dating. Nothing has been said, no one has asked, and both would describe it as friendship if pressed. They are also unmistakably heading somewhere, and every other member of the party can see it.

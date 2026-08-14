@@ -51,6 +51,16 @@ Shapeshifting is a **native mimic ability**, not a trick unique to Qubit — the
 ### Combat — Weak, but Growing
 He was built to **eat adventurers**; the instincts are all there, just undersized. Early on his kit is modest — a bite, a latch, an adhesive grab, the Sticky Fingers disarm — and his contributions are half accident. But he is a pet with levels, and he **grows with the party**: the ridiculous puppy is slowly becoming something you would genuinely not want to open.
 
+### Mimic-Sense (Passive)
+
+Qubit **recognizes his own kind on sight**, through any disguise. Near a concealed mimic he goes **rigid and completely silent**, lid half-open, pointed like a bird dog — the only time he is ever quiet, which is what makes it readable.
+
+This matters most in the [Back Storage Maze](../../lore/dungeons/spirit-dungeon/rooms.md#qubit-smells-his-own-kind), where the [Candy Bowl](../../lore/dungeons/spirit-dungeon/mobs.md#candy-bowl-mimic) and [Cash Register](../../lore/dungeons/spirit-dungeon/mobs.md#cash-register-mimic) mimics have **no visual tell at all.** [Selene](../../characters/party/selene.md) reads him and calls every one of them before anyone touches anything, and takes full credit.
+
+> **It is a trap, and it is the [Mimic Couch](../../lore/dungeons/spirit-dungeon/rooms.md#the-mimic-couch) setup.** For a full room Selene has a flawless mimic detector, so she stops checking for herself. At the couch **Qubit reacts exactly as he always has** — and she misreads it, because she's already moving, and because a chest going stiff at an enormous comfortable sofa reads as *him wanting it too.*
+>
+> The detector never failed. She stopped reading its output. Keep it that way — the pet asleep or absent is a much weaker version, because nothing would have gone wrong.
+
 ### Comic Relief / Occasional Plot Utility
 Primarily a running gag and a mood-lightener across the party's travels. But a mimic that eats what it shouldn't and hoards what it likes is occasionally **load-bearing** — swallowing the wrong piece of evidence, refusing to surrender a key at the worst moment, or coughing up something nobody remembered giving it. Used sparingly, the pet earns its keep by being *inconvenient at dramatically useful times.*
 

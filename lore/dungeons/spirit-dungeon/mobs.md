@@ -1444,6 +1444,13 @@ A half-assembled animatronic groundbreaker prop — just a torso and arms. Drags
   - Moves at 25% speed (dragging itself). Relies on ambush positioning and tight corridors.
   - Can be heard approaching — servo whine and scraping plastic.
 
+#### Over the Top (Positioning)
+- Torsos are **arms and a torso** — they climb. The [maze's](rooms.md#room-4-back-storage-maze) shelving is eight feet tall and loaded, and a thing with two working arms and no legs to worry about goes **up one side and over.**
+- They drop into the corridor **behind the front rank**, landing beside the healer and the casters rather than in front of the tank. A tank in a two-abreast corridor can only face one way; this is the ability that makes that matter.
+- **Ankle Grab on a rooted tank plugs the corridor.** Three seconds is nothing in the open. In the maze it means nobody gets past Clint and the ranged line can't reposition — he becomes a wall his own party is stuck behind.
+
+> **Why they're slow, and why that's the design.** At 25% speed a Torso is never the threat that's happening *now* — it's the one that answers noise made four corridors ago and arrives while the party is busy with something else. They are the [Noise Clock's](rooms.md#the-noise-clock) collection agency. Individually trivial by design; the point is *when* they turn up and *which side* they turn up on.
+
 **Drops:** Animatronic Servo (Common, crafting material)
 
 ---

@@ -450,7 +450,63 @@ Visibility drops to about 10 feet. The corridors are narrow — only two people 
 
 Somewhere deeper in, a servo motor whines and stops.
 
+### Design Principle: This Room Has No Encounters
+
+**Room 4 is one continuous traverse, not a series of fights.** Every mob in it is individually trivial to this party — a [Crawling Torso](mobs.md#crawling-torso) is 60 HP at 25% movement speed, a [Shrink-Wrapped Mannequin](mobs.md#shrink-wrapped-mannequin) is a slow punching bag with no abilities — and against 999 HP pools none of them can generate a real healing callout. Run one at a time against a tank with a taunt, they are *"stand and hit until dead,"* and no amount of HP tuning fixes that.
+
+**So the room is not asking whether they can win a fight. It is asking how much they have left when they come out the other side.** Wade is still [Broken](../../../characters/party/wade.md) (−25% healing) until dungeon exit, and `Lesson` below is explicit that they should reach the boss worn thin. Room 4 is the only place that bill comes due.
+
+The mechanism is that **fighting is the failure state.** Combat makes noise, noise brings more of the maze, more of the maze means longer fights, and longer fights make more noise. The correct play is to route around contact entirely — which is what makes [Selene's scouting](#story-beat-selenes-value) load-bearing instead of flavor.
+
+**What breaks their formation.** Clint-front / Wade-healing / ranged-behind is a *corridor* formation and it works fine in a corridor. Three things in this room dismantle it:
+
+- **Taunt is shorter than the maze.** [Commanding Shout](../../../classes/paladin-of-the-system.md) is a **15 ft area**; visibility is **10 feet**, and **5 in fog**. Clint cannot hold a line he can't see or taunt something that hasn't arrived yet. Things simply get past him.
+- **The shelves are eight feet tall.** Anything that comes *over* the top lands behind him, in the middle of the line, next to the healer. A tank in a corridor can only face one way.
+- **A rooted tank is a wall.** [Ankle Grab](mobs.md#crawling-torso) is only 3 seconds — nothing in the open. In a corridor two people wide, a rooted Clint **blocks his own party**: nobody gets past him and the ranged line can't reposition.
+
+> **Clint can heal.** [Cure Light Wounds](../../../classes/paladin-of-the-system.md#cure-light-wounds-paladin) restores 40–80 (vs the Cleric's 60–120) — *a Paladin patches; a Cleric heals.* This matters when the party splits: Clint's half does not die for lack of a healer. It **stalls**, because every heal he casts is a smite he doesn't. A healing tank deals almost no damage, and a fight he can't end is a fight that keeps making noise.
+
 ### Environmental Effects
+
+#### The Noise Clock
+
+**The room's core mechanic, and the thing that converts trivial mobs into real pressure.** [Encounter 4's](#the-traverse) original trigger — *"combat noise in the maze"* — generalized into a rising meter that governs the whole traverse.
+
+**It never resets.** It decays slowly while the party is quiet, and only while they're quiet.
+
+| Adds noise | Weight |
+|---|---|
+| Melee exchange | Low, but constant — long fights are the main source |
+| [Rebekah's songs](../../../classes/temporal-bard.md) | **Moderate and continuous.** She is a Bard; buffing the party is *audible* |
+| Commanding Shout | Moderate — the taunt is literally shouting |
+| Spell impacts | Moderate |
+| [Shelf Collapse](#shelf-collapse) | High, one-time |
+| **Fire** | **Severe** — see [Fire in the Stacks](#fire-in-the-stacks) |
+
+| Threshold | The maze answers |
+|---|---|
+| **1 — Quiet** | Nothing. Achievable only by avoiding contact |
+| **2 — Noticed** | [Severed Hands](mobs.md#severed-hand-swarm) pour out of boxes on nearby shelves (−1 accuracy per 2 in melee, max −3) |
+| **3 — Converging** | [Crawling Torsos](mobs.md#crawling-torso) start dragging toward the sound **from corridors already behind them** |
+| **4 — Located** | The [Giant Spider](mobs.md#giant-spider-prop) repositions to cut off the route forward and webs to split the group |
+
+**The teaching mechanic — noise is a debt, not a cost.** Torsos move at **25% speed.** Noise made now doesn't punish them now; it arrives four corridors later, from behind, while they're busy with something else. By the time the party understands the rule, they have already spent it. Rebekah is the one who works it out — she's the loudest member and the only one tracking rhythm.
+
+**The bind this creates:** Rebekah's songs are the party's force multiplier *and* the steadiest noise source in the room. Buffed and hunted, or quiet and unbuffed. There is no third option, and Clint has to be the one to ask her to stop singing.
+
+#### Fire in the Stacks
+
+**Triggered by:** [Vanessa](../../../characters/party/vanessa.md) using fire to clear a corridor. Which is the correct read of the tactical problem — [Shrink-Wrapped Mannequins](mobs.md#shrink-wrapped-mannequin) take full damage through their AR from fire, the corridor ahead is packed, and a Fireball solves it.
+
+It also solves it into **eight-foot steel shelving loaded with cardboard boxes, costume fabric, and stored plastic.**
+
+- **The maze catches.** Fire spreads along the shelving line, corridor to corridor, faster than the party moves. It does not stop and cannot be fought.
+- **Smoke replaces fog — permanently.** Same −3 accuracy and 5-foot visibility as the [fog machines](#fog-machines), except **there is no machine to destroy.** Vanessa's solution deletes the party's own counterplay: the one environmental hazard in this room they *could* switch off is now moot, and the replacement is worse and spreading.
+- **It's the loudest thing in the room.** Roaring, collapsing stock, bursting aerosol cans in the cleaning supplies. The [Noise Clock](#the-noise-clock) goes straight to threshold 4 and stays there.
+- **No backtracking.** The route behind them closes. Whatever they left unresolved, they left it.
+- **Only forward.** This is the pressure that stops the traverse from ever becoming a defensive stand. They cannot hold a corridor, because the corridor is on fire.
+
+> **The point of the beat:** Vanessa does the smart thing and it is a catastrophe. Not a mistake — a *correct read of the wrong system.* She is still thinking in open-showroom terms, where fire is an answer, and the maze is made of fuel. It rhymes with the [Asylum fireball](#encounter-asylum-set) (right call, terrible cost) and it is the second time in two rooms that her best tool is the problem. She should notice that.
 
 #### Fog Machines
 Industrial fog machines stored throughout the maze area. Some activate when the party enters nearby corridors, filling them with thick magical fog.
@@ -472,53 +528,39 @@ Lighter version of Shelf Collapse.
 - **Effect:** 6 physical damage + 1s stagger. No prone, no corridor block.
 - Annoying but not dangerous. Adds to the claustrophobic feel.
 
-### Encounter 1: Crawling Torsos
+### The Traverse
 
-**Triggered by:** Moving through the first corridor section.
+**Not four encounters — one running gauntlet.** The four mob groups below are the room's *instruments*, and each one attacks a different part of the party's formation. Run sequentially they are trivial. Run **concurrently, under a rising [Noise Clock](#the-noise-clock)**, they compound into the hardest stretch before the boss.
 
-2-3 [Crawling Torsos](mobs.md#crawling-torso) drag themselves along the floor between shelving units. They're heard before they're seen (servo whine, scraping plastic).
+| Instrument | What it attacks | Run it with |
+|---|---|---|
+| [Crawling Torsos](mobs.md#crawling-torso) | **The front.** Root the tank; a rooted Clint plugs the corridor for his own party | Anything that needs him somewhere else |
+| [Giant Spider](mobs.md#giant-spider-prop) | **Above and behind.** Ceiling Drop past the tank; webs to split the group | While they're pinned by torsos |
+| [Shrink-Wrapped Mannequins](mobs.md#shrink-wrapped-mannequin) | **Nothing — it's a timer.** AR 10 sponge that makes a fight take twenty seconds | The Noise Clock, always |
+| [Severed Hands](mobs.md#severed-hand-swarm) | **Accuracy.** −1 per 2 in melee, max −3 | Spawned *by* the clock automatically |
 
-**Behavior:**
-- Ambush from floor level. Ankle Grab roots targets in place.
-- In tight corridors, getting rooted means blocking the path for allies behind you.
-- Individually manageable. The danger is getting rooted when something else is coming.
+**The Shrink-Wrapped Mannequins are the key reframe.** As a fight they're nothing: 60 HP, no abilities, half speed. As a *timer* under a noise clock they're the worst thing in the room — twenty seconds the party cannot afford, getting louder the whole time, and the fastest way through them is Vanessa's fire, which sets the maze on fire. The mob whose entire design is "boring to fight" becomes the mob you desperately don't want to have to fight.
 
-### Encounter 2: The Spider
+**Suggested shape of the traverse** (beats, not a script):
 
-**Triggered by:** Reaching a T-intersection deeper in the maze.
+1. **First contact is cheap and teaches nothing.** Two torsos, heard before seen. Clint flattens them. Everyone relaxes. The clock ticks up and nobody knows there is a clock.
+2. **The hands arrive** — threshold 2 — and read as an annoyance rather than a consequence.
+3. **The wrapped mannequins block the corridor.** Now the party is fighting something slow while something fast is spawning behind them, and the fight *will not end quickly.* This is where Vanessa reaches for fire.
+4. **[Fire in the stacks](#fire-in-the-stacks).** Clock to 4. No retreat, smoke everywhere, forced forward.
+5. **The split** — see below.
+6. **The Spider** takes the fractured party from above, in smoke, at 5-foot visibility, with everything they made noise about earlier now dragging itself up the corridor behind them.
 
-A [Giant Spider Prop](mobs.md#giant-spider-prop) drops from the top of a shelving unit onto whoever is in front (likely Clint, or Selene if she's scouting).
+### The Split
 
-**Behavior:**
-- Opens with Ceiling Drop (14 damage + 2s prone) from stealth.
-- Immediately Webs the corridor behind the party (cutting off easy retreat).
-- Alternates between Venomous Bite (damage + poison DoT + slow) and repositioning to web more corridors.
-- Selene's Perception can spot it before the ambush — this is where the Rogue's scouting proves critical.
+Fire, [webs](mobs.md#giant-spider-prop), and a [shelf collapse](#shelf-collapse) across a corridor should **separate the party** — and who lands where is the whole scene.
 
-**Story beat:** If Selene is scouting ahead, she spots the spider and warns the party. If she isn't, someone gets ambushed. The dungeon rewards rogue gameplay.
+**The good split (use this one):** **Clint + Selene** forward, **Wade + Vanessa + Rebekah** back.
 
-### Encounter 3: Shrink-Wrapped Mannequins
+- **Clint's half stalls.** He can [patch](../../../classes/paladin-of-the-system.md#cure-light-wounds-paladin) Selene at 40–80 a cast, but every heal is a smite he isn't casting. A healing tank does no damage, so nothing dies, so the fight continues, so the noise continues. He is not losing — he is *stuck*, which in this room is the same thing.
+- **Wade's half survives on his healing and has no front line.** The casters cannot be hit, so positioning becomes everything, and Wade — Broken, −25% — is the only reason it holds.
+- **The near-miss is the point.** Wade happened to be at the back with the casters. Had the collapse landed one corridor forward, the casters would have had no healer and Clint would have had no damage. Somebody should say so out loud, and be right.
 
-**Triggered by:** Walking past storage pallets in a wider section of the maze.
-
-2-3 [Shrink-Wrapped Mannequins](mobs.md#shrink-wrapped-mannequin) tear free from plastic wrap as the party passes.
-
-**Behavior:**
-- Slow but armored (AR 10 vs normal 6). Basic melee, no abilities.
-- Fire damage ignores their AR bonus (melts the wrap).
-- In tight corridors, Vanessa's fire is effective but risks hitting allies.
-- The friendly fire question returns in a new context: can Vanessa use fire without burning the party *again*?
-
-### Encounter 4: Severed Hand Swarm
-
-**Triggered by:** Combat noise in the maze. Hands emerge from boxes on shelves.
-
-4-8 [Severed Hands](mobs.md#severed-hand-swarm) swarm toward whoever is fighting.
-
-**Behavior:**
-- Climb onto fighters, grab weapons and arms. -1 accuracy per 2 hands in melee (max -3).
-- Individually one-shottable but they keep coming from the shelves.
-- Best dealt with by AoE (Rebekah's songs, Vanessa's spells) or by moving away from the infested corridor.
+**Regrouping is navigation, not combat.** The two halves have to find each other in a burning maze with 5-foot visibility, which means **shouting** — and shouting is noise. The reunion costs them the thing they've been carefully hoarding, and there is no way to avoid paying it.
 
 ### The Mimics
 
@@ -542,9 +584,23 @@ If the party lets Selene scout, the maze is manageable. If they charge in togeth
 
 This builds Selene's confidence — including her confidence that she can spot mimics. Important for Room 5.
 
+### Qubit Smells His Own Kind
+
+**[Qubit](../../../items/accessories/mimic-pet.md) reacts to the maze's hidden mimics.** The [Candy Bowl](mobs.md#candy-bowl-mimic) and [Cash Register](mobs.md#cash-register-mimic) have **no visual tell** — that's their whole design — but the tame mimic trotting at Selene's heel knows exactly what they are. He goes **rigid and silent**, lid half-open, pointed like a bird dog. It is the only time in the dungeon he is ever quiet.
+
+Selene reads him instantly and calls the mimics before anyone touches them. She takes the credit, obviously. *"I'd never be fooled by a stupid mimic."*
+
+> **This is a trap, and it's the Room 5 setup.** For an entire room Selene has a **working mimic detector**, and it is flawless. She stops checking for herself, because she doesn't have to — the pet does it, every time, and being right over and over is what builds the confidence that kills her.
+>
+> **The payoff at the [Mimic Couch](#the-mimic-couch):** Qubit *does* react. He goes rigid and points, exactly as he has all dungeon — and **Selene misreads it**, because she's already moving, and because a chest going stiff at the sight of an enormous comfortable sofa reads as *him wanting it too.* She doesn't check. She dives.
+>
+> The detector never failed. She stopped listening to it. That's better than the pet being absent or asleep, because nothing malfunctioned — she simply trusted a system until she stopped reading its output, which is the same mistake the whole party makes about the [System](../../../system/overview.md) itself.
+
 ### Lesson
 
 Scouting matters. Rogues matter. Tight spaces change everything — AoE is dangerous, healing requires line of sight, the group can't rely on the same tactics that worked in the open showroom. Don't blindly loot.
+
+**And the room's real lesson: noise is a resource.** Everything the party is good at — taunting, singing, casting, winning fights quickly — is *loud*, and this is the first place in the story where being effective is what gets them hurt. They cannot fight their way through a room that manufactures enemies in response to fighting. The only winning line is the one Selene walks: quiet, ahead, and around.
 
 ---
 
@@ -557,6 +613,22 @@ Scouting matters. Rogues matter. Tight spaces change everything — AoE is dange
 A section of the maze wall that looks slightly different — the partition seam is less visible, and there's a faint outline of a door frame under the shelving. A padlock secures a latch that's mostly hidden behind a box.
 
 **Discovery:** Selene spots the hidden door (Perception or Stealth awareness — she's looking for anomalies while scouting). The padlock requires lockpicking (Moderate difficulty for L10).
+
+### Story Beat: How Did You Learn To Do That?
+
+**Selene has no lockpicks.** Her [inventory](../../../characters/party/selene.md#equipment--inventory) is a Prop Cutlass, rogue clothes, a Mirror Shard, and a mimic — the Transition didn't hand her a thieves' kit, and nobody has looted one.
+
+So she takes two **hairpins** out of her hair and opens the padlock in under a minute, by feel, in a smoke-choked corridor at 5-foot visibility, without ever really looking at it.
+
+**Clint is agog.** *"How did you learn to do that?"*
+
+**The answer she gives** is breezy and immediate: it's a hobby. There's a whole community. It's mostly physics and patience. She used to sit through Zoom calls with her hands under the desk, working a practice lock by touch while three VPs argued about roadmap — *all feel, no sight, and nobody on the call ever knew.* She's laughing while she says it. It is completely true.
+
+> **The answer she doesn't give.** She spent those years being someone who needed **privacy** — things that locked, and a life she kept in them. The hobby is real; so is the reason it stuck. She doesn't offer it and Clint doesn't hear it, and the only tell is that she answers **too fast**, the way she answers everything that isn't Rebekah asking.
+>
+> Play it as a comic beat. It should not land as a revelation until reread. See [Selene](../../../characters/party/selene.md#lockpicking-pre-transition).
+
+**Why it matters mechanically:** she learned to do this **without looking.** That's the origin *and* the reason the skill works here — a maze at 5-foot visibility, full of smoke, is exactly the condition Dustin practiced in. The hobby's constraint is the skill's advantage, and it should be the same sentence.
 
 ### Interior
 
