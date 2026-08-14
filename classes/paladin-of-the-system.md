@@ -277,7 +277,9 @@ Smite is **privileged from Level 1**. Clint does not learn new smites—he is tr
 
 > **Same outcome, opposite meaning.** [Wade's Cleric Aura](cleric-of-healing.md#cleric-aura) does this too, and the contrast is the joke and the characterization in one. Wade's aura cleans you because restoration is what it does and you were in range — it's care, given without being asked. Clint's cleans you because **you were out of compliance.** One of them is looking after you. The other is filing a correction.
 >
-> Clint does not discover this in Book 1. **Staged for Book 2**, after [Wade leaves](../system/xp.md) and the party has been manually casting Cleanse for weeks: someone notices they've stopped having to, works out that it's Clint, and he gets to read the log line. *"Surface matter. Deviation."* He is not sure how to feel about being told his friends were out of spec.
+> Clint does not discover this in Book 1 — though Ch 22 has him learn that *Wade's* aura does it, which is the setup. **Staged for Book 2**, after [Wade leaves](../system/xp.md) and the party has spent weeks casting Cleanse by hand: the convenience quietly returns, someone works out that it's Clint, and he pulls the log line. *"Surface matter. Deviation."* He is not sure how to feel about being told his friends were out of spec.
+>
+> The sequence matters — **Wade's version, then its absence, then Clint's.** The third beat only reads if the first two happened, and it should land as a cold echo of something that used to be warm.
 
 #### Shield Bash
 - **Type:** Attack · **Level:** 4 · **Cost:** 10 stamina · **Cooldown:** 12s · **Targeting:** Enemy (melee, requires equipped shield)

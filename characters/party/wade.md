@@ -58,9 +58,11 @@ After boosting via the system console.
 
 ## The Aura Wish
 
-Wade's [Cleric Aura](../../classes/cleric-of-healing.md#cleric-aura) passively cleans everyone standing near him. He has never mentioned it, never taken credit for it, and probably doesn't think of it as an ability — his magic looks after people as a side effect of him being in the room.
+Wade's [Cleric Aura](../../classes/cleric-of-healing.md#cleric-aura) passively cleans everyone standing near him. He has never taken credit for it and doesn't really think of it as an ability — his magic looks after people as a side effect of him being in the room.
 
-**The line to plant (Book 1, once, as a joke):** he says he wishes he could get [Rebekah's](rebekah.md) [Rejuvenation](../../classes/temporal-bard.md#rejuvenation) to work the way his aura does — always on, covering everyone in range, nobody having to ask for it. Somebody makes a crack about him wanting to be a walking utility bill. It never comes up again.
+**Planted Ch 22.** He mentions the cleaning effect in passing while wondering whether he could fold [Rebekah's](rebekah.md) [Rejuvenation](../../classes/temporal-bard.md#rejuvenation) into the same aura — always on, covering everyone in range, nobody having to ask. Clint's answer does the work of establishing it: *"I wondered why I was still so clean. I assumed it was because Vanessa kept burning off my clothes."*
+
+Naming it once is deliberate — the reader has to know the effect exists in order to feel it go missing when Wade does. **It should not come up again in Book 1.**
 
 > **Author-only — this is the ending, said out loud in Book 1.**
 >
