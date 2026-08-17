@@ -138,10 +138,10 @@ If a class does not use stamina, treat it as flavor-only or omit it.
 
 These are common secondary stats referenced by class mechanics:
 
-- **Accuracy**: chance to land attacks (see `combat.md`)
-- **Evasion**: chance to avoid attacks (see `combat.md`)
+- **Accuracy**: chance to land attacks — `level/2 + proficiency/10 + (attribute − 10)/4`
+- **Evasion**: chance to avoid attacks — `level/2 + (DEX − 10)/4 + gear`
 - **Mitigation**: damage reduction via armor/resistance/soak
 - **Healing Power**: increases heals and shielding
 - **Threat**: influences enemy target selection
 
-> Exact formulas are implementation-defined, but all class pages should describe their abilities using these common terms.
+> **Accuracy and Evasion are fully defined** in [Hit Resolution](combat.md#hit-resolution): `hit% = 50 + 5 × (Accuracy − Evasion)`, clamped to [5,95]. **One point of accuracy is worth 5 percentage points of hit chance** — so a −3 debuff costs roughly a third of a character's output, and a −5 costs half. Mitigation, Healing Power, and Threat remain implementation-defined; all class pages should describe their abilities using these common terms.

@@ -60,6 +60,12 @@ Smite is **privileged from Level 1**. Clint does not learn new smites—he is tr
 
 > "I didn't change what I was doing. The system changed what it allowed me to do."
 
+> **Smite is consumed on the hit, not on the swing.** Smite is an **Attack Modifier** — it arms the next connecting blow. A miss costs nothing: no mana, no cooldown, no wasted charge. The smite stays armed until it lands.
+>
+> This matters enormously for Clint, whose [Novice hands](../system/proficiencies.md#the-gap-hacked-stats-novice-hands) put him near a coin flip against L10s. At roughly **three swings per 4-second cooldown** ([combat.md](../system/combat.md#actions-misses-and-ability-cooldowns)), he lands a smite in ~87% of windows when clean and ~56% under a −5 accuracy debuff. A bad hit rate makes his smites **slip a window** occasionally; it does not multiply their cooldown. The basic attacks in between still miss at the full rate — which is why his damage falls off a cliff under accuracy denial even though his smite cadence mostly holds.
+>
+> **And why he grapples.** Against a [pinned target evasion doesn't apply at all](../system/combat.md#grappled-and-pinned-targets). A fighter who can't reliably hit a dodging opponent solves it by holding on to one.
+
 ### Level 1 — Smite: Judgment (Privileged)
 
 | | |

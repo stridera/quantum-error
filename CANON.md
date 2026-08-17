@@ -63,6 +63,7 @@ This file is the canonical index for Quantum Error.
 - `items/armor/aegis-of-decoherent-deflection.md`
 - `items/accessories/fanny-pack-of-holding.md`
 - `items/accessories/mimic-pet.md`
+- `items/accessories/jack-o-lantern-bag.md`
 
 ### Professions
 - `professions/enchanting.md`

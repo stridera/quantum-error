@@ -32,21 +32,104 @@ Canon assumption:
 
 ## Hit Resolution
 
-### Accuracy vs Evasion
+### The Formula
 
-Most offensive actions that can miss use an opposed check:
+```
+hit% = 50 + 5 × (Accuracy − Evasion)          clamped to [5%, 95%]
+```
 
-- **Accuracy**: attacker's ability to land the hit
-- **Evasion**: defender's ability to avoid it
+> ### **One point of accuracy = 5 percentage points of hit chance.**
+> This is the only number you need to remember. Everything below is derived from it.
 
-The exact formula is implementation-defined, but canon requires:
-- Higher Accuracy → higher hit chance
-- Higher Evasion → lower hit chance
-- Extreme penalties (e.g., heavy encumbrance) must be meaningful
+**Where the inputs come from:**
+
+```
+Accuracy    = level/2  +  proficiency_rank/10  +  (governing attribute − 10)/4
+Evasion     = level/2  +  (DEX − 10)/4  +  gear/effects
+Mob Evasion = level/2
+```
+
+Mob **Accuracy** uses the [framework formula](mob-framework.md#accuracy) `5 + 0.5 × level`. Note that mobs are slightly better at hitting than dodging by design — a L10 mob has Accuracy 10 and Evasion 5.
+
+**Note the weighting.** A full **10 ranks** of [proficiency](proficiencies.md) is worth **1 point of accuracy** — the same as 4 points of attribute. Attributes are a rounding error here; proficiency is the whole game. That is deliberate, and it is the mechanical statement of *"[power is not mastery](proficiencies.md#the-gap-hacked-stats-novice-hands)."*
+
+### What a Penalty Actually Costs
+
+| Penalty | Hit chance lost | Feels like |
+|---|---|---|
+| −1 | −5 points | Noticeable over a long fight |
+| −2 | −10 points | A real handicap |
+| **−3** | **−15 points** | **Roughly a third of your output, gone** |
+| **−5** | **−25 points** | **Half your swings stop landing** |
+| −8 | −40 points | You are not meaningfully attacking |
+
+### Worked Example: Clint vs a Level 10 Mob
+
+The canonical reference case. [Clint](../characters/party/clint.md) is **L4**, **DEX 20** (console-boosted), **Novice 3** weapon proficiency.
+
+```
+Clint Accuracy = 4/2  +  3/10  +  (20−10)/4  =  2 + 0.3 + 2.5  =  4.8
+L10 Mob Evasion = 10/2 = 5
+hit% = 50 + 5 × (4.8 − 5) = 49%
+```
+
+**He is a coin flip against L10s** — which is exactly what [his sheet claims](../characters/party/clint.md): *"misses often against L10s, survives on stat pool."*
+
+Now the same fight under debuffs:
+
+| Condition | Accuracy | Hit% |
+|---|---|---|
+| Clean | 4.8 | **49%** |
+| −3 ([Severed Hands](../lore/dungeons/spirit-dungeon/mobs.md#severed-hand-swarm)) | 1.8 | **34%** |
+| −5 ([Asylum strobes](../lore/dungeons/spirit-dungeon/rooms.md#asylum-concentrated-strobe)) | −0.2 | **24%** |
+| −5 strobes, **with [Carnival Shades](../lore/dungeons/spirit-dungeon/mobs.md#the-100-ticket-set--the-temptation)** (−3 to the penalty) | 2.8 | **39%** |
+
+And incoming, for contrast:
+
+```
+L10 Mob Accuracy = 10
+Clint Evasion = 4/2 + (20−10)/4 = 4.5
+hit% = 50 + 5 × (10 − 4.5) = 77.5%   →  L10 mobs hit Clint ~78% of the time
+```
+
+> ### Why This Matters More To This Party Than Anyone Else
+>
+> They console-boosted attributes, HP, and mana to the ceiling. **They never touched [proficiencies](proficiencies.md).** So DEX 20 buys Clint +2.5 accuracy while his Novice hands buy +0.3, and there is no stat in the game that fixes it.
+>
+> **Accuracy debuffs bypass the cheat completely.** A −5 strobe barely inconveniences a normally-progressed party and takes half this party's offense away. It is the one lever a dungeon has that their 999 HP pool cannot absorb — which is why the showroom leans on it, and why the Carnival Shades are a genuinely valuable prize rather than a trinket (**+15 points of hit chance** for 10 tickets).
+
+### Grappled and Pinned Targets
+
+**A grappled, pinned, or otherwise immobilized target has no Evasion. Attacks against it ignore the evasion term entirely and simply hit.**
+
+```
+hit% = 95% (the clamp ceiling)   —   you are holding it; it is very hard to miss
+```
+
+This makes grappling **the correct mechanical answer to an accuracy problem.** A fighter with hacked attributes and novice technique cannot reliably land a swing on something that dodges — so he removes dodging from the equation. It costs him his position and both hands (see the [Asylum tableau](../lore/dungeons/spirit-dungeon/rooms.md#encounter-asylum-set), where Clint pins the Head Surgeon under −5 strobes and lands six consecutive smites he would otherwise have hit with roughly one swing in four).
+
+### Actions, Misses, and Ability Cooldowns
+
+- Characters attempt **one attack per round**.
+- **An ability tied to an attack is consumed on the hit, not on the swing.** A missed swing does not spend the mana, does not trigger the cooldown, and does not waste the charge — the ability stays armed until it lands.
+
+This is the rule that keeps a low hit rate from being multiplicative misery. A **4-second** ability cooldown gives roughly **three swings** per window, so most windows still land the ability even at a poor hit rate:
+
+| Hit% per swing | Chance of landing within one 4s window (3 swings) |
+|---|---|
+| 49% (clean) | **87%** |
+| 34% (−3) | **71%** |
+| 24% (−5) | **56%** |
+
+So a heavy accuracy debuff doesn't multiply an ability's cooldown — it makes it **slip a window** now and then. Under −5 strobes, Clint lands a smite roughly every other cooldown rather than every one: meaningfully slower, not catastrophically so. Basic attacks in the gaps still miss at the full rate.
+
+> **Round length:** treat a basic-attack round as **~1.3 seconds** for this purpose (≈3 per 4-second cooldown). The *"~4s rounds"* used in [mob-framework.md's](mob-framework.md#rounds-to-kill-player-vs-normal-mob-same-level) rounds-to-kill tables is a coarser abstraction for DPS estimation and is not the same unit.
+
+### Guardrail
 
 **Design guardrail (canon intent):**
 An encumbered attacker with a large accuracy penalty should **not** still hit a nimble target ~95% of the time.
-If the formula ever produces that outcome, it should be considered a bug in tuning.
+If the formula ever produces that outcome, it should be considered a bug in tuning. *(The formula above satisfies this: −8 accuracy against an evasive target floors out near 10%.)*
 
 ### Guaranteed Hits / Saves
 
@@ -113,6 +196,7 @@ Canonical baseline:
 ## Open Questions (Phase 1 capture)
 
 These are acknowledged design points that may be tuned later:
-- Exact hit chance formula (logistic vs linear clamp vs opposed roll)
+- ~~Exact hit chance formula (logistic vs linear clamp vs opposed roll)~~ — **RESOLVED 2026-08-15.** Linear opposed check with a [5,95] clamp at **5 percentage points per point of accuracy**. See [Hit Resolution](#hit-resolution).
 - Whether block/parry exists for all classes or only some
 - Whether glancing blows are universal or per-ability
+- Percentage-phrased evasion buffs (e.g. [Veil of Offbeats](../classes/temporal-bard.md) "+10% evasion") should be read as **+10 percentage points of dodge chance = +2 Evasion**. Applied consistently, but not yet restated on the ability pages.

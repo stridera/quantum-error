@@ -58,7 +58,7 @@ The party's first Spirit Dungeon is a post-Transition Spirit Halloween store in 
 | [2: Changing Rooms](spirit-dungeon/rooms.md#room-2-changing-rooms-optional) | Mirrors | Echo Doubles | Identity, Selene's reflection |
 | [3: Showroom](spirit-dungeon/rooms.md#room-3-seasonal-showroom) | Graveyard / Carnival / Asylum | Scarecrow + Skeletons, Whack-a-Gnome + Clown + Mimic, Shock-Therapy doctors + Straitjacket + Guards | Positioning, world-rules & greed, triage at the gate |
 | [4: Storage Maze](spirit-dungeon/rooms.md#room-4-back-storage-maze) | Industrial horror | Animatronics, Spider, Hands, Hidden Mimics | Scouting, claustrophobia, don't loot blindly |
-| [4a: Supply Closet](spirit-dungeon/rooms.md#room-4a-supply-closet-optional--hidden) | Hidden room | None | Rogue reward, Dan foreshadow |
+| [4a: Janitor's Closet](spirit-dungeon/rooms.md#room-4a-janitors-closet-optional--hidden) | Hidden room | Cash Register Mimic (never fought) | Rogue reward, rest beat, Jack-o'-Lantern Bag |
 | [5: Employee Hallway](spirit-dungeon/rooms.md#room-5-employee-hallway) | Corporate dread | Mimic Couch | Comedy relief, Selene payoff |
 | [6: Spotlight Room](spirit-dungeon/rooms.md#room-6-the-spotlight-room-boss) | Boss arena | Store Manager + Skeleton Puppets | Everything combined |
 
@@ -71,7 +71,7 @@ The party's first Spirit Dungeon is a post-Transition Spirit Halloween store in 
 ## Loot Themes
 
 - **Novelty gear with real stats:** Plastic masks, costume armor, prop blades — all functional post-Transition.
-- **Accessories with gimmick passives:** Nurse's Cap (+5% healing), Treat Bag of Holding, Bear Claw Necklace (+1 STR).
+- **Accessories with gimmick passives:** Nurse's Cap (+5% healing), Jack-o'-Lantern Bag, Bear Claw Necklace (+1 STR).
 - **Boss drops:** Manager's Briefcase (Epic weapon), Dan's Performance Badge (Epic accessory).
 - **Comedy items:** Couch Cushion, plastic gold coins, candy that tastes like plastic.
 

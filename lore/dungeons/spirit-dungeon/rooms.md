@@ -568,7 +568,7 @@ Scattered throughout the maze. Not triggered by movement — triggered by **inte
 
 **[Candy Bowl Mimic](mobs.md#candy-bowl-mimic):** A "Take One" candy bowl on a shelf. Looks completely normal. Jaw Snap on interaction (11 damage + 2s root).
 
-**[Cash Register Mimic](mobs.md#cash-register-mimic):** A dusty cash register on a counter. Drawer slightly open showing bills. *Cha-ching — chomp.* (11 damage + 2s root).
+**[Cash Register Mimic](mobs.md#cash-register-mimic):** A dusty cash register. Drawer slightly open showing bills. *Cha-ching — chomp.* (11 damage + 2s root). **Its canonical home is the shelf in the [janitor's closet](#room-4a-janitors-closet-optional--hidden)**, where Qubit points it out and the party leaves it alone; use additional ones in the maze proper only if a second is wanted.
 
 These have **no visual tell**. Unlike the obvious chest in Room 3's carnival, these look like normal objects. The party learns that "loot everything" has consequences.
 
@@ -604,7 +604,7 @@ Scouting matters. Rogues matter. Tight spaces change everything — AoE is dange
 
 ---
 
-## Room 4a: Supply Closet (Optional — Hidden)
+## Room 4a: Janitor's Closet (Optional — Hidden)
 
 *A hidden side room off the maze. Reward for Rogue gameplay.*
 
@@ -632,29 +632,40 @@ So she takes two **hairpins** out of her hair and opens the padlock in under a m
 
 ### Interior
 
-Small room — 8 × 8 feet. A metal desk, a rolling chair, cleaning supplies on a shelf, a mop bucket. Paperwork scattered on the desk.
+**A janitor's closet, and a big one** — large enough for all five of them and still cramped. Metal shelves line every wall, loaded with cleaning supplies, tools, and junk. Milk crates stacked on the floor. A heap of dirty rags and mops in one corner, which is soft enough to land on face-first and is the closest thing to comfort anyone has seen in hours.
 
-**Dan foreshadowing:**
-- A name badge on the desk: "DAN — Store Manager"
-- A "MANAGER OF THE MONTH" plaque on the wall (every month for the last year, all Dan)
-- A scheduling board: "DAN - ALL SHIFTS"
-- A motivational note pinned to the corkboard: "If you're reading this, you're already behind on stocking."
+An **old cash register** sits on one of the shelves.
 
-The room feels less like a dungeon and more like a sad office. Which makes it creepier.
+> **This room is not an office.** *(Dan's desk, the Manager of the Month plaque, and the scheduling board were moved out to [Room 5](#room-5-employee-hallway) — a manager's station in a supply closet never made sense, and the hallway already had the workplace trappings to absorb them. See [Dan Down the Hallway](#dan-down-the-hallway).)*
+
+### The Cash Register Mimic
+
+The register is a [Cash Register Mimic](mobs.md#cash-register-mimic), and it has **no visual tell whatsoever.**
+
+**[Qubit](../../../items/accessories/mimic-pet.md) goes rigid and stares at it** ([Mimic-Sense](../../../items/accessories/mimic-pet.md#mimic-sense-passive)) — pointed, silent, unmoving. Selene reads him instantly and calls it before anyone goes near.
+
+**Then she says the thing that kills her in Room 5:**
+
+> *"The mimics are easy to detect and won't attack if you keep your distance."*
+
+She is **completely correct**, which is the problem. She has a flawless detector and a working rule, and both hold right up until the [couch](#the-mimic-couch). Nothing she says here is wrong; she just stops applying it the moment she isn't looking for a mimic. Let the line pass without comment — nobody challenges it, because there's nothing to challenge.
+
+**No fight.** The register is left alone in its corner, watched and un-looted. A monster the party simply declines to engage is a good beat this late in the dungeon, and it makes the room a *rest* rather than another fight — which is what the party needs before Room 5.
 
 ### Loot
 
-On the desk, partially hidden under paperwork: a **Halloween Treat Bag**.
+Selene turns up the real prize while rummaging through the milk crates:
 
-Candy-pumpkin shaped, bright orange, made of a material that feels sturdier than it looks. The system recognizes it as:
-
-**Treat Bag of Holding**
-- **Type:** Accessory (belt-attachable)
+**Jack-o'-Lantern Bag**
+- **Type:** Accessory (belt-attachable, drawstring)
 - **Quality:** Uncommon
-- **Effect:** Functions as a small bag of holding. Limited capacity (roughly a large backpack's worth — not as large as [Clint's](../../../characters/party/clint.md) Fanny Pack of Holding, but practical).
-- **Appearance:** An orange jack-o-lantern trick-or-treat bag with a drawstring top. Looks like a child's Halloween candy bag. Is actually a pocket dimension.
+- **Effect:** A small bag of holding — roughly a large backpack's worth. Not in the class of [Clint's](../../../characters/party/clint.md) Fanny Pack of Holding, but genuinely useful, and it leaves the wearer unencumbered.
+- **Appearance:** A cloth trick-or-treat bag with a cartoon jack-o'-lantern print. Looks like a child's Halloween candy bag. Is actually a pocket dimension.
+- **Flavor:** *"The perfect container for your local kid who wants to hit up all the houses without ever returning home."*
 
-No encounter. The loot is the reward for Selene finding and opening the door.
+> **Naming:** earlier drafts of this file called it the **Treat Bag of Holding**. The on-page name is **Jack-o'-Lantern Bag** and that is now canonical.
+
+The loot is the reward for Selene finding and opening the door — the room's whole purpose is to pay off Rogue play with a rest, a treasure, and a monster they get to walk away from.
 
 ---
 
@@ -670,12 +681,59 @@ The hallway has the trappings of a real workplace:
 - A time clock with blank time cards
 - A bulletin board with employee notices ("Mandatory Fun Day — Saturday!" "Please label your food in the fridge." "HR reminder: costumes must be returned WASHED.")
 - Motivational posters featuring skeletons in business suits: "SYNERGY IS OUR STRENGTH." "TEAMWORK MAKES THE DREAM WORK." "YOUR PERFORMANCE REVIEW IS OVERDUE."
-- A scheduling board outside the break room: "DAN - ALL SHIFTS" (echoing the supply closet)
 - A vending machine that appears functional but dispenses only dust
+
+### Dan Down the Hallway
+
+**All the [Dan](../../../characters/villains/dan.md) foreshadowing lives here** *(relocated from the [janitor's closet](#room-4a-janitors-closet-optional--hidden), where a manager's desk never belonged).* And it should not sit in one tableau — **play it as a gradient.** The hallway runs from the maze door to the **MANAGER'S OFFICE**, and every few steps toward that door there is more of him on the walls:
+
+1. **Nearest the maze — the employee board.** Generic, communal, faintly sad. Blank time cards. The fridge notice. Nobody's name on anything.
+2. **A few steps in — the schedule.** A scheduling board covering the full month: **"DAN — ALL SHIFTS."** Every square. No other name appears anywhere on it.
+3. **Further — the plaques.** A row of **"MANAGER OF THE MONTH"** awards, one per month for the past year. All Dan. The row is long enough that the party stops reading names and just counts.
+4. **A supervisor's station outside the break room** — a small desk pushed against the wall, paperwork squared off, a name badge set down neatly: **"DAN — Store Manager."** A note pinned above it in the same handwriting as everything else: *"If you're reading this, you're already behind on stocking."*
+5. **The door itself.** "MANAGER'S OFFICE," and the skeleton poster pointing straight out at them: **"YOU'RE NEXT FOR YOUR REVIEW."**
+
+> **Why the gradient works and the closet didn't.** A sad little office tucked in a side room is an *exhibit* — the party finds it, reads it, and leaves. A hallway that gets more Dan the closer you get to his door is **pressure**, and it's pressure the party walks through whether they engage with it or not. It also means the [Mimic Couch](#the-mimic-couch) comedy happens with his name on every wall around them, which is exactly the tonal whiplash this room is for.
+>
+> **They absolutely do say "Dan," and they should.** *(Corrects an earlier draft of this note, which held that the party had no reason to connect a store manager to the man who walked out of the lab in Ch 1. They have every reason: [`boss.md`](boss.md) opens on a mannequin that **looks disturbingly like Dan**, and this is a party that already met [Echo Doubles of themselves](mobs.md#echo-double--base-mechanic) two rooms ago.)*
+>
+> The gradient is not dramatic irony — it's **dread they participate in.** They know a Dan. That Dan broke an NDA to reach [Eron Vosk](../../../characters/villains/eron-vosk.md) and helped get them killed. His name is now on every wall between here and the door, and the walk gets worse the further they go.
+>
+> **Where they should land, and stop:** not *"the boss is Dan"* — that's the obvious read and it isn't frightening. The frightening one is **the dungeon knew to put him here.** It read their identities in the [Mirror Room](#room-2-changing-rooms-optional); now it's reading their enemies. Let them get exactly that far, let nobody have an answer, and then open the door.
+
+### Approach: The Burned Maze
+
+**Getting here means walking back through [Room 4](#room-4-back-storage-maze) after the fire.** The route is safe — everything left is scorched, slumped, or barely running. Nothing in it is a threat.
+
+**Make it a moral beat, not a threat beat.** Half-melted animatronics still twitching on the concrete. Servos grinding against warped housings. Things shaped like people that will not stop moving. The party did this.
+
+The useful part is that **finishing them off is worth nothing.** Per [`xp.md`](../../../system/xp.md#xp-award-formula), `danger_factor` on a trivial enemy rounds to zero — there is no reward on the table, so whatever they choose is pure characterization. Does anyone put them down? Does [Wade](../../../characters/party/wade.md) — a healer, still **Broken**, walking through burned things built to look like people — say anything at all? Does [Vanessa](../../../characters/party/vanessa.md), who lit it?
+
+No fight, no loot, no XP. Just the walk.
 
 ### The Break Room
 
-A small room with a table, two chairs, a microwave, a mini-fridge (empty), and a **couch**.
+A small room with a table, two chairs, a microwave, a mini-fridge (empty), a **coffee machine**, and a **couch**.
+
+**Give the room one beat of ordinary before the couch.** Steady fluorescent light, clean linoleum, a wiped table. After the Flicker Hall, the strobes, and a burning maze, **the unsettling thing is how normal it is** — and that beat is what makes the couch read as the most beautiful object anyone has ever seen. If [Selene](../../../characters/party/selene.md) dives on entry, the gag fires before the room has earned it.
+
+#### The Coffee Machine
+
+[Rebekah](../../../characters/party/rebekah.md) finds it, and it is a better beat than it looks.
+
+**Nobody needs it.** Her own [Rejuvenation](../../../classes/temporal-bard.md#rejuvenation) refrain means no one has been hungry or thirsty since the Transition — established on-page in Ch 22. So a cup of coffee is **the first thing anyone has consumed for pleasure instead of need**, and the person who made consumption unnecessary is the one who wants one anyway.
+
+> *"I don't need it. I want it."*
+>
+> That is the difference between surviving and living, delivered as a joke about a break-room coffee maker, in the last quiet room before the boss. It's also the thesis of the whole rest beat — the party stops *needing* and starts *wanting*, four minutes before something tries to kill them.
+
+#### Wade Does The Math
+
+**Plant the [Blue Ribbon](../../../items/accessories/mimic-pet.md#comic-relief--occasional-plot-utility) problem here.** Wade goes into the boss at **−25% healing** ([Broken](../../../characters/party/wade.md), until dungeon exit) and the Manager's [Performance Review](boss.md#ability-performance-review) stacks **another −25% healing output** on top. He is about to be worth roughly half a healer.
+
+He knows it. Not a speech — just a large tired man quietly working out whether he will be enough, and not liking the answer.
+
+**And [Qubit](../../../items/accessories/mimic-pet.md) is sitting three feet away, having eaten the First-Place Blue Ribbon (+15% healing) that fixes it** — the item Wade surrendered for the pet, which the mimic coughs back up mid-boss-fight at the exact moment it matters. Plant the worry in this room and the payoff detonates properly instead of arriving as a coincidence.
 
 The couch looks exhausted and inviting. Sagging cushions, a throw blanket draped over one arm. After the Flicker Hall, the Bear Trap, the Showroom, and the Storage Maze, it is the most beautiful thing anyone has ever seen.
 
@@ -699,9 +757,19 @@ Eventually someone (probably [Wade](../../../characters/party/wade.md), too nice
 
 ### The Door
 
-At the end of the hallway: a door marked "MANAGER'S OFFICE." The motivational poster next to it shows a skeleton in a suit pointing at the viewer: "YOU'RE NEXT FOR YOUR REVIEW."
+The end of the [Dan gradient](#dan-down-the-hallway): a door marked "MANAGER'S OFFICE," with the skeleton-in-a-suit poster beside it pointing straight at the viewer — **"YOU'RE NEXT FOR YOUR REVIEW."**
+
+By the time they reach it they have walked past a month of his shifts, a year of his plaques, and his name badge set down neatly on a desk. The door is the punchline of a joke the hallway has been telling the whole way down.
 
 Beyond: the boss room.
+
+### The Thing Nobody Says
+
+This is the **last chance to say anything** before a fight they might not walk out of, and the party will spend it avoiding that. The couch gag and the coffee are *how* they avoid it.
+
+One thread is open and should close here: **nobody has acknowledged that [Clint](../../../characters/party/clint.md) nearly died.** He came within seconds of respawning in the maze, and the only thing anyone apologized for afterward was his clothes. Someone — [Vanessa](../../../characters/party/vanessa.md), who threw the fireball, or [Selene](../../../characters/party/selene.md), who was there — finally says it in this room.
+
+**End the room tighter than it started.** A calm-before-the-storm scene that finishes relaxed has done the opposite of its job: the couch and the coffee buy an exhale, the Dan gradient and the door take it straight back.
 
 ### Lesson
 

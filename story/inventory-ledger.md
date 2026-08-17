@@ -95,4 +95,4 @@ Details established by the author but **not yet fully written into prose** — f
 
 ### Unassigned dungeon loot
 
-Referenced as available in the Spirit Dungeon but not yet given to anyone in prose: **Treat Bag of Holding**, **Bear Claw Necklace** (+1 STR). Assign or drop.
+Referenced as available in the Spirit Dungeon but not yet given to anyone in prose: **Bear Claw Necklace** (+1 STR). Assign or drop. *(The **[Jack-o'-Lantern Bag](../items/accessories/jack-o-lantern-bag.md)** — formerly "Treat Bag of Holding" — is found on-page by [Selene](../characters/party/selene.md) in the [janitor's closet](../lore/dungeons/spirit-dungeon/rooms.md#loot), Ch 24. She turns it up and keeps it; no explicit hand-off is written, so treat Selene as the holder unless a later scene reassigns it.)*

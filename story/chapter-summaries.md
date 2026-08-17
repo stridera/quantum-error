@@ -500,7 +500,7 @@ Mana begins regenerating. A World Quest appears: an artifact will destroy existe
 
 ## Chapter 22: Asylum
 
-**Word count**: 2,615
+**Word count**: 2,692
 
 **Summary**: Qubit — now formally counted as a party member — bolts toward the straitjacketed mannequin, kicking off the asylum encounter: the Head Surgeon and the Asylum Orderly begin "treatment" on their gurney-bound patient while a loose gurney charges Clint. He bashes it aside and crosses onto the linoleum to recover his lost **Plastic Bloody Machete**, taking the **Strobe Lights** debuff and regretting the un-bought Carnival Shades. His Identify reads the **Lobotomized Patient** at *Treatment Progress: 6%*, jumping to 38%. Clint assigns Rebekah a slow and Vanessa an illusion on the straitjacket, calls Selene over, and tackles the Head Surgeon — then spends the rest of the fight pinned on top of it, counting smite cooldowns through four blackout pulses while the room comes apart behind him. The straitjacket rips free and charges **Rebekah**, the caster who landed the real debuff; **Wade** steps in front of her with no taunt in his kit. **Selene** finishes the channeling Orderly (freezing the Treatment at 78%), breaks for Rebekah, and is snatched mid-run by the roving gurney, which starts a **Cardiac Cycle** on her. **Vanessa** fireballs the gurney with Selene still strapped to it; Selene rips free at the fourth Fibrillation stack and rides the blast out — ears smoking, tail smoldering — then plants her **Prop Cutlass** in the straitjacket's back. Clint kills the Surgeon with a final punch, cuts the corner past the guard post and takes a hit for it, heals his bleed with **Cure Light Wounds**, and loots the **AUTHORIZED PERSONNEL badge** off the Surgeon's chest.
 
@@ -556,6 +556,79 @@ The party then sits on the carousel edge to regenerate mana and catch their brea
 - **New mechanic pending canon:** the Fanny Pack of Holding refusing items "bound to another person or location" is not in the (locked) item file
 - **Wade is still Broken (−25% healing)** and it never bites — the asylum set is designed as where compromised sustain shows
 - Wade's wish lands but the canon-planted crack about him "wanting to be a walking utility bill" is missing, and the wish is framed as an acquisition plan rather than a throwaway
-- Whitespace is now inconsistent chapter-wide: the revision normalized the fight's paragraphs to single-space-after-period while the new ~40 paragraphs use double
-- Typos: "rejuvination", "shenanery", two unclosed quotation marks
+- Whitespace mostly normalized by the 2026-08-14 pass; **7 doubled spaces remain**, two of them in newly written lines
+- Typos: "shenanery", two unclosed quotation marks. ("rejuvination", "Wades mana", "had had" fixed 2026-08-14)
 - Unspent: **Strider's needle** about the traded Monocle, and the **XP event** (Elite 1,800 + Normal 600 + Elite 1,800 = 4,200 — `mobs.md` has Clint on track for L5 out of this tableau)
+
+---
+
+## Chapter 23: The Backrooms
+
+**Word count**: 2,397 *(completed — the "To be continued" placeholder is gone)*
+
+**Summary**: The badge doors seal behind the party and Room 4 opens with a corporate hallway — off-white walls, motivational and safety posters, fluorescent tubes switching on and off as they pass — which gives onto a warehouse so large that visibility still tops out at ten feet. Selene stealths ahead with **Qubit** at her heels and finds an orange "Take One" candy bowl; Qubit goes rigid and stares, and Selene calls it as a **Candy Bowl Mimic** before Rebekah can reach in. Fog rolls in from three directions with a **Fog** debuff (-3 Accuracy, 50% reduced visibility), Qubit picks the party's route at the fork, and Selene smashes the first fog machine loudly enough that Clint asks her to keep it down. The maze answers in escalating waves: a **Shrink-Wrapped Mannequin** off the racks and a **Severed Hands** swarm spilled from a burst box, then **Crawling Torsos** dragging in from both sides, then a **Prop Spider** that drops from the ceiling onto Selene, roots Clint with Ankle Grab and webs the corridor shut. Vanessa's fireball clears the pursuit and sets the shelving alight. Selene works out the real rule — it's the *noise*; Rebekah's strumming makes the boxes quiver — and Clint has to be the one to ask Rebekah to stop singing, stripping the party's haste and stealth at the worst possible moment. A second spider webs the group in half, Wade's attempt to tear the webbing down collapses a shelving unit between the two halves, and Clint orders the split: go back, turn right, run to the wall, meet there. Strider: *"Nothing bad ever happens when you split the party."*
+
+**Key Plot Events**:
+- **Party enters Room 4 (Back Storage Maze)** — the deadliest room before the boss
+- **Fog debuff on-page** with an exact stat block: -3 Accuracy, 50% reduced visibility
+- **Candy Bowl Mimic spotted and avoided** — Qubit points at it, Selene reads him and calls it
+- **Qubit chooses the party's path** at the first fork, and eats a severed hand off the floor
+- **The Noise Clock runs its full ladder** — Severed Hands (threshold 2), Crawling Torsos (3), Prop Spider webbing the route (4) — in canon order
+- **Selene solves the room:** the noise is what wakes the boxes; Rebekah's music makes them quiver
+- **Clint asks Rebekah to go silent**, and neither of them has an answer for what a silent Bard is for
+- **Fire in the Stacks** — Vanessa's fireball clears the corridor behind them and sets the maze burning
+- **Shelf collapse splits the party** — Clint and Selene forward, Wade with the casters
+- Clint's claustrophobia established; the level gap is acknowledged on-page for the first time
+
+**Canon Notes**:
+- ✅ **Four stat blocks match canon exactly.** Severed Hands (L10 / 15 HP / 5 dmg, Interfere -1 per 2 in melee to a -3 cap), Shrink-Wrapped Mannequin (L10 / 60 HP / 9 dmg / AR 10, no abilities), Crawling Torso (L10 / 60 HP / 9 dmg / AR 4), and Fog (-3 Accuracy, 50% visibility) are verbatim `lore/dungeons/spirit-dungeon/`.
+- ✅ **The Noise Clock is now fully engaged**, including its central bind — Rebekah's songs as the party's force multiplier *and* its steadiest noise source, with Clint having to ask her to stop. The reunion shouting is correctly paid for.
+- ✅ **Threshold order matches canon**: Hands → Torsos → Spider.
+- ✅ **Fire in the Stacks, Shelf Collapse, Web Corridor, Ceiling Drop, and the party split** (Wade on the caster half) all land as designed in `rooms.md`.
+- ✅ **Qubit's mimic-detection lands as designed** — rigid, silent, staring, ahead of any human noticing.
+- ✅ Selene re-stealths after the candy bowl; the "To be continued" placeholder and the doubled space in "I  jumped back" are both fixed.
+- ❌ **Prop Spider shows HP 160**; canon Giant Spider Prop is **150**. The mob is also named "Prop Spider" rather than **Giant Spider Prop**.
+- ⚠ **"challenging shout"** recurs once late in the chapter; canonical ability is **Commanding Shout**, which the chapter uses correctly twice before it.
+- ⚠ **Venomous Bite block** reads "2 Damage plus 2 Damage per Second for 6 seconds"; canon is **8 physical on hit**, then 2 poison **per 2s** for 6s (6 total). The prose doubles the DoT rate, which matters because Clint runs an explicit healing-vs-incoming calculation two paragraphs later.
+- ⚠ **The Candy Bowl Mimic is still given a visual tell** ("a little eye on the note opened up slightly"). Canon is explicit that the maze mimics have **no visual tell** — that is their whole design, and what makes Selene's Room 5 couch dive a misread of a working detector rather than simple carelessness.
+- ⚠ **Ankle Grab block** omits canon's 6 physical damage and 8s cooldown; only the 3s root is shown.
+- ⚠ **"Selene had a knife in the back of the mannequin"** — her inventory is a **Prop Cutlass**.
+- ⚠ Selene's canon-planted line — *"I'd never be fooled by a stupid mimic"* — is still not on the page; it is the callback the Room 5 couch collects on.
+- ⚠ Typos: **"Interfer"** (canon: Interfere), **"Manequines"**, "halloween" lowercase ×2; tense slips in "we've been in so far", "so they'll be easier to kill", and "Even my whispers cause the boxes to shake".
+- **New and uncanonized (worth promoting):** the corporate entry hallway with its motivational and safety posters — *don't climb the shelves, watch for falling objects, don't shout at your coworkers* — which quietly pre-states the room's own rules, including the noise one. `rooms.md` currently cuts straight from the door to metal shelving.
+- **Pending canon:** the **Fog** debuff still has no `system/effects.md` row (same gap as Cardiac Cycle).
+- **Wade's Broken status** (-25% healing) is designed to finally bite in this room, and still never does.
+
+## Chapter 24: Janitor's Closet
+
+**Word count**: 1,331 *(in progress — ends mid-conversation on an inline author note)*
+
+**Summary**: Clint and Selene run the burning maze without haste and without a healer, and discover that noise is no longer the only thing waking the shelves — the room is alive around them, and only speed is keeping them ahead of it. Clint drops smiting for healing to hold them both up, and in doing so finally understands Wade: the awareness of a family's health bars with no ability to reach them is exactly what Wade has been carrying. For the first time, Clint wonders whether they will finish this dungeon. They hit the maze's far wall; Selene spots a hidden door and works the lock by feel with a hairpin while Clint holds four **Crawling Torsos** off at rooted, red-zone health. The rest of the party arrives trailing their own train, Wade lands two heals, and Vanessa's **shaped** fireball opens a gap just wide enough for Clint to dive through — naked again — onto a heap of rags. Inside, **Qubit** goes rigid at an old **Cash Register Mimic** and the party simply declines to fight it. Selene explains where she learned to pick locks: years of executive video calls, hands under the desk, all feel and no sight. Then she turns up a **Jack-o'-Lantern Bag** — an uncommon bag of holding — in the milk crates.
+
+**Key Plot Events**:
+- **Party split resolves** — Clint and Selene reach the wall; the casters arrive under their own pursuit
+- **Clint heals instead of smiting**, and it costs him all of his damage, exactly as canon designs it
+- **Clint's Wade realization** — party awareness as the shape of Wade's grief
+- **First doubt** that the party can complete the dungeon
+- **Room 4a discovered** — Selene picks the padlock by feel in smoke at 5-foot visibility
+- **Vanessa shapes the fireball** — a real control improvement, though it still burns Clint's clothes off
+- **Cash Register Mimic pointed out by Qubit and left alone** — a monster the party declines to engage
+- **Selene's lockpicking backstory**, delivered as comedy
+- **Jack-o'-Lantern Bag obtained** by Selene — uncommon bag of holding
+- Selene's Room 5 setup line lands: *"The mimics are easy to detect and won't attack if you keep your distance."*
+
+**Canon Notes**:
+- ✅ **Room 4a matches `rooms.md` closely** — the metal shelves, cleaning supplies, tools, milk crates, and the heap of dirty rags and mops soft enough to land on face-first; the old cash register on the shelf; Qubit going rigid and Selene reading him instantly; the party using the room as a *rest* rather than a fight.
+- ✅ **Selene's Room-5 setup line is verbatim canon**, and lands without anyone challenging it — exactly as `rooms.md` instructs.
+- ✅ **The lockpicking beat lands**, including Clint's *"How did you learn to do that?"*, the executive video calls, and *"You don't need to look at a lock to pick it; it's all feel."*
+- ✅ **The Jack-o'-Lantern Bag matches canon exactly** — name, quality, capacity, appearance, and flavor text. Now filed at `items/accessories/jack-o-lantern-bag.md` (draft).
+- ✅ Clint's **Fanny Pack of Holding** is still on him and still uncomfortable.
+- ✅ **Wade sits down on the rags, "which looked cleaner just being near him"** — the [Cleric Aura](../classes/cleric-of-healing.md) callback planted in Ch 22, now landing. *(Corrected 2026-08-16; previously read "Clint," which both broke the first-person POV and gave the aura to the wrong character.)*
+- ❌ **Author's draft note left in the published body**: `<Note: Bedtime. Todo: add More dialogue here. Rest/recover. …>`
+- ⚠ **"Challenging shout"** again; canonical ability is **Commanding Shout**.
+- ⚠ **Selene uses "a small penknife and the pin."** Canon is explicit that she has **no lockpicks and no thieves' kit** — the beat is *two hairpins*, and the absence of tools is what makes Clint's astonishment land.
+- ⚠ Canon has Selene **spot the hidden door while scouting** (Room 4a is the payoff for Rogue play); here they find it by running out of maze.
+- ⚠ Typos: **"unencombered"** (canon: unencumbered), "halloween" lowercase.
+- **Wade's Broken status** (-25% healing) goes unmentioned through a scene built entirely on his healing throughput. This is the last quiet window before Room 5.
+- **Open author question (from the inline note):** whether to keep the chapter titled *Janitor's Closet*. See `review/chapter-24.md` for alternatives.
+- **Next up per canon:** Room 5, the Employee Hallway — where all the Dan foreshadowing lives.

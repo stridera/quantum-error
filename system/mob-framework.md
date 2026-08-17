@@ -105,6 +105,18 @@ mob_accuracy(level) = 5 + 0.5 * level
 
 Accuracy scales smoothly across the full range. No minimum clamp -- low-level mobs *should* miss evasive players. Bosses and Raid mobs get +5 and +10 accuracy respectively, reflecting their threat.
 
+### Evasion
+
+```
+mob_evasion(level) = 0.5 * level
+```
+
+| Level | 1 | 10 | 20 | 33 | 50 | 66 | 80 | 99 |
+|-------|---|----|----|----|----|----|----|----|
+| Evasion | 1 | 5 | 10 | 17 | 25 | 33 | 40 | 50 |
+
+Mobs are deliberately **better at hitting than at dodging** — a L10 mob has Accuracy 10 against Evasion 5. Players are expected to out-dodge their level; mobs are expected to grind you down. Role does not modify Evasion. See [Hit Resolution](combat.md#hit-resolution) for how this feeds the hit formula (**5 percentage points per point of accuracy**).
+
 ### Armor Rating
 
 ```
