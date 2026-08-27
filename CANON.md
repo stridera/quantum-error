@@ -113,6 +113,7 @@ This file is the canonical index for Quantum Error.
 - `story/chapter-summaries.md`
 - `story/inventory-ledger.md`
 - `story/pitch.md`
+- `story/outline-part3-4.md` *(draft — Parts 3 & 4 planning, non-canonical)*
 
 ### Bestiary
 - `bestiary/ancient-red-dragon.md`
