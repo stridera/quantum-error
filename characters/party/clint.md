@@ -94,6 +94,10 @@ After boosting via the system console. Clint stopped boosting INT/WIS at 14 due 
 | 20 | **Level 3 → 4** (graveyard skeleton clear) · Shield Mastery + Shield Bash revealed — idle, no shield equipped |
 | 21 | Smite: Sanction (L4 upgrade) first used in prose — block matches class canon |
 
+## System Sense (Ch 14+)
+
+From [Innate System](#level--progression) onward Clint has no interface. His system-sense is **synesthetic**: his own and his party's pools arrive as **color** (green / yellow / red for health; blue and amber by intensity for mana and endurance), passively, with the number available on request. Everything else — strangers, mobs, *which* debuff — is a manual inspect that returns a thin Book-1 read. Full rules and the prose convention ("color as sensation, never as a bar") in [System UI](../../system/ui.md#system-synesthesia-how-pools-feel); block formatting in [UI Popups](../../system/ui-popups.md).
+
 ## Patron: Strider
 
 Clint's patron god, whose blessing activated his Paladin class ([Ch 15](#level--progression)).

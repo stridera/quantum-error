@@ -38,7 +38,7 @@ When in a group, small health/mana bars for each party member appear in a config
 
 The system pushes notifications for significant events:
 - Level up
-- New ability unlocked (see [UI Popups — New Ability](ui-popups.md#1-new-ability-earned))
+- New ability unlocked (see [UI Popups — Ability](ui-popups.md#3-ability--unlock--help))
 - Quest updates
 - [Death](death.md) and respawn
 - System-wide announcements (rare)
@@ -64,6 +64,28 @@ Nothing. No health bar, no mana bar, no floating icons, no menus. His field of v
 Clint doesn't *see* his health — he **feels** it. Not pain (though pain exists), but a bone-deep awareness of how much damage he can take before he drops. He doesn't check his mana bar — he knows how much he has left the way you know how tired you are. He doesn't open a character sheet — he knows his own capabilities the way a trained athlete knows their body.
 
 This extends to everything the standard UI would show: stats, abilities, cooldowns, active effects. The information is there. He just accesses it differently — not through a visual layer, but through direct knowledge.
+
+### System Synesthesia: How Pools Feel
+
+Clint's system-sense is **synesthetic**. A resource pool doesn't arrive as a number he then interprets — it arrives as a **color**, the way a grapheme arrives as a color for a synesthete. The number and the color are one percept; he can read off either, but the color comes first and costs nothing. He never computes "400 of 999, that's about 40%, that's yellow territory." He just knows Wade is yellow.
+
+The palette is the same one the standard UI uses, so the book has one vocabulary:
+
+| Pool | Healthy | Hurt | Critical | Empty |
+|---|---|---|---|---|
+| **Health** | green (roughly >60%) | yellow (~25–60%) | red (<~25%) | grey — down |
+| **Mana** | bright blue | dim blue | guttering | dark |
+| **Endurance** | warm amber | dull amber | ember | dark |
+
+Health shifts *hue*; mana and endurance shift *intensity*. The cutoffs are approximate by design — prose should never have to reconcile a percentage with a color. When the number matters (7/999), give the number; the color is for everything else.
+
+**Scope in Book 1 (from Ch 14, when [Innate System](../characters/party/clint.md#level--progression) lands):**
+- **Own pools and party pools are passive.** He doesn't check them; they're simply present, like knowing where your hands are. This is the same channel as the party-sense everyone in a group has — Clint's just renders it as color. The prose already treats it this way (Ch 18, 20, 26).
+- **Everything else is manual.** Strangers, mobs, objects, the *details* behind a party member's color (which debuff, how long) — he has to ask (see Inspect, below), and what comes back is the thin read.
+- **Effects on him are always full-detail.** Anything applied *to* Clint — a debuff, a DoT, a snare, a heal, a buff — arrives as the complete block: name, source, duration, numbers. No inspect needed; it's his body, and the System tells him exactly what's being done to it. For party members he gets the *name* of what's on a party member passively (it rides on the color), but the numbers behind it take a manual look. This is the LitRPG-reader expectation: when he's hit with Hex, the page shows `-3 Accuracy, -2 Damage dealt, 6s`, not "I felt clumsier."
+- **The color is the surface of a much deeper channel.** When he eventually pushes on it instead of accepting it, he finds the full structured data underneath. Seeded in Ch 26 — *"HP: 900. I still felt like there was more to that, but I didn't have the time or capacity to focus more deeply."* That sentence is the hook the later books pay off.
+
+**Prose rule — color as sensation, never as a bar.** Clint never *sees* a health bar, *watches* a number, or *reads* an interface after Ch 14. Establish the sense once, explicitly, when it first appears ("pulsing yellow in my head"); after that, bare color is stronger — *Selene had gone yellow. Wade was still green.* Reserve "in my head" for the first use in a scene, or for emphasis. See [UI Popups](ui-popups.md) for how the accompanying stat blocks are formatted.
 
 ### Inspect (Book 1)
 
@@ -91,7 +113,7 @@ This progression is one of Clint's defining strengths. The standard UI gives eve
 ### Disadvantages
 
 - **Communication gap:** Clint can't easily share what he knows with party members who expect UI-formatted information. He says "that thing is level 22" when others would just Inspect and see a health bar. His knowledge doesn't translate into the visual language everyone else uses.
-- **Early learning curve:** In Book 1, the manual inspection is slower and less convenient than just glancing at a health bar. Other characters can see party frames at a glance; Clint has to check each person individually until his passive awareness develops.
+- **Early learning curve:** In Book 1, the passive channel covers only his own and his party's pools — and only as color. Everything else (strangers, mobs, *which* debuff, how long) is a manual inspect, slower and less convenient than a standard-UI glance. Other characters can read a party frame's icons at a glance; Clint knows Selene is yellow and has to ask *why*.
 
 ## Design Notes
 
@@ -100,3 +122,5 @@ The standard UI exists to make the LitRPG mechanics legible to both characters a
 Clint's instinctual access is a narrative tool — it lets the prose describe his system knowledge as *feeling* rather than *reading*, which differentiates his perspective from other characters. Scenes from other characters' POV should describe UI elements naturally (health bars, popups, menus).
 
 **Prose convention:** Stat blocks and [UI popups](ui-popups.md) still appear in the prose during Clint's POV. These represent what Clint *knows* — formatted for the reader's benefit, not because Clint is reading a screen. The goal is to show the same information other characters would see in their UI, but filtered through Clint's instinctual understanding. The writing around the stat blocks should reflect this — Clint doesn't "open his character sheet," he just *knows*, and the stat block is how the novel presents that knowledge to the reader.
+
+**Timeline note:** Clint has a perfectly ordinary GUI from Ch 4 (console-era class selection: "a small bar was in the bottom left of my view") through Ch 13. Interface-free perception begins with **Innate System in Ch 14**. Health bars, GUIs, and message tabs before that point are correct; after it, they are errors.

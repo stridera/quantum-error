@@ -119,24 +119,18 @@ A mannequin wearing a mask studded with pins and nails. When it speaks, your tho
   - Telegraphed by the pins on the mask beginning to glow faintly.
 
 ```text
-┌──────────────────────────────────────────────┐
-│ STATUS: Fascination                          │
-├──────────────────────────────────────────────┤
-│ Type: Debuff (Charm / Compulsion)            │
-│ Source: Pinhead Mask Mannequin               │
-│ Duration: 10s                                │
-│ Stacks: 0 (Does not stack; refreshes)        │
-│ Dispel: Yes (Cleanse/Dispel)                 │
-├──────────────────────────────────────────────┤
-│ Summary: Your focus is pulled to the caster. │
-├──────────────────────────────────────────────┤
-│ Numbers:                                     │
-│ - Forces target-priority: Caster             │
-│ - -80% threat awareness to other enemies     │
-│ - 50% action target failure (non-caster)     │
-│ - Break on: LOS break, ally shove/taunt,     │
-│   or single hit > 15 damage                  │
-└──────────────────────────────────────────────┘
+Fascination (Charm Debuff)
+Your focus is pulled to the caster.
+
+Source: Pinhead Mask Mannequin
+Duration: 10s
+Stacks: No (refreshes)
+Dispellable: Yes (Cleanse)
+Effects:
+- Forces target-priority: Caster
+- -80% threat awareness to other enemies
+- 50% action target failure (non-caster)
+- Break on: LOS break, ally shove/taunt, or single hit > 15 damage
 ```
 
 #### Pin Jab
@@ -227,21 +221,16 @@ A mannequin in a too-short nurse costume, white stockings, and a tiny cap. Carri
   - Dispellable by Cleanse or any poison cure.
 
 ```text
-┌──────────────────────────────────────────────┐
-│ STATUS: Nausea                               │
-├──────────────────────────────────────────────┤
-│ Type: Debuff (Poison)                        │
-│ Source: Sexy Nurse Mannequin                 │
-│ Duration: 8s                                 │
-│ Stacks: 0 (Does not stack; refreshes)        │
-│ Dispel: Yes (Cleanse / Poison Cure)          │
-├──────────────────────────────────────────────┤
-│ Summary: Queasy and unfocused.               │
-├──────────────────────────────────────────────┤
-│ Numbers:                                     │
-│ - 2 poison damage every 2s (8 total)         │
-│ - -2 Accuracy                                │
-└──────────────────────────────────────────────┘
+Nausea (Poison Debuff)
+Queasy and unfocused.
+
+Source: Sexy Nurse Mannequin
+Duration: 8s
+Stacks: No (refreshes)
+Dispellable: Yes (Cleanse / poison cure)
+Effects:
+- 2 poison damage every 2s (8 total)
+- -2 Accuracy
 ```
 
 **Drops:** Nurse's Cap (Uncommon accessory — +5% healing output. Tiny white cap with a red cross. Looks ridiculous on [Wade](../../../characters/party/wade.md). He wears it anyway.)
@@ -368,65 +357,37 @@ A mirror-spawned reflection of a party member. The Spirit Dungeon's mirrors don'
   - **Design intent:** 20%/taunt is lethal for a normal-HP character, so Phase 2 is where a typical player would already be in real trouble. The party's console-boosted 999-HP pool makes 200 HP (20%) a workable fighting floor — assuming they actually fight. Characters who refuse to engage during Phase 2 get finished by the echo's fifth and final taunt (see Mirror Barrier loss condition).
 
 ```text
-┌──────────────────────────────────────────────┐
-│ STATUS: Shaken                               │
-├──────────────────────────────────────────────┤
-│ Type: Debuff (Psychic / Identity)            │
-│ Source: Echo Double                          │
-│ Duration: Until echo is defeated             │
-│ Stacks: Yes (max 4)                          │
-│ Dispel: No (must be overcome, not cleansed)  │
-├──────────────────────────────────────────────┤
-│ Summary: Your past has weight.               │
-├──────────────────────────────────────────────┤
-│ Numbers:                                     │
-│ - -2 Accuracy per stack                      │
-│ - -1 Damage dealt per stack                  │
-│ - Stack removal: each successful hit on the  │
-│   echo removes 1 stack                       │
-│ - Ally encouragement (verbal, one-time per   │
-│   fight): removes 2 stacks                   │
-└──────────────────────────────────────────────┘
+Shaken (Psychic Debuff)
+Your past has weight. Your fear hurts more than any blade.
+
+Source: Echo Double
+Duration: Until the echo is defeated
+Stacks: Yes (max 4)
+Dispellable: No (must be overcome, not cleansed)
+Effects:
+- -2 Accuracy per stack
+- -1 Damage dealt per stack
+- Each successful hit on the echo removes 1 stack
+- Ally encouragement (verbal, once per fight) removes 2 stacks
 ```
 
 ```text
-┌──────────────────────────────────────────────┐
-│ STATUS: Broken                               │
-├──────────────────────────────────────────────┤
-│ Type: Debuff (Psychic / Identity)            │
-│ Source: Echo Double (final taunt on failure) │
-│ Duration: Until the bearer leaves the        │
-│   Spirit Dungeon                             │
-│ Stacks: No (binary state)                    │
-│ Dispel: No (cannot be healed, cleansed, or   │
-│   dispelled by any means inside the dungeon) │
-├──────────────────────────────────────────────┤
-│ Summary: The mirror found the thing you      │
-│ couldn't look at yet.                        │
-├──────────────────────────────────────────────┤
-│ Numbers:                                     │
-│ - -3 to all primary attributes               │
-│   (STR/DEX/CON/INT/WIS/CHA)                  │
-│ - -25% damage dealt                          │
-│ - -25% healing effectiveness (incoming and   │
-│   outgoing — the healer heals less, AND is   │
-│   healed less)                               │
-│ - -25% buff effectiveness (songs, shouts,    │
-│   blessings all land at three-quarters       │
-│   strength)                                  │
-│ - Applied alongside HP reduction to 1 by     │
-│   the echo's fifth and final taunt           │
-│ - Clears automatically on exit from the      │
-│   Spirit Dungeon — no action needed          │
-├──────────────────────────────────────────────┤
-│ Design note: Broken is a dungeon-scope       │
-│ narrative debuff, not a persistent injury.   │
-│ The party must finish the dungeon with a     │
-│ compromised member; the dungeon leaving is   │
-│ what heals it. The wound stays. The status   │
-│ doesn't.                                     │
-└──────────────────────────────────────────────┘
+Broken (Psychic Debuff)
+The mirror found the thing you couldn't look at yet.
+
+Source: Echo Double (final taunt on failure)
+Duration: Until the bearer leaves the Spirit Dungeon
+Dispellable: No (cannot be healed, cleansed, or dispelled inside the dungeon)
+Effects:
+- -3 to all primary attributes (STR/DEX/CON/INT/WIS/CHA)
+- -25% damage dealt
+- -25% healing effectiveness (incoming and outgoing)
+- -25% buff effectiveness
+- Applied alongside HP reduction to 1 by the echo's fifth and final taunt
+- Clears automatically on exit from the Spirit Dungeon
 ```
+
+> **Design note:** Broken is a dungeon-scope narrative debuff, not a persistent injury. The party must finish the dungeon with a compromised member; the dungeon leaving is what heals it. The wound stays. The status doesn't. Healing effectiveness is cut both ways — the healer heals less *and* is healed less — and songs, shouts, and blessings all land at three-quarters strength.
 
 #### Mirror Barrier
 - **Type:** Environmental (dungeon mechanic)
@@ -900,23 +861,16 @@ Gnomes have two states — **at the machine** and **loose.**
 - **You can't shake them off yourself.** Since nothing you can swing damages a gnome ([Carnival Rules](#at-the-machine--burrowed)), a swarmed caster stays pinned until a mallet-bearer peels them — a slow you cannot break on your own. Stacks fall off only as gnomes die. This is what turns "trivial nuisance" into "why can't I *move* — get them **off** me."
 
 ```text
-┌──────────────────────────────────────────────┐
-│ STATUS: Underfoot                            │
-├──────────────────────────────────────────────┤
-│ Type: Debuff (Snare)                         │
-│ Source: Whack-a-Gnome (loose)                │
-│ Duration: While gnomes remain in melee       │
-│ Stacks: Yes (1 per adjacent loose gnome)     │
-│ Dispel: No (kill the gnomes — Mallet only)   │
-├──────────────────────────────────────────────┤
-│ Summary: They're climbing your legs.         │
-├──────────────────────────────────────────────┤
-│ Numbers:                                     │
-│ - -20% move speed per stack                  │
-│ - 5 stacks = fully rooted (-100%)            │
-│ - Cannot be cleansed; ends only when the     │
-│   gnomes are cleared (Padded Mallet)         │
-└──────────────────────────────────────────────┘
+Underfoot (Snare Debuff)
+They're climbing your legs.
+
+Source: Whack-a-Gnome (loose)
+Duration: While gnomes remain in melee
+Stacks: Yes (1 per adjacent loose gnome)
+Dispellable: No (clear the gnomes — Mallet only)
+Effects:
+- -20% move speed per stack
+- 5 stacks = fully rooted (-100%)
 ```
 
 #### "Gnomes Rule!" (Passive — Sonic Aura)
@@ -926,42 +880,33 @@ Gnomes have two states — **at the machine** and **loose.**
 - **Silence it** the same way you end the swarm: clear the gnomes (mallet) or stop the [Carousel](#carousel--the-motor).
 
 ```text
-┌──────────────────────────────────────────────┐
-│ STATUS: Gnomes Rule                          │
-├──────────────────────────────────────────────┤
-│ Type: Debuff (Sonic)                         │
-│ Source: Whack-a-Gnome (the chant)            │
-│ Duration: 1s (re-applied while they chant)   │
-│ Stacks: No (refreshes)                       │
-│ Dispel: Yes (but they just yell again)       │
-├──────────────────────────────────────────────┤
-│ Summary: "GNOMES RULE!" — you can't          │
-│ concentrate.                                 │
-├──────────────────────────────────────────────┤
-│ Numbers:                                     │
-│ - Interrupts any cast-time / channel ability │
-│ - Instant abilities unaffected               │
-│ - Ends when the gnomes are silenced (Mallet) │
-└──────────────────────────────────────────────┘
+Gnomes Rule (Sonic Debuff)
+"GNOMES RULE!" — you can't concentrate.
+
+Source: Whack-a-Gnome (the chant)
+Duration: 1s (re-applied while they chant)
+Stacks: No (refreshes)
+Dispellable: Yes (but they just yell again)
+Effects:
+- Interrupts any cast-time or channeled ability
+- Instant abilities unaffected
+- Ends when the gnomes are silenced (Mallet)
 ```
 
 > <a id="gnomes-rule--author-note"></a>*Author note: the gnomes' **"GNOMES RULE!"** chant is an intentional easter egg. The phrase began as running-joke graffiti in classic MMORPGs (EverQuest, World of Warcraft) and was popularized in the LitRPG scene by Aleron Kong's **The Land** series. Keep the wording verbatim — it's a genre wink, not a continuity slip.*
 
 ```text
-┌──────────────────────────────────────────────┐
-│ WHACK-A-GNOME                                │
-├──────────────────────────────────────────────┤
-│ Please use the provided MALLET.              │
-│ Winners get tickets. Cheaters get nothing.   │
-└──────────────────────────────────────────────┘
+Whack-a-Gnome
+Please use the provided MALLET.
+Winners get tickets. Cheaters get nothing.
 ```
 
 #### What System Identify Gives Clint
 
-Clint's [Innate System](../../../characters/party/clint.md) is interface-free — no [popup](../../../system/ui-popups.md#5-system-identify--entity), he just *knows.* What he knows:
+Clint's [Innate System](../../../characters/party/clint.md) is interface-free — no popup, he just *knows* (format per [UI Popups](../../../system/ui-popups.md#1-identify--entity)). What he knows:
 
 ```text
-Gnome (Whack-a-Gnome) — Identified
+Gnome (Whack-a-Gnome)
 Level: 10 · Type: Construct (Animate Prop) · Threat: Trivial
 HP: 15 | Damage: 5 | Accuracy: 10
 Defense: INVULNERABLE
@@ -1002,8 +947,8 @@ A fire-maned carousel horse with too many teeth. **AR 6.** Attributes STR 10, DE
 - **Trample Charge** (Cooldown 8s): breaks from its pole to gallop a straight line — 14 damage + knockback + 1s prone to everything in the lane — then snaps back to its pole. Rears (2s tell) before charging. Punishes the backline.
 
 ```text
-The Nightmare (Carousel Horse) — Identified
-Level: 10 · Type: Construct (Carousel Mount) · Role: Elite (Charger)
+The Nightmare (Carousel Horse)
+Level: 10 · Elite (Charger) · Construct (Carousel Mount)
 HP: 150 | Damage: 11 | Accuracy: 10 | AR: 6
 Tell: Rears (2s), then Trample-Charges its lane. Get out of the line.
 ```
@@ -1013,8 +958,8 @@ Brass lion, mane like blades. **AR 8.** Attributes STR 10, CON 10, CHA 7, DEX 4,
 - **Brass Roar** (Cooldown 12s): pulls the nearest enemy toward it — a taunt you can't refuse (2s) — then **Pounce Cleave** (14 damage, frontal arc). Front-loaded burst; don't get dragged in undefended.
 
 ```text
-The Gilded Lion — Identified
-Level: 10 · Type: Construct (Carousel Mount) · Role: Elite (Bruiser)
+The Gilded Lion (Carousel Lion)
+Level: 10 · Elite (Bruiser) · Construct (Carousel Mount)
 HP: 150 | Damage: 11 | Accuracy: 10 | AR: 8
 Tell: Roars to drag the nearest fighter in, then Pounce-Cleaves. Don't get caught alone.
 ```
@@ -1025,8 +970,8 @@ A long-necked brass swan that lifts off its pole. **AR 4.** Attributes DEX 10, W
 - **Dive-Bomb** (Cooldown 10s): a big telegraphed plunge (16 damage). It is **grounded and vulnerable for ~2s after each dive** — the only reliable window to burst it. A timing check.
 
 ```text
-The Brass Swan — Identified
-Level: 10 · Type: Construct (Carousel Mount) · Role: Elite (Flyer)
+The Brass Swan (Carousel Swan)
+Level: 10 · Elite (Flyer) · Construct (Carousel Mount)
 HP: 150 | Damage: 11 | Accuracy: 10 | AR: 4
 Tell: Airborne = hard to hit. Grounded ~2s after each Dive-Bomb — burst it then.
 ```
@@ -1036,8 +981,8 @@ A ponderous stone elephant. **AR 10 (stone).** Attributes STR 10, CON 10, WIS 7,
 - **Ground Slam** (Cooldown 10s): rears and stomps — shockwave AoE, 12 damage + knockdown to everyone nearby (2s tell). Area denial; don't cluster. Slow and high-AR — the anchor and the DPS check.
 
 ```text
-The Stone Elephant — Identified
-Level: 10 · Type: Construct (Carousel Mount) · Role: Elite (Tank)
+The Stone Elephant (Carousel Elephant)
+Level: 10 · Elite (Tank) · Construct (Carousel Mount)
 HP: 150 | Damage: 11 | Accuracy: 10 | AR: 10
 Tell: Ground Slam is a telegraphed AoE (2s) — spread out. High AR: the DPS check.
 ```
@@ -1343,23 +1288,18 @@ A mannequin in a torn straitjacket, arms wrapped tight. Thrashes against its res
   - Telegraphed by the jacket tearing and a guttural shriek.
 
 ```text
-┌──────────────────────────────────────────────┐
-│ STATUS: Berserk                              │
-├──────────────────────────────────────────────┤
-│ Type: Buff (Self)                            │
-│ Source: Straitjacket Mannequin               │
-│ Duration: 10s                                │
-│ Stacks: 0 (Does not stack; one-time)         │
-│ Dispel: No                                   │
-├──────────────────────────────────────────────┤
-│ Summary: Restraints broken. Uncontrollable.  │
-├──────────────────────────────────────────────┤
-│ Numbers:                                     │
-│ - +3 damage per hit                          │
-│ - Gains second attack per round              │
-│ - Immune to all CC effects                   │
-│ - Breaks all current CC on activation        │
-└──────────────────────────────────────────────┘
+Berserk (Self Buff)
+Restraints broken. Uncontrollable.
+
+Source: Straitjacket Mannequin
+Duration: 10s
+Stacks: No (one-time)
+Dispellable: No
+Effects:
+- +3 damage per hit
+- Gains a second attack per round
+- Immune to all CC effects
+- Breaks all current CC on activation
 ```
 
 **Drops:** Torn Straitjacket Scraps (Common, crafting material)
@@ -1393,8 +1333,9 @@ A treasure chest sitting in a carnival prize booth. It has teeth-shaped edges, w
 **Clint's [System Identify](#what-system-identify-gives-clint) plays along with the disguise.** The read opens benign — *a treasure chest* — and won't quite hold still:
 
 ```text
-Object — Identified
+Object
 "A treasure chest."
+
 Level: 10 · Type: Container · Threat: None
 HP: 60 | AR: 8
 Note: Gold-chained "GRAND PRIZE." Contents: 500 tickets.

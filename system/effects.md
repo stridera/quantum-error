@@ -148,13 +148,16 @@ Define:
 ## Recommended Effect Declaration Block (for abilities)
 
 ```text
-Effect:
-- Name: <...>
-- Type: <Buff/Debuff/Condition/Room>
-- Tags: <...>
-- Duration: <...>
-- Stacks: <...>
-- Dispel: <Cleanse/Dispel/None>
-- Break: <rules, if any>
-- Numbers: <hard values>
+<Name> (<Kind Buff/Debuff/Condition>)
+<Optional flavor line>
+
+Source: <...>
+Duration: <...>
+Stacks: <...>
+Dispellable: <Yes (how) / No>
+Effects:
+- <hard value>
+- Break on: <rules, if any>
 ```
+
+Format per [UI Popups](ui-popups.md#2-status-effect-buff--debuff).

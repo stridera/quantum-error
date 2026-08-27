@@ -39,40 +39,21 @@ This is why the school is rare rather than popular. It gives you nothing on its 
 The [Help/Inspect](../../system/ui-popups.md) readout Clint pulls on himself. The last panel is the one he sits with.
 
 ```text
-┌──────────────────────────────────────────────────────────┐
-│ HELP: Metamagic                                          │
-├──────────────────────────────────────────────────────────┤
-│ Type:        School (Magic)                              │
-│ Rank:        Legendary — Mastered                        │
-│ Proficiency: —                                           │
-│ Cost:        Varies by modified effect                   │
-│ Targeting:   Your own castings, pre-resolution           │
-├──────────────────────────────────────────────────────────┤
-│ Summary:     Magic that modifies other magic. A          │
-│              Metamage does not cast a new spell. They    │
-│              edit the one they already know, in the      │
-│              moment before it becomes true.              │
-├──────────────────────────────────────────────────────────┤
-│ Mechanics:                                               │
-│ - Alters a casting already in progress: shape, target    │
-│   set, duration, cost, timing.                           │
-│ - Common edits: remove one target from an area effect;   │
-│   hold a finished spell uncast; split a casting between  │
-│   two targets; pay the cost in a different currency.     │
-│ - Grants no new spells. Grants new versions of the       │
-│   spells you have.                                       │
-├──────────────────────────────────────────────────────────┤
-│ ⚠ MASTERY RECORD: GRANTED, NOT EARNED                    │
-│                                                          │
-│ Rank was written directly to your record via             │
-│ administrative console. No proficiency was accrued.      │
-│                                                          │
-│ You hold the highest rank in this school and none of     │
-│ the technique. The System will honor the rank.           │
-│ Your hands will not.                                     │
-│                                                          │
-│ Recommended action: none available.                      │
-└──────────────────────────────────────────────────────────┘
+Metamagic (School)
+Magic that modifies other magic. A Metamage does not cast a new spell. They edit the one they already know, in the moment before it becomes true.
+
+Rank: Legendary — Mastered
+Proficiency: —
+Cost: Varies by modified effect
+Targeting: Your own castings, pre-resolution
+Effects:
+- Alters a casting already in progress: shape, target set, duration, cost, timing.
+- Common edits: remove one target from an area effect; hold a finished spell uncast; split a casting between two targets; pay the cost in a different currency.
+- Grants no new spells. Grants new versions of the spells you have.
+
+MASTERY RECORD: GRANTED, NOT EARNED
+Rank was written directly to your record via administrative console. No proficiency was accrued. You hold the highest rank in this school and none of the technique. The System will honor the rank. Your hands will not.
+Recommended action: none available.
 ```
 
 **Why the last line lands:** every other System readout Clint has ever pulled ends in something he can act on. This one tells him there is nothing to do. He owns a Legendary mastery the way he owns the [grenade in his fanny pack](../../story/inventory-ledger.md) — carried, unexplained, and useless until it isn't.
