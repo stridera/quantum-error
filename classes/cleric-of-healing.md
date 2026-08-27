@@ -1,7 +1,7 @@
 ---
 canon: true
 stability: locked
-last_reviewed: 2026-02-05
+last_reviewed: 2026-08-24
 ---
 
 # Cleric of Healing
@@ -34,7 +34,7 @@ Wade's class includes an emotional limiter mechanic:
 | 2 | Bless | Spell | Allies gain improved accuracy, resolve, and fear resistance (applies the **Blessed** status) |
 | 3 | Cleric Aura | Aura | Passive calm radius — nearby allies gain minor fear resistance and +5% healing received |
 | 3 | Cure Poison | Spell | Removes poison effects from a target |
-| 4 | Lesser Restoration | Spell | Removes minor debuffs and afflictions |
+| 4 | Lesser Restoration | Spell | Removes minor **physical** afflictions — poison, paralysis, breathing. No mental effects; divine magic fixes bodies, not confidence |
 | 5 | Prayer of Healing | Spell | Gradually restores health to multiple allies (HoT) |
 | 6 | Divine Sense | Passive | Sense undead presence and spiritual corruption |
 | 7 | Shield of Faith | Spell | Protective blessing reduces incoming damage |
@@ -198,38 +198,24 @@ Wade's class includes an emotional limiter mechanic:
 
 - [Wade](../characters/party/wade.md)
 
-## Progression (1–99)
+## Beyond Level 20
 
-> **Migration Note:** This section is a scaffold. Replace the placeholders with the locked progression once finalized.
+Levels 1–20 above are Book-1 canon. Post-20 progression is deliberately unlocked: new abilities land every 2–3 levels, passives gain **II / III** tiers (Mastery lines), and capstones acquire upgrades at major bands — but specific abilities get designed and locked **per book, as the story reaches them** (see the [book-level pacing table](../system/xp.md#leveling-curve-k1k3)). Designing L21–99 now would only create canon debt.
 
-### Table
-| Level | Unlocks |
-|---:|---|
-| 1 | *(TODO)* |
-| 2 | *(TODO)* |
-| 3 | *(TODO)* |
-| 4 | *(TODO)* |
-| 5 | *(TODO)* |
-| 6 | *(TODO)* |
-| 7 | *(TODO)* |
-| 8 | *(TODO)* |
-| 9 | *(TODO)* |
-| 10 | *(TODO)* |
-| 11 | *(TODO)* |
-| 12 | *(TODO)* |
-| 13 | *(TODO)* |
-| 14 | *(TODO)* |
-| 15 | *(TODO)* |
-| 16 | *(TODO)* |
-| 17 | *(TODO)* |
-| 18 | *(TODO)* |
-| 19 | *(TODO)* |
-| 20 | *(TODO)* |
-| 21–99 | *(TODO: expand or define scaling + "every N levels" unlock cadence)* |
+- *(TODO: add unresolved items for Cleric Of Healing, and mirror them into `canon/status.md`.)*
 
 ## Ability Stat Blocks
 
-> Healing spells have full numbers in the [Healing Reference](#healing-reference-levels-120) above. Blocks below cover the rest of the kit shown in prose through Ch 21; remaining abilities gain blocks as they enter the story. Costs assume the **Medium mana group** (L1 ≈ 17, L10 ≈ 80 — see [stat progression](../system/stat-progression.md)).
+> Full kit, in level order. Healing spells keep their full numbers in the [Healing Reference](#healing-reference-levels-120) above — their blocks here point to it. Costs assume the **Medium mana group** (L1 ≈ 17, L10 ≈ 80, L20 ≈ 150 — see [stat progression](../system/stat-progression.md)).
+
+#### Cure Light Wounds
+- **Type:** Spell · **Level:** 1 · **Cost:** 12 mana (Empowered 45 · Overdrawn 90) · **Cooldown:** none · **Duration:** Instant (1s cast) · **Targeting:** Ally (30 ft)
+
+**Rules**
+- Numbers and modes in the [Healing Reference](#cure-light-wounds): 60–120 normal, 180–300 Empowered, 300–380 Overdrawn.
+- The workhorse. The [emotional limiter](#emotional-limiter) scales with speed and intensity, not tier — Overdrawn is the mode Wade [will not reach for again](../lore/dungeons/spirit-dungeon/boss.md#phase-3-manager-exposed).
+
+**Scaling:** +10 HP to both ends per 5 levels.
 
 #### Holy Light
 - **Type:** Spell · **Level:** 1 · **Cost:** 5 mana + 1 mana/min upkeep · **Duration:** Sustained (up to ~10 min) · **Targeting:** Self (30 ft radius)
@@ -277,6 +263,15 @@ Wade's class includes an emotional limiter mechanic:
 >
 > **The wish (Book 1) — delivered Ch 22.** Wade wonders whether he could get [Rebekah's](../characters/party/rebekah.md) [Rejuvenation](temporal-bard.md#rejuvenation) folded into his aura: always on, covering everyone near him, nobody having to ask. He is describing a thing he wants to be. *(See `characters/party/wade.md` — deliberate long-range foreshadow of the [substrate ending](../meta/real-world.md). Do not return to it; it is planted and it is enough.)*
 
+#### Cure Poison
+- **Type:** Spell · **Level:** 3 · **Cost:** 15 mana · **Cooldown:** none · **Duration:** Instant (2s cast) · **Targeting:** Touch (ally)
+
+**Rules**
+- Removes one poison effect of the Cleric's level or below. Higher-level venoms are *suppressed* (paused, not cleared) for 60s per cast.
+- The narrow forerunner of [Lesser Restoration](#lesser-restoration), kept because it's cheaper and faster at the one job.
+
+**Scaling:** clears poisons up to level+2 at L10, level+5 at L20.
+
 #### Lesser Restoration
 - **Type:** Spell · **Level:** 4 · **Cost:** 25 mana · **Cooldown:** none · **Duration:** Instant (short cast, ~2s) · **Targeting:** Touch (ally)
 
@@ -285,6 +280,148 @@ Wade's class includes an emotional limiter mechanic:
 - Restoration does not heal HP; it makes healing possible (see the [Restoration table](#restoration-lesser--greater)).
 
 **Scaling:** cast time shortens; Greater Restoration (higher tier) clears severe trauma and organ failure.
+
+#### Prayer of Healing
+- **Type:** Spell · **Level:** 5 · **Cost:** 40 mana · **Cooldown:** none · **Duration:** 8s cast · **Targeting:** Group (30 ft)
+
+**Rules**
+- Numbers in the [Healing Reference](#prayer-of-healing): 150–220 HP to every ally in range. The 8s cast makes it an **out-of-combat** tool by design — a said-aloud prayer, unhurried.
+- Wade refuses to Empower it. Everyone is already stable; rushing a prayer is the tell that something is wrong with *him*.
+
+**Scaling:** +15 HP to both ends per 5 levels.
+
+#### Divine Sense
+- **Type:** Passive · **Level:** 6 · **Targeting:** Self (60 ft)
+
+**Rules**
+- Undead presence and spiritual corruption register as directional *pressure* — through walls, muffled by distance. No count, no map; a compass needle, not a radar.
+- **Reads only what has (or had) a spirit.** Constructs return nothing: twelve feet of [bone on strings](../lore/dungeons/spirit-dungeon/boss.md#passive-bone-not-dead) reads *empty*, and the emptiness is itself information.
+- Passive and always on. Wade describes it as a draft from a door that shouldn't be open.
+
+**Scaling:** +10 ft per 5 levels; at L15+ he can distinguish *kinds* of wrongness (undeath vs. corruption vs. desecrated ground).
+
+#### Shield of Faith
+- **Type:** Spell · **Level:** 7 · **Cost:** 25 mana · **Cooldown:** none · **Duration:** 60s · **Targeting:** Ally (30 ft)
+
+**Rules**
+- One ally takes **−15% damage** from all sources. One instance per caster — moving it means recasting it.
+- The pre-fight gift: it goes on the tank walking in, or on whoever Wade is most worried about, which is not always the same person.
+
+**Scaling:** −3% further per 5 levels.
+
+#### Revitalize
+- **Type:** Spell · **Level:** 8 · **Cost:** 30 mana · **Cooldown:** none · **Duration:** Short cast + HoT · **Targeting:** Ally (30 ft)
+
+**Rules**
+- Numbers in the [Healing Reference](#revitalize): 120–200 HP plus **+50 stamina**, clears exhaustion, dizziness, shock.
+- The aftermath spell — it fixes the state a fight leaves a body in, not the fight itself. Canonically the cast that calms *Wade* down.
+
+**Scaling:** stamina restore +10 per 5 levels.
+
+#### Consecrate
+- **Type:** Spell · **Level:** 9 · **Cost:** 35 mana · **Cooldown:** 30s · **Duration:** 60s · **Targeting:** Area (20 ft circle)
+
+**Rules**
+- Sanctifies the ground: undead inside deal **−20% damage** and take **10 radiant per 3s**; necromantic and dark-magic channels cast into or out of the circle suffer −2 to their checks.
+- **No corpse animates on holy ground.** Raising, converting, or re-stringing the dead simply fails inside the circle — the direct counter to [Dan's](../characters/villains/dan.md) battlefield conversions in Part 3.
+- The circle is visible: soft light in the grass. Undead path around it, which is its own kind of crowd control.
+
+**Scaling:** +5 ft radius and +5 radiant per 5 levels.
+
+#### Mass Heal
+- **Type:** Spell · **Level:** 10 · **Cost:** 70 mana · **Cooldown:** 30s · **Duration:** Instant · **Targeting:** Group (30 ft)
+
+**Rules**
+- Numbers in the [Healing Reference](#mass-heal): 180–260 HP to every ally, instantly. Emergency stabilization — the spell for the moment everything went wrong at once.
+- Highest sustained [emotional cost](#emotional-limiter) in the kit: too many bodies, too much damage input, all of it at once.
+
+**Scaling:** +20 HP to both ends per 5 levels.
+
+#### Divine Resilience
+- **Type:** Passive · **Level:** 11 · **Targeting:** Allies (30 ft)
+
+**Rules**
+- Allies below **25% max HP** take **−15% damage**. No action, no cost — the worse it gets, the harder his people are to finish.
+- Deliberately rhymes with his cracked [Shard of Devotion](../items/accessories/mirror-shards.md) (+10% healing on targets below 25%): Wade's whole late kit bends toward the almost-lost.
+
+**Scaling:** −5% further at L20.
+
+#### Remove Curse
+- **Type:** Spell · **Level:** 12 · **Cost:** 40 mana · **Cooldown:** none · **Duration:** Instant (4s cast) · **Targeting:** Touch (ally)
+
+**Rules**
+- Removes magical curses, hexes, and afflictions of the Cleric's level or below.
+- **Not mental domination.** Domination is [unauthorized control](paladin-of-the-system.md#unauthorized-control-the-classs-legal-theory), not a curse — a different category of wrong, and divine magic fixes bodies, not sovereignty. An installed lattice ([Amanda](../characters/supporting/amanda.md)) is untouchable from this side too: there is nothing cursed to lift.
+- The distinction is load-bearing: the Part 3 [diagnosis scene](../story/outline-part3-4.md) only lands if the reader already knows Wade's entire class has no lever here.
+
+**Scaling:** curse level ceiling rises with level; cast shortens to 2s at L20.
+
+#### Beacon of Hope
+- **Type:** Spell · **Level:** 13 · **Cost:** 30 mana · **Cooldown:** none · **Duration:** 60s · **Targeting:** Ally (30 ft)
+
+**Rules**
+- One ally receives **+25% from all healing** and HoT effects on them tick **25% faster**. One beacon at a time.
+- Multiplies with the [Cleric Aura's](#cleric-aura) +5% and the [Blue Ribbon](../lore/dungeons/spirit-dungeon/rooms.md#encounter-carnival-set) class of bonuses — the late-game answer to healing checks is stacking the *received* side.
+
+**Scaling:** +5% further per 5 levels.
+
+#### Radiant Smite
+- **Type:** Spell · **Level:** 14 · **Cost:** 30 mana · **Cooldown:** 10s · **Duration:** Instant · **Targeting:** Enemy (40 ft)
+
+**Rules**
+- A bar of daylight: **40–60 radiant damage**, **doubled vs undead and corrupted entities**.
+- The healer's only real weapon, given fourteen levels late — the class states its priorities in its level order.
+
+**Scaling:** +10 to both ends per 5 levels.
+
+#### Resurrection
+- **Type:** Spell · **Level:** 15 — full block in [Emergency / Line-Crossing](#resurrection) above (30s+ channel, ghost-at-corpse, [rez sickness](../system/death.md)).
+
+#### Spirit Mend
+- **Type:** Spell · **Level:** 16 · **Cost:** 35 mana (or sustained) · **Cooldown:** none · **Duration:** 3–6s channel · **Targeting:** Ally (100 ft, **no line of sight required**)
+
+**Rules**
+- Numbers in the [Healing Reference](#spirit-mend): 150–250 HP, or +30–40 HP/s sustained.
+- Heals **through obstacles and distance** — the spell follows the bond, not the body. The one heal for the person he cannot reach.
+
+**Scaling:** range +20 ft per 5 levels.
+
+#### Sacred Barrier
+- **Type:** Spell · **Level:** 17 · **Cost:** 60 mana · **Cooldown:** 60s · **Duration:** 10s · **Targeting:** Area (15 ft dome)
+
+**Rules**
+- A dome of held light: absorbs up to **400 damage** total before collapsing.
+- It stops force, not feet — enemies can walk in, which keeps it a shelter, not a fortress. Its best use is buying a channel: a [Resurrection](#resurrection) cast inside a Barrier is the intended combo.
+
+**Scaling:** +100 absorption per 5 levels.
+
+#### Faithful Guardian
+- **Type:** Passive · **Level:** 18 · **Cooldown:** 30s (internal) · **Targeting:** Allies (30 ft)
+
+**Rules**
+- Whenever an ally drops below **30% max HP**, they automatically gain a **100 HP shield** (8s). No cast, no action, no choice on Wade's part.
+- The class thesis, mechanized: care that arrives without being asked, before he has even turned around.
+
+**Scaling:** shield +25 HP per 5 levels.
+
+#### Life Overflow
+- **Type:** Passive · **Level:** 19 · **Targeting:** Allies
+
+**Rules**
+- **50% of overhealing** converts to a shield on the target (cap 150, lasts 10s).
+- Nothing he gives is wasted anymore. Late-kit economy: at L19 the limiting factor is his attention, not his mana.
+
+**Scaling:** cap +50 at L20.
+
+#### Divine Intervention
+- **Type:** Capstone · **Level:** 20 · **Cost:** all remaining mana (min 100) · **Cooldown:** once per day · **Duration:** Instant + 5s · **Targeting:** Party (40 ft)
+
+**Rules**
+- The god picks up the phone: every ally is instantly healed **300 HP**, every ally is **immune to damage for 5s**, and every fallen ally still in [ghost state](../system/death.md) returns at **15% HP** (full rez sickness).
+- Once per day, and it takes everything he has left — the cast ends with Wade at zero mana, on his knees, and the fight still to finish around him.
+- [Emotional cost](#emotional-limiter): total. This is the spell that only exists for the day he'd have paid anything anyway.
+
+**Scaling:** none. This is what L20 *is*.
 
 ## UI Popups
 

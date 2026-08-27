@@ -23,6 +23,12 @@ Copy/paste this into class files under **Ability Stat Blocks**.
 
 **UI Popup (optional inline)**
 ```text
-[SYSTEM HELP] <Ability Name>
-...
+<Ability Name> (<Kind>)
+<1–3 line in-world description>
+
+Cost: <...>
+Cooldown: <...>
+Effects:
+- <bullet>
 ```
+See [UI Popups](../system/ui-popups.md#3-ability--unlock--help) for the full shape.
