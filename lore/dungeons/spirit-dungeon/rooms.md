@@ -729,9 +729,11 @@ A small room with a table, two chairs, a microwave, a mini-fridge (empty), a **c
 
 #### Wade Does The Math
 
-**Plant the [Blue Ribbon](../../../items/accessories/mimic-pet.md#comic-relief--occasional-plot-utility) problem here.** Wade goes into the boss at **−25% healing** ([Broken](../../../characters/party/wade.md), until dungeon exit) and the Manager's [Performance Review](boss.md#ability-performance-review) stacks **another −25% healing output** on top. He is about to be worth roughly half a healer.
+**Plant the [Blue Ribbon](../../../items/accessories/mimic-pet.md#comic-relief--occasional-plot-utility) problem here — using only what Wade can know.** Wade goes into the boss at **−25% healing** ([Broken](../../../characters/party/wade.md), until dungeon exit) — that much is on his own sheet. He does **not** know the Manager's kit; what he has is the door beside him — **"YOU'RE NEXT FOR YOUR REVIEW"** — and a dungeon's worth of performance-review set dressing promising that whatever is in that office grades people for a living.
 
-He knows it. Not a speech — just a large tired man quietly working out whether he will be enough, and not liking the answer.
+So the math he does is the math he can do: three-quarters of a healer, about to be evaluated. Not a speech — just a large tired man quietly working out whether he will be enough, and not liking the answer.
+
+**The number he can't know lands mid-fight.** The Manager's [Performance Review](boss.md#ability-performance-review) targets the best performer — sooner or later, the healer — and the System shows Wade the stack: **another −25% healing output** on top of Broken. The math he started in the break room finishes in front of him, in combat, at the worst possible moment. Plant only the *worry* here; the *figure* arrives as a mid-fight gut-punch, which is stronger anyway.
 
 **And [Qubit](../../../items/accessories/mimic-pet.md) is sitting three feet away, having eaten the First-Place Blue Ribbon (+15% healing) that fixes it** — the item Wade surrendered for the pet, which the mimic coughs back up mid-boss-fight at the exact moment it matters. Plant the worry in this room and the payoff detonates properly instead of arriving as a coincidence.
 
@@ -785,9 +787,9 @@ See [boss.md](boss.md) for the full encounter.
 
 The manager's office opens into something much larger than it should be — a vast, dark space. The floor is polished concrete. A single spotlight illuminates the center.
 
-Standing in the spotlight is a mannequin in a rumpled suit, holding a briefcase. It looks like [Dan](../../../characters/villains/dan.md). Same build, same posture, same condescending tilt of the head. A name badge reads "STORE MANAGER."
+Standing in the spotlight is a mannequin in a rumpled suit, holding a clipboard. It looks like [Dan](../../../characters/villains/dan.md). Same build, same posture, same condescending tilt of the head. A name badge reads "STORE MANAGER."
 
-Flanking it on either side, just outside the light: two Giant Skeleton Puppets, 12 feet tall, held upright by visible strings that disappear into the darkness above. Their ribcages glow faintly.
+Flanking it on either side, just outside the light: two Giant Skeleton Puppets, 12 feet tall, held upright by visible strings that disappear into the darkness above. Their ribcages glow faintly. They don't move the way the Graveyard skeletons did — nothing inside them is moving; the strings are ([Bone, Not Dead](boss.md#passive-bone-not-dead)).
 
 The Store Manager adjusts his tie.
 

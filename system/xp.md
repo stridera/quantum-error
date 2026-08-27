@@ -51,6 +51,8 @@ Some non-combat actions grant small amounts of class XP if they align with the c
 
 System-recognized quests grant XP on completion. Quest XP typically reflects the danger involved — "kill the rats in my basement" grants less than "clear the goblin patrol from the highway."
 
+**Fixed awards ignore modifiers.** Quest and completion grants (including dungeon-clear "loyalty" awards) are flat System payments: percentage XP modifiers from gear or buffs (e.g., [Dan's Performance Badge](../lore/dungeons/spirit-dungeon/boss.md#dans-performance-badge)) do **not** apply to them. Modifiers scale only the combat pipeline — XP earned through danger, per the [award formula](#xp-award-formula).
+
 ## Leveling Curve (K1–K3)
 
 XP required to advance **from level L to L+1**:

@@ -185,6 +185,8 @@ Combat must respect effect tags:
 - `Disarm`: prevents weapon attacks
 - `Charm/Compel`: forces behavior or target priority
 
+**Casting under fire:** taking a direct hit while winding up a **cast-time** spell interrupts the cast. Instant abilities and *sustained* effects (maintained songs, auras) are unaffected — they are upkeep, not wind-up. (The gnomes' "GNOMES RULE!" jolt is a stronger, weaponized version — it chops even sustained songs and channels, which ordinary hits do not.)
+
 ## Death and Respawn
 
 Death rules can vary by zone and conditions (see `mana.md` for Null Magic Zones).

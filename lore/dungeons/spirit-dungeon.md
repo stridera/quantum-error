@@ -72,7 +72,7 @@ The party's first Spirit Dungeon is a post-Transition Spirit Halloween store in 
 
 - **Novelty gear with real stats:** Plastic masks, costume armor, prop blades — all functional post-Transition.
 - **Accessories with gimmick passives:** Nurse's Cap (+5% healing), Jack-o'-Lantern Bag, Bear Claw Necklace (+1 STR).
-- **Boss drops:** Manager's Briefcase (Epic weapon), Dan's Performance Badge (Epic accessory).
+- **Boss drops:** Dan's Performance Badge (Epic accessory), Manager's Clipboard (Rare weapon). Five personalized completion rewards on clear — see [boss.md](spirit-dungeon/boss.md#completion-rewards--gifts-with-purchase).
 - **Comedy items:** Couch Cushion, plastic gold coins, candy that tastes like plastic.
 
 ## Narrative Arcs

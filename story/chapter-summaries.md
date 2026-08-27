@@ -599,36 +599,162 @@ The party then sits on the carousel edge to regenerate mana and catch their brea
 - **Pending canon:** the **Fog** debuff still has no `system/effects.md` row (same gap as Cardiac Cycle).
 - **Wade's Broken status** (-25% healing) is designed to finally bite in this room, and still never does.
 
-## Chapter 24: Janitor's Closet
+## Chapter 24: All feel, no sight.
 
-**Word count**: 1,331 *(in progress — ends mid-conversation on an inline author note)*
+**Word count**: 2,133 *(complete)*
 
-**Summary**: Clint and Selene run the burning maze without haste and without a healer, and discover that noise is no longer the only thing waking the shelves — the room is alive around them, and only speed is keeping them ahead of it. Clint drops smiting for healing to hold them both up, and in doing so finally understands Wade: the awareness of a family's health bars with no ability to reach them is exactly what Wade has been carrying. For the first time, Clint wonders whether they will finish this dungeon. They hit the maze's far wall; Selene spots a hidden door and works the lock by feel with a hairpin while Clint holds four **Crawling Torsos** off at rooted, red-zone health. The rest of the party arrives trailing their own train, Wade lands two heals, and Vanessa's **shaped** fireball opens a gap just wide enough for Clint to dive through — naked again — onto a heap of rags. Inside, **Qubit** goes rigid at an old **Cash Register Mimic** and the party simply declines to fight it. Selene explains where she learned to pick locks: years of executive video calls, hands under the desk, all feel and no sight. Then she turns up a **Jack-o'-Lantern Bag** — an uncommon bag of holding — in the milk crates.
+**Summary**: Clint and Selene run the burning maze without haste and without a healer, and Clint spends the run watching the rest of the party's health from a distance he cannot cross — which is how he finally understands what Wade has been carrying about his family. Vanessa's mana is dropping fast enough to worry him, the shelves no longer need noise to wake, and for the first time Clint wonders whether they will finish this dungeon. They hit the maze's far wall; Selene works a hidden padlock by feel while Clint sends her away, plants himself at an aisle intersection, and solo-tanks four directions at red-zone health with a **Commanding Shout** he shouts louder than the skill requires — counting down to a respawn he has already accepted, until Wade's heals arrive and Vanessa's **shaped** fireball opens a gap he can dive through, naked again. Inside the janitor's closet the party declines the **Cash Register Mimic** entirely, Selene explains where she learned to pick locks — executive video calls, hands under the desk, all feel and no sight — and turns up a **Jack-o'-Lantern Bag** in the milk crates. The chapter closes on two quiet conversations: Strider telling Clint that Vanessa's fireball stripping him was *not entirely* an accident, and Clint telling Wade they will find his family, to which Wade, eyes shut, says only "I know."
 
 **Key Plot Events**:
 - **Party split resolves** — Clint and Selene reach the wall; the casters arrive under their own pursuit
 - **Clint heals instead of smiting**, and it costs him all of his damage, exactly as canon designs it
 - **Clint's Wade realization** — party awareness as the shape of Wade's grief
 - **First doubt** that the party can complete the dungeon
+- **Clint's last stand at the intersection** — rooted by four Crawling Torsos, accepts the respawn, and is saved by Wade's heals arriving from beyond his line of sight
 - **Room 4a discovered** — Selene picks the padlock by feel in smoke at 5-foot visibility
-- **Vanessa shapes the fireball** — a real control improvement, though it still burns Clint's clothes off
+- **Vanessa shapes the fireball** — a real control improvement, though it still burns Clint's clothes off; she reports the cost scaling hard at her skill level
 - **Cash Register Mimic pointed out by Qubit and left alone** — a monster the party declines to engage
 - **Selene's lockpicking backstory**, delivered as comedy
 - **Jack-o'-Lantern Bag obtained** by Selene — uncommon bag of holding
 - Selene's Room 5 setup line lands: *"The mimics are easy to detect and won't attack if you keep your distance."*
+- **Strider reveals the fireball was half-intentional** — Vanessa shaped it to spare Clint damage, and the image she held did the rest. Clint relays a doctored version to her
+- **Wade close** — *"We'll find them." / "I know."*
 
 **Canon Notes**:
 - ✅ **Room 4a matches `rooms.md` closely** — the metal shelves, cleaning supplies, tools, milk crates, and the heap of dirty rags and mops soft enough to land on face-first; the old cash register on the shelf; Qubit going rigid and Selene reading him instantly; the party using the room as a *rest* rather than a fight.
 - ✅ **Selene's Room-5 setup line is verbatim canon**, and lands without anyone challenging it — exactly as `rooms.md` instructs.
 - ✅ **The lockpicking beat lands**, including Clint's *"How did you learn to do that?"*, the executive video calls, and *"You don't need to look at a lock to pick it; it's all feel."*
-- ✅ **The Jack-o'-Lantern Bag matches canon exactly** — name, quality, capacity, appearance, and flavor text. Now filed at `items/accessories/jack-o-lantern-bag.md` (draft).
+- ✅ **The Jack-o'-Lantern Bag matches canon exactly** — name, quality, capacity, appearance, and flavor text. Filed at `items/accessories/jack-o-lantern-bag.md` (draft).
 - ✅ Clint's **Fanny Pack of Holding** is still on him and still uncomfortable.
-- ✅ **Wade sits down on the rags, "which looked cleaner just being near him"** — the [Cleric Aura](../classes/cleric-of-healing.md) callback planted in Ch 22, now landing. *(Corrected 2026-08-16; previously read "Clint," which both broke the first-person POV and gave the aura to the wrong character.)*
-- ❌ **Author's draft note left in the published body**: `<Note: Bedtime. Todo: add More dialogue here. Rest/recover. …>`
-- ⚠ **"Challenging shout"** again; canonical ability is **Commanding Shout**.
-- ⚠ **Selene uses "a small penknife and the pin."** Canon is explicit that she has **no lockpicks and no thieves' kit** — the beat is *two hairpins*, and the absence of tools is what makes Clint's astonishment land.
+- ✅ **Wade sits down on the rags, "which looked cleaner just being near him"** — the [Cleric Aura](../classes/cleric-of-healing.md) callback planted in Ch 22.
+- ✅ **Commanding Shout** now named correctly, and the prose gives the noise a mechanical reason: *"shouting more than was required to use the skill."*
+- ✅ **Strider is audible to Clint alone** and reaches Vanessa only through Clint's relay — canon per `characters/party/clint.md`, and the relay being deliberately doctored is a strengthening of it.
+- ✅ **Ankle Grab's 3-second root** matches `rooms.md`; "she's already hit you twice" is an accurate count of Ch 15 and Ch 21.
+- ✅ **Author's draft note removed** and replaced with the Vanessa/Strider/Wade coda *(fixed 2026-08-17)*.
+- ❌ **Clint has no UI.** `system/ui.md` gives him no health bars and no party frames — he must Inspect one person at a time, and his awareness is meant to read as *feeling*, not reading. The chapter's central device is him repeatedly reading four teammates' health and Vanessa's mana through smoke with no line of sight. Either push it fully into the feel register or canonize the developing passive awareness `ui.md` already predicts.
+- ⚠ **The Cash Register Mimic grows two eyes and stares back.** Canon: these mimics have *"no visual tell whatsoever"* — the design Room 5's couch payoff depends on.
+- ⚠ **Selene uses "a small penknife and the pin."** Canon is explicit that she has **no lockpicks and no thieves' kit** — the beat is *two hairpins*.
+- ⚠ **Vanessa's Metamagic rank never appears.** Canon (`characters/party/vanessa.md`) stages her openly delighted at opening the proficiency at Novice — the first legitimately earned rank in the party. Prose has her discouraged, with no rank or System notification shown.
 - ⚠ Canon has Selene **spot the hidden door while scouting** (Room 4a is the payoff for Rogue play); here they find it by running out of maze.
-- ⚠ Typos: **"unencombered"** (canon: unencumbered), "halloween" lowercase.
-- **Wade's Broken status** (-25% healing) goes unmentioned through a scene built entirely on his healing throughput. This is the last quiet window before Room 5.
-- **Open author question (from the inline note):** whether to keep the chapter titled *Janitor's Closet*. See `review/chapter-24.md` for alternatives.
+- ⚠ Typos: **"unencombered"** (canon: unencumbered), "halloween" lowercase, stray comma in "ending up, like that."
+- **Undocumented mechanics introduced:** a proficiency-rank cost penalty (*"costs exponentially more"* — not in `system/proficiencies.md`) and a melee engagement cap (*"only so many monsters can hit me at once"* — not in `system/combat.md`).
+- **Wade's Broken status** (-25% healing) goes unmentioned through a chapter whose climax is his healing arriving just in time. This is the last quiet window before Room 5.
+- **The Clint Metamagic beat is teed up and not taken** — Clint asks *"how I could use that"* and Strider explains the mechanism, but the Identify on his own Legendary — Mastered rank never happens. See `magic/schools/metamagic.md`.
+- **Title:** *All feel, no sight.* — Selene's own line, though on-page she says only *"it's all feel."* Casing differs from the rest of the manuscript's title case.
 - **Next up per canon:** Room 5, the Employee Hallway — where all the Dan foreshadowing lives.
+
+## Chapter 25: Breakroom for the Broken
+
+**Summary**: The party leaves the janitor's closet into a warehouse burned to ash and lit for the first time — blackened ceiling, toppled shelves, half-melted animatronics still inching along, worth no XP and no loot. Beyond the double doors is **Room 5, the Employee Hallway**: time cards, a bulletin board, motivational posters, and further down a schedule reading *"All shifts: Dan"* and two years of manager-of-the-month plaques all bearing the same name, ending at a door marked **MANAGER'S OFFICE** with a Post-it that says *"Enter for your performance review."* In the break room off the hall, Rebekah finds a coffee machine and drinks a cup she describes as horrible, Vanessa raids the fridge, and Selene — who has spent the whole dungeon insisting she would never be fooled by a mimic — dives onto the couch and is swallowed to the torso by the **Mimic Couch**, which Rebekah lets run before pulling her out by the legs. Between coffees Selene asks why none of them are freaking out, and **Strider answers**: the System applies a filter to everyone's consciousness so that respawning, combat, and physics-engine glitches all feel expected — and Clint, relaying a flattened version to the party, notices he feels *compelled* not to discuss the simulation. Selene refuses to let anyone kill the couch, and the party groups up and pushes open the manager's door into a vast dark room where a spotlit mannequin wearing Dan's face straightens its tie, two twelve-foot skeleton puppets glowing on strings behind it: *"You're late. Let's discuss your performance."*
+
+**Key Plot Events**:
+- **The burned maze walkback** — the party crosses what they destroyed; Clint stomps a still-twitching animatronic for no XP and no loot, *"just breaking what was already broken"*
+- **Room 5 entered** — the Employee Hallway, the first normal-looking space in the dungeon
+- **The Dan gradient lands** — schedule board reading "All shifts: Dan," two years of manager-of-the-month plaques all Dan, and the Post-it on the office door
+- **The party says "Dan" out loud** — *"There is no way it's our Dan, right?"* / Wade: *"I don't doubt anything here."*
+- **Rebekah's coffee** — the first thing anyone consumes for pleasure rather than need since the Transition
+- **Selene dives on the Mimic Couch** and is swallowed to the torso; the **Being Consumed** debuff (rooted, 3 damage per 2s) appears on-page
+- **Rebekah holds the party back to savor it**, refills her coffee, then frees Selene with a straight 20-STR pull
+- **The Filter goes on-page** — Strider explains the cognitive filter applied to every inhabitant of the simulation, and Clint notices he feels compelled not to discuss it
+- **Selene spares the couch** — *"We're not killing it! Not in front of Qubit"*
+- **Room 6 opens** — the Spotlight Room, the Store Manager mannequin wearing Dan's face, and two Giant Skeleton Puppets
+
+**Canon Notes**:
+- ✅ **Room 5's set dressing is near-verbatim canon** — time cards, the bulletin board (*"Mandatory Fun Day — Saturday"*, the fridge notice, the washed-costumes reminder), all three motivational posters, the schedule board, and the plaques.
+- ✅ **The Mimic Couch matches its stat block** — chip damage of 3 per 2 seconds, swallowed to the torso with legs kicking, freed by an ally's STR pull (20 STR against DC 6), and Rebekah holding everyone back to enjoy it. Callback fires as *"She would never be fooled by a mimic."*
+- ✅ **The burned-maze walkback awards nothing**, exactly as `system/xp.md` predicts for a trivial `danger_factor`.
+- ✅ **Wade's Cleric Aura** cleans Selene and Rebekah on contact — the Ch 22 plant, now used twice in two chapters.
+- ✅ **The party names Dan out loud**, which `rooms.md` explicitly endorses.
+- ✅ **Room 6 matches `boss.md` and `rooms.md`** — polished concrete, a void where the ceiling should be, a single spotlight, the Store Manager badge, the Dan likeness (*"same build, same posture, same arrogant tilt of the head"*), and two 12-foot skeleton puppets on strings with softly glowing ribcages.
+- ✅ **The Filter is consistent with `meta/simulation-layer.md`** — accepting the Transition, ignoring physics irregularities, tolerating combat and respawn.
+- ❌ **Clint has no UI** (recurring from Ch 24). He reads Selene's health twice from across the room; `system/ui.md` gives him no bars and no party frames.
+- ⚠ **Qubit runs *at* the couch.** Canon's Mimic-Sense tell is the opposite — rigid, silent, pointed like a bird dog — and the designed beat is that he fires it correctly and Selene misreads it. As written the pet endorses the trap.
+- ⚠ **"Wade Does The Math" never happens.** `rooms.md` plants the Blue Ribbon problem in this exact room — Wade, Broken at −25%, quietly wondering whether three-quarters of a healer is enough for whatever grades people behind that door. *(Canon corrected 2026-08-18: the plant uses only what Wade can know — the Performance Review −25% figure lands mid-boss when the first Review hits him, not here.)* Without the plant the ribbon payoff arrives as coincidence. This was the last quiet window.
+- ⚠ **The coffee thesis line lands on Vanessa,** not Rebekah. Canon's point is that the person whose Rejuvenation made hunger and thirst obsolete is the one who wants a cup anyway.
+- ⚠ **The couch is never fought and never drops.** Canon has it snap and become an easy fight with a Couch Cushion drop; Selene forbids it. The prose beat is better — canon should follow.
+- ⚠ **Gradient beats 4 and 5 are cut** — the supervisor's station with the *"DAN — Store Manager"* badge set down neatly, and the skeleton-in-a-suit poster (*"YOU'RE NEXT FOR YOUR REVIEW."*), replaced by a Post-it. The badge is a plant; the boss is wearing one.
+- ⚠ **The fridge has milk in it;** canon says the mini-fridge is empty. The vending machine has moved into the break room from the hallway, the microwave is gone, and a stationery cupboard has appeared.
+- ✅ **The Manager carries a clipboard and pen** — canon updated to follow the prose (2026-08-18): Emergency Meeting smacks it, Clipboard Smack swings it, and the boss drop is now the Manager's Clipboard.
+- ⚠ Typos: **"Mishapened"** (misshapen), *"every two second"* (seconds), stray comma in *"not really, Dan."*
+- **Reveal-schedule check:** Strider explaining the filter — and saying **"we applied"** it — is within Book-1 bounds (nothing touches brain-scan status), but `meta/simulation-layer.md` frames the filter as something Clint *"may eventually perceive"* in later books. Confirm the acceleration is intended.
+- **New character detail:** Selene, pre-Transition — *"a week ago I was binging TV shows while house-sitting for a friend."* First hard timeline anchor since the Transition.
+- **Next up per canon:** Room 6, the boss — Store Manager "Dan" and two Giant Skeleton Puppets, immune until both puppets fall.
+
+## Chapter 26: Performance Review
+
+**Summary**: The Room 6 boss fight runs from Phase 1 through Phase 3 without a break. The two Giant Skeleton Puppets peel off to flank; Rebekah's haste lands; Vanessa's Fireball passes straight through the Store Manager and splashes the far wall, and a Puppet swings around to punish her for it. Clint pulls both with Commanding Shout, Inspects the Manager (Level 10, 900 HP) and a Puppet (Level 10, 360 HP), and turns the cone knockbacks into a transit system that shuttles him around the room while the party stays clear of the arc. Wade tries Turn Undead on twelve feet of bone and gets nothing — Divine Sense reads empty — and Clint names them puppets. The Manager clicks his pen from across the room and Performance Anxiety lands on Clint, then moves to Wade, where it stacks with **Broken** until Wade says out loud that he can't keep up; Rebekah answers with **Da Capo**, and the party solves the mechanic by talking about it. They drop the first Puppet, the Manager restrings it at full health, they work out the resummon window, then cycle both Puppets into the red and kill them inside it. The Management Shield falls, the Manager slaps his clipboard flat against his palm — *"Emergency Meeting, now!"* — fears Clint out of range, and declares Crunch Mode. The chapter ends with Clint going down faster than Wade can heal him and the fight still unwon.
+
+**Key Details**:
+- **Management Shield confirmed on-page** — the Fireball passes through the Manager harmlessly, and **Chain of Command** retaliation punishes Vanessa for the attempt; it fires a second time when the party tries to interrupt the restring
+- **Boss and add stat blocks are verbatim canon** — Store Manager "Dan" (L10, 900 HP) and Giant Skeleton Puppet (L10, 360 HP), 14 damage, two swings per attack
+- **Bone Sweep** lands as a frontal cone with a 10-foot knockback and a visible 2-second wind-up; the prose adds a DEX save to stay on your feet
+- **Bone, Not Dead pays off** — Wade tries **Turn Undead** and it does nothing, and **Divine Sense** reads empty on a twelve-foot skeleton, which is canon's tell and its horror
+- **Commanding Shout** used four times for pull and re-position; Clint uses the Puppets' knockback deliberately to shuttle himself around the boss
+- **Performance Anxiety** — correctly titled this pass — lands first on Clint, then repeatedly on Wade, with the pen click, 8s duration (Will DC 14 for 4s), and −3 accuracy / −3 damage / −25% healing
+- **Action Item** — the Manager writes a note, throws the clipboard, 12 physical; later thrown repeatedly at Wade, who cannot be taunted off
+- **The Broken stack lands** — Broken's −25% healing plus the Review's −25% puts Wade at roughly half a healer, exactly the mid-fight gut-punch `rooms.md` plants in the break room
+- **Da Capo is named and used** — L4 Utility, 12s cooldown, and Rebekah holds Phase 1 clean with it; the race only breaks when Crunch Mode halves the Manager's cooldowns
+- **Restring Puppet fires** — the first Puppet falls, the Manager channels, fresh strings haul it up at full HP in place, and he uses no other ability for the duration
+- **The party solves the kill window** and executes it — both Puppets cycled into the red together, then dropped inside the same window, ending the Shield
+- **Emergency Meeting** fires on the Phase-3 trigger with canon's clipboard-crack and DC 12 (4s Feared / −5 accuracy on a failure; 1s Shaken / −2 on a pass); Clint fails on low WIS and is locked out of taunt range
+- **Crunch Mode declared** — red lighting, faster Reviews, and the Manager closing to **Clipboard Smack** (18 physical, 2–3 hits a round)
+- **Selene** shadowsteps and backstabs; **Qubit** is present but hiding at the room's edge, Blue Ribbon still unspent
+- **Vanessa** restricts herself to single-target Arcane Bolts, still not trusting her mana shaping with allies in melee, and declines to switch back to fireballs so Clint can keep his costume
+
+**Canon Notes**:
+- ✅ **The encounter's mechanics are near-verbatim `boss.md`** — immunity and retaliation, both stat blocks, the cone and its telegraph, the Review's line and numbers, the 12-damage clipboard, the 18-damage Clipboard Smack at 2–3 attacks, Emergency Meeting's DC and both outcomes, the Manager going fully silent during the restring, and the Puppet returning at full HP in position.
+- ✅ **Four findings from the prior review were fixed in the prose** — the debuff block is now titled **Performance Anxiety**; **Emergency Meeting** fires; **Wade's Turn Undead** lever is used and shown to fail; and the author's draft marker is gone.
+- ✅ **Rebekah now holds the Phase-1 Da Capo race**, breaking down only in Crunch Mode — *"His cooldown changed. I can't dispel it fast enough."* This is `temporal-bard.md`'s load-bearing 12s cooldown working exactly as designed.
+- ✅ **Crunch Mode fires the moment the Shield falls** — canon updated 2026-08-18 to follow the prose: Phase 3 now *opens* in Crunch (8s Reviews, 15s Meetings), and the escalation the old note wanted is **Black Friday** at 25% (back-to-back 5s Reviews, Pink Slip every 10s, +25% damage — *"Everything must go."*). Still to land when the fight resumes: **Pink Slip** (the unblockable tank buster that puts Clint's pool on a real clock — no shield since the prize booth), **Corporate Restructuring** zones, the Black Friday turn, and the Blue Ribbon payoff staged there.
+- ❌ **Selene removes Performance Anxiety with Cleanse** — `boss.md` rules this out by name (Da Capo or a line-of-sight break only) and `magic/spells/cleanse.md` says Cleanse does not touch statuses at all.
+- ❌ **Restring timing is 30 seconds** (*"five seconds to notice, five seconds to react, and then twenty seconds to cast"*); canon is a 4s delay plus a 16s channel — a 20-second window, which is the Phase 2 DPS check (360 HP ÷ 20s = 18 DPS).
+- ❌ **"Challenging Shout"** recurs once late in the chapter after four correct uses of **Commanding Shout** — third chapter running for this slip.
+- ❌ **"their health bars still full"** — *"I could feel the group in my head"* is exactly canon's party sense, and then the sentence names a bar. Note that *"fell into the red"* / *"into the yellow"* are **fine**: `system/ui.md:88` endorses bare colour as the preferred form.
+- ⚠ **Emergency Meeting still has no Phase-1 use** — canon opens the fight with it and repeats it when the party finds its footing, which happens twice on-page.
+- ⚠ **The Manager runs** (*"He ran toward Wade"*) — canon Phase 3 has him keep his distance and shuffle at DEX 4; he does not charge.
+- ⚠ **The first Review targets Clint**, canonically the worst hit rate in the party; the ability targets the best performer. The second, on Wade, is correct.
+- ⚠ **Bone Sweep gains a DEX save** the stat block doesn't have. The invention is an improvement — canon should probably follow and set a DC.
+- ⚠ **Qubit is never named** — *"her mimic"* only; he's been Qubit on-page since Ch 21, and the Blue Ribbon payoff is now one beat away.
+- ⚠ **Percentage stacking is undeclared** — *"healing half what he should"* is additive; `system/effects.md` declares duration stacking but not magnitude stacking. Canon's own phrasing agrees with the prose, so the gap is in the rules doc.
+- ⚠ **Emergency Meeting's stat block is shaped differently from Performance Anxiety's** — no `Duration:` or `Dispellable:` line, and `AOE` where canon uses `AoE`.
+- ⚠ Typos, carried over: *"slashing harmlessly"* (splashing), *"abysmal!'"* (apostrophe for the closing quote), *"your numbers".* (period outside the quote), *"…in melee range,"* (sentence ends on a comma), *"said, "But it keeps"* (capital mid-sentence). New: *"other skelton"*, *"it's cooldown"* (possessive), *"Thanks, Rebekah." Wade said.* (period for a comma), *"another performance review"* (proper noun lowercased).
+- 📝 **Chapter is still `draft` and the fight is unresolved** — it ends on Clint losing the attrition race in Crunch Mode. Still pending from `boss.md`: the **Blue Ribbon** returning via Qubit, and Wade's choice to have Rebekah keep Da Capo on Vanessa rather than himself.
+- **Reveal-schedule check:** clean. Nothing touches the simulation layer or Dan's real nature.
+
+---
+
+## Chapter 27: Crunch Mode
+
+**Summary**: Phase 3 runs to the kill. Clint takes stock of a short ability list — no shield, so Shield Mastery and Shield Bash sit idle — drops smites and settles into a taunt/heal endurance rotation that holds him near half. Then the Store Manager unclips a pink sheet: **Pink Slip** (150 physical, unblockable, unparryable, 15s) and **Corporate Restructuring** (15/s caution-taped floor zones, 12s) enter together and the endurance match stops being winnable. Wade is Broken, the Reviews keep landing, Rebekah's Da Capo can't cover the gaps, and Clint falls into the red with the boss barely into yellow. Qubit breaks cover, hacks up the First-Place Blue Ribbon he swallowed at the carnival, and Selene slaps it onto Wade's chest — a slight increase, enough to tread water. At 225 HP the Manager says *"Time for Black Friday"* almost fondly, and the scripted cascade fires in order: Bless lapses, Wade can't spare the cast, an Emergency Meeting fears Clint off the boss, the next Pink Slip finds Vanessa — and Vanessa, who barely notices it, volunteers as off-tank so Wade can heal. Selene lands the killing blow as the Manager holds up a slip he never gets to serve. He collapses into plastic and cheap fabric, and the drop is **Dan's Performance Badge**, which Selene tosses to Clint with *"Maybe this will help you catch up to the rest of us"* — only for Clint to check his sheet and find he is **Level 8, same as she is**. *"Oh, then give that back."*
+
+**Key Details**:
+- **Pink Slip is verbatim canon** — 150 physical, unblockable and unparryable, 15s cooldown, telegraphed by holding the sheet overhead, always on the tank
+- **Clint's missing shield is on the page as designed** — *"If I had a shield, my shield mastery and shield bash would have probably helped"*; the prize-booth bill comes due exactly where `boss.md` says it does
+- **Corporate Restructuring** matches canon — floor zones, 12s cooldown, 15/s, a visible warning ("UNDER RENOVATION — PARDON OUR DUST"), and the room shrinking to *"a few slim alleys of safe space"* under Black Friday
+- **Black Friday fires at 225 HP** — *"Everything must go"* — with all cooldowns dropping, back-to-back Reviews on Wade, and faster Pink Slips
+- **The Blue Ribbon payoff lands as written** — Qubit surfaces it inconveniently (a *"gooey blue mess"*) and at the wrong person, Selene relays it to Wade, and it is a margin rather than a reset: *"a slight increase, but it brought me back into the yellow"*
+- **Qubit is named on-page before the payoff**, clearing the Ch 26 review note
+- **Restring Puppet in Phase 3** — the party disengages, the Manager starts channelling, and Rebekah breaks it with a single Dust Note, exactly the canon counter
+- **The Bless clock lands** — Bless lapses mid-phase, Wade cannot spare the cast (*"You're not going to get it"*), and Clint immediately fails the next Emergency Meeting save
+- **The off-tank relay** — the Pink Slip finds Vanessa while Clint is feared; she barely drops out of green, volunteers to hold it, and her damage craters while she's taking hits, pushing threat to Selene
+- **Commanding Shout** used correctly to retake control; no "Challenging Shout" this chapter
+- **Boss drop**: **Dan's Performance Badge** (Epic accessory, +2 Will saves, +5% XP gained), badge reading "DAN — EMPLOYEE OF ETERNITY" — matching canon, including the joke that it arrives after the only fight it would have helped
+- **Clint and Selene are both stated at Level 8** in the closing exchange — matching `boss.md#xp--graduation` (*"Post-boss: the whole party lands L8"*; Clint enters at ~L5 and triple-dings). The other three party members' levels are not stated
+- **No XP award or level-up notification appears on page** — the levels are reported after the fact, not shown; the chapter still ends before the reward beat, and boss XP (15,000) plus the dungeon-clear grant are owed
+
+**Canon Notes**:
+- ⚠ **Three levels are crossed off the page** — the chapter opens *"At level five"* and closes *"I'm level 8, same as you"* with no XP award, notification or ding in between. The destination is canon (`boss.md`: 27,000 XP pool, whole party lands L8), but `boss.md` asks for it to be shown — *"level-up popups during Black Friday that nobody has time to read."*
+- ⚠ **The L4 → L5 step is still unsupported** — `characters/party/clint.md` (locked) records Level 3 → 4 at Ch 20 and nothing since; Ch 22 says *"even at level four"*, and Ch 25–26 award no XP. `boss.md` designs the phase around *"~L5"*, so canon and prose agree and the character file is the odd one out.
+- ⚠ **Clint now has Exception Handling and nobody notices** — Paladin L8 is the designed counter to Pink Slip, the exact thing `boss.md` says he lacks (*"what he lacks is three levels"*). It arrives about ninety seconds after the last slip, unremarked — the same too-late joke canon writes for the badge.
+- 📝 **Selene's level is stated for the first time (L8)**; `characters/party/selene.md` (locked) still records Level 6 at Ch 20. Bookkeeping, not a contradiction.
+- ⚠ **"the top of the aggro chart"** — Clint has had no interface since Innate System in Ch 14; `system/ui.md`'s rule is *"color as sensation, never as a bar."* Same slip as Ch 26's *"health bars still full."*
+- ⚠ **Performance Anxiety is given a mana cost** — *"cost him more mana to heal less."* Canon's effect is −25% healing output; the mana cost is untouched.
+- ⚠ **A Pink Slip crits** — the ability block declares no crit rule, and the flat 150 (≈15% of Clint's pool, six slips to kill) is what the whole Phase-3 tuning table is calibrated against.
+- ⚠ **Wade uses *"more empowered heals"*** — canon closes that door by name on both mana and memory grounds (*"Why not the nova?"*); canon's Wade *"keeps casting small."*
+- ⚠ **Action Item and Clipboard Smack never fire** in the whole phase, and the Manager's position is never established — the cornered-shuffling-manager movement that Restructuring exists to create isn't visible.
+- 📝 **Corporate Restructuring's block omits the ~10s zone lifetime.**
+- 📝 Proper-noun drift, all lowercase: *"another Pink slip"*, *"emergency meeting"*, *"performance reviews"*, *"dust note"*; `hp` for HP in two health callouts.
+- 📝 Typos: *"chaning"* (changing), *"constonantly"* (constantly), *"corporate buildings lifetime"* (building's), *"All the bosses' cooldowns"* (boss's), *"I wasn't.."*, *"construction tape"* (canon: caution tape), and a double space in *"damage dealers were  taking"*. Three stat blocks run straight into the following sentence with no break.
+- 📝 **Author draft marker still in the body** — `<Author/Bot Notes: … Will finish with gear tomorrow …>`; gear and the level math are deferred to the next session.
+- 📝 **New rule, unrecorded in canon**: Strider hears Clint's thoughts when they're loud — *"Only when you yell your thoughts like that."* `clint.md#patron-strider` documents the private channel and the relay but not this.
+- **Reveal-schedule check:** clean. Strider's dialogue stays in-universe; the Manager-looks-like-Dan exchange reads as a personalization joke to the party and a foreshadow token to the reader, which is the register `boss.md` specifies.
