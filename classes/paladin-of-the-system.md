@@ -22,34 +22,34 @@ The Paladin of the System is a unique variant with access to [System Magic](../m
 
 | Level | Ability | Type | Effect |
 |-------|---------|------|--------|
-| 1 | Commanding Shout | Command | Forces nearby hostiles to focus on you; overrides threat priority |
-| 1 | Cure Light Wounds | Spell | Restore health to a living target |
-| 1 | Holy Light | Spell | Conjure steadfast divine light; undead and corrupted entities flinch from its radius. Granted to all holy classes. |
-| 1 | Smite: Judgment | Attack Modifier | See Smite Progression below |
-| 2 | Shield Mastery | Passive | Improved block efficiency and damage smoothing |
-| 3 | System Aura | Aura | Hostile mental influence becomes detectable and interruptible |
-| 4 | Shield Bash | Attack | Strike with shield, stunning target and increasing threat |
-| 4 | Smite: Sanction | Upgrade | Smite: Judgment upgrades automatically |
-| 5 | Judged Strike | Attack | Increased damage to entities exerting unauthorized control |
-| 6 | Resolve | Passive | Reduced duration of stun, fear, and control effects |
-| 7 | Reinforcing Command | Command | Refreshes taunt effects and bolsters allied defenses |
-| 7 | Escalating Sanctions | Passive | Smite stacks debuff on repeated hits |
-| 8 | System Weapon | Buff | Weapon gains anti-anomaly properties and enhanced threat generation |
-| 8 | Exception Handling | Buff | Defensive cooldown: damage taken −50% for 6s; a single catastrophic hit is caught and reduced further. The tank-buster answer. |
-| 9 | Guardian Intercept | Reaction | Redirect incoming damage from an ally to yourself |
-| 10 | Aura of Cognitive Stability | Aura | Allies gain resistance to charm, domination, and coercion |
-| 11 | Smite: Enforcement | Upgrade | Smite: Sanction upgrades automatically |
-| 12 | Cure Moderate Wounds | Spell | Restore a greater amount of health |
-| 13 | System Judgment | Attack | Punishes entities exerting unauthorized control or coercion |
-| 14 | Bulwark of Order | Aura | Party-wide damage smoothing and reduced spike damage |
-| 15 | Oath Mastery I | Passive | Increases range and effectiveness of all active System auras |
-| 15 | Harmonized Enforcement | Passive | Aura-Smite synergy |
-| 16 | Radiant Charge | Attack | Gap-closer that stuns target and forces focus |
-| 17 | Unyielding Protocol | Passive | Prevent death once when damage would be fatal |
-| 18 | Rebuke Anomaly | Reaction | Reflect or suppress hostile anomalous effects |
-| 19 | Dominion Protocol | Passive | Control over System-sanctioned areas and engagement zones |
-| 19 | Smite: Verdict | Upgrade | Smite: Enforcement upgrades automatically |
-| 20 | **Avatar of the System** | Capstone | Become a System anchor; all auras amplified and cannot be suppressed; permanent threat lock |
+| 1 | [Commanding Shout](#commanding-shout) | [Command](#threat-system) | Forces nearby hostiles to focus on you; overrides threat priority |
+| 1 | [Cure Light Wounds](#cure-light-wounds-paladin) | [Spell](../system/combat.md#ability-type-vocabulary) | Restore health to a living target |
+| 1 | [Holy Light](#holy-light) | [Spell](../system/combat.md#ability-type-vocabulary) | Conjure steadfast divine light; undead and corrupted entities flinch from its radius. Granted to all holy classes. |
+| 1 | [Smite: Judgment](#level-1--smite-judgment-privileged) | [Attack Modifier](#smite-progression-canonical) | See Smite Progression below |
+| 2 | [Shield Mastery](#shield-mastery) | [Passive](../system/combat.md#ability-type-vocabulary) | Improved block efficiency and damage smoothing |
+| 3 | [System Aura](#system-aura) | [Aura](#system-auras) | Hostile mental influence becomes detectable and interruptible |
+| 4 | [Shield Bash](#shield-bash) | [Attack](../system/combat.md#ability-type-vocabulary) | Strike with shield, stunning target and increasing threat |
+| 4 | [Smite: Sanction](#level-4--smite-sanction) | [Upgrade](#smite-progression-canonical) | Smite: Judgment upgrades automatically |
+| 5 | [Judged Strike](#judged-strike) | [Attack](../system/combat.md#ability-type-vocabulary) | Increased damage to entities exerting unauthorized control |
+| 6 | [Resolve](#resolve) | [Passive](../system/combat.md#ability-type-vocabulary) | Reduced duration of stun, fear, and control effects |
+| 7 | [Reinforcing Command](#reinforcing-command) | [Command](#threat-system) | Refreshes taunt effects and bolsters allied defenses |
+| 7 | [Escalating Sanctions](#level-7--passive-escalating-sanctions) | [Passive](../system/combat.md#ability-type-vocabulary) | Smite stacks debuff on repeated hits |
+| 8 | [System Weapon](#system-weapon) | [Buff](../system/combat.md#ability-type-vocabulary) | Weapon gains anti-anomaly properties and enhanced threat generation |
+| 8 | [Exception Handling](#exception-handling) | [Buff](../system/combat.md#ability-type-vocabulary) | Defensive cooldown: damage taken −50% for 6s; a single catastrophic hit is caught and reduced further. The tank-buster answer. |
+| 9 | [Guardian Intercept](#guardian-intercept) | [Reaction](../system/combat.md#ability-type-vocabulary) | Redirect incoming damage from an ally to yourself |
+| 10 | [Aura of Cognitive Stability](#aura-of-cognitive-stability) | [Aura](#system-auras) | Allies gain resistance to charm, domination, and coercion |
+| 11 | [Smite: Enforcement](#level-11--smite-enforcement) | [Upgrade](#smite-progression-canonical) | Smite: Sanction upgrades automatically |
+| 12 | [Cure Moderate Wounds](#cure-moderate-wounds-paladin) | [Spell](../system/combat.md#ability-type-vocabulary) | Restore a greater amount of health |
+| 13 | [System Judgment](#system-judgment) | [Attack](../system/combat.md#ability-type-vocabulary) | Punishes entities exerting unauthorized control or coercion |
+| 14 | [Bulwark of Order](#bulwark-of-order) | [Aura](#system-auras) | Party-wide damage smoothing and reduced spike damage |
+| 15 | [Oath Mastery I](#oath-mastery-i) | [Passive](../system/combat.md#ability-type-vocabulary) | Increases range and effectiveness of all active System auras |
+| 15 | [Harmonized Enforcement](#level-15--passive-harmonized-enforcement) | [Passive](../system/combat.md#ability-type-vocabulary) | Aura-Smite synergy |
+| 16 | [Radiant Charge](#radiant-charge) | [Attack](../system/combat.md#ability-type-vocabulary) | Gap-closer that stuns target and forces focus |
+| 17 | [Unyielding Protocol](#unyielding-protocol) | [Passive](../system/combat.md#ability-type-vocabulary) | Prevent death once when damage would be fatal |
+| 18 | [Rebuke Anomaly](#rebuke-anomaly) | [Reaction](../system/combat.md#ability-type-vocabulary) | Reflect or suppress hostile anomalous effects |
+| 19 | [Dominion Protocol](#dominion-protocol) | [Passive](../system/combat.md#ability-type-vocabulary) | Control over System-sanctioned areas and engagement zones |
+| 19 | [Smite: Verdict](#level-19--smite-verdict) | [Upgrade](#smite-progression-canonical) | Smite: Enforcement upgrades automatically |
+| 20 | **[Avatar of the System](#avatar-of-the-system)** | [Capstone](../system/combat.md#ability-type-vocabulary) | Become a System anchor; all auras amplified and cannot be suppressed; permanent threat lock |
 
 ---
 
@@ -246,6 +246,8 @@ The System keeps a **consent ledger**. Control of a sentient being — or of rem
 ## Ability Stat Blocks
 
 > Full kit, in level order (smites and their passives live in [Smite Progression](#smite-progression-canonical)). In-world grounding per block; log lines are the System's own voice. Costs assume the **Low mana group** (L1 ≈ 15, L10 ≈ 55 — see [stat progression](../system/stat-progression.md)); Clint's hacked 999 pool makes them trivial for him, which is the point.
+>
+> In-prose Help popups are rendered from these blocks **on demand**, using the System-wide shape in [UI Popups §3](../system/ui-popups.md#3-ability--unlock--help) — they are not pre-authored here. The stat block is the source of truth; a popup is a rendering of one.
 
 #### Commanding Shout
 - **Type:** Command · **Level:** 1 · **Cost:** 10 stamina · **Cooldown:** 8s · **Duration:** 6s · **Targeting:** Area (15 ft)
@@ -490,26 +492,6 @@ The System keeps a **consent ledger**. Control of a sentient being — or of rem
 - Logging: `ROLE: ANCHOR | SCOPE: LOCAL | ALL ACTIONS ARE LOGGED.`
 
 **Scaling:** none. This is what L20 *is*.
-
-## UI Popups
-
-> **Migration Note:** Add one "Help" popup per ability, matching the in-world system UI.
-
-### Template
-```text
-<Ability Name> (<Spell/Skill/Song/Smite/Passive>)
-<1–3 line in-world description, in the System's flat voice>
-
-Cost: <...>
-Cooldown: <...>
-Duration: <...>
-Targeting: <...>
-Effects:
-- <hard-number bullet>
-- <hard-number bullet>
-```
-
-Format per [UI Popups](../system/ui-popups.md#3-ability--unlock--help).
 
 ## Open Questions
 

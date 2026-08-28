@@ -29,27 +29,27 @@ Rogues specialize in stealth, precision strikes, and exploiting enemy weaknesses
 
 | Level | Ability | Type | Effect |
 |-------|---------|------|--------|
-| 1 | Sneak | Toggle | Enter stealth when unobserved; quieter movement |
-| 1 | Backstab | Attack | Increased damage from behind or while Veiled |
-| 2 | [Nekara](../races/nekara.md) Agility | Racial Passive | Increased evasion, balance, and movement speed |
-| 3 | Veil Sense | Passive | Detect things partially absent from the present layer — veiled or phased entities, concealed hazards, and dormant mechanisms (traps read as "waiting" objects). How Selene spotted the L10 Bear Trap (Ch 16). |
-| 4 | Shadowstep | Utility | Short-range reposition between nearby shadows |
-| 5 | Bleeding Strike | Attack | Apply bleeding wound (damage over time) |
-| 6 | Sidestep Between Selves | Passive | Flicker between possible states, causing attacks to miss |
-| 7 | Smoke Veil | Utility | Create visual disruption that breaks observation and allows Veil re-entry |
-| 8 | Chosen Shadow | Passive | Gain bonuses while unobserved or Veiled |
-| 9 | Weak Point Analysis | Passive | Crit chance increases with undetected observation time |
-| 10 | Shadow Ambush | Attack | Reposition and strike simultaneously; powerful opener |
-| 11 | Evasion Roll | Reaction | Avoid a lethal hit once per cooldown |
-| 12 | Phase Cut | Attack | Strike along phase alignment, bypassing armor |
-| 13 | Veil Mastery I | Passive | Veil lasts longer and is harder to detect |
-| 14 | Silence | Utility | Prevent spellcasting and vocal abilities in small area |
-| 15 | Double Image | Defensive | Leave brief afterimage when attacking or repositioning |
-| 16 | Umbral Dance | Buff | Increased movement speed and crit chance |
-| 17 | Shadow Reversal | Reaction | Swap position with attacker at moment of impact |
-| 18 | Ghost Strike | Attack | Damages targets in present layer and adjacent phase layers |
-| 19 | Perfect Predator | Passive | Massive bonuses when attacking isolated targets |
-| 20 | **Veil Ascension** | Capstone | Near-total control over phase state; only loosely anchored to present |
+| 1 | [Sneak](#sneak) | [Toggle](../system/combat.md#ability-type-vocabulary) | Enter stealth when unobserved; quieter movement |
+| 1 | [Backstab](#backstab) | [Attack](../system/combat.md#ability-type-vocabulary) | Increased damage from behind or while Veiled |
+| 2 | [Nekara Agility](#nekara-agility) | [Racial Passive](../system/combat.md#ability-type-vocabulary) | Increased evasion, balance, and movement speed |
+| 3 | [Veil Sense](#veil-sense) | [Passive](../system/combat.md#ability-type-vocabulary) | Detect things partially absent from the present layer — veiled or phased entities, concealed hazards, and dormant mechanisms (traps read as "waiting" objects). How Selene spotted the L10 Bear Trap (Ch 16). |
+| 4 | [Shadowstep](#shadowstep) | [Utility](../system/combat.md#ability-type-vocabulary) | Short-range reposition between nearby shadows |
+| 5 | [Bleeding Strike](#bleeding-strike) | [Attack](../system/combat.md#ability-type-vocabulary) | Apply bleeding wound (damage over time) |
+| 6 | [Sidestep Between Selves](#sidestep-between-selves) | [Passive](../system/combat.md#ability-type-vocabulary) | Flicker between possible states, causing attacks to miss |
+| 7 | [Smoke Veil](#smoke-veil) | [Utility](../system/combat.md#ability-type-vocabulary) | Create visual disruption that breaks observation and allows Veil re-entry |
+| 8 | [Chosen Shadow](#chosen-shadow) | [Passive](../system/combat.md#ability-type-vocabulary) | Gain bonuses while unobserved or Veiled |
+| 9 | [Weak Point Analysis](#weak-point-analysis) | [Passive](../system/combat.md#ability-type-vocabulary) | Crit chance increases with undetected observation time |
+| 10 | [Shadow Ambush](#shadow-ambush) | [Attack](../system/combat.md#ability-type-vocabulary) | Reposition and strike simultaneously; powerful opener |
+| 11 | [Evasion Roll](#evasion-roll) | [Reaction](../system/combat.md#ability-type-vocabulary) | Avoid a lethal hit once per cooldown |
+| 12 | [Phase Cut](#phase-cut) | [Attack](../system/combat.md#ability-type-vocabulary) | Strike along phase alignment, bypassing armor |
+| 13 | [Veil Mastery I](#veil-mastery-i) | [Passive](../system/combat.md#ability-type-vocabulary) | Veil lasts longer and is harder to detect |
+| 14 | [Silence](#silence) | [Utility](../system/combat.md#ability-type-vocabulary) | Prevent spellcasting and vocal abilities in small area |
+| 15 | [Double Image](#double-image) | [Defensive](../system/combat.md#ability-type-vocabulary) | Leave brief afterimage when attacking or repositioning |
+| 16 | [Umbral Dance](#umbral-dance) | [Buff](../system/combat.md#ability-type-vocabulary) | Increased movement speed and crit chance |
+| 17 | [Shadow Reversal](#shadow-reversal) | [Reaction](../system/combat.md#ability-type-vocabulary) | Swap position with attacker at moment of impact |
+| 18 | [Ghost Strike](#ghost-strike) | [Attack](../system/combat.md#ability-type-vocabulary) | Damages targets in present layer and adjacent phase layers |
+| 19 | [Perfect Predator](#perfect-predator) | [Passive](../system/combat.md#ability-type-vocabulary) | Massive bonuses when attacking isolated targets |
+| 20 | **[Veil Ascension](#veil-ascension)** | [Capstone](../system/combat.md#ability-type-vocabulary) | Near-total control over phase state; only loosely anchored to present |
 
 ## Key Mechanics
 
@@ -77,6 +77,8 @@ Levels 1–20 above are Book-1 canon. Post-20 progression is deliberately unlock
 ## Ability Stat Blocks
 
 > Full kit, in level order. The Rogue kit runs on stamina, not mana (Low mana group — see [stat progression](../system/stat-progression.md)).
+>
+> In-prose Help popups are rendered from these blocks **on demand**, using the System-wide shape in [UI Popups §3](../system/ui-popups.md#3-ability--unlock--help) — they are not pre-authored here. The stat block is the source of truth; a popup is a rendering of one.
 
 #### Sneak
 - **Type:** Toggle · **Level:** 1 · **Cost:** 1 stamina/s while moving stealthed · **Duration:** Until broken · **Targeting:** Self
@@ -98,7 +100,7 @@ Levels 1–20 above are Book-1 canon. Post-20 progression is deliberately unlock
 **Scaling:** multiplier ×2.5 at L10, ×3 at L20; synergizes with Weak Point Analysis (L9).
 
 #### Nekara Agility
-- **Type:** Racial Passive · **Level:** — (race, [Nekara](../../races/nekara.md)) · **Targeting:** Self
+- **Type:** Racial Passive · **Level:** — (race, [Nekara](../races/nekara.md)) · **Targeting:** Self
 
 **Rules**
 - **+10% evasion, +10% movement speed**, and near-perfect balance (falls, ledges, landings).
@@ -268,26 +270,6 @@ Levels 1–20 above are Book-1 canon. Post-20 progression is deliberately unlock
 - She can slip through barriers up to ~1 ft thick (doors, walls of the ordinary kind) — the world's solidity becomes a suggestion.
 - Fully stepped-out, she cannot act except to move, and non-phase attacks cannot target her. ([Ghost Strike](#ghost-strike)-class abilities still can. Everything has a predator.)
 - **Scaling:** none. This is what L20 *is*.
-
-## UI Popups
-
-> **Migration Note:** Add one "Help" popup per ability, matching the in-world system UI.
-
-### Template
-```text
-[SYSTEM HELP] <Ability Name>
-Type: <Spell/Skill/Song/Passive>
-Cost: <...>
-Cooldown: <...>
-Duration: <...>
-Targeting: <...>
-
-<1–3 line in-world description>
-
-Mechanics:
-- <bullet>
-- <bullet>
-```
 
 ## Open Questions
 

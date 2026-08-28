@@ -30,6 +30,26 @@ Canon assumption:
 - **Ability**: spell/skill/song/smite; may consume mana/stamina.
 - **Reaction (Optional)**: block/parry/interrupt; must be explicitly supported.
 
+### Ability Type Vocabulary
+
+The `Type:` field on class stat blocks draws from this shared vocabulary. Class files link here; mechanics a single class owns (smites, songs, System auras) stay in their class files.
+
+- **Spell** — mana-fueled, with a cast time unless marked Instant; a direct hit during the wind-up interrupts the cast (see [Interrupts and Control](#interrupts-and-control)).
+- **Skill** — stamina-fueled trained action; how well it executes is governed by the relevant [Proficiency](proficiencies.md).
+- **Attack** — a strike resolved through normal [hit resolution](#hit-resolution), usually carrying a rider (stun, bleed, reposition).
+- **Attack Modifier** — arms the next connecting blow and is consumed on the hit, not the swing; the [Smite line](../classes/paladin-of-the-system.md#smite-progression-canonical) is the canonical example.
+- **Passive** — always on; no cost or cooldown unless the block states an internal one.
+- **Racial Passive** — a Passive granted by race rather than class; stacks with the full class kit.
+- **Utility** — an active effect that is none of attack, heal, or buff: repositions, rewinds, tools, problem-solvers.
+- **Buff** — applies a beneficial status to self or an ally for a duration; visible as a [status effect](ui-popups.md#2-status-effect-buff--debuff).
+- **Defensive** — a Buff or trigger whose only job is avoiding or mitigating damage.
+- **Aura** — a sustained radius effect centered on the bearer, toggled on with per-minute upkeep; it moves with them. (Paladin [System Auras](../classes/paladin-of-the-system.md#system-auras) add class-specific stacking rules.)
+- **Toggle** — an on/off state maintained until broken by cost, damage, or observation (e.g. [Sneak](../classes/veilstepper-rogue.md#sneak)).
+- **Reaction** — resolves inside another actor's action window, per the list above; must be explicitly supported by an ability.
+- **Command** — a vocal order carrying System authority; threat and formation effects (Paladin [Threat System](../classes/paladin-of-the-system.md#threat-system)).
+- **Song / Refrain** — the Temporal Bard's two ability types; the full economy lives in [Songs vs. Refrains](../classes/temporal-bard.md#songs-vs-refrains).
+- **Capstone** — the Level-20 class-defining ability; once-per-day scale, built to headline a fight rather than a rotation.
+
 ## Hit Resolution
 
 ### The Formula

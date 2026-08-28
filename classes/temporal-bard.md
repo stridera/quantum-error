@@ -43,32 +43,32 @@ A **Song** is a thing she is *doing.* A **Refrain** is a thing she has *done* �
 
 | Level | Ability | Type | Effect |
 |-------|---------|------|--------|
-| 1 | [Chrono Resonance](../magic/spells/chrono-resonance.md) | Passive | Songs interact with temporal threads; songs function without instrument if needed |
-| 1 | Temporal Boost | Song | Allies act and move faster. The party calls it "the haste song"; System-identified as Temporal Boost (Ch 16) — advanced temporal reference frame; stacks "by increasing certainty, not speed." |
-| 1 | Dust Note | Song (damage) | Single plucked note inflicts a moment of accelerated decay on one target. Minimal damage — reserved as baseline self-defense. |
-| 2 | Veiled | Passive | Ambient music makes the party unremarkable — observers overlook them unless actively searching (social stealth, not invisibility). Shown Ch 9, after Rebekah hit L2 in the first guard fight. |
-| 2 | [Rejuvenation](#rejuvenation) | **Refrain** | Suspends the body's maintenance overhead for everyone who heard it. The reason nobody in this story ever has to stop and deal with being a body. |
-| 2 | Rewind Note | Utility | Slightly rolls back a recent cooldown or timing mistake |
-| 3 | Dissonant Chord | Song | Enemies fall out of sync—minor slow and confusion |
-| 3 | Veil of Offbeats | Song | Allies blur across adjacent timelines, increasing evasion |
-| 4 | Harmonic Memory | Passive | Maintain multiple learned songs concurrently |
-| 4 | Da Capo | Utility | Rewinds one ally's mental state a few seconds — a fresh Mental debuff never happened. Single target, not herself. |
-| 5 | Accelerando | Song | Increases ally attack and casting speed |
-| 6 | Time Slip | Utility | Minor self rewind—adjusts position or state from moments ago |
-| 7 | Echo Verse | Song | Periodically re-pulses the last song's effect |
-| 8 | Temporal Awareness | Passive | Sense out-of-sync entities, altered timelines, and temporal interference |
-| 9 | Lullaby of Pauses | Song | Enemies experience brief temporal stalls (hesitation, skipped beats) |
-| 10 | Chrono Shield | Song | Incoming damage is delayed and softened as time absorbs the impact |
-| 11 | Polyphonic Casting | Passive | Increases maximum concurrent songs |
-| 12 | Stolen Moment | Utility | Chance to gain an extra action by borrowing from an adjacent beat |
-| 13 | Dirge of Delay | Song | Enemy action economy slows (longer windups, delayed responses) |
-| 14 | Refrain of Continuity | Song | Extends duration of active buffs and beneficial effects |
-| 15 | Temporal Mastery I | Passive | Songs affect wider area and maintain coherence at greater distance |
-| 16 | Time Ripple | Song | Songs can affect enemies not yet present in the immediate moment |
-| 17 | Finale: Split Second | Song | Party acts before enemies at start of engagement |
-| 18 | Perfect Pitch | Passive | Songs no longer require a *medium* — they function under Silence, underwater, for the deafened. (Instrument-free casting is L1 [Chrono Resonance](#chrono-resonance).) |
-| 19 | Grand Cadence | Song | Powerful multi-buff crescendo affecting allies across timing dimensions |
-| 20 | **Time Unbound** | Capstone | Ignore certain time-based restrictions (cooldowns, delays, sequence penalties) |
+| 1 | [Chrono Resonance](../magic/spells/chrono-resonance.md) | [Passive](../system/combat.md#ability-type-vocabulary) | Songs interact with temporal threads; songs function without instrument if needed |
+| 1 | [Temporal Boost](#temporal-boost) | [Song](#songs-vs-refrains) | Allies act and move faster. The party calls it "the haste song"; System-identified as Temporal Boost (Ch 16) — advanced temporal reference frame; stacks "by increasing certainty, not speed." |
+| 1 | [Dust Note](#dust-note) | [Song](#songs-vs-refrains) (damage) | Single plucked note inflicts a moment of accelerated decay on one target. Minimal damage — reserved as baseline self-defense. |
+| 2 | [Veiled](#veiled) | [Passive](../system/combat.md#ability-type-vocabulary) | Ambient music makes the party unremarkable — observers overlook them unless actively searching (social stealth, not invisibility). Shown Ch 9, after Rebekah hit L2 in the first guard fight. |
+| 2 | [Rejuvenation](#rejuvenation) | **[Refrain](#songs-vs-refrains)** | Suspends the body's maintenance overhead for everyone who heard it. The reason nobody in this story ever has to stop and deal with being a body. |
+| 2 | [Rewind Note](#rewind-note) | [Utility](../system/combat.md#ability-type-vocabulary) | Slightly rolls back a recent cooldown or timing mistake |
+| 3 | [Dissonant Chord](#dissonant-chord) | [Song](#songs-vs-refrains) | Enemies fall out of sync—minor slow and confusion |
+| 3 | [Veil of Offbeats](#veil-of-offbeats) | [Song](#songs-vs-refrains) | Allies blur across adjacent timelines, increasing evasion |
+| 4 | [Harmonic Memory](#harmonic-memory) | [Passive](../system/combat.md#ability-type-vocabulary) | Maintain multiple learned songs concurrently |
+| 4 | [Da Capo](#da-capo) | [Utility](../system/combat.md#ability-type-vocabulary) | Rewinds one ally's mental state a few seconds — a fresh Mental debuff never happened. Single target, not herself. |
+| 5 | [Accelerando](#accelerando) | [Song](#songs-vs-refrains) | Increases ally attack and casting speed |
+| 6 | [Time Slip](#time-slip) | [Utility](../system/combat.md#ability-type-vocabulary) | Minor self rewind—adjusts position or state from moments ago |
+| 7 | [Echo Verse](#echo-verse) | [Song](#songs-vs-refrains) | Periodically re-pulses the last song's effect |
+| 8 | [Temporal Awareness](#temporal-awareness) | [Passive](../system/combat.md#ability-type-vocabulary) | Sense out-of-sync entities, altered timelines, and temporal interference |
+| 9 | [Lullaby of Pauses](#lullaby-of-pauses) | [Song](#songs-vs-refrains) | Enemies experience brief temporal stalls (hesitation, skipped beats) |
+| 10 | [Chrono Shield](#chrono-shield) | [Song](#songs-vs-refrains) | Incoming damage is delayed and softened as time absorbs the impact |
+| 11 | [Polyphonic Casting](#polyphonic-casting) | [Passive](../system/combat.md#ability-type-vocabulary) | Increases maximum concurrent songs |
+| 12 | [Stolen Moment](#stolen-moment) | [Utility](../system/combat.md#ability-type-vocabulary) | Chance to gain an extra action by borrowing from an adjacent beat |
+| 13 | [Dirge of Delay](#dirge-of-delay) | [Song](#songs-vs-refrains) | Enemy action economy slows (longer windups, delayed responses) |
+| 14 | [Refrain of Continuity](#refrain-of-continuity) | [Song](#songs-vs-refrains) | Extends duration of active buffs and beneficial effects |
+| 15 | [Temporal Mastery I](#temporal-mastery-i) | [Passive](../system/combat.md#ability-type-vocabulary) | Songs affect wider area and maintain coherence at greater distance |
+| 16 | [Time Ripple](#time-ripple) | [Song](#songs-vs-refrains) | Songs can affect enemies not yet present in the immediate moment |
+| 17 | [Finale: Split Second](#finale-split-second) | [Song](#songs-vs-refrains) | Party acts before enemies at start of engagement |
+| 18 | [Perfect Pitch](#perfect-pitch) | [Passive](../system/combat.md#ability-type-vocabulary) | Songs no longer require a *medium* — they function under Silence, underwater, for the deafened. (Instrument-free casting is L1 [Chrono Resonance](#chrono-resonance).) |
+| 19 | [Grand Cadence](#grand-cadence) | [Song](#songs-vs-refrains) | Powerful multi-buff crescendo affecting allies across timing dimensions |
+| 20 | **[Time Unbound](#time-unbound)** | [Capstone](../system/combat.md#ability-type-vocabulary) | Ignore certain time-based restrictions (cooldowns, delays, sequence penalties) |
 
 ## Song Limit
 
@@ -93,6 +93,8 @@ Levels 1–20 above are Book-1 canon. Post-20 progression is deliberately unlock
 ## Ability Stat Blocks
 
 > Blocks below cover the kit shown in prose through Ch 21; remaining abilities gain blocks as they enter the story. Costs assume the **Medium mana group** (L1 ≈ 17, L10 ≈ 80 — see [stat progression](../system/stat-progression.md)). Songs cost upkeep, not casts — a Bard's mana drains while the music plays.
+>
+> In-prose Help popups are rendered from these blocks **on demand**, using the System-wide shape in [UI Popups §3](../system/ui-popups.md#3-ability--unlock--help) — they are not pre-authored here. The stat block is the source of truth; a popup is a rendering of one.
 
 #### Chrono Resonance
 - **Type:** Passive · **Level:** 1 · **Targeting:** Self
@@ -234,7 +236,7 @@ Levels 1–20 above are Book-1 canon. Post-20 progression is deliberately unlock
 - **Type:** Passive · **Level:** 8 · **Targeting:** Self (60 ft)
 
 **Rules**
-- Rebekah feels things that are **not keeping proper time**: haste and slow effects, temporal magic, entities running out-of-sync with the local beat ([Echo Doubles](../lore/dungeons/spirit-dungeon/mobs.md#echo-double); a [Veilstepper](veilstepper-rogue.md) mid-step reads as a skipped bar).
+- Rebekah feels things that are **not keeping proper time**: haste and slow effects, temporal magic, entities running out-of-sync with the local beat ([Echo Doubles](../lore/dungeons/spirit-dungeon/mobs.md#echo-double--base-mechanic); a [Veilstepper](veilstepper-rogue.md) mid-step reads as a skipped bar).
 - Directional and textural, not visual — she describes it as hearing a musician rush ahead of the orchestra.
 - No range through heavy barriers; distance muffles.
 
@@ -348,26 +350,6 @@ Levels 1–20 above are Book-1 canon. Post-20 progression is deliberately unlock
 - For 30 seconds, **time-based restrictions do not apply to her**: no cooldowns ([Da Capo](#da-capo) on every beat), no song limit, no ramp-up time — every song starts at full effect.
 - Thirty seconds in which the party's support ceiling is simply *removed*. Then it ends, all at once, and the silence afterward is total: every song must be rebuilt from nothing.
 - **Scaling:** none. This is what L20 *is*.
-
-## UI Popups
-
-> **Migration Note:** Add one "Help" popup per ability, matching the in-world system UI.
-
-### Template
-```text
-[SYSTEM HELP] <Ability Name>
-Type: <Spell/Skill/Song/Passive>
-Cost: <...>
-Cooldown: <...>
-Duration: <...>
-Targeting: <...>
-
-<1–3 line in-world description>
-
-Mechanics:
-- <bullet>
-- <bullet>
-```
 
 ## Open Questions
 

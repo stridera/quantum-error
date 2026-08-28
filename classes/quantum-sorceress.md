@@ -24,36 +24,38 @@ Sorceresses channel raw magical power through force of will. The Quantum Sorcere
 | **Amplified** | Emotional load increases power but reduces control |
 | **Breaking** | Reality-bending effects with environmental aftermath |
 
+Ability tables also carry neutral descriptive tags (`perception`, `control`) — bookkeeping labels with **no instability behavior**. Only the three tags above interact with emotional load.
+
 ## Ability Progression (Levels 1-20)
 
 | Level | Ability | Type | Tags | Effect |
 |-------|---------|------|------|--------|
-| 1 | Mana Sense | Passive | perception | Perceive ambient mana density, spell residue, and nearby casting pressure |
-| 1 | Arcane Bolt | Spell | anchor | Launch a focused arcane projectile; reliable baseline damage |
-| 2 | Spell Focus | Passive | control | Increased spell precision and reduced cast disruption |
-| 3 | Mana Shield | Spell | anchor | Convert mana into a protective barrier |
-| 3 | Minor Illusion | Spell | anchor | Create a small visual or auditory illusion. Scale increases with INT—at INT 20+, illusions can fill a corridor or replicate full environmental features (walls, terrain, signage). The illusion remains stable (anchor behavior): it's the canvas that grows, not the volatility. This is raw computational power expanding the spell's parameters, not emotional amplification. |
-| 4 | Elemental Affinity | Passive | amplified | Emotions bias how magic expresses (fear→cold, rage→fire, focus→lightning) |
-| 5 | Fireball | Spell | amplified | Explodes on impact, damaging enemies in an area |
-| 6 | Channel Mana | Utility | anchor | Recover mana more efficiently when not actively casting |
-| 6 | Fan of Flames | Spell | amplified | Short close-range cone of flame — the smaller, cheaper cousin of Flame Wave (L13). Shown Ch 14. |
-| 7 | Frost Bind | Spell | anchor | Deal cold damage and apply slow or brief root |
-| 7 | Veil Image | Spell | amplified | Project moving illusory doubles that confuse targeting |
-| 8 | Entanglement | Spell | anchor | Link two enemies; a share of damage dealt to either mirrors to the other |
-| 9 | Observer Effect | Passive | anchor | Once per cooldown, observe a resolving random outcome — it re-collapses, and the second result stands |
-| 10 | Lightning Lance | Spell | amplified | Piercing bolt that excels against armored targets |
-| 10 | Displacement | Spell | amplified | Persistent misalignment between where you are and appear |
-| 11 | Mana Surge | Utility | amplified | Immediate mana gain; increases escalation risk |
-| 12 | Spell Weaving | Passive | anchor | Chaining spells reduces cast time and improves flow |
-| 13 | Flame Wave | Spell | amplified | Sweeping cone of flame hitting multiple enemies |
-| 14 | Arcane Ward | Spell | anchor | Reactive ward that reduces incoming magical harm |
-| 14 | Mirror Phantasm | Spell | amplified | Multiple illusionary selves fracturing enemy targeting |
-| 15 | Elemental Mastery I | Passive | amplified | Elemental spells gain secondary effects based on emotional state |
-| 16 | Void Pulse | Spell | breaking | Disruptive pulse that destabilizes casting and compresses space |
-| 17 | Mana Burn | Spell | breaking | Tears at mana; drains reserves and harms through power |
-| 18 | Arcane Instinct | Passive | anchor | When critically threatened, magic reacts first (ward flare, reflexive displacement) |
-| 19 | Spell Cascade | Passive | amplified | Area spells expand or chain when emotional load is high |
-| 20 | **Cataclysm** | Capstone | breaking | Reality-bending devastation; this is an event, not just damage |
+| 1 | [Mana Sense](#mana-sense) | [Passive](../system/combat.md#ability-type-vocabulary) | [perception](#instability-system) | Perceive ambient mana density, spell residue, and nearby casting pressure |
+| 1 | [Arcane Bolt](#arcane-bolt) | [Spell](../system/combat.md#ability-type-vocabulary) | [anchor](#instability-system) | Launch a focused arcane projectile; reliable baseline damage |
+| 2 | [Spell Focus](#spell-focus) | [Passive](../system/combat.md#ability-type-vocabulary) | [control](#instability-system) | Increased spell precision and reduced cast disruption |
+| 3 | [Mana Shield](#mana-shield) | [Spell](../system/combat.md#ability-type-vocabulary) | [anchor](#instability-system) | Convert mana into a protective barrier |
+| 3 | [Minor Illusion](#minor-illusion) | [Spell](../system/combat.md#ability-type-vocabulary) | [anchor](#instability-system) | Create a small visual or auditory illusion. Scale increases with INT—at INT 20+, illusions can fill a corridor or replicate full environmental features (walls, terrain, signage). The illusion remains stable (anchor behavior): it's the canvas that grows, not the volatility. This is raw computational power expanding the spell's parameters, not emotional amplification. |
+| 4 | [Elemental Affinity](#elemental-affinity) | [Passive](../system/combat.md#ability-type-vocabulary) | [amplified](#instability-system) | Emotions bias how magic expresses (fear→cold, rage→fire, focus→lightning) |
+| 5 | [Fireball](#fireball) | [Spell](../system/combat.md#ability-type-vocabulary) | [amplified](#instability-system) | Explodes on impact, damaging enemies in an area |
+| 6 | [Channel Mana](#channel-mana) | [Utility](../system/combat.md#ability-type-vocabulary) | [anchor](#instability-system) | Recover mana more efficiently when not actively casting |
+| 6 | [Fan of Flames](#fan-of-flames) | [Spell](../system/combat.md#ability-type-vocabulary) | [amplified](#instability-system) | Short close-range cone of flame — the smaller, cheaper cousin of Flame Wave (L13). Shown Ch 14. |
+| 7 | [Frost Bind](#frost-bind) | [Spell](../system/combat.md#ability-type-vocabulary) | [anchor](#instability-system) | Deal cold damage and apply slow or brief root |
+| 7 | [Veil Image](#veil-image) | [Spell](../system/combat.md#ability-type-vocabulary) | [amplified](#instability-system) | Project moving illusory doubles that confuse targeting |
+| 8 | [Entanglement](#entanglement) | [Spell](../system/combat.md#ability-type-vocabulary) | [anchor](#instability-system) | Link two enemies; a share of damage dealt to either mirrors to the other |
+| 9 | [Observer Effect](#observer-effect) | [Passive](../system/combat.md#ability-type-vocabulary) | [anchor](#instability-system) | Once per cooldown, observe a resolving random outcome — it re-collapses, and the second result stands |
+| 10 | [Lightning Lance](#lightning-lance) | [Spell](../system/combat.md#ability-type-vocabulary) | [amplified](#instability-system) | Piercing bolt that excels against armored targets |
+| 10 | [Displacement](#displacement) | [Spell](../system/combat.md#ability-type-vocabulary) | [amplified](#instability-system) | Persistent misalignment between where you are and appear |
+| 11 | [Mana Surge](#mana-surge) | [Utility](../system/combat.md#ability-type-vocabulary) | [amplified](#instability-system) | Immediate mana gain; increases escalation risk |
+| 12 | [Spell Weaving](#spell-weaving) | [Passive](../system/combat.md#ability-type-vocabulary) | [anchor](#instability-system) | Chaining spells reduces cast time and improves flow |
+| 13 | [Flame Wave](#flame-wave) | [Spell](../system/combat.md#ability-type-vocabulary) | [amplified](#instability-system) | Sweeping cone of flame hitting multiple enemies |
+| 14 | [Arcane Ward](#arcane-ward) | [Spell](../system/combat.md#ability-type-vocabulary) | [anchor](#instability-system) | Reactive ward that reduces incoming magical harm |
+| 14 | [Mirror Phantasm](#mirror-phantasm) | [Spell](../system/combat.md#ability-type-vocabulary) | [amplified](#instability-system) | Multiple illusionary selves fracturing enemy targeting |
+| 15 | [Elemental Mastery I](#elemental-mastery-i) | [Passive](../system/combat.md#ability-type-vocabulary) | [amplified](#instability-system) | Elemental spells gain secondary effects based on emotional state |
+| 16 | [Void Pulse](#void-pulse) | [Spell](../system/combat.md#ability-type-vocabulary) | [breaking](#instability-system) | Disruptive pulse that destabilizes casting and compresses space |
+| 17 | [Mana Burn](#mana-burn) | [Spell](../system/combat.md#ability-type-vocabulary) | [breaking](#instability-system) | Tears at mana; drains reserves and harms through power |
+| 18 | [Arcane Instinct](#arcane-instinct) | [Passive](../system/combat.md#ability-type-vocabulary) | [anchor](#instability-system) | When critically threatened, magic reacts first (ward flare, reflexive displacement) |
+| 19 | [Spell Cascade](#spell-cascade) | [Passive](../system/combat.md#ability-type-vocabulary) | [amplified](#instability-system) | Area spells expand or chain when emotional load is high |
+| 20 | **[Cataclysm](#cataclysm)** | [Capstone](../system/combat.md#ability-type-vocabulary) | [breaking](#instability-system) | Reality-bending devastation; this is an event, not just damage |
 
 ## Mana Lucent
 
@@ -72,6 +74,8 @@ Levels 1–20 above are Book-1 canon. Post-20 progression is deliberately unlock
 ## Ability Stat Blocks
 
 > Full kit, in level order. Costs assume the **High mana group** (L1 ≈ 20, L10 ≈ 110 — see [stat progression](../system/stat-progression.md)); Vanessa's 9,999 pool + Mana Lucent (spells act two levels higher) makes her wildly over-spec.
+>
+> In-prose Help popups are rendered from these blocks **on demand**, using the System-wide shape in [UI Popups §3](../system/ui-popups.md#3-ability--unlock--help) — they are not pre-authored here. The stat block is the source of truth; a popup is a rendering of one.
 
 #### Mana Sense
 - **Type:** Passive (perception) · **Level:** 1 · **Targeting:** Self (60 ft)
@@ -313,26 +317,6 @@ Levels 1–20 above are Book-1 canon. Post-20 progression is deliberately unlock
 - This is an **event, not a rotation**: a 10s channel, a once-a-day bill, and consequences the party has to walk through afterward.
 - **Author note:** with Vanessa's 9,999 pool the mana-scaled term is apocalyptic — a full-pool Cataclysm is a *city-block decision*, and writing one is a book decision, not a combat beat. The number is the temptation; the aftermath is the theme.
 - **Scaling:** none. This is what L20 *is*.
-
-## UI Popups
-
-> **Migration Note:** Add one "Help" popup per ability, matching the in-world system UI.
-
-### Template
-```text
-[SYSTEM HELP] <Ability Name>
-Type: <Spell/Skill/Song/Passive>
-Cost: <...>
-Cooldown: <...>
-Duration: <...>
-Targeting: <...>
-
-<1–3 line in-world description>
-
-Mechanics:
-- <bullet>
-- <bullet>
-```
 
 ## Open Questions
 

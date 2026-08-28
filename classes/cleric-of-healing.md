@@ -28,29 +28,29 @@ Wade's class includes an emotional limiter mechanic:
 
 | Level | Ability | Type | Effect |
 |-------|---------|------|--------|
-| 1 | Cure Light Wounds | Spell | Restore modest health to a living target |
-| 1 | Holy Light | Spell | Conjure steadfast divine light; undead and corrupted entities flinch from its radius. Granted to all holy classes. |
-| 1 | Turn Undead | Spell | Repels, weakens, or damages undead creatures |
-| 2 | Bless | Spell | Allies gain improved accuracy, resolve, and fear resistance (applies the **Blessed** status) |
-| 3 | Cleric Aura | Aura | Passive calm radius — nearby allies gain minor fear resistance and +5% healing received |
-| 3 | Cure Poison | Spell | Removes poison effects from a target |
-| 4 | Lesser Restoration | Spell | Removes minor **physical** afflictions — poison, paralysis, breathing. No mental effects; divine magic fixes bodies, not confidence |
-| 5 | Prayer of Healing | Spell | Gradually restores health to multiple allies (HoT) |
-| 6 | Divine Sense | Passive | Sense undead presence and spiritual corruption |
-| 7 | Shield of Faith | Spell | Protective blessing reduces incoming damage |
-| 8 | Revitalize | Spell | Restore health and stamina |
-| 9 | Consecrate | Spell | Sanctify ground, harming undead and disrupting dark forces |
-| 10 | Mass Heal | Spell | Instantly restore significant health to allies (AoE) |
-| 11 | Divine Resilience | Passive | Allies take reduced damage while critically injured |
-| 12 | Remove Curse | Spell | Removes magical curses and afflictions |
-| 13 | Beacon of Hope | Spell | Increases effectiveness of healing effects |
-| 14 | Radiant Smite | Spell | Deal radiant damage to undead and dark entities |
-| 15 | Resurrection | Spell | Restore life to a recently fallen ally (long channel, low HP return, heavy [rez sickness](../system/death.md)) |
-| 16 | Spirit Mend | Spell | Heal an ally through obstacles or distance |
-| 17 | Sacred Barrier | Spell | Create powerful protective barrier for allies |
-| 18 | Faithful Guardian | Passive | Automatically shield the most vulnerable ally |
-| 19 | Life Overflow | Passive | Excess healing converts into temporary shields |
-| 20 | **Divine Intervention** | Capstone | Once per long interval, prevent a party wipe with overwhelming divine aid |
+| 1 | [Cure Light Wounds](#cure-light-wounds) | [Spell](../system/combat.md#ability-type-vocabulary) | Restore modest health to a living target |
+| 1 | [Holy Light](#holy-light) | [Spell](../system/combat.md#ability-type-vocabulary) | Conjure steadfast divine light; undead and corrupted entities flinch from its radius. Granted to all holy classes. |
+| 1 | [Turn Undead](#turn-undead) | [Spell](../system/combat.md#ability-type-vocabulary) | Repels, weakens, or damages undead creatures |
+| 2 | [Bless](#bless) | [Spell](../system/combat.md#ability-type-vocabulary) | Allies gain improved accuracy, resolve, and fear resistance (applies the **Blessed** status) |
+| 3 | [Cleric Aura](#cleric-aura) | [Aura](../system/combat.md#ability-type-vocabulary) | Passive calm radius — nearby allies gain minor fear resistance and +5% healing received |
+| 3 | [Cure Poison](#cure-poison) | [Spell](../system/combat.md#ability-type-vocabulary) | Removes poison effects from a target |
+| 4 | [Lesser Restoration](#lesser-restoration) | [Spell](../system/combat.md#ability-type-vocabulary) | Removes minor **physical** afflictions — poison, paralysis, breathing. No mental effects; divine magic fixes bodies, not confidence |
+| 5 | [Prayer of Healing](#prayer-of-healing) | [Spell](../system/combat.md#ability-type-vocabulary) | Gradually restores health to multiple allies (HoT) |
+| 6 | [Divine Sense](#divine-sense) | [Passive](../system/combat.md#ability-type-vocabulary) | Sense undead presence and spiritual corruption |
+| 7 | [Shield of Faith](#shield-of-faith) | [Spell](../system/combat.md#ability-type-vocabulary) | Protective blessing reduces incoming damage |
+| 8 | [Revitalize](#revitalize) | [Spell](../system/combat.md#ability-type-vocabulary) | Restore health and stamina |
+| 9 | [Consecrate](#consecrate) | [Spell](../system/combat.md#ability-type-vocabulary) | Sanctify ground, harming undead and disrupting dark forces |
+| 10 | [Mass Heal](#mass-heal) | [Spell](../system/combat.md#ability-type-vocabulary) | Instantly restore significant health to allies (AoE) |
+| 11 | [Divine Resilience](#divine-resilience) | [Passive](../system/combat.md#ability-type-vocabulary) | Allies take reduced damage while critically injured |
+| 12 | [Remove Curse](#remove-curse) | [Spell](../system/combat.md#ability-type-vocabulary) | Removes magical curses and afflictions |
+| 13 | [Beacon of Hope](#beacon-of-hope) | [Spell](../system/combat.md#ability-type-vocabulary) | Increases effectiveness of healing effects |
+| 14 | [Radiant Smite](#radiant-smite) | [Spell](../system/combat.md#ability-type-vocabulary) | Deal radiant damage to undead and dark entities |
+| 15 | [Resurrection](#resurrection) | [Spell](../system/combat.md#ability-type-vocabulary) | Restore life to a recently fallen ally (long channel, low HP return, heavy [rez sickness](../system/death.md)) |
+| 16 | [Spirit Mend](#spirit-mend) | [Spell](../system/combat.md#ability-type-vocabulary) | Heal an ally through obstacles or distance |
+| 17 | [Sacred Barrier](#sacred-barrier) | [Spell](../system/combat.md#ability-type-vocabulary) | Create powerful protective barrier for allies |
+| 18 | [Faithful Guardian](#faithful-guardian) | [Passive](../system/combat.md#ability-type-vocabulary) | Automatically shield the most vulnerable ally |
+| 19 | [Life Overflow](#life-overflow) | [Passive](../system/combat.md#ability-type-vocabulary) | Excess healing converts into temporary shields |
+| 20 | **[Divine Intervention](#divine-intervention)** | [Capstone](../system/combat.md#ability-type-vocabulary) | Once per long interval, prevent a party wipe with overwhelming divine aid |
 
 ## Healing Reference (Levels 1–20)
 
@@ -207,6 +207,8 @@ Levels 1–20 above are Book-1 canon. Post-20 progression is deliberately unlock
 ## Ability Stat Blocks
 
 > Full kit, in level order. Healing spells keep their full numbers in the [Healing Reference](#healing-reference-levels-120) above — their blocks here point to it. Costs assume the **Medium mana group** (L1 ≈ 17, L10 ≈ 80, L20 ≈ 150 — see [stat progression](../system/stat-progression.md)).
+>
+> In-prose Help popups are rendered from these blocks **on demand**, using the System-wide shape in [UI Popups §3](../system/ui-popups.md#3-ability--unlock--help) — they are not pre-authored here. The stat block is the source of truth; a popup is a rendering of one.
 
 #### Cure Light Wounds
 - **Type:** Spell · **Level:** 1 · **Cost:** 12 mana (Empowered 45 · Overdrawn 90) · **Cooldown:** none · **Duration:** Instant (1s cast) · **Targeting:** Ally (30 ft)
@@ -422,26 +424,6 @@ Levels 1–20 above are Book-1 canon. Post-20 progression is deliberately unlock
 - [Emotional cost](#emotional-limiter): total. This is the spell that only exists for the day he'd have paid anything anyway.
 
 **Scaling:** none. This is what L20 *is*.
-
-## UI Popups
-
-> **Migration Note:** Add one "Help" popup per ability, matching the in-world system UI.
-
-### Template
-```text
-[SYSTEM HELP] <Ability Name>
-Type: <Spell/Skill/Song/Passive>
-Cost: <...>
-Cooldown: <...>
-Duration: <...>
-Targeting: <...>
-
-<1–3 line in-world description>
-
-Mechanics:
-- <bullet>
-- <bullet>
-```
 
 ## Open Questions
 
